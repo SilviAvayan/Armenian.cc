@@ -1,0 +1,213 @@
+{
+  "n_clips": 25,
+  "overall": {
+    "WER": 0.051,
+    "CER": 0.036,
+    "ref_words": 277
+  },
+  "by_category": {
+    "formal": {
+      "WER": 0.0,
+      "CER": 0.0,
+      "ref_words": 94
+    },
+    "single_speaker": {
+      "WER": 0.019,
+      "CER": 0.033,
+      "ref_words": 53
+    },
+    "multi_speakers": {
+      "WER": 0.053,
+      "CER": 0.04,
+      "ref_words": 38
+    },
+    "songs": {
+      "WER": 0.054,
+      "CER": 0.042,
+      "ref_words": 56
+    },
+    "difficult": {
+      "WER": 0.222,
+      "CER": 0.196,
+      "ref_words": 36
+    }
+  },
+  "clean_rate": 0.72,
+  "clips": [
+    {
+      "id": "a000",
+      "category": "formal",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a001",
+      "category": "formal",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a002",
+      "category": "formal",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a003",
+      "category": "formal",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a004",
+      "category": "formal",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a005",
+      "category": "single_speaker",
+      "wer": 0.125,
+      "cer": 0.258,
+      "unchanged": false
+    },
+    {
+      "id": "a006",
+      "category": "single_speaker",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a007",
+      "category": "single_speaker",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a008",
+      "category": "single_speaker",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a009",
+      "category": "single_speaker",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a010",
+      "category": "multi_speakers",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a011",
+      "category": "multi_speakers",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a012",
+      "category": "multi_speakers",
+      "wer": 0.286,
+      "cer": 0.19,
+      "unchanged": false
+    },
+    {
+      "id": "a013",
+      "category": "multi_speakers",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a014",
+      "category": "multi_speakers",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a015",
+      "category": "songs",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a016",
+      "category": "songs",
+      "wer": 0.125,
+      "cer": 0.081,
+      "unchanged": false
+    },
+    {
+      "id": "a017",
+      "category": "songs",
+      "wer": 0.083,
+      "cer": 0.079,
+      "unchanged": false
+    },
+    {
+      "id": "a018",
+      "category": "songs",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a019",
+      "category": "songs",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a020",
+      "category": "difficult",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a021",
+      "category": "difficult",
+      "wer": 0.0,
+      "cer": 0.0,
+      "unchanged": true
+    },
+    {
+      "id": "a022",
+      "category": "difficult",
+      "wer": 0.75,
+      "cer": 0.375,
+      "unchanged": false
+    },
+    {
+      "id": "a023",
+      "category": "difficult",
+      "wer": 0.3,
+      "cer": 0.333,
+      "unchanged": false
+    },
+    {
+      "id": "a024",
+      "category": "difficult",
+      "wer": 0.2,
+      "cer": 0.161,
+      "unchanged": false
+    }
+  ]
+}

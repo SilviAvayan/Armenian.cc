@@ -22,7 +22,10 @@ ap.add_argument("--models", default=",".join(DEFAULT))
 ap.add_argument("--broader", type=int, default=120)
 ap.add_argument("--workers", type=int, default=6)
 ap.add_argument("--seed", type=int, default=20260808)
+ap.add_argument("--max-tokens", type=int, default=3000)
+ap.add_argument("--reasoning-effort", default=None, help="low|medium|high — caps reasoning so JSON fits")
 a=ap.parse_args()
+REASONING={"effort":a.reasoning_effort} if a.reasoning_effort else None
 MODELS=[m.strip() for m in a.models.split(",") if m.strip()]
 
 gi=json.loads((O/"gold_items.json").read_text())
@@ -47,7 +50,7 @@ def tr(model,seg):
         if k in cache: return cache[k]
     toks=[w["text"] for w in seg.get("words",[])]
     t0=time.time()
-    try: r=T.translate_segment(model, seg["text"], toks, target="Russian")
+    try: r=T.translate_segment(model, seg["text"], toks, target="Russian", max_tokens=a.max_tokens, reasoning=REASONING)
     except Exception as e: r={"_error":str(e)[:120],"glosses":[],"sentence":"","notes":[]}
     r["_lat"]=round(time.time()-t0,2)
     with lock: cache[k]=r; CACHE.write_text(json.dumps(cache,ensure_ascii=False,indent=2))

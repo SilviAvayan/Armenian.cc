@@ -1,0 +1,137 @@
+{
+  "n": 20,
+  "ratings": {
+    "faithful": 18,
+    "minor": 2
+  },
+  "faithful_rate": 0.9,
+  "chrfpp_mean": 100.0,
+  "chrfpp_by_rating": {
+    "faithful": 100.0,
+    "minor": 100.0
+  },
+  "n_identical_to_ref": 20,
+  "metric_note": "chrF++ (char 1-6 + word 1-2, beta=2). Single human reference; sentences the human accepted unchanged score ~100 by construction. BLEU intentionally not used (poor for Armenian morphology + tiny n).",
+  "sentences": [
+    {
+      "id": "p000",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p001",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p002",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p003",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p004",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p005",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p006",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p007",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p008",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p009",
+      "rating": "minor",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p010",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p011",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p012",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p013",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p014",
+      "rating": "minor",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p015",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p016",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p017",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p018",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    },
+    {
+      "id": "p019",
+      "rating": "faithful",
+      "chrfpp": 100.0,
+      "identical": true
+    }
+  ]
+}

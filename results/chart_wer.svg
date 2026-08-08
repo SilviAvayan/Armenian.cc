@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" font-family="-apple-system,Segoe UI,sans-serif">
+<rect width="680" height="340" fill="#0f1115"/>
+<text x="60" y="26" fill="#e8eaed" font-size="16" font-weight="600">ElevenLabs word error rate by difficulty (human-checked, n=5/cat)</text>
+<line x1="60" y1="270" x2="660" y2="270" stroke="#2b2f38"/>
+<text x="52" y="274" fill="#9aa0aa" font-size="11" text-anchor="end">0%</text>
+<line x1="60" y1="64" x2="660" y2="64" stroke="#2b2f38"/>
+<text x="52" y="68" fill="#9aa0aa" font-size="11" text-anchor="end">25%</text>
+<line x1="60" y1="-143" x2="660" y2="-143" stroke="#2b2f38"/>
+<text x="52" y="-139" fill="#9aa0aa" font-size="11" text-anchor="end">50%</text>
+<line x1="60" y1="-349" x2="660" y2="-349" stroke="#2b2f38"/>
+<text x="52" y="-345" fill="#9aa0aa" font-size="11" text-anchor="end">75%</text>
+<line x1="60" y1="-556" x2="660" y2="-556" stroke="#2b2f38"/>
+<text x="52" y="-552" fill="#9aa0aa" font-size="11" text-anchor="end">100%</text>
+<rect x="68" y="270" width="102" height="0" fill="#3fb950" rx="4"/>
+<text x="119" y="264" fill="#e8eaed" font-size="12" text-anchor="middle">0%</text>
+<text x="119" y="286" fill="#9aa0aa" font-size="10.5" text-anchor="middle">formal</text>
+<rect x="186" y="254" width="102" height="16" fill="#3fb950" rx="4"/>
+<text x="237" y="248" fill="#e8eaed" font-size="12" text-anchor="middle">2%</text>
+<text x="237" y="286" fill="#9aa0aa" font-size="10.5" text-anchor="middle">single</text>
+<text x="237" y="299" fill="#9aa0aa" font-size="10.5" text-anchor="middle">speaker</text>
+<rect x="304" y="226" width="102" height="44" fill="#d29922" rx="4"/>
+<text x="355" y="220" fill="#e8eaed" font-size="12" text-anchor="middle">5%</text>
+<text x="355" y="286" fill="#9aa0aa" font-size="10.5" text-anchor="middle">multi</text>
+<text x="355" y="299" fill="#9aa0aa" font-size="10.5" text-anchor="middle">speakers</text>
+<rect x="422" y="225" width="102" height="45" fill="#d29922" rx="4"/>
+<text x="473" y="219" fill="#e8eaed" font-size="12" text-anchor="middle">5%</text>
+<text x="473" y="286" fill="#9aa0aa" font-size="10.5" text-anchor="middle">songs</text>
+<rect x="540" y="87" width="102" height="183" fill="#f85149" rx="4"/>
+<text x="591" y="81" fill="#e8eaed" font-size="12" text-anchor="middle">22%</text>
+<text x="591" y="286" fill="#9aa0aa" font-size="10.5" text-anchor="middle">difficult</text>
+<text x="60" y="332" fill="#9aa0aa" font-size="10">WER vs human-corrected transcript · same ranking as the confidence signal</text>
+</svg>

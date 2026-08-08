@@ -1,0 +1,40 @@
+{
+  "n_labeled_videos": 75,
+  "confidence_by_category": {
+    "formal": {
+      "videos": 7,
+      "words": 716,
+      "mean_conf": 0.995,
+      "median_conf": 1.0,
+      "low_conf_rate": 0.001
+    },
+    "single_speaker": {
+      "videos": 21,
+      "words": 1807,
+      "mean_conf": 0.965,
+      "median_conf": 0.999,
+      "low_conf_rate": 0.04
+    },
+    "multi_speakers": {
+      "videos": 22,
+      "words": 2584,
+      "mean_conf": 0.941,
+      "median_conf": 0.996,
+      "low_conf_rate": 0.072
+    },
+    "songs": {
+      "videos": 20,
+      "words": 746,
+      "mean_conf": 0.939,
+      "median_conf": 0.996,
+      "low_conf_rate": 0.079
+    },
+    "difficult": {
+      "videos": 5,
+      "words": 686,
+      "mean_conf": 0.931,
+      "median_conf": 0.998,
+      "low_conf_rate": 0.085
+    }
+  }
+}

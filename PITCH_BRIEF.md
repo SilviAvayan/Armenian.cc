@@ -91,7 +91,9 @@ baseline `production≈100%` column — it's circular (gold = the shipped gloss)
 | deepseek-v3.1 | 55.8 | 57.6 | 0% | 10.6s |
 | gemini-3.5/3.6-flash, 3.1-pro | ~0 | — | 70–96% | slow |
 
-Findings: a cheap **flash-lite** tier wins; **pricey/newer preview+pro tiers break the JSON contract** (70–96% empty) — reliability, not size, matters. (DeepSeek-v4-flash/pro added via the deepseek-provider key — reasoning models, ~16s/call.)
+Findings: a cheap **flash-lite** tier wins; **reasoning-heavy tiers (3.5/3.6-flash, 3.1-pro, DeepSeek-v4) break the JSON contract** (70–96% empty) and are slow (v4 ~16–24s/call). This is not a harness bug: after capping reasoning (`effort:low`) and raising the token budget, gemini-3.5-flash *still* failed **72%** of calls (reasoning crowds out the structured output). For a per-word glosser that runs on every video, **reliability + latency matter as much as raw quality** — flash-lite wins on all three.
+
+*(Task B — few-shot judge + fresh human-eval on the winner — is pending: OpenRouter credits were exhausted by the reasoning-model re-runs; resume once topped up.)*
 
 **Grammar/notes human→judge loop:** human says **89% of notes correct** (errors mostly ASR-driven); DeepSeek grammar judge **κ=0.00** (rubber-stamps, catches 0/5) → not scaled.
 

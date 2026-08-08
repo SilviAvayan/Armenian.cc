@@ -14,11 +14,13 @@ def _key():
 KEY = _key()
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
-def chat(model, messages, temperature=0.0, max_tokens=512, retries=4, json_mode=False):
+def chat(model, messages, temperature=0.0, max_tokens=512, retries=4, json_mode=False, reasoning=None):
     body = {"model": model, "messages": messages,
             "temperature": temperature, "max_tokens": max_tokens}
     if json_mode:
         body["response_format"] = {"type": "json_object"}
+    if reasoning is not None:               # e.g. {"effort":"low"} to stop reasoning eating the budget
+        body["reasoning"] = reasoning
     data = json.dumps(body).encode()
     hdr = {"Authorization": f"Bearer {KEY}", "Content-Type": "application/json",
            "HTTP-Referer": "https://armenian.cc", "X-Title": "armenian.cc-eval"}

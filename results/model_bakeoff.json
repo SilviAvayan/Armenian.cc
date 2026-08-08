@@ -1,0 +1,125 @@
+{
+  "broader_n": 120,
+  "models": {
+    "google/gemini-2.5-flash": {
+      "gold_gloss_chrfpp": 63.2,
+      "gold_gloss_exact_agree": 0.566,
+      "gold_sentence_chrfpp": 65.2,
+      "broader_empty_rate": 0.0,
+      "broader_glosscount_mismatch_rate": 0.017,
+      "broader_noncyrillic_gloss_rate": 0.007,
+      "broader_chrfpp_vs_incumbent": 66.8,
+      "median_latency_s": 1.37
+    },
+    "google/gemini-2.5-flash-lite": {
+      "gold_gloss_chrfpp": 49.5,
+      "gold_gloss_exact_agree": 0.442,
+      "gold_sentence_chrfpp": 52.7,
+      "broader_empty_rate": 0.067,
+      "broader_glosscount_mismatch_rate": 0.067,
+      "broader_noncyrillic_gloss_rate": 0.003,
+      "broader_chrfpp_vs_incumbent": 56.1,
+      "median_latency_s": 1.15
+    },
+    "deepseek/deepseek-chat-v3.1": {
+      "gold_gloss_chrfpp": 55.8,
+      "gold_gloss_exact_agree": 0.504,
+      "gold_sentence_chrfpp": 57.6,
+      "broader_empty_rate": 0.0,
+      "broader_glosscount_mismatch_rate": 0.008,
+      "broader_noncyrillic_gloss_rate": 0.007,
+      "broader_chrfpp_vs_incumbent": 58.2,
+      "median_latency_s": 10.64
+    },
+    "openai/gpt-4o-mini": {
+      "gold_gloss_chrfpp": 44.8,
+      "gold_gloss_exact_agree": 0.416,
+      "gold_sentence_chrfpp": 55.8,
+      "broader_empty_rate": 0.008,
+      "broader_glosscount_mismatch_rate": 0.092,
+      "broader_noncyrillic_gloss_rate": 0.003,
+      "broader_chrfpp_vs_incumbent": 56.6,
+      "median_latency_s": 3.61
+    },
+    "openai/gpt-4.1-mini": {
+      "gold_gloss_chrfpp": 58.7,
+      "gold_gloss_exact_agree": 0.504,
+      "gold_sentence_chrfpp": 55.4,
+      "broader_empty_rate": 0.0,
+      "broader_glosscount_mismatch_rate": 0.025,
+      "broader_noncyrillic_gloss_rate": 0.003,
+      "broader_chrfpp_vs_incumbent": 59.0,
+      "median_latency_s": 3.39
+    },
+    "google/gemini-3.1-flash-lite": {
+      "gold_gloss_chrfpp": 71.7,
+      "gold_gloss_exact_agree": 0.664,
+      "gold_sentence_chrfpp": 74.1,
+      "broader_empty_rate": 0.0,
+      "broader_glosscount_mismatch_rate": 0.0,
+      "broader_noncyrillic_gloss_rate": 0.002,
+      "broader_chrfpp_vs_incumbent": 69.7,
+      "median_latency_s": 1.48
+    },
+    "google/gemini-3-flash-preview": {
+      "gold_gloss_chrfpp": 69.0,
+      "gold_gloss_exact_agree": 0.593,
+      "gold_sentence_chrfpp": 73.0,
+      "broader_empty_rate": 0.008,
+      "broader_glosscount_mismatch_rate": 0.008,
+      "broader_noncyrillic_gloss_rate": 0.002,
+      "broader_chrfpp_vs_incumbent": 65.5,
+      "median_latency_s": 2.91
+    },
+    "google/gemini-3.1-pro-preview": {
+      "gold_gloss_chrfpp": 0.0,
+      "gold_gloss_exact_agree": 0.0,
+      "gold_sentence_chrfpp": 4.2,
+      "broader_empty_rate": 0.958,
+      "broader_glosscount_mismatch_rate": 0.958,
+      "broader_noncyrillic_gloss_rate": 0.0,
+      "broader_chrfpp_vs_incumbent": 3.4,
+      "median_latency_s": 8.82
+    },
+    "google/gemini-3.5-flash": {
+      "gold_gloss_chrfpp": 23.7,
+      "gold_gloss_exact_agree": 0.204,
+      "gold_sentence_chrfpp": 18.3,
+      "broader_empty_rate": 0.733,
+      "broader_glosscount_mismatch_rate": 0.733,
+      "broader_noncyrillic_gloss_rate": 0.002,
+      "broader_chrfpp_vs_incumbent": 17.5,
+      "median_latency_s": 15.31
+    },
+    "google/gemini-3.6-flash": {
+      "gold_gloss_chrfpp": 6.3,
+      "gold_gloss_exact_agree": 0.062,
+      "gold_sentence_chrfpp": 27.5,
+      "broader_empty_rate": 0.7,
+      "broader_glosscount_mismatch_rate": 0.7,
+      "broader_noncyrillic_gloss_rate": 0.0,
+      "broader_chrfpp_vs_incumbent": 20.8,
+      "median_latency_s": 4.96
+    },
+    "deepseek/deepseek-v4-flash": {
+      "gold_gloss_chrfpp": 1.8,
+      "gold_gloss_exact_agree": 0.018,
+      "gold_sentence_chrfpp": 8.8,
+      "broader_empty_rate": 0.917,
+      "broader_glosscount_mismatch_rate": 0.917,
+      "broader_noncyrillic_gloss_rate": 0.0,
+      "broader_chrfpp_vs_incumbent": 7.2,
+      "median_latency_s": 16.2
+    },
+    "deepseek/deepseek-v4-pro": {
+      "gold_gloss_chrfpp": 2.0,
+      "gold_gloss_exact_agree": 0.018,
+      "gold_sentence_chrfpp": 5.0,
+      "broader_empty_rate": 0.892,
+      "broader_glosscount_mismatch_rate": 0.892,
+      "broader_noncyrillic_gloss_rate": 0.0,
+      "broader_chrfpp_vs_incumbent": 8.7,
+      "median_latency_s": 23.89
+    }
+  }
+}
