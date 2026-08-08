@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7651850146090634503.mp4",
+  "model": "x-ai/grok-stt-1.0",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 33.833,
+  "ok": true,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": 33.812,
+        "cost": 0.0009392222222222223
+      },
+      "latency_seconds": 0.922,
+      "provider_model": "x-ai/grok-stt-1.0"
+    }
+  ]
+}

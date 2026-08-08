@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7651850146090634503.mp4",
+  "model": "openai/whisper-large-v3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 33.833,
+  "ok": true,
+  "text": "Մույցուները հանձնեցինք մնաց մեկը դեր։ Հայց հասա մեր հետը արդեն սախար մինիրար առավ",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Մույցուները հանձնեցինք մնաց մեկը դեր։ Հայց հասա մեր հետը արդեն սախար մինիրար առավ",
+      "usage": {
+        "audio_seconds": 33.8300625,
+        "cost": 0.0008457515625
+      },
+      "latency_seconds": 1.83,
+      "provider_model": "openai/whisper-large-v3"
+    }
+  ]
+}

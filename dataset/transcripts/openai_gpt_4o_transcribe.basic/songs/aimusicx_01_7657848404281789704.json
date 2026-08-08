@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7657848404281789704.mp4",
+  "model": "openai/gpt-4o-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 30.974,
+  "ok": true,
+  "text": "Մեկը բանկից, մեկը օնլայն, ես էլ փող չունեմ. Բանկից զանգում էլ չեմ պատասխանում, չեմ պատասխանում, սև ցուցակ եմ ընկնում, վերջին անգամ զանգինյանիմ, չէ լսեցի, չէ պատասխնեցի, դունես վերջսերին.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Մեկը բանկից, մեկը օնլայն, ես էլ փող չունեմ. Բանկից զանգում էլ չեմ պատասխանում, չեմ պատասխանում, սև ցուցակ եմ ընկնում, վերջին անգամ զանգինյանիմ, չէ լսեցի, չէ պատասխնեցի, դունես վերջսերին.",
+      "usage": {
+        "audio_seconds": null,
+        "cost": 0.0014925
+      },
+      "latency_seconds": 1.797,
+      "provider_model": "openai/gpt-4o-transcribe"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "simpo.....samo_7629307328130501904.mp4",
+  "model": "mistralai/voxtral-mini-transcribe",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 65.9,
+  "ok": true,
+  "text": "Kanere, du kaseleki mišam, miš me patvera kaga, bajt arthe derku žama laranu. Inche agam me patvera? Voda hasina, de hasina? Jiras tahanas. Sovets merak, duk matazum ek? شات باتك كاشختم. انشيك اي كان اوز بيروم. I don't know what I think. I don't know what I think. Tasnik, roba it, me patveras, se hanilini. Desovitz, merank karas djan. Mes kheva, mes utenik, bedeke. Evi merank spaselo. Ega pujo tan, imla arak kamo atetene. Merci.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Kanere, du kaseleki mišam, miš me patvera kaga, bajt arthe derku žama laranu. Inche agam me patvera? Voda hasina, de hasina? Jiras tahanas. Sovets merak, duk matazum ek? شات باتك كاشختم. انشيك اي كان اوز بيروم. I don't know what I think. I don't know what I think. Tasnik, roba it, me patveras, se hanilini. Desovitz, merank karas djan. Mes kheva, mes utenik, bedeke. Evi merank spaselo. Ega pujo tan, imla arak kamo atetene. Merci.",
+      "usage": {
+        "audio_seconds": 65,
+        "cost": 0.00325
+      },
+      "latency_seconds": 1.535,
+      "provider_model": "mistralai/voxtral-mini-transcribe"
+    }
+  ]
+}

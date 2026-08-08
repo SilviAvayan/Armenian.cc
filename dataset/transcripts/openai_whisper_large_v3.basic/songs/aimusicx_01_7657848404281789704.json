@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7657848404281789704.mp4",
+  "model": "openai/whisper-large-v3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 30.974,
+  "ok": true,
+  "text": "Սերին",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Սերին",
+      "usage": {
+        "audio_seconds": 30.974,
+        "cost": 0.00077435
+      },
+      "latency_seconds": 1.304,
+      "provider_model": "openai/whisper-large-v3"
+    }
+  ]
+}

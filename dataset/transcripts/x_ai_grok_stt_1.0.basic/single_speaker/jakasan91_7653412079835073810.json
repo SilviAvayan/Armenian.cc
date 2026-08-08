@@ -1,0 +1,23 @@
+{
+  "source": "jakasan91_7653412079835073810.mp4",
+  "model": "x-ai/grok-stt-1.0",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 20.0,
+  "ok": true,
+  "text": "Och mi depcun, mi păcire este să nu te iercoază răzătoarele tău, amen, mătăsă, amăncă, când cala chineză spălă, mâna ei o tăie, țeptă, amen, duie făcută, nică, astuz băi, lucrătă. További sorban itt a hangost tudjuk nekik, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Och mi depcun, mi păcire este să nu te iercoază răzătoarele tău, amen, mătăsă, amăncă, când cala chineză spălă, mâna ei o tăie, țeptă, amen, duie făcută, nică, astuz băi, lucrătă. További sorban itt a hangost tudjuk nekik, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk, hogy a tudjuk",
+      "usage": {
+        "audio_seconds": 19.901,
+        "cost": 0.0005528055555555555
+      },
+      "latency_seconds": 2.226,
+      "provider_model": "x-ai/grok-stt-1.0"
+    }
+  ]
+}

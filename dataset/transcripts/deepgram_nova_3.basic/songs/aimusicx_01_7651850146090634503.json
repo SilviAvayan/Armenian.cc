@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7651850146090634503.mp4",
+  "model": "deepgram/nova-3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 33.833,
+  "ok": true,
+  "text": "Քննությունները հանձնեցինք մնաց մեկդել չէ՞՛ սեւ ոնց պիտի գրենք չգիտի ոչ մենք հումանիյան ու չարենցն էլ չգիտեն ինչ է սա Հենց հազար մեր հետ սա արդեն սախառնին իրար։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Քննությունները հանձնեցինք մնաց մեկդել չէ՞՛ սեւ ոնց պիտի գրենք չգիտի ոչ մենք հումանիյան ու չարենցն էլ չգիտեն ինչ է սա Հենց հազար մեր հետ սա արդեն սախառնին իրար։",
+      "usage": {
+        "audio_seconds": 33.78356,
+        "cost": 0.0024211551333333334
+      },
+      "latency_seconds": 4.291,
+      "provider_model": "deepgram/nova-3"
+    }
+  ]
+}

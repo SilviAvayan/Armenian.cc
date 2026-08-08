@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7650370921462500616.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 16.1,
+  "ok": true,
+  "text": "Nunca luchies, orcule s oerine și aman dacă interies, ange vor te federies, to gume, samerință, incerti să berices, hape tu e ceches, e tu e ce quites.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Nunca luchies, orcule s oerine și aman dacă interies, ange vor te federies, to gume, samerință, incerti să berices, hape tu e ceches, e tu e ce quites.",
+      "usage": {
+        "audio_seconds": 16.09,
+        "cost": 0.00040225
+      },
+      "latency_seconds": 0.478,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

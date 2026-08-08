@@ -1,0 +1,23 @@
+{
+  "source": "karenmirzoian_7667995553770327317.mp4",
+  "model": "x-ai/grok-stt-1.0",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 66.7,
+  "ok": true,
+  "text": "با لطف از این دو خرس ایکن بیرون پاگیم ول پاگیم وانسک بوزه چیکن چریز آگانچ یه شیلیار استیلومسی یکسی مگانی براش هم بگن گانیت ساز آدم نت کانیان کم است لونوم اسپینکو گندگ کوکوروس تاتیکا ریزی Ara sajátos flört csarnok. Mit szólt a flört csarnokról? A júra pazarlásra szíkaszab. Zene kettő, helye, gidezésünk. Helye a töröskáka gidezésünk. A borász helye a törösköve, a támne ri talán kákomákrém. Válgénpapír mi a káhabes a leveles. Ez nincs. A ká",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "با لطف از این دو خرس ایکن بیرون پاگیم ول پاگیم وانسک بوزه چیکن چریز آگانچ یه شیلیار استیلومسی یکسی مگانی براش هم بگن گانیت ساز آدم نت کانیان کم است لونوم اسپینکو گندگ کوکوروس تاتیکا ریزی Ara sajátos flört csarnok. Mit szólt a flört csarnokról? A júra pazarlásra szíkaszab. Zene kettő, helye, gidezésünk. Helye a töröskáka gidezésünk. A borász helye a törösköve, a támne ri talán kákomákrém. Válgénpapír mi a káhabes a leveles. Ez nincs. A ká",
+      "usage": {
+        "audio_seconds": 66.663,
+        "cost": 0.00185175
+      },
+      "latency_seconds": 2.113,
+      "provider_model": "x-ai/grok-stt-1.0"
+    }
+  ]
+}

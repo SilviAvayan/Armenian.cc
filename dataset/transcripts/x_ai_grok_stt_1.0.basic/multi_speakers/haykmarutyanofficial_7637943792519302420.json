@@ -1,0 +1,23 @@
+{
+  "source": "haykmarutyanofficial_7637943792519302420.mp4",
+  "model": "x-ai/grok-stt-1.0",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 177.258,
+  "ok": true,
+  "text": "با اینطوری چی خواستم نسبت به باغ را باغ بارزه باغ را باغ بارزه نسبت به حکومت کردیم این حکومت چه وام می‌دهد این چه مجبورت است این چه اندک در پرخیصان کار می‌کند مانع پارته‌ای کار می‌کند گردسران کار می‌کند آبر Súttal pároln, pászonyal, karutseleng, gortzaneleng, karutsel, mákapartaseleng, karutsel, döbrotzeleng, karutsel, hamasznellere, marticsavoreleng, moshakuitovensbagve, jeggetélyeleng, karutsel, ezért gortzengkérek, kandéz, aprélen használom, én egyhány unedze, 56000 kivon و تو فکر کن هم وله‌ن، طویش چنگل، هم ماتی کنده‌اپرله‌ن. یه‌دزهایی نیکنده‌می‌برد، بولویی‌ش هایی نیکنده‌است که از کنومه‌ای یک روزه ات ورسه‌مک، خراب‌گم می‌ره یه‌پک چیه که تو می‌آورم از یه رخ می‌گه که گوگانا مایل نیست از لازم ایران کوتومه می‌گه حالا اونا گاز می‌خورن چیز لازم اونا خواسته‌اید ثبت‌نام از یه رخ استی ملک شلیقه فرچ‌ها پس باید می‌گذره براتیم برای اطلا باور نمی‌کنید چه اینچه که تلخی نگاه کن و گرگ پاد دراز دو که که گرگ پاد دوست دارم اما نمی‌تونم گرگ پاد چگونه می‌گذرس که خوکی لمس کنم دوک اینچه خوسم لب دوک چه حس کنم می‌گویم خوکی چشم همه آمدن واتا گیده گیچ نیوورچ کارو هینگ داری آن سنی از مارت پاشینا دو گاسی می‌رود می‌رود هر لزون مسپتشی هر یک پن میره خووش گرکلین کارتاد ریوش گرکمانو گرکلین کاره اشته ای سپتک هم گاسه که ه és ma aztán normálra antunk őt. Én egyik darhétól értésem arra, hogy mondják, szétbahnád a szelő, aztán rájöttem, hogy a bank, hogy te hajrénak országod, mert mi a különösen a hajrénak, a bank, a különösen a kérkbeléjött, aztán rájöttem, hogy, ugye, a különösen a kérkbel See you. Goodbye.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "با اینطوری چی خواستم نسبت به باغ را باغ بارزه باغ را باغ بارزه نسبت به حکومت کردیم این حکومت چه وام می‌دهد این چه مجبورت است این چه اندک در پرخیصان کار می‌کند مانع پارته‌ای کار می‌کند گردسران کار می‌کند آبر Súttal pároln, pászonyal, karutseleng, gortzaneleng, karutsel, mákapartaseleng, karutsel, döbrotzeleng, karutsel, hamasznellere, marticsavoreleng, moshakuitovensbagve, jeggetélyeleng, karutsel, ezért gortzengkérek, kandéz, aprélen használom, én egyhány unedze, 56000 kivon و تو فکر کن هم وله‌ن، طویش چنگل، هم ماتی کنده‌اپرله‌ن. یه‌دزهایی نیکنده‌می‌برد، بولویی‌ش هایی نیکنده‌است که از کنومه‌ای یک روزه ات ورسه‌مک، خراب‌گم می‌ره یه‌پک چیه که تو می‌آورم از یه رخ می‌گه که گوگانا مایل نیست از لازم ایران کوتومه می‌گه حالا اونا گاز می‌خورن چیز لازم اونا خواسته‌اید ثبت‌نام از یه رخ استی ملک شلیقه فرچ‌ها پس باید می‌گذره براتیم برای اطلا باور نمی‌کنید چه اینچه که تلخی نگاه کن و گرگ پاد دراز دو که که گرگ پاد دوست دارم اما نمی‌تونم گرگ پاد چگونه می‌گذرس که خوکی لمس کنم دوک اینچه خوسم لب دوک چه حس کنم می‌گویم خوکی چشم همه آمدن واتا گیده گیچ نیوورچ کارو هینگ داری آن سنی از مارت پاشینا دو گاسی می‌رود می‌رود هر لزون مسپتشی هر یک پن میره خووش گرکلین کارتاد ریوش گرکمانو گرکلین کاره اشته ای سپتک هم گاسه که ه és ma aztán normálra antunk őt. Én egyik darhétól értésem arra, hogy mondják, szétbahnád a szelő, aztán rájöttem, hogy a bank, hogy te hajrénak országod, mert mi a különösen a hajrénak, a bank, a különösen a kérkbeléjött, aztán rájöttem, hogy, ugye, a különösen a kérkbel See you. Goodbye.",
+      "usage": {
+        "audio_seconds": 177.351,
+        "cost": 0.004926416666666667
+      },
+      "latency_seconds": 2.298,
+      "provider_model": "x-ai/grok-stt-1.0"
+    }
+  ]
+}

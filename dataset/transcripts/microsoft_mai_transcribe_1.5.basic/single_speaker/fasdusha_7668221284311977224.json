@@ -1,0 +1,23 @@
+{
+  "source": "fasdusha_7668221284311977224.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 38.52,
+  "ok": true,
+  "text": "Isk dugi tik Samsungi S fiškeki masin. Arači ne, ekrani vele jo vzerkat dzahitsą česlanom u screenshot ali. Jegri orta, bloki knopkin airkuankam katastumhes u kamerana mianum. Jegri orta, zanga gali sor česun versines, u aki šaržumes herahose ekrano v nerkev, u koluma jev zanga, jev vibracjan. Nujnel budzelniki het, tekumes u laruţiuna. Airkuankam ekrani katastumhes, ekrano mianum, airkuankam noris katastumhes angjatuma. Hingere ortam, erkomatov ne erkeviats veref kašumes u ekranat kisvuma erkomasi. Mekovkaras vidionajes, nusov grives. Et kanban, folotur u arkirin generit vor cikortsenes.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Isk dugi tik Samsungi S fiškeki masin. Arači ne, ekrani vele jo vzerkat dzahitsą česlanom u screenshot ali. Jegri orta, bloki knopkin airkuankam katastumhes u kamerana mianum. Jegri orta, zanga gali sor česun versines, u aki šaržumes herahose ekrano v nerkev, u koluma jev zanga, jev vibracjan. Nujnel budzelniki het, tekumes u laruţiuna. Airkuankam ekrani katastumhes, ekrano mianum, airkuankam noris katastumhes angjatuma. Hingere ortam, erkomatov ne erkeviats veref kašumes u ekranat kisvuma erkomasi. Mekovkaras vidionajes, nusov grives. Et kanban, folotur u arkirin generit vor cikortsenes.",
+      "usage": {
+        "audio_seconds": 39,
+        "cost": 0.0039
+      },
+      "latency_seconds": 1.628,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

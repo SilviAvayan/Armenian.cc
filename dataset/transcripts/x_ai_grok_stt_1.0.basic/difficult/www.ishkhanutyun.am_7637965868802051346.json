@@ -1,0 +1,23 @@
+{
+  "source": "www.ishkhanutyun.am_7637965868802051346.mp4",
+  "model": "x-ai/grok-stt-1.0",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 76.3,
+  "ok": true,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": 76.391,
+        "cost": 0.002121972222222222
+      },
+      "latency_seconds": 1.683,
+      "provider_model": "x-ai/grok-stt-1.0"
+    }
+  ]
+}

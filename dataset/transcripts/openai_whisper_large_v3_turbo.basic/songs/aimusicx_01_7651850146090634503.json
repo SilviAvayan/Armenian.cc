@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7651850146090634503.mp4",
+  "model": "openai/whisper-large-v3-turbo",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 33.833,
+  "ok": true,
+  "text": "Կնմություները հանձնեցինք մնած մեկը դեր, թե ես է ոնց պիտի գերենք չգիտի ոչ մեկ։ Դում անյան ու չարենցնել չգիտեն ինչ է սա, հենց հասավ մեր հեղթը արդեն սախ խարմին իրար։ ARAVAY, VAY, VAY, VAY, VAI, ARAVAY, VAI, ESSENCHA VAY ARAVAY, VAY, VAY, VAY, VAY, ARAVAY, VAY, ARAI, VAY, ARAINCHESE VAY",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Կնմություները հանձնեցինք մնած մեկը դեր, թե ես է ոնց պիտի գերենք չգիտի ոչ մեկ։ Դում անյան ու չարենցնել չգիտեն ինչ է սա, հենց հասավ մեր հեղթը արդեն սախ խարմին իրար։ ARAVAY, VAY, VAY, VAY, VAI, ARAVAY, VAI, ESSENCHA VAY ARAVAY, VAY, VAY, VAY, VAY, ARAVAY, VAY, ARAI, VAY, ARAINCHESE VAY",
+      "usage": {
+        "audio_seconds": 33.83006208,
+        "cost": 0.0003758895786666667
+      },
+      "latency_seconds": 0.913,
+      "provider_model": "openai/whisper-large-v3-turbo"
+    }
+  ]
+}

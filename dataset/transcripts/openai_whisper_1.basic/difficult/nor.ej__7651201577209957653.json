@@ -1,0 +1,23 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "openai/whisper-1",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 11.8,
+  "ok": true,
+  "text": "Մարություս, մի լոտ մայում գիրշոմ, իմ հետ կա, իմ հետ կա, հետ կենարեց մի տեմ այնք է, ես ձենքերող հրում եմ ձերց հենք որ կարող անանք զանգարել, ես շատ ապրիմով ունեն։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Մարություս, մի լոտ մայում գիրշոմ, իմ հետ կա, իմ հետ կա, հետ կենարեց մի տեմ այնք է, ես ձենքերող հրում եմ ձերց հենք որ կարող անանք զանգարել, ես շատ ապրիմով ունեն։",
+      "usage": {
+        "audio_seconds": 12,
+        "cost": 0.0012
+      },
+      "latency_seconds": 4.293,
+      "provider_model": "openai/whisper-1"
+    }
+  ]
+}

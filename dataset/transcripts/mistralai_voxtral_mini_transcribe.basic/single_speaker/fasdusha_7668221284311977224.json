@@ -1,0 +1,23 @@
+{
+  "source": "fasdusha_7668221284311977224.mp4",
+  "model": "mistralai/voxtral-mini-transcribe",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 38.52,
+  "ok": true,
+  "text": "Иск ду гidek Samsungi es fiskeki masin. Araschina, ekrani vrejov zerket zahit sačestanum u screenshot alin. Egerjorta, blokik gnopkin erko ankam katasnumes u kameranam jano. Jerjorta, zanga galisor, cés uzum versnes, ughaki, šeržumes herrahos ekranov nerkef u koluma jev zanga jev vibratjan. Nujinel, budzilniki hed, tekumes u lručuna. Erko ankam ekranin katasnumes, ekranu mianuma. Erko ankam noris katasnumes, anjatvuma. Hingerjorta, erkumato vnerkevi tzverev kashumes u ekranet kisvuma erku masi. Mekov karas video naes, nüsov gerves. Etkamban, follow tur uvar kirinke nerit vor ckortsenes.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Иск ду гidek Samsungi es fiskeki masin. Araschina, ekrani vrejov zerket zahit sačestanum u screenshot alin. Egerjorta, blokik gnopkin erko ankam katasnumes u kameranam jano. Jerjorta, zanga galisor, cés uzum versnes, ughaki, šeržumes herrahos ekranov nerkef u koluma jev zanga jev vibratjan. Nujinel, budzilniki hed, tekumes u lručuna. Erko ankam ekranin katasnumes, ekranu mianuma. Erko ankam noris katasnumes, anjatvuma. Hingerjorta, erkumato vnerkevi tzverev kashumes u ekranet kisvuma erku masi. Mekov karas video naes, nüsov gerves. Etkamban, follow tur uvar kirinke nerit vor ckortsenes.",
+      "usage": {
+        "audio_seconds": 38,
+        "cost": 0.0019
+      },
+      "latency_seconds": 1.835,
+      "provider_model": "mistralai/voxtral-mini-transcribe"
+    }
+  ]
+}

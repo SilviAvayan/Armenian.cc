@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7650370921462500616.mp4",
+  "model": "openai/gpt-4o-mini-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 16.1,
+  "ok": true,
+  "text": "intrabalo kesires, pokore korezime, zamanakingeires, ande pute rteries, togumeen sameninlina,",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "intrabalo kesires, pokore korezime, zamanakingeires, ande pute rteries, togumeen sameninlina,",
+      "usage": {
+        "audio_seconds": null,
+        "cost": 0.00039
+      },
+      "latency_seconds": 0.912,
+      "provider_model": "openai/gpt-4o-mini-transcribe"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "zhanna_jaan_7668233361306995988.mp4",
+  "model": "qwen/qwen3-asr-flash-2026-02-10",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 167.967,
+  "ok": true,
+  "text": "Injómuta, injómuta, gísir. Óblökknið að mér rótið. Nara. Gísir var sjáma meikna í kúkúris kórtsúris. Þjó bakse. Kórtsúrið og vélilin. Gísir var meikna þá. Injómuta, injómuta, skúkante. Kúkútið og kúrsía, kúrsía. Íshná harsan kengina að þér. Þá sýðið og ekkonir. Íshí kátsúrið. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Injómuta, injómuta, gísir. Óblökknið að mér rótið. Nara. Gísir var sjáma meikna í kúkúris kórtsúris. Þjó bakse. Kórtsúrið og vélilin. Gísir var meikna þá. Injómuta, injómuta, skúkante. Kúkútið og kúrsía, kúrsía. Íshná harsan kengina að þér. Þá sýðið og ekkonir. Íshí kátsúrið. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er. Íshí kátsúrið er",
+      "usage": {
+        "audio_seconds": 167,
+        "cost": 0.005845
+      },
+      "latency_seconds": 4.298,
+      "provider_model": "qwen/qwen3-asr-flash-2026-02-10"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "blognewsarm_7662354589777235220.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 45.525,
+  "ok": true,
+  "text": "Wohbergakandep kartašati kachtzrasain girum. Asnere kamiya achi ka mahacele, čarašahale energetik nere. Hra para kit erikucionerov jerek artasati kachtzrasain girum wohbergakandep ketterionetel. Tas nere kamiya achi ko vakti vorens barvu mer futbolov mahacele. Girum dureren patatvu, vor energetik kampelik nerne čarašahel anca paasa, in čietevan kovel mahegrianzvel. Kachtzrasain varšakanre kavar ashot halatiane hastatec erikuciona. Džermele, hi van danocente rapohel, călchihet capfats, tarahain proces neren jehel. Ayo, asumen energetik nerokta gorzele. Shat active yere khair, futbola in akumbneri ce in arten i ren kanchel. Mets tsave sa hamoin ki hamar.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Wohbergakandep kartašati kachtzrasain girum. Asnere kamiya achi ka mahacele, čarašahale energetik nere. Hra para kit erikucionerov jerek artasati kachtzrasain girum wohbergakandep ketterionetel. Tas nere kamiya achi ko vakti vorens barvu mer futbolov mahacele. Girum dureren patatvu, vor energetik kampelik nerne čarašahel anca paasa, in čietevan kovel mahegrianzvel. Kachtzrasain varšakanre kavar ashot halatiane hastatec erikuciona. Džermele, hi van danocente rapohel, călchihet capfats, tarahain proces neren jehel. Ayo, asumen energetik nerokta gorzele. Shat active yere khair, futbola in akumbneri ce in arten i ren kanchel. Mets tsave sa hamoin ki hamar.",
+      "usage": {
+        "audio_seconds": 46,
+        "cost": 0.0046
+      },
+      "latency_seconds": 1.729,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

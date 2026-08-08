@@ -1,0 +1,23 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "openai/whisper-large-v3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 11.8,
+  "ok": true,
+  "text": "Մարով ես միլով բայուն դիրշան իմ հետնա, հետ ու դենարես միտ է մայն գել, ես ձերկերող հրում եմ ձեց։ Հենց որ կարող են այն զանգարը, ես շանդապտունով ուլեմ դիսկը։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Մարով ես միլով բայուն դիրշան իմ հետնա, հետ ու դենարես միտ է մայն գել, ես ձերկերող հրում եմ ձեց։ Հենց որ կարող են այն զանգարը, ես շանդապտունով ուլեմ դիսկը։",
+      "usage": {
+        "audio_seconds": 11.771125,
+        "cost": 0.000294278125
+      },
+      "latency_seconds": 2.135,
+      "provider_model": "openai/whisper-large-v3"
+    }
+  ]
+}

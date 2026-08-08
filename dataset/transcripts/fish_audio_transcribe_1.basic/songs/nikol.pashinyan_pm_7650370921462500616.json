@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7650370921462500616.mp4",
+  "model": "fish-audio/transcribe-1",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 16.1,
+  "ok": true,
+  "text": "چنچه تالو که زیست؟ از کره سوریه شما نکیم که زیست؟ انجام ورته فتیز؟ تو گو میس؟ اما اینچه اینچه هیچکه بریز؟ آب تو هچگیت؟ هچگیت؟",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "چنچه تالو که زیست؟ از کره سوریه شما نکیم که زیست؟ انجام ورته فتیز؟ تو گو میس؟ اما اینچه اینچه هیچکه بریز؟ آب تو هچگیت؟ هچگیت؟",
+      "usage": {
+        "audio_seconds": 17,
+        "cost": 0.0017
+      },
+      "latency_seconds": 1.054,
+      "provider_model": "fish-audio/transcribe-1"
+    }
+  ]
+}

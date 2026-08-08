@@ -1,0 +1,23 @@
+{
+  "source": "tadevosyanarsineee_7665712742543904007.mp4",
+  "model": "openai/gpt-4o-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 13.067,
+  "ok": true,
+  "text": "Ախ कैसे ինչպես ասել, որ քեզ հիշում եմ դեռ.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ախ कैसे ինչպես ասել, որ քեզ հիշում եմ դեռ.",
+      "usage": {
+        "audio_seconds": null,
+        "cost": 0.000485
+      },
+      "latency_seconds": 0.914,
+      "provider_model": "openai/gpt-4o-transcribe"
+    }
+  ]
+}

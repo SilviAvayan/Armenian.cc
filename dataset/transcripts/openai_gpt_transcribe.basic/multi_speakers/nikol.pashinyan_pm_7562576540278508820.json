@@ -1,9 +1,11 @@
 {
   "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
   "model": "openai/gpt-transcribe",
-  "requested_language": "hy",
+  "requested_language": null,
   "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
   "duration_seconds": 31.933,
+  "ok": true,
   "text": "Ոնց ա բերքը տեստարի։ Շնորհակալություն։ Բարև ձեզ, ժողովուրդ։ Ոնց եք։ Մի հեկտար հազար մետրից երեսունհինգ ստանալու ես, նորմալ ա։ Երեսուն, երեսուն, նորմալ ա։ Էդ չարչարանքն էդ ապահոված հաջողություն։ Դե լավ եղեք, շնորհակալ։",
   "chunks": [
     {
@@ -11,10 +13,10 @@
       "offset": 0.0,
       "text": "Ոնց ա բերքը տեստարի։ Շնորհակալություն։ Բարև ձեզ, ժողովուրդ։ Ոնց եք։ Մի հեկտար հազար մետրից երեսունհինգ ստանալու ես, նորմալ ա։ Երեսուն, երեսուն, նորմալ ա։ Էդ չարչարանքն էդ ապահոված հաջողություն։ Դե լավ եղեք, շնորհակալ։",
       "usage": {
-        "audio_seconds": 32.0,
+        "audio_seconds": 32,
         "cost": 0.0024
       },
-      "latency_seconds": 1.91,
+      "latency_seconds": 1.837,
       "provider_model": "openai/gpt-transcribe"
     }
   ]

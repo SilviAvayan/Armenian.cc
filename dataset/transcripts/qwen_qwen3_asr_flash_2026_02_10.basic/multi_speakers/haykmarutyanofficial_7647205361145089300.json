@@ -1,0 +1,23 @@
+{
+  "source": "haykmarutyanofficial_7647205361145089300.mp4",
+  "model": "qwen/qwen3-asr-flash-2026-02-10",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 62.901,
+  "ok": true,
+  "text": "Maurice Anjan, mena karak harc re tostemik ishar neli. Hayk Jan, baisk samvest vii trucune re verchin chegav. Martik e kanan trucan. Che eli isut o kosis pagas barthegav. E pastroin eli Nikolna. Bel mia sa. Lava verche hu sastani teva bernetsik te, yevropa'i. Ham yevropa'i ne bernik, ham ru sastain ne. Best heveretche. Bayeke retsu pahin chegav. Park asun ame is normala. Nikolenga rilne karilov, moratsa et tman. Vas erzhin kocharin guna bernets? Che che bernets. Bayt erik net uzheg dachen trakan mitinga et. Az et es an kam hastat bernelu em. U martik eli havat ubet. Erikan et uzheg kosats hay haya yesi havatalu. But tarasli harc e boslutsvez. Tarasli harc elri v normala. Erikan mijazgain han rucune, charbak chana ches vorpes mer surven taratsk, himashen gavit yastak nar. Lava bayt chan igoye sapagan senchelini. Maurice Anjan, miag tar belaka, etek boloinasa volganan trucan. Etsiz general galis. Te karter shatvot angavora, sag deni vrein galis.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Maurice Anjan, mena karak harc re tostemik ishar neli. Hayk Jan, baisk samvest vii trucune re verchin chegav. Martik e kanan trucan. Che eli isut o kosis pagas barthegav. E pastroin eli Nikolna. Bel mia sa. Lava verche hu sastani teva bernetsik te, yevropa'i. Ham yevropa'i ne bernik, ham ru sastain ne. Best heveretche. Bayeke retsu pahin chegav. Park asun ame is normala. Nikolenga rilne karilov, moratsa et tman. Vas erzhin kocharin guna bernets? Che che bernets. Bayt erik net uzheg dachen trakan mitinga et. Az et es an kam hastat bernelu em. U martik eli havat ubet. Erikan et uzheg kosats hay haya yesi havatalu. But tarasli harc e boslutsvez. Tarasli harc elri v normala. Erikan mijazgain han rucune, charbak chana ches vorpes mer surven taratsk, himashen gavit yastak nar. Lava bayt chan igoye sapagan senchelini. Maurice Anjan, miag tar belaka, etek boloinasa volganan trucan. Etsiz general galis. Te karter shatvot angavora, sag deni vrein galis.",
+      "usage": {
+        "audio_seconds": 62,
+        "cost": 0.00217
+      },
+      "latency_seconds": 3.684,
+      "provider_model": "qwen/qwen3-asr-flash-2026-02-10"
+    }
+  ]
+}

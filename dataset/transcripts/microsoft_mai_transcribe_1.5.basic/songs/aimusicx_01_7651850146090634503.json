@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7651850146090634503.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 33.833,
+  "ok": true,
+  "text": "Könn' mu' su ner' hanz ne' tsing, ma'nat me' köder. Tze se vonz pitig ereng, ch' giti vo' schmech. Tu ma'n ya nu' ch'arenz nel ch' gitenin' cesa. Hents hasav merhertar, tensah armin irar. Ara vai vai, vai vai vai vai, ara vai vai, esse nincha vai. Ara vai vai, vai vai vai vai, ara vai vai, ara incesse vai.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Könn' mu' su ner' hanz ne' tsing, ma'nat me' köder. Tze se vonz pitig ereng, ch' giti vo' schmech. Tu ma'n ya nu' ch'arenz nel ch' gitenin' cesa. Hents hasav merhertar, tensah armin irar. Ara vai vai, vai vai vai vai, ara vai vai, esse nincha vai. Ara vai vai, vai vai vai vai, ara vai vai, ara incesse vai.",
+      "usage": {
+        "audio_seconds": 34,
+        "cost": 0.0034
+      },
+      "latency_seconds": 1.535,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

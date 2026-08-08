@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7650370921462500616.mp4",
+  "model": "openai/whisper-1",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 16.1,
+  "ok": true,
+  "text": "Ինչ ատալուք եզի ես, որ կորես օրերի մեջ, ժամանակին կերի ես, հանգ է, որդև թերի ես, Թոգում է ես ամեն ինչը, ինչը հետքը բերիք ես, ապետ դու է չէ գիտես, այդ դու է չէ գիտես։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ինչ ատալուք եզի ես, որ կորես օրերի մեջ, ժամանակին կերի ես, հանգ է, որդև թերի ես, Թոգում է ես ամեն ինչը, ինչը հետքը բերիք ես, ապետ դու է չէ գիտես, այդ դու է չէ գիտես։",
+      "usage": {
+        "audio_seconds": 17,
+        "cost": 0.0017
+      },
+      "latency_seconds": 2.997,
+      "provider_model": "openai/whisper-1"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "openai/gpt-4o-mini-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 11.8,
+  "ok": true,
+  "text": "Միլորդայինս բարեկամներ, իմ հերթն է, հեռուն գնացեք։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Միլորդայինս բարեկամներ, իմ հերթն է, հեռուն գնացեք։",
+      "usage": {
+        "audio_seconds": null,
+        "cost": 0.00026625
+      },
+      "latency_seconds": 1.83,
+      "provider_model": "openai/gpt-4o-mini-transcribe"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "tadevosyanarsineee_7665712742543904007.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 13.067,
+  "ok": true,
+  "text": "Ach, quessens besser sel, wor quess ich ummembder. In spechchas sel, wor du der tan quess insamar.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ach, quessens besser sel, wor quess ich ummembder. In spechchas sel, wor du der tan quess insamar.",
+      "usage": {
+        "audio_seconds": 14,
+        "cost": 0.0014
+      },
+      "latency_seconds": 1.23,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

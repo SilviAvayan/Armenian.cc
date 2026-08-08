@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7657848404281789704.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 30.974,
+  "ok": true,
+  "text": "Make a bank is mega online as el pochsunem Fets Warkunem, iota parikutnels a gumen, make a bank it's mega online as el pochsunem Kizang umel, ce patastanum, ce patastanum, sefsuta gemnum, vercin am kam zangignanim, ce leseți, ce pataskareți, dune swețiărin.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Make a bank is mega online as el pochsunem Fets Warkunem, iota parikutnels a gumen, make a bank it's mega online as el pochsunem Kizang umel, ce patastanum, ce patastanum, sefsuta gemnum, vercin am kam zangignanim, ce leseți, ce pataskareți, dune swețiărin.",
+      "usage": {
+        "audio_seconds": 30.974,
+        "cost": 0.00077435
+      },
+      "latency_seconds": 0.564,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

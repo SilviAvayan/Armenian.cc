@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model": "openai/whisper-large-v3-turbo",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 31.933,
+  "ok": true,
+  "text": "Ես հատորդն։ Daj!",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ես հատորդն։ Daj!",
+      "usage": {
+        "audio_seconds": 31.995686912,
+        "cost": 0.00035550763235555553
+      },
+      "latency_seconds": 1.288,
+      "provider_model": "openai/whisper-large-v3-turbo"
+    }
+  ]
+}

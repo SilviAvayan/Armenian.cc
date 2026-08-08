@@ -1,0 +1,23 @@
+{
+  "source": "tadevosyanarsineee_7665712742543904007.mp4",
+  "model": "google/chirp-3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 13.067,
+  "ok": true,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": 14,
+        "cost": 0.0037333333333333333
+      },
+      "latency_seconds": 1.836,
+      "provider_model": "google/chirp-3"
+    }
+  ]
+}

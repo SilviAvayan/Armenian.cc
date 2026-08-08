@@ -1,0 +1,23 @@
+{
+  "source": "evelinakhanoyan_7670229790628072724.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 83.833,
+  "ok": true,
+  "text": "Red flagger, Martkan's mech varant archaic ne inskangaritz, Arrachina year for Martin Hosalujamanak, Kes Hamshhat Moti Ganganum, Hamskwen, Keskapnel, Vznotzit Heten Harum, Kojaqit Heten Harum, Sens Mazeratanskum Uret. Don't touch me! Bolo revat martian, if then gear pegverbanchenare, no prosto surp Ajard Red Flag Da Einmartiken of Kerum Shot Vat Angla Reckless. Yes, a red flag of care feedback changes. Unaev, red flag and marty, of kerchenkaral man tunen voidang schalen, yf Yerpek Nerobunchantrum Egon prostokalvi a tang inch ormisi twa tum and Tunen Voyang Schalvan, and Hazar Karuka Potat and Teman Kesmerav",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Red flagger, Martkan's mech varant archaic ne inskangaritz, Arrachina year for Martin Hosalujamanak, Kes Hamshhat Moti Ganganum, Hamskwen, Keskapnel, Vznotzit Heten Harum, Kojaqit Heten Harum, Sens Mazeratanskum Uret. Don't touch me! Bolo revat martian, if then gear pegverbanchenare, no prosto surp Ajard Red Flag Da Einmartiken of Kerum Shot Vat Angla Reckless. Yes, a red flag of care feedback changes. Unaev, red flag and marty, of kerchenkaral man tunen voidang schalen, yf Yerpek Nerobunchantrum Egon prostokalvi a tang inch ormisi twa tum and Tunen Voyang Schalvan, and Hazar Karuka Potat and Teman Kesmerav",
+      "usage": {
+        "audio_seconds": 83.799375,
+        "cost": 0.002094984375
+      },
+      "latency_seconds": 0.906,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

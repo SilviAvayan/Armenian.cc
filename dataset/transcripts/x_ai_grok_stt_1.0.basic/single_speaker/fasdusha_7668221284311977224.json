@@ -1,0 +1,23 @@
+{
+  "source": "fasdusha_7668221284311977224.mp4",
+  "model": "x-ai/grok-stt-1.0",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 38.52,
+  "ok": true,
+  "text": "Izgaduțiți Samsungi S5 și 5S, a răzgândit ecranul și a vrăjit o zăcătă de așa ceva, un screenshot al ei. E greșită. Blocul de knopkin ecran cam cât să nu se camrană mi-anum. Eri oarece. Zanga galisor, ce susun versnăs? Uga ki, shajum eshera hoxe ecranov nerkhe, u gholma e vzanga у екранот кисфум аеркумаси меко вклес видео на есмусов грвес ед камбан фолотур угаркирен кенеди твор и кортсекс",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Izgaduțiți Samsungi S5 și 5S, a răzgândit ecranul și a vrăjit o zăcătă de așa ceva, un screenshot al ei. E greșită. Blocul de knopkin ecran cam cât să nu se camrană mi-anum. Eri oarece. Zanga galisor, ce susun versnăs? Uga ki, shajum eshera hoxe ecranov nerkhe, u gholma e vzanga у екранот кисфум аеркумаси меко вклес видео на есмусов грвес ед камбан фолотур угаркирен кенеди твор и кортсекс",
+      "usage": {
+        "audio_seconds": 38.52,
+        "cost": 0.00107
+      },
+      "latency_seconds": 1.629,
+      "provider_model": "x-ai/grok-stt-1.0"
+    }
+  ]
+}

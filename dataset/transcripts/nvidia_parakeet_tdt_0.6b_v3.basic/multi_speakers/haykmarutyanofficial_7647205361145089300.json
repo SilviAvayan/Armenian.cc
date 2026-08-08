@@ -1,0 +1,23 @@
+{
+  "source": "haykmarutyanofficial_7647205361145089300.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 62.901,
+  "ok": true,
+  "text": "Martin Jamaica to make hardly. I'm going to be true to the Virchov. Pastor and Lincoln. But Taras three heart was a very good thing. Talas three heart remark. He must have seen it. Right! Right, right!",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Martin Jamaica to make hardly. I'm going to be true to the Virchov. Pastor and Lincoln. But Taras three heart was a very good thing. Talas three heart remark. He must have seen it. Right! Right, right!",
+      "usage": {
+        "audio_seconds": 62.9014375,
+        "cost": 0.0015725359375
+      },
+      "latency_seconds": 1.677,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

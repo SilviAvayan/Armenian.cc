@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7657848404281789704.mp4",
+  "model": "deepgram/nova-3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 30.974,
+  "ok": true,
+  "text": "Վեց վարք ունեմ յոթաբարի գուցե զգում եմ, Մեկը բանկից մեկը ոնլայն, ես էլ փող չունեմ, Վեցը",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Վեց վարք ունեմ յոթաբարի գուցե զգում եմ, Մեկը բանկից մեկը ոնլայն, ես էլ փող չունեմ, Վեցը",
+      "usage": {
+        "audio_seconds": 30.9275,
+        "cost": 0.0022164708333333332
+      },
+      "latency_seconds": 5.212,
+      "provider_model": "deepgram/nova-3"
+    }
+  ]
+}

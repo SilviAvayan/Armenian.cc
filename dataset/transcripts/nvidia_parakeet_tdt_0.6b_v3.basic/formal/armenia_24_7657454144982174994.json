@@ -1,0 +1,23 @@
+{
+  "source": "armenia_24_7657454144982174994.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 117.866,
+  "ok": true,
+  "text": "Ier cu hazar că sunt annihul ismechit, ușim mântnul mișark care vor să agrări, vor înstraca în popoțiune, vor încați de 2011, I ampeel business ego to new ținut. Araci, rababiterea ha învățământ. Yercrot. Financian banca in Hamakar cum ca gorzar quinto stop gorzika. Yea, Gnahatman Himan Vraik, the Bible, and the Bible, Ana Pahovuchan, Gnahatman Nor Hamakark, Art Hartila Havorum, bureaucratic and cash. Chorov. Hingero. So Anzans, Hanam Kitzarayutan Hamar Dimelukarker, Dimumner Batharapes Arts, E social Get Eyemkai Kimijotsov, Nachapes Techelov and Hattakan Oktahashiv. Yerod Yerker Neritz Nermuch if Nerkin Sparman Hamar Bat Tokum Maxain and Tatakar. Yotero. Udvark, ifum, was depending of the people who are not a very popular, an artist, and the other thing, and the other thing, yet.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ier cu hazar că sunt annihul ismechit, ușim mântnul mișark care vor să agrări, vor înstraca în popoțiune, vor încați de 2011, I ampeel business ego to new ținut. Araci, rababiterea ha învățământ. Yercrot. Financian banca in Hamakar cum ca gorzar quinto stop gorzika. Yea, Gnahatman Himan Vraik, the Bible, and the Bible, Ana Pahovuchan, Gnahatman Nor Hamakark, Art Hartila Havorum, bureaucratic and cash. Chorov. Hingero. So Anzans, Hanam Kitzarayutan Hamar Dimelukarker, Dimumner Batharapes Arts, E social Get Eyemkai Kimijotsov, Nachapes Techelov and Hattakan Oktahashiv. Yerod Yerker Neritz Nermuch if Nerkin Sparman Hamar Bat Tokum Maxain and Tatakar. Yotero. Udvark, ifum, was depending of the people who are not a very popular, an artist, and the other thing, and the other thing, yet.",
+      "usage": {
+        "audio_seconds": 117.8863125,
+        "cost": 0.0029471578125
+      },
+      "latency_seconds": 0.95,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

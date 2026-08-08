@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7651850146090634503.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 33.833,
+  "ok": true,
+  "text": "Can multi-unere, hands next inkmanat's mechanic C se on spitigger inchity, vote schmeckt Tumanyanu chare and snel chegite nincesa Hansasa merit arten sahari Aravai Vai vai vai arabai Essentia vai, araby, vai Vai, vai, vai, vai, ara vai, vai, Arainch S vai",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Can multi-unere, hands next inkmanat's mechanic C se on spitigger inchity, vote schmeckt Tumanyanu chare and snel chegite nincesa Hansasa merit arten sahari Aravai Vai vai vai arabai Essentia vai, araby, vai Vai, vai, vai, vai, ara vai, vai, Arainch S vai",
+      "usage": {
+        "audio_seconds": 33.8300625,
+        "cost": 0.0008457515625
+      },
+      "latency_seconds": 0.911,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

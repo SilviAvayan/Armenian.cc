@@ -1,0 +1,23 @@
+{
+  "source": "karenmirzoian_7667995553770327317.mp4",
+  "model": "qwen/qwen3-asr-flash-2026-02-10",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 66.7,
+  "ok": true,
+  "text": "Are you kidding me? I saw that. You're a pig. You're a pig and you don't know what you're doing. I'm not going to lie, I'm not going to lie, I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Are you kidding me? I saw that. You're a pig. You're a pig and you don't know what you're doing. I'm not going to lie, I'm not going to lie, I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie. I'm not going to lie.",
+      "usage": {
+        "audio_seconds": 66,
+        "cost": 0.00231
+      },
+      "latency_seconds": 2.454,
+      "provider_model": "qwen/qwen3-asr-flash-2026-02-10"
+    }
+  ]
+}

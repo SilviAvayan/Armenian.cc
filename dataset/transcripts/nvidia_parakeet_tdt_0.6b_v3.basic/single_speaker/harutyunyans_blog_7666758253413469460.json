@@ -1,0 +1,23 @@
+{
+  "source": "harutyunyans_blog_7666758253413469460.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 33.367,
+  "ok": true,
+  "text": "Incharnumatu always do Annie Misharunin. Sona, Mishwa Amenichushan, Ellen, Mish Type. Gaiana, it's a natural reject. Susie, I'm very much. Upáky na to ten a umek en chesmerný palpiskatu.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Incharnumatu always do Annie Misharunin. Sona, Mishwa Amenichushan, Ellen, Mish Type. Gaiana, it's a natural reject. Susie, I'm very much. Upáky na to ten a umek en chesmerný palpiskatu.",
+      "usage": {
+        "audio_seconds": 33.365625,
+        "cost": 0.000834140625
+      },
+      "latency_seconds": 0.564,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

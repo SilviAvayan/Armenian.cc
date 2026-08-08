@@ -1,0 +1,23 @@
+{
+  "source": "harutyunyans_blog_7666758253413469460.mp4",
+  "model": "qwen/qwen3-asr-flash-2026-02-10",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 33.367,
+  "ok": true,
+  "text": "Inshallah, you will be in the West. Annie, you are not a dancer. Maryam, you are not a singer. Nare, you are not a drama. Lily, you are not a singer. Sona, you are not a singer. Ellen, you are not a singer. Gayane, you are not a dancer. Karine, you are not a singer. Hasmik, you are not a singer. Milena, you are not a singer. Arpi, you are not a singer. Suzi, I am very happy. Very happy.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Inshallah, you will be in the West. Annie, you are not a dancer. Maryam, you are not a singer. Nare, you are not a drama. Lily, you are not a singer. Sona, you are not a singer. Ellen, you are not a singer. Gayane, you are not a dancer. Karine, you are not a singer. Hasmik, you are not a singer. Milena, you are not a singer. Arpi, you are not a singer. Suzi, I am very happy. Very happy.",
+      "usage": {
+        "audio_seconds": 33,
+        "cost": 0.001155
+      },
+      "latency_seconds": 1.845,
+      "provider_model": "qwen/qwen3-asr-flash-2026-02-10"
+    }
+  ]
+}

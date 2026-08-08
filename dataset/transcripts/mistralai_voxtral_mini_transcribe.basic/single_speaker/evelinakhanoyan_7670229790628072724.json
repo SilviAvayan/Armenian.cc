@@ -1,0 +1,23 @@
+{
+  "source": "evelinakhanoyan_7670229790628072724.mp4",
+  "model": "mistralai/voxtral-mini-transcribe",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 83.833,
+  "ok": true,
+  "text": "Red flag er martkans mech, vorant arkaütüne inz khangari zerhez shat motik linelim. Arasçine, yefor martikan khosalu zamanak, kes ham shat motik en kagnum, ham skusmen kes kaptanil. Vznotit heten khagum, kojakit heten khagum, senz mazeret en skusum ughen. Don't touch me! Inamara hajot red flag da mish zohi derum martiken, irank unen 30-40 tarva kianki patmutun, vorteh bolor meghavoren, bolor vat martiken, if irank yirpek vorve zhalban shenare. Nu prosto surp. Hajot red flag da ain martiken, ofker varumen shat vat, angelen asaz reckless, varen khakhtel sen shat sur yertevkçan kanonler, vtangitaken dunum vochmen irenz aylev urişneri kianka. Inet du kait pes ek varum, yez vochmen zerkok kichem, nustia aylev zesec cem şöpfim. Es red flag em hamar main markanz ofker feedback çen karganum lüsen. Ayskin oynak vo yanz aset, vai kank skars, mi kich herun nustes, neghmen bo şat moti kes nataz, ve neghmen khez neghanan, hete tas tariç khozan. Vosh mi feedback inan çes kargan tas. Un ayev red flag er en martik, ofker çen kargan mıntunen, vo yanz skhalen, yav yerepek nerogucun çen khanturum. Iran's ego prosteke phelvi, yeter yanz kank inçor mi situatyon, antunen, vor yanz skhalven. Hazar kurok kipotaten teman, keze meghavor kahanen, yaganakin meghavor kahanen, bati yanz yerepek meghavor çen. Red flag çem götel, ayska nashnakaltsın. Yeta aysamena zermes çikam, men karoghen lirinel bestis.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Red flag er martkans mech, vorant arkaütüne inz khangari zerhez shat motik linelim. Arasçine, yefor martikan khosalu zamanak, kes ham shat motik en kagnum, ham skusmen kes kaptanil. Vznotit heten khagum, kojakit heten khagum, senz mazeret en skusum ughen. Don't touch me! Inamara hajot red flag da mish zohi derum martiken, irank unen 30-40 tarva kianki patmutun, vorteh bolor meghavoren, bolor vat martiken, if irank yirpek vorve zhalban shenare. Nu prosto surp. Hajot red flag da ain martiken, ofker varumen shat vat, angelen asaz reckless, varen khakhtel sen shat sur yertevkçan kanonler, vtangitaken dunum vochmen irenz aylev urişneri kianka. Inet du kait pes ek varum, yez vochmen zerkok kichem, nustia aylev zesec cem şöpfim. Es red flag em hamar main markanz ofker feedback çen karganum lüsen. Ayskin oynak vo yanz aset, vai kank skars, mi kich herun nustes, neghmen bo şat moti kes nataz, ve neghmen khez neghanan, hete tas tariç khozan. Vosh mi feedback inan çes kargan tas. Un ayev red flag er en martik, ofker çen kargan mıntunen, vo yanz skhalen, yav yerepek nerogucun çen khanturum. Iran's ego prosteke phelvi, yeter yanz kank inçor mi situatyon, antunen, vor yanz skhalven. Hazar kurok kipotaten teman, keze meghavor kahanen, yaganakin meghavor kahanen, bati yanz yerepek meghavor çen. Red flag çem götel, ayska nashnakaltsın. Yeta aysamena zermes çikam, men karoghen lirinel bestis.",
+      "usage": {
+        "audio_seconds": 83,
+        "cost": 0.00415
+      },
+      "latency_seconds": 2.96,
+      "provider_model": "mistralai/voxtral-mini-transcribe"
+    }
+  ]
+}

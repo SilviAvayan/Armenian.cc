@@ -1,0 +1,23 @@
+{
+  "source": "blognewsarm_7662354589777235220.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 45.525,
+  "ok": true,
+  "text": "Vhpergagan dep artashatik kahtzrasha ingurm Kasnerekhik Mahatsele, Charas Shahele Energetic Nerev. Hraparakit Erekut Nerv Yerech Artashatik Khhtzrash Engurum Vuhpergang dep Keter Yunetzel. Tasnere kamyahchikov Active Football Mahatsele. The energetic in which we have a lot of people who are in the world. Aio, asumen energetic nerecta gorțele. 7 activ ierehai, futbolăina cum bnerițe in artenire în cancel. Meti save sa hamă inchihamăr.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Vhpergagan dep artashatik kahtzrasha ingurm Kasnerekhik Mahatsele, Charas Shahele Energetic Nerev. Hraparakit Erekut Nerv Yerech Artashatik Khhtzrash Engurum Vuhpergang dep Keter Yunetzel. Tasnere kamyahchikov Active Football Mahatsele. The energetic in which we have a lot of people who are in the world. Aio, asumen energetic nerecta gorțele. 7 activ ierehai, futbolăina cum bnerițe in artenire în cancel. Meti save sa hamă inchihamăr.",
+      "usage": {
+        "audio_seconds": 45.5329375,
+        "cost": 0.0011383234375
+      },
+      "latency_seconds": 0.639,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

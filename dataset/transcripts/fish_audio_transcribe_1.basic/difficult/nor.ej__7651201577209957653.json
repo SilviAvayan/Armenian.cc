@@ -1,0 +1,23 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "fish-audio/transcribe-1",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 11.8,
+  "ok": true,
+  "text": "ماردیس نمیاد به من گیرشان نمی‌رسد نمی‌رسد نه رفتن اینکه به من اینکه یه سرکه رو هلو می‌میزه اینطور کار کردن ژانگاری یه شاندار تو نه اینکه",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "ماردیس نمیاد به من گیرشان نمی‌رسد نمی‌رسد نه رفتن اینکه به من اینکه یه سرکه رو هلو می‌میزه اینطور کار کردن ژانگاری یه شاندار تو نه اینکه",
+      "usage": {
+        "audio_seconds": 12,
+        "cost": 0.0012
+      },
+      "latency_seconds": 1.379,
+      "provider_model": "fish-audio/transcribe-1"
+    }
+  ]
+}

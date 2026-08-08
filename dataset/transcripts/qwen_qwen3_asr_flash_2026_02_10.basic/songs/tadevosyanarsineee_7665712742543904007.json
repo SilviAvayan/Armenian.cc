@@ -1,0 +1,23 @@
+{
+  "source": "tadevosyanarsineee_7665712742543904007.mp4",
+  "model": "qwen/qwen3-asr-flash-2026-02-10",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 13.067,
+  "ok": true,
+  "text": "Porque se te peço a ser, porque se chamo em ver, não te peço a ser, vou duer tan que sem samar.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Porque se te peço a ser, porque se chamo em ver, não te peço a ser, vou duer tan que sem samar.",
+      "usage": {
+        "audio_seconds": 13,
+        "cost": 0.000455
+      },
+      "latency_seconds": 1.226,
+      "provider_model": "qwen/qwen3-asr-flash-2026-02-10"
+    }
+  ]
+}

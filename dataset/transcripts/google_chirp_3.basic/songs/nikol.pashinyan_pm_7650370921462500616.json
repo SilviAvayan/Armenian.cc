@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7650370921462500616.mp4",
+  "model": "google/chirp-3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 16.1,
+  "ok": true,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": 17,
+        "cost": 0.004533333333333334
+      },
+      "latency_seconds": 2.772,
+      "provider_model": "google/chirp-3"
+    }
+  ]
+}

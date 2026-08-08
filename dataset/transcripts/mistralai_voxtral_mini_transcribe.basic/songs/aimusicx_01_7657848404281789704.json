@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7657848404281789704.mp4",
+  "model": "mistralai/voxtral-mini-transcribe",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 30.974,
+  "ok": true,
+  "text": "Vet svarkunem, jota parikut nel s'gumem, meke bankits, meke online, es el po'chunem. Vet svarkunem, jota parikut nel s'gumem, meke bankits, meke online, es el po'chunem. Bankits zangum el, c'hem pataschanum, c'hem pataschanum, sevtsutsa gem'gnum. Verchin anka mzanginjanim, c'lezezi, c'pataschaneti, tunas vetsari.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Vet svarkunem, jota parikut nel s'gumem, meke bankits, meke online, es el po'chunem. Vet svarkunem, jota parikut nel s'gumem, meke bankits, meke online, es el po'chunem. Bankits zangum el, c'hem pataschanum, c'hem pataschanum, sevtsutsa gem'gnum. Verchin anka mzanginjanim, c'lezezi, c'pataschaneti, tunas vetsari.",
+      "usage": {
+        "audio_seconds": 30,
+        "cost": 0.0015
+      },
+      "latency_seconds": 1.432,
+      "provider_model": "mistralai/voxtral-mini-transcribe"
+    }
+  ]
+}

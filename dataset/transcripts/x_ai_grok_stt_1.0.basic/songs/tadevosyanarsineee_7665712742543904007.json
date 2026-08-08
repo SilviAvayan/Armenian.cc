@@ -1,0 +1,23 @@
+{
+  "source": "tadevosyanarsineee_7665712742543904007.mp4",
+  "model": "x-ai/grok-stt-1.0",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 13.067,
+  "ok": true,
+  "text": "اگه سنت به سل برد که سیشم می‌درد نباید سل برد و دو در تن که سیم سامار",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "اگه سنت به سل برد که سیشم می‌درد نباید سل برد و دو در تن که سیم سامار",
+      "usage": {
+        "audio_seconds": 13.048,
+        "cost": 0.0003624444444444444
+      },
+      "latency_seconds": 0.731,
+      "provider_model": "x-ai/grok-stt-1.0"
+    }
+  ]
+}

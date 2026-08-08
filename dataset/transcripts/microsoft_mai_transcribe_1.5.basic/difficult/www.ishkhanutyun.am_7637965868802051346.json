@@ -1,0 +1,23 @@
+{
+  "source": "www.ishkhanutyun.am_7637965868802051346.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 76.3,
+  "ok": true,
+  "text": "Patkány o meg mi Martu, Antal mened mi Martu, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues <unintelligible/>",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Patkány o meg mi Martu, Antal mened mi Martu, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues, je' vagy meg Marta Dues <unintelligible/>",
+      "usage": {
+        "audio_seconds": 77,
+        "cost": 0.0077
+      },
+      "latency_seconds": 6.781,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

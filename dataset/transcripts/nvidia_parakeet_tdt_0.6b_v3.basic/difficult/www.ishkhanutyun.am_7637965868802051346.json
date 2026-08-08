@@ -1,0 +1,23 @@
+{
+  "source": "www.ishkhanutyun.am_7637965868802051346.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 76.3,
+  "ok": true,
+  "text": "Patkanome mi martu, andamene mi martu, you like McMartar, does, you like McMartha, does, you like McMartan, does, you like McMartha, does, you like McMartha? You might make Marta do this. You might make Marta do this. You might make Marta do this. You might make Marta do this. You like Martha do this? You want to make Martha do this? You have to make Martha do this. You might make Marta do this. You might make Martha do this. You like Marta do it? You have to make must have too big master twist, you have to make must have to it, you have to make must have to make must have to it, it's like must have to it, you know, make mustard twist, you have to must do it, you have the master, do it, you'll have to Okay, like a team!",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Patkanome mi martu, andamene mi martu, you like McMartar, does, you like McMartha, does, you like McMartan, does, you like McMartha, does, you like McMartha? You might make Marta do this. You might make Marta do this. You might make Marta do this. You might make Marta do this. You like Martha do this? You want to make Martha do this? You have to make Martha do this. You might make Marta do this. You might make Martha do this. You like Marta do it? You have to make must have too big master twist, you have to make must have to it, you have to make must have to make must have to it, it's like must have to it, you know, make mustard twist, you have to must do it, you have the master, do it, you'll have to Okay, like a team!",
+      "usage": {
+        "audio_seconds": 76.39225,
+        "cost": 0.00190980625
+      },
+      "latency_seconds": 0.948,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "www.ishkhanutyun.am_7637965868802051346.mp4",
+  "model": "mistralai/voxtral-mini-transcribe",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 76.3,
+  "ok": true,
+  "text": "I'm out.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "I'm out.",
+      "usage": {
+        "audio_seconds": 75,
+        "cost": 0.00375
+      },
+      "latency_seconds": 1.228,
+      "provider_model": "mistralai/voxtral-mini-transcribe"
+    }
+  ]
+}

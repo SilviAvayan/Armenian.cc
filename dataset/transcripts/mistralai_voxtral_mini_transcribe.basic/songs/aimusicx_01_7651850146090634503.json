@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7651850146090634503.mp4",
+  "model": "mistralai/voxtral-mini-transcribe",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 33.833,
+  "ok": true,
+  "text": "Knemucunere hanznetink, mnat mekelder Te ese, vonc piti gereng, cegiti, voc mek Tu manjanu, charencnel, cegiten, ince sa Hent hasa, mer herte, artens, akhar min irar Ara, vai, vai, vai, vai, vai, vai Ara, vai, vai, ese, ince, vai Ara, vai, vai, vai, vai, vai Ara, vai, vai, ara, ince, se vai",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Knemucunere hanznetink, mnat mekelder Te ese, vonc piti gereng, cegiti, voc mek Tu manjanu, charencnel, cegiten, ince sa Hent hasa, mer herte, artens, akhar min irar Ara, vai, vai, vai, vai, vai, vai Ara, vai, vai, ese, ince, vai Ara, vai, vai, vai, vai, vai Ara, vai, vai, ara, ince, se vai",
+      "usage": {
+        "audio_seconds": 33,
+        "cost": 0.00165
+      },
+      "latency_seconds": 1.225,
+      "provider_model": "mistralai/voxtral-mini-transcribe"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "karenmirzoian_7667995553770327317.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 66.7,
+  "ok": true,
+  "text": "Let's be filled up then, guy for the rank, my damash. Ow. Oh, but I said tell of the Russian kick of Markham. He's nice sense.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Let's be filled up then, guy for the rank, my damash. Ow. Oh, but I said tell of the Russian kick of Markham. He's nice sense.",
+      "usage": {
+        "audio_seconds": 66.6630625,
+        "cost": 0.0016665765625
+      },
+      "latency_seconds": 3.37,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

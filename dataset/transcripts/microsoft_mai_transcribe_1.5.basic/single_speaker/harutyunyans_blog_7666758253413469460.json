@@ -1,0 +1,23 @@
+{
+  "source": "harutyunyans_blog_7666758253413469460.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 33.367,
+  "ok": true,
+  "text": "In Chanu no tu oves tu ani, mis pa čaruni ne ranu. Mariam, meka dukata deal 6. nenu. Nare, kailoh drama. Lili, fia kes tabung ordu thaguye. Solna, mis tu amenin chi tušanu ma. Elena, mis style bijagi mecha. Gayane, itsane nachelnika. Karine, zeri hoke ban. Hasmi, mis takan mayrakan rejimi taka. Milena, sak kian historianu. Parpi, mis vas ki mecha, energai kacic. Suzi, am veg kosuma, veg čuni. Вас к имею чай, нереально, я и котик. Сьюзи, а м- берч косума, берч чуней. У парки я там то и на. А у меня 4 мерни, 5 писткату.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "In Chanu no tu oves tu ani, mis pa čaruni ne ranu. Mariam, meka dukata deal 6. nenu. Nare, kailoh drama. Lili, fia kes tabung ordu thaguye. Solna, mis tu amenin chi tušanu ma. Elena, mis style bijagi mecha. Gayane, itsane nachelnika. Karine, zeri hoke ban. Hasmi, mis takan mayrakan rejimi taka. Milena, sak kian historianu. Parpi, mis vas ki mecha, energai kacic. Suzi, am veg kosuma, veg čuni. Вас к имею чай, нереально, я и котик. Сьюзи, а м- берч косума, берч чуней. У парки я там то и на. А у меня 4 мерни, 5 писткату.",
+      "usage": {
+        "audio_seconds": 34,
+        "cost": 0.0034
+      },
+      "latency_seconds": 1.614,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

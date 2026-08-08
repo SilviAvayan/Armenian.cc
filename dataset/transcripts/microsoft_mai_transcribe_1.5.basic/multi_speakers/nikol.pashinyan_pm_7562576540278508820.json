@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 31.933,
+  "ok": true,
+  "text": "Bunça per cata stai.\nEee...\nBunțic.\nMi hectare, 1000 metrii, ți eră suning stanalu', normala-i.\nIeri 8 hectare...\nIeri 8 ton. Ha, ieri 8 ton.\nIeri 8 ton nădejde, în apa școlare, așa. De ce o țâșni?\nHa, hai, ce-o țâșni... ما نعرفه.\nما نعرفه.\nايش هتشربك؟ ايش هتعملك؟ ايش نلعبك؟\nما هتشربكش، هو.\nما هتشربكش.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Bunça per cata stai.\nEee...\nBunțic.\nMi hectare, 1000 metrii, ți eră suning stanalu', normala-i.\nIeri 8 hectare...\nIeri 8 ton. Ha, ieri 8 ton.\nIeri 8 ton nădejde, în apa școlare, așa. De ce o țâșni?\nHa, hai, ce-o țâșni... ما نعرفه.\nما نعرفه.\nايش هتشربك؟ ايش هتعملك؟ ايش نلعبك؟\nما هتشربكش، هو.\nما هتشربكش.",
+      "usage": {
+        "audio_seconds": 32,
+        "cost": 0.0032
+      },
+      "latency_seconds": 6.521,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

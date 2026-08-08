@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model": "mistralai/voxtral-mini-transcribe",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 31.933,
+  "ok": true,
+  "text": "Вонца берк это старе. Ми hektar 1000 metri 35 stanaloez normala? 2 ton, hektar 30 ton.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Вонца берк это старе. Ми hektar 1000 metri 35 stanaloez normala? 2 ton, hektar 30 ton.",
+      "usage": {
+        "audio_seconds": 31,
+        "cost": 0.00155
+      },
+      "latency_seconds": 0.789,
+      "provider_model": "mistralai/voxtral-mini-transcribe"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "source": "armenia_24_7657454144982174994.mp4",
+  "model": "google/chirp-3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "all variants failed",
+  "duration_seconds": 117.866,
+  "ok": false,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": null,
+        "cost": null
+      },
+      "latency_seconds": 17.816,
+      "provider_model": "google/chirp-3"
+    }
+  ],
+  "error": "HTTP 400: {\"error\":{\"message\":\"Provider returned 400\",\"code\":400}}"
+}

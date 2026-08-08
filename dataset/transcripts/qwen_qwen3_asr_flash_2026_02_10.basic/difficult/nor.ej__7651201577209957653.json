@@ -1,0 +1,23 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "qwen/qwen3-asr-flash-2026-02-10",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 11.8,
+  "ok": true,
+  "text": "hvad er det det er simpelthen at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "hvad er det det er simpelthen at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde at man gør sig en imøde",
+      "usage": {
+        "audio_seconds": 11,
+        "cost": 0.000385
+      },
+      "latency_seconds": 1.841,
+      "provider_model": "qwen/qwen3-asr-flash-2026-02-10"
+    }
+  ]
+}

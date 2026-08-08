@@ -1,0 +1,23 @@
+{
+  "source": "haykmarutyanofficial_7647205361145089300.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 62.901,
+  "ok": true,
+  "text": "Maru sanja, menakalak harceret uste, mikishar naeli.\nHail jam ba esk saaves tvit rutsune re verchi inche gaf, marti ke kanan trutsan.\nPastiin ali nikolna.\nElmi asa.\nLav ba verche rusastani teve burneti te, jevropai.\nHam jevropai ne burning, ham rusastani ne. Ba stevere che?\nBa ekere su pahin che gaf?\nPar ka tsunami is normal, a nikolna gavril na kalilov, morasa vet teman.\nBa serji in kochani ngone burnet?\nChe, che burnet. Paet erek meat ušeh dahan trakan mitingalets, asets esang kam hastat burnelue.\nU marty gele hava tu, bet?\nErek kanens ušeh kosats, hai, hai, yes, hai hava talu.\nTalasli harce vos, Lucvet.\nTalasli harce, l'riv normala. Erek mijaz ka in hanru tsune, čar ba ka čanates vorpes me suveren talatsk, hima šengaleti harstak kenar tu.\nLah, ba'in čan igo esapagan sens čelini.\nMa arut sanjan, mi aktar beraka, et ek balonina sa vol ganan trucha.\nEs is dene ragali.\nSte harti. Arbeláka, el tej bolorínás a volgarán truchán.\nÉs is gyönyörű a gally.\nSteghart és a csatvotángavóra, szagdeni viráing gally! Foa! Fó! Raj, raj, raj!",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Maru sanja, menakalak harceret uste, mikishar naeli.\nHail jam ba esk saaves tvit rutsune re verchi inche gaf, marti ke kanan trutsan.\nPastiin ali nikolna.\nElmi asa.\nLav ba verche rusastani teve burneti te, jevropai.\nHam jevropai ne burning, ham rusastani ne. Ba stevere che?\nBa ekere su pahin che gaf?\nPar ka tsunami is normal, a nikolna gavril na kalilov, morasa vet teman.\nBa serji in kochani ngone burnet?\nChe, che burnet. Paet erek meat ušeh dahan trakan mitingalets, asets esang kam hastat burnelue.\nU marty gele hava tu, bet?\nErek kanens ušeh kosats, hai, hai, yes, hai hava talu.\nTalasli harce vos, Lucvet.\nTalasli harce, l'riv normala. Erek mijaz ka in hanru tsune, čar ba ka čanates vorpes me suveren talatsk, hima šengaleti harstak kenar tu.\nLah, ba'in čan igo esapagan sens čelini.\nMa arut sanjan, mi aktar beraka, et ek balonina sa vol ganan trucha.\nEs is dene ragali.\nSte harti. Arbeláka, el tej bolorínás a volgarán truchán.\nÉs is gyönyörű a gally.\nSteghart és a csatvotángavóra, szagdeni viráing gally! Foa! Fó! Raj, raj, raj!",
+      "usage": {
+        "audio_seconds": 63,
+        "cost": 0.0063
+      },
+      "latency_seconds": 2.285,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

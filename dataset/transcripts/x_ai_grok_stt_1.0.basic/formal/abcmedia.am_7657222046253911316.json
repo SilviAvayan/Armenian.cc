@@ -1,0 +1,23 @@
+{
+  "source": "abcmedia.am_7657222046253911316.mp4",
+  "model": "x-ai/grok-stt-1.0",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 100.533,
+  "ok": true,
+  "text": "خویشی مکیت روسستان رانس ویزا ایمودخ گرد زود ارگریک هاکاتینری عید تومه هاکاتینری همچنین اوجی مچه مدل نورکارک ایشمن رانک نخکان مکنل پتک نخپس گرانسون رو ایدی بجاین هاولوادی می‌تواند مطکی های ت Můžete číst články z jarmara.cz. Grandma není tak kůman rajče, neschel, až nagrajte výjmeny, neříkají, že jsou sanacar, neschel, že je nepatří, někdo z vás může jít věřit, že jsou to věci, které jsou na vědění, nebo že jsou to věci, které jsou na vědění, A vizei főként a gótzok, azazans, a csapnai főként a gita kan, a vörös paštunok a karkavica, a kunczok a názansfélé. A rósszastani is hanyattengen a hatmán, de a szép pohoztán a patak nélkül a náci elmigráció nem végezhető. A ro ID hivatal miatt a csöv gyereke aile mutki gordon taz naveli ve rehaskele darts nelun anorina can migred hieriskeren vazets nelun ievtavial neristugum nara gats nelun",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "خویشی مکیت روسستان رانس ویزا ایمودخ گرد زود ارگریک هاکاتینری عید تومه هاکاتینری همچنین اوجی مچه مدل نورکارک ایشمن رانک نخکان مکنل پتک نخپس گرانسون رو ایدی بجاین هاولوادی می‌تواند مطکی های ت Můžete číst články z jarmara.cz. Grandma není tak kůman rajče, neschel, až nagrajte výjmeny, neříkají, že jsou sanacar, neschel, že je nepatří, někdo z vás může jít věřit, že jsou to věci, které jsou na vědění, nebo že jsou to věci, které jsou na vědění, A vizei főként a gótzok, azazans, a csapnai főként a gita kan, a vörös paštunok a karkavica, a kunczok a názansfélé. A rósszastani is hanyattengen a hatmán, de a szép pohoztán a patak nélkül a náci elmigráció nem végezhető. A ro ID hivatal miatt a csöv gyereke aile mutki gordon taz naveli ve rehaskele darts nelun anorina can migred hieriskeren vazets nelun ievtavial neristugum nara gats nelun",
+      "usage": {
+        "audio_seconds": 100.48,
+        "cost": 0.002791111111111111
+      },
+      "latency_seconds": 2.45,
+      "provider_model": "x-ai/grok-stt-1.0"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model": "x-ai/grok-stt-1.0",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 31.933,
+  "ok": true,
+  "text": "Văd să vezi.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Văd să vezi.",
+      "usage": {
+        "audio_seconds": 31.994,
+        "cost": 0.0008887222222222222
+      },
+      "latency_seconds": 0.813,
+      "provider_model": "x-ai/grok-stt-1.0"
+    }
+  ]
+}

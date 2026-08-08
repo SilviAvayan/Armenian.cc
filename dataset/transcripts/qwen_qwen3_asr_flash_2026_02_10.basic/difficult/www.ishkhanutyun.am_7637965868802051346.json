@@ -1,0 +1,23 @@
+{
+  "source": "www.ishkhanutyun.am_7637965868802051346.mp4",
+  "model": "qwen/qwen3-asr-flash-2026-02-10",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 76.3,
+  "ok": true,
+  "text": "Patka no me mi mar tu. An tham me me mi mar tu. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Patka no me mi mar tu. An tham me me mi mar tu. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it. Yevat mek mar ta, do it",
+      "usage": {
+        "audio_seconds": 76,
+        "cost": 0.00266
+      },
+      "latency_seconds": 2.86,
+      "provider_model": "qwen/qwen3-asr-flash-2026-02-10"
+    }
+  ]
+}

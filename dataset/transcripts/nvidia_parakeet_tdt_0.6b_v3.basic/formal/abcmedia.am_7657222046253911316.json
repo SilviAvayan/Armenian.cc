@@ -1,0 +1,23 @@
+{
+  "source": "abcmedia.am_7657222046253911316.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 100.533,
+  "ok": true,
+  "text": "Hulisimekitz Rusastan Arans vizai mut Gorzo Kotarjer Kirja Karakatineri Aittevum Haha Karakatsineri Hamaj uži mechematel Norkark. Ajom Nerank Nachkan Meknelepetke nahapez grandsven ru Ajd Jain Havazimichchotsov. Mutki Haita Petke Nerkaitznel voch shut kan inasun or Yev Vuch Ush Kanyotanasunerkujam Minchev Sahman Hatel. Yet Arkaen Artakar Kangamanknez Orinak Merzavorazgakanimah Kamzanarhivan Dutzun Haita Kale Nerkaitznel Nunis Minchev. Mut kitsch chores jam arrach. Grandsmann Tatskumandraj, Nashell Anznagraintaval Nera, Nerka Snel Lusana Kar, Nashellaitzine Pataka, Nachatz V Mutki, Yev Yelkiam Satavera, is Kvoroshdep Kirumnaev Zainain Mush, Nachnakanken such a pacanu inakanatzmann the path. Sahmana Hatalis Nach Kini Peskaruhani Rakanatzwednayevkin Sachapakan Stu Gumner, Dusanakarahanum Yev Matnahetkeri Vertsnum. Norkar Kachitaratvum Belarusikara Katsnery, Minchev Vetzarekan Yerechaneri, Rusastan Vizajev Mutch Gorzoch Anzans. Inchpesnaev Divanagitakan Yev Vorosh Pastonakan Karkovichakunetsuch and Zansvela. Rusastanish Hanuanganahat Mamba is Popotianna Pataknet Vainatsnel Migration Verasko. Ru Idi Havelvazimichotsov Yurakanchur Otalkiratsu Hamarzeva Volvumet V. Profil, Vurehetagayum Kalore Gorzatz Velpetacanza Raiu Tunit Octavalis, Yev Migration Tarbe Gorzanthasnerum. Rusastan IP Dumayum and Gatsum Vodnorkar Kamitvaze Vojteleratsuzich Hotchendotnelstechzelun, ail Mutki Gorzent Hats Navy Verehas.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Hulisimekitz Rusastan Arans vizai mut Gorzo Kotarjer Kirja Karakatineri Aittevum Haha Karakatsineri Hamaj uži mechematel Norkark. Ajom Nerank Nachkan Meknelepetke nahapez grandsven ru Ajd Jain Havazimichchotsov. Mutki Haita Petke Nerkaitznel voch shut kan inasun or Yev Vuch Ush Kanyotanasunerkujam Minchev Sahman Hatel. Yet Arkaen Artakar Kangamanknez Orinak Merzavorazgakanimah Kamzanarhivan Dutzun Haita Kale Nerkaitznel Nunis Minchev. Mut kitsch chores jam arrach. Grandsmann Tatskumandraj, Nashell Anznagraintaval Nera, Nerka Snel Lusana Kar, Nashellaitzine Pataka, Nachatz V Mutki, Yev Yelkiam Satavera, is Kvoroshdep Kirumnaev Zainain Mush, Nachnakanken such a pacanu inakanatzmann the path. Sahmana Hatalis Nach Kini Peskaruhani Rakanatzwednayevkin Sachapakan Stu Gumner, Dusanakarahanum Yev Matnahetkeri Vertsnum. Norkar Kachitaratvum Belarusikara Katsnery, Minchev Vetzarekan Yerechaneri, Rusastan Vizajev Mutch Gorzoch Anzans. Inchpesnaev Divanagitakan Yev Vorosh Pastonakan Karkovichakunetsuch and Zansvela. Rusastanish Hanuanganahat Mamba is Popotianna Pataknet Vainatsnel Migration Verasko. Ru Idi Havelvazimichotsov Yurakanchur Otalkiratsu Hamarzeva Volvumet V. Profil, Vurehetagayum Kalore Gorzatz Velpetacanza Raiu Tunit Octavalis, Yev Migration Tarbe Gorzanthasnerum. Rusastan IP Dumayum and Gatsum Vodnorkar Kamitvaze Vojteleratsuzich Hotchendotnelstechzelun, ail Mutki Gorzent Hats Navy Verehas.",
+      "usage": {
+        "audio_seconds": 100.4945625,
+        "cost": 0.0025123640625
+      },
+      "latency_seconds": 1.791,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

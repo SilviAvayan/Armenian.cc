@@ -1,0 +1,23 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "openai/whisper-large-v3-turbo",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 11.8,
+  "ok": true,
+  "text": "Սարուց ես։ Միլաս մել եղ չան իմ հերտլան։ Միլաս մել ես մետ եմ այն ենքեր։ ես սերտ եվ հետում եմ եմ եմ եմ եմ եմ ես։ են որ կարող այնեց զանգարել ես չան դամտունոթը եմ իստկ է։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Սարուց ես։ Միլաս մել եղ չան իմ հերտլան։ Միլաս մել ես մետ եմ այն ենքեր։ ես սերտ եվ հետում եմ եմ եմ եմ եմ եմ ես։ են որ կարող այնեց զանգարել ես չան դամտունոթը եմ իստկ է։",
+      "usage": {
+        "audio_seconds": 11.771063296,
+        "cost": 0.00013078959217777779
+      },
+      "latency_seconds": 0.798,
+      "provider_model": "openai/whisper-large-v3-turbo"
+    }
+  ]
+}

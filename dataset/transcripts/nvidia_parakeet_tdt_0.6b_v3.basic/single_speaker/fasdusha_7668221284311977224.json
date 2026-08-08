@@ -1,0 +1,23 @@
+{
+  "source": "fasdusha_7668221284311977224.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 38.52,
+  "ok": true,
+  "text": "Block in the camera. So the issue is the vibration. Hang your cash.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Block in the camera. So the issue is the vibration. Hang your cash.",
+      "usage": {
+        "audio_seconds": 38.5205,
+        "cost": 0.0009630125
+      },
+      "latency_seconds": 0.912,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

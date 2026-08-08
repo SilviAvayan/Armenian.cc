@@ -1,0 +1,23 @@
+{
+  "source": "harutyunyans_blog_7666758253413469460.mp4",
+  "model": "openai/whisper-large-v3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 33.367,
+  "ok": true,
+  "text": "Ինչ հանունը դու ով ես դու: Անի միշտ պարճանունին էլանալու, Մարյամ մեկա դու կա տարյալ չէ սլնելու, Նարը կայնող դրամա, լիլի հիակնեց թվում, որ դու թագույի ես, Սոնա միշտ ո",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ինչ հանունը դու ով ես դու: Անի միշտ պարճանունին էլանալու, Մարյամ մեկա դու կա տարյալ չէ սլնելու, Նարը կայնող դրամա, լիլի հիակնեց թվում, որ դու թագույի ես, Սոնա միշտ ո",
+      "usage": {
+        "audio_seconds": 33.365625,
+        "cost": 0.000834140625
+      },
+      "latency_seconds": 1.269,
+      "provider_model": "openai/whisper-large-v3"
+    }
+  ]
+}

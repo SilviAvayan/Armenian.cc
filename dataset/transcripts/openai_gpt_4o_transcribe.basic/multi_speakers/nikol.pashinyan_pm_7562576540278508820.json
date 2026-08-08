@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model": "openai/gpt-4o-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 31.933,
+  "ok": true,
+  "text": "Ոնց ա բերքը տեստալիս։ Շնորհակալություն։ Հաջողություն ժողորդ։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ոնց ա բերքը տեստալիս։ Շնորհակալություն։ Հաջողություն ժողորդ։",
+      "usage": {
+        "audio_seconds": null,
+        "cost": 0.0010575
+      },
+      "latency_seconds": 3.366,
+      "provider_model": "openai/gpt-4o-transcribe"
+    }
+  ]
+}

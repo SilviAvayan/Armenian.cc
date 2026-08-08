@@ -1,0 +1,24 @@
+{
+  "source": "zhanna_jaan_7668233361306995988.mp4",
+  "model": "google/chirp-3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "all variants failed",
+  "duration_seconds": 167.967,
+  "ok": false,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": null,
+        "cost": null
+      },
+      "latency_seconds": 25.497,
+      "provider_model": "google/chirp-3"
+    }
+  ],
+  "error": "HTTP 400: {\"error\":{\"message\":\"Provider returned 400\",\"code\":400}}"
+}

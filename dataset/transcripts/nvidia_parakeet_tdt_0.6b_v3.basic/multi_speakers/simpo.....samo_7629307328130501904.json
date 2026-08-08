@@ -1,0 +1,23 @@
+{
+  "source": "simpo.....samo_7629307328130501904.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 65.9,
+  "ok": true,
+  "text": "Soviet Mera Gduk Matasumek. Desorbit, Merang Karas Jun, Mes Tab, Mes Outaniques Pedek, Eddy Merang sponselo. Merci. Пока. Пока.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Soviet Mera Gduk Matasumek. Desorbit, Merang Karas Jun, Mes Tab, Mes Outaniques Pedek, Eddy Merang sponselo. Merci. Пока. Пока.",
+      "usage": {
+        "audio_seconds": 65.94325,
+        "cost": 0.00164858125
+      },
+      "latency_seconds": 1.296,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

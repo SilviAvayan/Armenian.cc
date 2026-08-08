@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7650370921462500616.mp4",
+  "model": "openai/whisper-large-v3-turbo",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 16.1,
+  "ok": true,
+  "text": "Սղջջվան ատալուկ եզիրես, որ կոր ես որերի մեջ, ժամանակ ինկերի ես, ընկև որ թերի ես, թոգում է ես ամեր, ինչը ինչը հետ կբերի ես, ապ է դու է չգիտես, է դու է չգիտես, չէ դու է չգիտես, չէ չգիտես, չէ չգ",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Սղջջվան ատալուկ եզիրես, որ կոր ես որերի մեջ, ժամանակ ինկերի ես, ընկև որ թերի ես, թոգում է ես ամեր, ինչը ինչը հետ կբերի ես, ապ է դու է չգիտես, է դու է չգիտես, չէ դու է չգիտես, չէ չգիտես, չէ չգ",
+      "usage": {
+        "audio_seconds": 16.090000384,
+        "cost": 0.00017877778204444445
+      },
+      "latency_seconds": 0.602,
+      "provider_model": "openai/whisper-large-v3-turbo"
+    }
+  ]
+}

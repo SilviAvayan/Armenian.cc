@@ -1,0 +1,23 @@
+{
+  "source": "www.ishkhanutyun.am_7637965868802051346.mp4",
+  "model": "deepgram/nova-3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 76.3,
+  "ok": true,
+  "text": "Պատկանում է մի մարդու, ընդամենը մի մարդու, երեք մեկ մարդը, դու էս, մեկ դու էս, երեք մեկ մարդը, դու էս, երեք մեկ մարդը,",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Պատկանում է մի մարդու, ընդամենը մի մարդու, երեք մեկ մարդը, դու էս, մեկ դու էս, երեք մեկ մարդը, դու էս, երեք մեկ մարդը,",
+      "usage": {
+        "audio_seconds": 76.34575,
+        "cost": 0.005471445416666667
+      },
+      "latency_seconds": 3.981,
+      "provider_model": "deepgram/nova-3"
+    }
+  ]
+}

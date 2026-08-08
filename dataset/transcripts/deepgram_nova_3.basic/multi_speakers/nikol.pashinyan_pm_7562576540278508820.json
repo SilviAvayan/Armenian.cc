@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model": "deepgram/nova-3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 31.933,
+  "ok": true,
+  "text": "Ո՞նցաբերգը տես տարի, Չղղղուն, վարչապետի ջան, ճամբարը Մի հեշտար 1000 մետրից ստանալուս նորմալ այս, 3 տոննայանոց, դա 30 իրենց, թե չարանքն է՝ չարչարանք ։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ո՞նցաբերգը տես տարի, Չղղղուն, վարչապետի ջան, ճամբարը Մի հեշտար 1000 մետրից ստանալուս նորմալ այս, 3 տոննայանոց, դա 30 իրենց, թե չարանքն է՝ չարչարանք ։",
+      "usage": {
+        "audio_seconds": 31.949188,
+        "cost": 0.0022896918066666666
+      },
+      "latency_seconds": 3.985,
+      "provider_model": "deepgram/nova-3"
+    }
+  ]
+}

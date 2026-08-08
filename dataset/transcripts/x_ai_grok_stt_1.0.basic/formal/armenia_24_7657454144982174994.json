@@ -1,0 +1,23 @@
+{
+  "source": "armenia_24_7657454144982174994.mp4",
+  "model": "x-ai/grok-stt-1.0",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 117.866,
+  "ok": true,
+  "text": "Yergo hazarxan vëzët vaka në hu lisi me kit, u jmeçen mtnun më shkark kare vortz ragrëri vore nzdrakampopohucunner, vronkaz detjçun kunen an inç peskara katineri, an pesel biznesi gortun eutianbra. Araçin, garabágyt és a hámvat szintén iknéríhámar, kigorcib, nagy karainába hovman, gyerkarájám két varzakalután, nőzszaragid. Kint girkven megígér egy gantamunetőh, aran szintén hámberi, intén iknér, isk taviál hámberi, mind girkvogondanik, gyurakancsúrán, tals ierncrot finanța când e în banca în hamakar cum că gortzark vîn nord stop gortzik vor girailele linelui dramăcan prochansumneri cartainu vârca în gortzarnutumneri e avand nerine catmam nepata cu nelo vartșarțnăl gortzarkneri am vătânguciu nu verea hasguciu nem یه‌رود یک موتنه‌ای حمله‌ی گناهات‌مان‌هیمان و راکن‌درد و انتانیکن‌هایی آن‌پا‌ه‌ووچان گناهات‌مان نور‌هم‌کارک. پروکا پا‌ه‌وین پاستن‌هایی آرتار‌تیرا‌خورم یک‌گویرات‌نی بیروکرات‌گان ک هیچ گروه پاپوکوم در اتکام حاشیه متمدنون تا خاندان خنامکی تراوتیان هم اردیم لو کار کردیمونر نتومون با ترابس آرتانس ای سوشل گیت ایم کیمی گفت نخبه است اختلاف آنها تا گن اکتاهشیف و ترک گروه گرگر نریت یا ترور د. سپارگنری در وقتنی باش پانوتن ماسینورن کیپاپوکوتنر اوف سهم و مهتر و چونون تا غبرانگنری هم بار تادی ریو در و یرشک یب ارکلو مسپارگنری ملورتس نخمه ماتاگو وازد. کپوکوتنر نه افگار کوروم",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Yergo hazarxan vëzët vaka në hu lisi me kit, u jmeçen mtnun më shkark kare vortz ragrëri vore nzdrakampopohucunner, vronkaz detjçun kunen an inç peskara katineri, an pesel biznesi gortun eutianbra. Araçin, garabágyt és a hámvat szintén iknéríhámar, kigorcib, nagy karainába hovman, gyerkarájám két varzakalután, nőzszaragid. Kint girkven megígér egy gantamunetőh, aran szintén hámberi, intén iknér, isk taviál hámberi, mind girkvogondanik, gyurakancsúrán, tals ierncrot finanța când e în banca în hamakar cum că gortzark vîn nord stop gortzik vor girailele linelui dramăcan prochansumneri cartainu vârca în gortzarnutumneri e avand nerine catmam nepata cu nelo vartșarțnăl gortzarkneri am vătânguciu nu verea hasguciu nem یه‌رود یک موتنه‌ای حمله‌ی گناهات‌مان‌هیمان و راکن‌درد و انتانیکن‌هایی آن‌پا‌ه‌ووچان گناهات‌مان نور‌هم‌کارک. پروکا پا‌ه‌وین پاستن‌هایی آرتار‌تیرا‌خورم یک‌گویرات‌نی بیروکرات‌گان ک هیچ گروه پاپوکوم در اتکام حاشیه متمدنون تا خاندان خنامکی تراوتیان هم اردیم لو کار کردیمونر نتومون با ترابس آرتانس ای سوشل گیت ایم کیمی گفت نخبه است اختلاف آنها تا گن اکتاهشیف و ترک گروه گرگر نریت یا ترور د. سپارگنری در وقتنی باش پانوتن ماسینورن کیپاپوکوتنر اوف سهم و مهتر و چونون تا غبرانگنری هم بار تادی ریو در و یرشک یب ارکلو مسپارگنری ملورتس نخمه ماتاگو وازد. کپوکوتنر نه افگار کوروم",
+      "usage": {
+        "audio_seconds": 117.866,
+        "cost": 0.0032740555555555557
+      },
+      "latency_seconds": 2.447,
+      "provider_model": "x-ai/grok-stt-1.0"
+    }
+  ]
+}

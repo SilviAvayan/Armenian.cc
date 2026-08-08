@@ -1,0 +1,23 @@
+{
+  "source": "tadevosyanarsineee_7665712742543904007.mp4",
+  "model": "openai/whisper-large-v3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 13.067,
+  "ok": true,
+  "text": "Աղկես ինչպես ասել, որ կեսի շում եմ դեռ, ինչպես չասել, որ դու դերթան կեսինց համար։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Աղկես ինչպես ասել, որ կեսի շում եմ դեռ, ինչպես չասել, որ դու դերթան կեսինց համար։",
+      "usage": {
+        "audio_seconds": 13.0481875,
+        "cost": 0.0003262046875
+      },
+      "latency_seconds": 1.556,
+      "provider_model": "openai/whisper-large-v3"
+    }
+  ]
+}

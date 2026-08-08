@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model": "qwen/qwen3-asr-flash-2026-02-10",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 31.933,
+  "ok": true,
+  "text": "Bonta berka te stari. Shlagajt jun. Parcha pët jan daf. Un bar vëzjo. Bonte. Mi hektar hazar metri zjerrës un niks tanalës normalaj. Yerëtun, nuk tare yerëtun. Ha, yerëtun. Normalaj. E çar çaraknë ta pasuarë. Ha, jo. Te la vëren shëllar kan.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Bonta berka te stari. Shlagajt jun. Parcha pët jan daf. Un bar vëzjo. Bonte. Mi hektar hazar metri zjerrës un niks tanalës normalaj. Yerëtun, nuk tare yerëtun. Ha, yerëtun. Normalaj. E çar çaraknë ta pasuarë. Ha, jo. Te la vëren shëllar kan.",
+      "usage": {
+        "audio_seconds": 31,
+        "cost": 0.001085
+      },
+      "latency_seconds": 1.842,
+      "provider_model": "qwen/qwen3-asr-flash-2026-02-10"
+    }
+  ]
+}

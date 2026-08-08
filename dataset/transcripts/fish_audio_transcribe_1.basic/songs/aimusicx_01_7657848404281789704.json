@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7657848404281789704.mp4",
+  "model": "fish-audio/transcribe-1",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 30.974,
+  "ok": true,
+  "text": "Vett szárkunemjöt a parikutnél szakúmém, meg a bankit, meg a online esel pockjúnem. Vett szárkunemjöt a parikutnél szakúmém, meg a bankit, meg a online esel pockjúnem. Bankit szakúm el sem patasznunk, sem patasznunk, sevszutak emelnünk. Verjünk a kamzandinjánim, cseléséti, csel patasznéti, túl az ver.Sunny.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Vett szárkunemjöt a parikutnél szakúmém, meg a bankit, meg a online esel pockjúnem. Vett szárkunemjöt a parikutnél szakúmém, meg a bankit, meg a online esel pockjúnem. Bankit szakúm el sem patasznunk, sem patasznunk, sevszutak emelnünk. Verjünk a kamzandinjánim, cseléséti, csel patasznéti, túl az ver.Sunny.",
+      "usage": {
+        "audio_seconds": 32,
+        "cost": 0.0032
+      },
+      "latency_seconds": 2.003,
+      "provider_model": "fish-audio/transcribe-1"
+    }
+  ]
+}

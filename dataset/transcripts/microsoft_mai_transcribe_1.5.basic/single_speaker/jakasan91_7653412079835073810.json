@@ -1,0 +1,23 @@
+{
+  "source": "jakasan91_7653412079835073810.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 20.0,
+  "ok": true,
+  "text": "Watch me deb com, me pakiray ste sa nyute. Yer ku azar xamves tvagani amen ametz anakang kalak kezes pasum. Mna yo tvargan, he to gridge amen. Du yev kontanike as tsus bari lurk stanak. Tovay sorvanitz anhangus tsutsune, hok na tsutsune tahrutyune heranang kokyang kits. Yetehen narawurutyununes, ay suisa pohancir gone mek harazati. Yev toh tas nirku ortnucyungakotum.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Watch me deb com, me pakiray ste sa nyute. Yer ku azar xamves tvagani amen ametz anakang kalak kezes pasum. Mna yo tvargan, he to gridge amen. Du yev kontanike as tsus bari lurk stanak. Tovay sorvanitz anhangus tsutsune, hok na tsutsune tahrutyune heranang kokyang kits. Yetehen narawurutyununes, ay suisa pohancir gone mek harazati. Yev toh tas nirku ortnucyungakotum.",
+      "usage": {
+        "audio_seconds": 20,
+        "cost": 0.002
+      },
+      "latency_seconds": 1.534,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

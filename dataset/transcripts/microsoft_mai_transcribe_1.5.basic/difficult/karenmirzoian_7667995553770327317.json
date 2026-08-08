@@ -1,0 +1,23 @@
+{
+  "source": "karenmirzoian_7667995553770327317.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 66.7,
+  "ok": true,
+  "text": "Baleset.\nBreven.\nAres, atam.\nVoi pagi, em on seg bujeg.\nCigid, em 3 zakanc, inch aile ara siiru mesin 3 simot, ganim basha memkan ganitsas. Adam net kanian kam es levanum.\nErko.\nAsma, erko.\nGundak, kukurus, tatik, ara esi beran, che si hayat hakbe, lis vid pada pul pulak, teneng kayfot larvenk me damash.\nKale ni zer vota kašek denciswari.\nCehil ni.\nAuw.\nKaras, hetes felirt chanas.\nHetes felirt chanas.\nPa' inches atch kaftali.\nJura pasatsret sik atch kis.\nZainat ka 3. Tele, kit es incha?\nTele of taros. A inšesácskovtali.\nDžuro, pazacret si kácky.\nZene, kataré! Tele, kites inča?\nTelov to rusikakite inča.\nA bore, z- telov to rusikove, adam, neri, dalan, kaká makre. Vazgim, papi!\nHa!\nMiatka, hanbec, arevaz. Iznájs, sens. Kárka, kites hora, dacia nar, inšesens, avelanum. Ja, samaka, za halva, jes, utom, sa hora. Džur- džur, desa, škaperane.\nPéče, nikutes?\nHo! Portzovela, sens, baner, ute, šluchat!\nJev, normala, sa.\nJestiaňkom, sens, bančejtese. Izgumeš, šimš, formi banen inča. Jest Jan Komsen z Bancejtes. I z Bortejca, uzumiej, bzušku, co na to, hej, na chu-\nZ gumy, część formi panien, część formi, ja ti mastu, co na, tam, maćka, czyść, ta, bo ty wotit mecha. Uch, ja czerpyt pana piercing, gada!\nWorsec moment, cawu ma?\nCze.\nJezu, ko ka nikaj dalet kneling.\nIdź.\nCawac? Się, ej, mecha hanuni.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Baleset.\nBreven.\nAres, atam.\nVoi pagi, em on seg bujeg.\nCigid, em 3 zakanc, inch aile ara siiru mesin 3 simot, ganim basha memkan ganitsas. Adam net kanian kam es levanum.\nErko.\nAsma, erko.\nGundak, kukurus, tatik, ara esi beran, che si hayat hakbe, lis vid pada pul pulak, teneng kayfot larvenk me damash.\nKale ni zer vota kašek denciswari.\nCehil ni.\nAuw.\nKaras, hetes felirt chanas.\nHetes felirt chanas.\nPa' inches atch kaftali.\nJura pasatsret sik atch kis.\nZainat ka 3. Tele, kit es incha?\nTele of taros. A inšesácskovtali.\nDžuro, pazacret si kácky.\nZene, kataré! Tele, kites inča?\nTelov to rusikakite inča.\nA bore, z- telov to rusikove, adam, neri, dalan, kaká makre. Vazgim, papi!\nHa!\nMiatka, hanbec, arevaz. Iznájs, sens. Kárka, kites hora, dacia nar, inšesens, avelanum. Ja, samaka, za halva, jes, utom, sa hora. Džur- džur, desa, škaperane.\nPéče, nikutes?\nHo! Portzovela, sens, baner, ute, šluchat!\nJev, normala, sa.\nJestiaňkom, sens, bančejtese. Izgumeš, šimš, formi banen inča. Jest Jan Komsen z Bancejtes. I z Bortejca, uzumiej, bzušku, co na to, hej, na chu-\nZ gumy, część formi panien, część formi, ja ti mastu, co na, tam, maćka, czyść, ta, bo ty wotit mecha. Uch, ja czerpyt pana piercing, gada!\nWorsec moment, cawu ma?\nCze.\nJezu, ko ka nikaj dalet kneling.\nIdź.\nCawac? Się, ej, mecha hanuni.",
+      "usage": {
+        "audio_seconds": 67,
+        "cost": 0.0067
+      },
+      "latency_seconds": 4.607,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

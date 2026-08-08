@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7650370921462500616.mp4",
+  "model": "openai/gpt-4o-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 16.1,
+  "ok": true,
+  "text": "Inço praluqezies, po kore korelies.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Inço praluqezies, po kore korelies.",
+      "usage": {
+        "audio_seconds": null,
+        "cost": 0.00055
+      },
+      "latency_seconds": 0.91,
+      "provider_model": "openai/gpt-4o-transcribe"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 11.8,
+  "ok": true,
+  "text": "Maar het is...\nNee, dat meen ik niet, joh. Ik denk, het is klaar. Ik denk, het is klaar. Ik heb het niet gemerkt. Het is klaar.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Maar het is...\nNee, dat meen ik niet, joh. Ik denk, het is klaar. Ik denk, het is klaar. Ik heb het niet gemerkt. Het is klaar.",
+      "usage": {
+        "audio_seconds": 12,
+        "cost": 0.0012
+      },
+      "latency_seconds": 1.042,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

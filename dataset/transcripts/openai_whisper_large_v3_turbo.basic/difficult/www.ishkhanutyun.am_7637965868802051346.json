@@ -1,0 +1,23 @@
+{
+  "source": "www.ishkhanutyun.am_7637965868802051346.mp4",
+  "model": "openai/whisper-large-v3-turbo",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 76.3,
+  "ok": true,
+  "text": "— Yannik Mört kallot kallot mack'u! – Yannik Mört, duuz! Շայ、 յադ մյ մադ շորըցեր այակ այն..",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "— Yannik Mört kallot kallot mack'u! – Yannik Mört, duuz! Շայ、 յադ մյ մադ շորըցեր այակ այն..",
+      "usage": {
+        "audio_seconds": 76.392185856,
+        "cost": 0.0008488020650666666
+      },
+      "latency_seconds": 1.639,
+      "provider_model": "openai/whisper-large-v3-turbo"
+    }
+  ]
+}

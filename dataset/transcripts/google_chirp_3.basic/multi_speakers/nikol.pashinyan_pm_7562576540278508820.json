@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model": "google/chirp-3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 31.933,
+  "ok": true,
+  "text": "Ո՞նց է բերքդ է. Շնորհակալություն վարչապետ ջան լավ.Բարև ձեզ ժողովուրդ. Ո՞նց ես.Շատ լավ. Մի հեկտար 1000 մետրից 35 ստանալու ես նորմալ 30 30 30 30 30",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ո՞նց է բերքդ է. Շնորհակալություն վարչապետ ջան լավ.Բարև ձեզ ժողովուրդ. Ո՞նց ես.Շատ լավ. Մի հեկտար 1000 մետրից 35 ստանալու ես նորմալ 30 30 30 30 30",
+      "usage": {
+        "audio_seconds": 32,
+        "cost": 0.008533333333333334
+      },
+      "latency_seconds": 55.952,
+      "provider_model": "google/chirp-3"
+    }
+  ]
+}

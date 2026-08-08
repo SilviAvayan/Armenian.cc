@@ -1,0 +1,23 @@
+{
+  "source": "tadevosyanarsineee_7665712742543904007.mp4",
+  "model": "openai/gpt-4o-mini-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 13.067,
+  "ok": true,
+  "text": "Ախ քեզ ինչպես ասել, որ քեզ հիշում եմ դեռ, Ինչպես չասել, որ դու դեռ թանկ ես ինձ համար…",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ախ քեզ ինչպես ասել, որ քեզ հիշում եմ դեռ, Ինչպես չասել, որ դու դեռ թանկ ես ինձ համար…",
+      "usage": {
+        "audio_seconds": null,
+        "cost": 0.0003175
+      },
+      "latency_seconds": 0.911,
+      "provider_model": "openai/gpt-4o-mini-transcribe"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7651850146090634503.mp4",
+  "model": "openai/gpt-4o-mini-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 33.833,
+  "ok": true,
+  "text": "Kusine razvetenkmanat meqader, Tsezevos pikigaranigshikiti voshmek. Humagnanu saretineshigizimetsesa, Tasa mechankardazarminiard, Ara vay vay, Vay vay vay, Ara vay vay, Esenchava, Ara vay vay, Vay vay vay, Ara vay vay, Arakizzevay.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Kusine razvetenkmanat meqader, Tsezevos pikigaranigshikiti voshmek. Humagnanu saretineshigizimetsesa, Tasa mechankardazarminiard, Ara vay vay, Vay vay vay, Ara vay vay, Esenchava, Ara vay vay, Vay vay vay, Ara vay vay, Arakizzevay.",
+      "usage": {
+        "audio_seconds": null,
+        "cost": 0.0008875
+      },
+      "latency_seconds": 1.841,
+      "provider_model": "openai/gpt-4o-mini-transcribe"
+    }
+  ]
+}

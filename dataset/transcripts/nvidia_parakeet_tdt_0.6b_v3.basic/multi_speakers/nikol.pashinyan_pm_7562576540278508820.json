@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 31.933,
+  "ok": true,
+  "text": "Vom să abergate stai? Nu dă atiun Parcea pe jandal. Primari de jouri. No, I draw two.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Vom să abergate stai? Nu dă atiun Parcea pe jandal. Primari de jouri. No, I draw two.",
+      "usage": {
+        "audio_seconds": 31.9956875,
+        "cost": 0.0007998921875
+      },
+      "latency_seconds": 0.525,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

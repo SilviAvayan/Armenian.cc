@@ -1,0 +1,23 @@
+{
+  "source": "zhanna_jaan_7668233361306995988.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 167.967,
+  "ok": true,
+  "text": "Injamota injamata Kisha Gobluk Nina Miratin Nara Kisit wasama make no eight scorchist gorgeous Yes, I'm a kid. Short of No Chase is Tanger. Ah but is Jomi Normalchi? But incha normal chi is Jomi Normalchi. Hit up? It's a hit on the yardic army green short at nine chocolate. Stop! Stop. Y yes yes. So you go Villou.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Injamota injamata Kisha Gobluk Nina Miratin Nara Kisit wasama make no eight scorchist gorgeous Yes, I'm a kid. Short of No Chase is Tanger. Ah but is Jomi Normalchi? But incha normal chi is Jomi Normalchi. Hit up? It's a hit on the yardic army green short at nine chocolate. Stop! Stop. Y yes yes. So you go Villou.",
+      "usage": {
+        "audio_seconds": 167.97175,
+        "cost": 0.00419929375
+      },
+      "latency_seconds": 1.536,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

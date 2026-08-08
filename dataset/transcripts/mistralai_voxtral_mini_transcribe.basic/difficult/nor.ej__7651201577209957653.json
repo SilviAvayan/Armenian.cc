@@ -1,0 +1,23 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "mistralai/voxtral-mini-transcribe",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 11.8,
+  "ok": true,
+  "text": "Смарится.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Смарится.",
+      "usage": {
+        "audio_seconds": 11,
+        "cost": 0.00055
+      },
+      "latency_seconds": 0.914,
+      "provider_model": "mistralai/voxtral-mini-transcribe"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "haykmarutyanofficial_7637943792519302420.mp4",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 177.258,
+  "ok": true,
+  "text": "But it's only Hosminasman Bagarabagha, Bagarabah Barta, Asman Hogan Kotril. It hover in Chihuahua Mere. In Chok Batrake Inchova and the Procent Caruze, Mankartes in Karuce. Gortaran Karuce, April, the Nakaba in Chova Mereve, Melech, for Asman Harabah Medner, I never mentioned Sutada, it accounts then our Hayastana Menechima Medna. Suta Palampashinan, Karutzelen, Gorzanelen Karutzel, Manka Partezelen Karutzel, Gabrotzelen Karutzel, Hamasanel, Martiksovurin, Moshakuitovensbahve, Yekitzilen Karuzel, Gorzen Kerits. April and Halksan Hazaruki were not in the photoapparat. It's Martin. Yekorter, Edwards Mek, Halabagamer, Yelpek Chere, to Hyastanel Cher, Noren Zerbel, Hyastan, Meraza Tutzuna, Mekbe Gilchitere. Pokric Yerechownata Yerecha Pala Lats Magishinichnel, Gumart Zaksel, Voshkarmes, Yurganal, Voshkarmes, Ichukner's Baval Ashatanki take a problem, Mikoskov, Bartha, make it high, make a Gorana. Yes, we make hazards. Yes, Chikidan make this cohesive lessum, took inch kosum, love to check has make a cookies chasum, it's marty incha horsum, I ain't get inches kosum. It's Marta Pashna Dusgas Middlebury's Hirin Leson is Mespeci. It hiring a Yirpamech, Girkart revoced hardman with high jar six absurd. Yes, I in your mixture passion and kind of normal unto them. But make what's the highlighting a course and let highlight it. But make anglerinek zerk bereit, has got see you. Goodbye.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "But it's only Hosminasman Bagarabagha, Bagarabah Barta, Asman Hogan Kotril. It hover in Chihuahua Mere. In Chok Batrake Inchova and the Procent Caruze, Mankartes in Karuce. Gortaran Karuce, April, the Nakaba in Chova Mereve, Melech, for Asman Harabah Medner, I never mentioned Sutada, it accounts then our Hayastana Menechima Medna. Suta Palampashinan, Karutzelen, Gorzanelen Karutzel, Manka Partezelen Karutzel, Gabrotzelen Karutzel, Hamasanel, Martiksovurin, Moshakuitovensbahve, Yekitzilen Karuzel, Gorzen Kerits. April and Halksan Hazaruki were not in the photoapparat. It's Martin. Yekorter, Edwards Mek, Halabagamer, Yelpek Chere, to Hyastanel Cher, Noren Zerbel, Hyastan, Meraza Tutzuna, Mekbe Gilchitere. Pokric Yerechownata Yerecha Pala Lats Magishinichnel, Gumart Zaksel, Voshkarmes, Yurganal, Voshkarmes, Ichukner's Baval Ashatanki take a problem, Mikoskov, Bartha, make it high, make a Gorana. Yes, we make hazards. Yes, Chikidan make this cohesive lessum, took inch kosum, love to check has make a cookies chasum, it's marty incha horsum, I ain't get inches kosum. It's Marta Pashna Dusgas Middlebury's Hirin Leson is Mespeci. It hiring a Yirpamech, Girkart revoced hardman with high jar six absurd. Yes, I in your mixture passion and kind of normal unto them. But make what's the highlighting a course and let highlight it. But make anglerinek zerk bereit, has got see you. Goodbye.",
+      "usage": {
+        "audio_seconds": 177.3525625,
+        "cost": 0.0044338140625
+      },
+      "latency_seconds": 0.995,
+      "provider_model": "nvidia/parakeet-tdt-0.6b-v3"
+    }
+  ]
+}

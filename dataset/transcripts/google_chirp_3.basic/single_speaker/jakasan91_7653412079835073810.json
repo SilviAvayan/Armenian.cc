@@ -1,0 +1,23 @@
+{
+  "source": "jakasan91_7653412079835073810.mp4",
+  "model": "google/chirp-3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 20.0,
+  "ok": true,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": 20,
+        "cost": 0.005333333333333333
+      },
+      "latency_seconds": 2.754,
+      "provider_model": "google/chirp-3"
+    }
+  ]
+}

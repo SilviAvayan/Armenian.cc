@@ -1,0 +1,23 @@
+{
+  "source": "aimusicx_01_7657848404281789704.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 30.974,
+  "ok": true,
+  "text": "Vets var kunem, jotabarikut nel sögumen, megabankit, megonline, jesel pohchunem. Vets var kunem, jotabarikut nel sögumen, megabankit, megonline, jesel pohchunem. Bankit zangumel, cempa tashanum, cempa tashanum, sepsu tsarke meknum. Vercinang kam zanginyanim, çölü sepsi, çöp atas hanesi, tunas ve tsari. Nim, če laseci, če pa tas hneci, tu nas vred crim.\nEj!",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Vets var kunem, jotabarikut nel sögumen, megabankit, megonline, jesel pohchunem. Vets var kunem, jotabarikut nel sögumen, megabankit, megonline, jesel pohchunem. Bankit zangumel, cempa tashanum, cempa tashanum, sepsu tsarke meknum. Vercinang kam zanginyanim, çölü sepsi, çöp atas hanesi, tunas ve tsari. Nim, če laseci, če pa tas hneci, tu nas vred crim.\nEj!",
+      "usage": {
+        "audio_seconds": 31,
+        "cost": 0.0031
+      },
+      "latency_seconds": 1.535,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

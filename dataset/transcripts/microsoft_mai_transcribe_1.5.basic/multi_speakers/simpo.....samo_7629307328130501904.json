@@ -1,0 +1,23 @@
+{
+  "source": "simpo.....samo_7629307328130501904.mp4",
+  "model": "microsoft/mai-transcribe-1.5",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "wav",
+  "duration_seconds": 65.9,
+  "ok": true,
+  "text": "Yes, ma'am.\nWhat has been, has been?\nYes, how much?\nYou know that?\nSo, it's mer of the . Shad what I can do, and you can use . Azt néha?\nAzt mondja, hogy... I- nincs egy kis kanús belőle.\nKár, hogy benne van, hogy partvérre se, se, de nem maradt semmi. Azt mondja, hogy... Azt mondja, hogy... De szóvicc, megkérdezte, hogy... miért nem utáljuk, hogy... <unintelligible/> Merci.\nMm, baka.\nBaka.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Yes, ma'am.\nWhat has been, has been?\nYes, how much?\nYou know that?\nSo, it's mer of the . Shad what I can do, and you can use . Azt néha?\nAzt mondja, hogy... I- nincs egy kis kanús belőle.\nKár, hogy benne van, hogy partvérre se, se, de nem maradt semmi. Azt mondja, hogy... Azt mondja, hogy... De szóvicc, megkérdezte, hogy... miért nem utáljuk, hogy... <unintelligible/> Merci.\nMm, baka.\nBaka.",
+      "usage": {
+        "audio_seconds": 66,
+        "cost": 0.0066
+      },
+      "latency_seconds": 2.763,
+      "provider_model": "microsoft/mai-transcribe-1.5"
+    }
+  ]
+}

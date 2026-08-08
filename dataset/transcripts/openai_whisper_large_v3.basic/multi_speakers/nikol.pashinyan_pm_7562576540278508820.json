@@ -1,0 +1,23 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model": "openai/whisper-large-v3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": "m4a",
+  "duration_seconds": 31.933,
+  "ok": true,
+  "text": "Ոնց հաբերջ հտես տարին։ Շնակարություն, պարճապետ ժանդավ։ Մմբար ես դեջովում։ Անդիկ։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ոնց հաբերջ հտես տարին։ Շնակարություն, պարճապետ ժանդավ։ Մմբար ես դեջովում։ Անդիկ։",
+      "usage": {
+        "audio_seconds": 31.9956875,
+        "cost": 0.0007998921875
+      },
+      "latency_seconds": 2.134,
+      "provider_model": "openai/whisper-large-v3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "zhanna_jaan_7668233361306995988.mp4",
+  "model": "x-ai/grok-stt-1.0",
+  "requested_language": null,
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "sent_format": null,
+  "duration_seconds": 167.967,
+  "ok": true,
+  "text": "زمان که پاک بیدینی از اینجا یارکی گرمی نیاکی لاست از مارت رو اشک نستاکم ها این جام موتا که زیماتان زیماتان دوبار یعنی گرمی کوین نستاکم نارا چی احساسی نبود گرمی گوینه تو برای اشک مارت رو اشکی دمای هنیا س Easy shopping city",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "زمان که پاک بیدینی از اینجا یارکی گرمی نیاکی لاست از مارت رو اشک نستاکم ها این جام موتا که زیماتان زیماتان دوبار یعنی گرمی کوین نستاکم نارا چی احساسی نبود گرمی گوینه تو برای اشک مارت رو اشکی دمای هنیا س Easy shopping city",
+      "usage": {
+        "audio_seconds": 167.956,
+        "cost": 0.004665444444444444
+      },
+      "latency_seconds": 1.84,
+      "provider_model": "x-ai/grok-stt-1.0"
+    }
+  ]
+}
