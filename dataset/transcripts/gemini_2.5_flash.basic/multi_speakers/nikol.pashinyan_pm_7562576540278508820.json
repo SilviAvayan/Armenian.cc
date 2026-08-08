@@ -1,0 +1,40 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model": "google/gemini-2.5-flash",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 31.768,
+  "text": "Ո՞նց ա բերքդ էս տարի։ Շնորհակալություն։ Վարչապետ ջան, լավ։ Բարև ձեզ, ժողովուրդ։ Բարև ձեզ։ Ո՞նց եք։ Շնորհակալություն։ Շատ լավ։ Մի հեկտար 1000 մետրից 35 ստանալու ես, նորմալ ա էլի։ 30 տոննա, հա, 30 տոննա ապահով է։ Դե չարչարանքներդ ապաշխարհար։ Հաջողություն։ Դե լավ եղեք, շնորհակալություն։ Հաջողություն, ժողովուրդ։ Հաջողություն։ Մերսի։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ո՞նց ա բերքդ էս տարի։ Շնորհակալություն։ Վարչապետ ջան, լավ։ Բարև ձեզ, ժողովուրդ։ Բարև ձեզ։ Ո՞նց եք։ Շնորհակալություն։ Շատ լավ։ Մի հեկտար 1000 մետրից 35 ստանալու ես, նորմալ ա էլի։ 30 տոննա, հա, 30 տոննա ապահով է։ Դե չարչարանքներդ ապաշխարհար։ Հաջողություն։ Դե լավ եղեք, շնորհակալություն։ Հաջողություն, ժողովուրդ։ Հաջողություն։ Մերսի։",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 856,
+        "completion_tokens": 201,
+        "total_tokens": 1057,
+        "cost": 0.0013193,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 800,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013193,
+          "upstream_inference_prompt_cost": 0.0008168,
+          "upstream_inference_completions_cost": 0.0005025
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "google/gemini-2.5-flash"
+    }
+  ]
+}

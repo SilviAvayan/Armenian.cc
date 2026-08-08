@@ -1,0 +1,40 @@
+{
+  "source": "jakasan91_7653412079835073810.mp4",
+  "model": "google/gemini-3.5-flash-lite",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 19.74,
+  "text": "my.com, մի փակիր այս տեսանյութը։ 2",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "my.com, մի փակիր այս տեսանյութը։ 2",
+      "finish_reason": "content_filter",
+      "usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "cost": 0,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0,
+          "upstream_inference_prompt_cost": 0,
+          "upstream_inference_completions_cost": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "google/gemini-3.5-flash-lite"
+    }
+  ]
+}

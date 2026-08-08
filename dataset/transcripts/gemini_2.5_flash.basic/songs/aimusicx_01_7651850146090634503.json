@@ -1,0 +1,40 @@
+{
+  "source": "aimusicx_01_7651850146090634503.mp4",
+  "model": "google/gemini-2.5-flash",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 33.672,
+  "text": "Ընդունուսները հանձնեցինք, մնաց մեկը դեռ։ Սեւս է ոնց պիտի գերենք, չգիտի ոչ մեկ։ Թումանյանն ու Չարենցն էլ չգիտեն ինչ է սա։ Հենց հասավ մեր հերթը, արդեն սաղ խառնին իրար։ Արա վա՜յ, վա՜յ, վա՜յ, վա՜յ, վա՜յ, վա՜յ։ Արա վա՜յ, վա՜յ, էս ինչ ա վա՜յ։ Արա վա՜յ, վա՜յ, վա՜յ, վա՜յ, վա՜յ, վա՜յ։ Արա վա՜յ, վա՜յ, արա ինչ է սեւա՜յ։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ընդունուսները հանձնեցինք, մնաց մեկը դեռ։ Սեւս է ոնց պիտի գերենք, չգիտի ոչ մեկ։ Թումանյանն ու Չարենցն էլ չգիտեն ինչ է սա։ Հենց հասավ մեր հերթը, արդեն սաղ խառնին իրար։ Արա վա՜յ, վա՜յ, վա՜յ, վա՜յ, վա՜յ, վա՜յ։ Արա վա՜յ, վա՜յ, էս ինչ ա վա՜յ։ Արա վա՜յ, վա՜յ, վա՜յ, վա՜յ, վա՜յ, վա՜յ։ Արա վա՜յ, վա՜յ, արա ինչ է սեւա՜յ։",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 906,
+        "completion_tokens": 205,
+        "total_tokens": 1111,
+        "cost": 0.0013793,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 850,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013793,
+          "upstream_inference_prompt_cost": 0.0008668,
+          "upstream_inference_completions_cost": 0.0005125
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "google/gemini-2.5-flash"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "source": "simpo.....samo_7629307328130501904.mp4",
+  "model": "google/gemini-2.5-flash",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 65.715,
+  "text": "եմ։ Կներեք, դուք ասել եք մի ժամից մեր պատվերը կգա, բայց արդեն երկու ժամ է լրանում։ Ի՞նչ եղավ մեր պատվերը։ Հիմա էլ հասցեն ա ձեր հասցեն։ Երազ թաղամաս։ Մի րոպե։ Սովից մեռանք, դուք մտածու՞մ եք։ Մինչև 10-15 րոպե կհասնի, հա՞։ Շատ վատ եք աշխատում։ Ինչի՞ եք այդքան ուշ բերում։ Ծանրաբեռնված ենք, պատվերները շատ-շատ են, դրա համար ուշացում եղավ։ 15 րոպեից մեր պատվերը սեղանին կլինի։ Այո։ Այո, 15 րոպեից ձեր մոտ կլինի պատվերը։ Դե սովից մեռանք, կարաս ջան, մեզ քավա և մեզ ուտելիք բերեք։ Էլի մեռանք սպասելով։ Եղավ, Պոչո ջան, հիմա արագ կման։ Կտեսնենք։ Մերսի։ Պակա։ Պակա։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "եմ։ Կներեք, դուք ասել եք մի ժամից մեր պատվերը կգա, բայց արդեն երկու ժամ է լրանում։ Ի՞նչ եղավ մեր պատվերը։ Հիմա էլ հասցեն ա ձեր հասցեն։ Երազ թաղամաս։ Մի րոպե։ Սովից մեռանք, դուք մտածու՞մ եք։ Մինչև 10-15 րոպե կհասնի, հա՞։ Շատ վատ եք աշխատում։ Ինչի՞ եք այդքան ուշ բերում։ Ծանրաբեռնված ենք, պատվերները շատ-շատ են, դրա համար ուշացում եղավ։ 15 րոպեից մեր պատվերը սեղանին կլինի։ Այո։ Այո, 15 րոպեից ձեր մոտ կլինի պատվերը։ Դե սովից մեռանք, կարաս ջան, մեզ քավա և մեզ ուտելիք բերեք։ Էլի մեռանք սպասելով։ Եղավ, Պոչո ջան, հիմա արագ կման։ Կտեսնենք։ Մերսի։ Պակա։ Պակա։",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1706,
+        "completion_tokens": 336,
+        "total_tokens": 2042,
+        "cost": 0.0025068,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 1650,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0025068,
+          "upstream_inference_prompt_cost": 0.0016668,
+          "upstream_inference_completions_cost": 0.00084
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "google/gemini-2.5-flash"
+    }
+  ]
+}

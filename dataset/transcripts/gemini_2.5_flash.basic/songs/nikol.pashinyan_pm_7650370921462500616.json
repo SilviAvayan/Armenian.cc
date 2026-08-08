@@ -1,0 +1,40 @@
+{
+  "source": "nikol.pashinyan_pm_7650370921462500616.mp4",
+  "model": "google/gemini-2.5-flash",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 15.932,
+  "text": "Ինչ է տալու քեզի ես, որ կորես հորերի մեջ, ժամանակին գերի ես, ընկել որտեղ թերի ես, թողնում ես ամեն ինչը, ինչը հետ կբերի քեզ, ապե դու էդ չգիտես, էդ դու էդ չգիտես։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ինչ է տալու քեզի ես, որ կորես հորերի մեջ, ժամանակին գերի ես, ընկել որտեղ թերի ես, թողնում ես ամեն ինչը, ինչը հետ կբերի քեզ, ապե դու էդ չգիտես, էդ դու էդ չգիտես։",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 456,
+        "completion_tokens": 89,
+        "total_tokens": 545,
+        "cost": 0.0006393,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 400,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006393,
+          "upstream_inference_prompt_cost": 0.0004168,
+          "upstream_inference_completions_cost": 0.0002225
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "google/gemini-2.5-flash"
+    }
+  ]
+}
