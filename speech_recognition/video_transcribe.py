@@ -13,8 +13,14 @@ Usage:
     export ELEVENLABS_API_KEY="sk_..."
     python video_transcribe.py input.mp4
     python video_transcribe.py input.mp4 -o transcript.txt
+    python video_transcribe.py input.mp4 -o transcript.txt --json transcript.json
     python video_transcribe.py lecture.mkv --language eng --diarize
     python video_transcribe.py long_podcast.mp4 --max-chunk-minutes 20
+
+The --json sidecar keeps everything Scribe returns that the plain text drops:
+per-word logprobs (confidences), timings, speaker ids and token types, plus
+per-chunk language detection probabilities. Word timestamps are shifted by
+each chunk's offset so they refer to the original video timeline.
 
 Requirements:
     - Python 3.9+
@@ -33,6 +39,7 @@ A note on "verbatim":
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import re
 import shutil
@@ -206,8 +213,31 @@ def format_diarized(result) -> str:
     return "\n".join(f"{nice(s)}: {t.strip()}" for s, t in segments if t.strip())
 
 
+def extract_words(result, offset: float, chunk_index: int) -> list[dict]:
+    """
+    Flatten Scribe's word-level response into JSON-able dicts, shifting start/end
+    by the chunk's offset in the original audio. Keeps every token type (word,
+    spacing, audio_event) so the exact text can be reconstructed downstream;
+    filter on type == "word" if you only care about spoken words.
+    """
+    out: list[dict] = []
+    for w in getattr(result, "words", None) or []:
+        start = getattr(w, "start", None)
+        end = getattr(w, "end", None)
+        out.append({
+            "text": getattr(w, "text", ""),
+            "type": getattr(w, "type", "word"),
+            "start": round(start + offset, 3) if start is not None else None,
+            "end": round(end + offset, 3) if end is not None else None,
+            "speaker_id": getattr(w, "speaker_id", None),
+            "logprob": getattr(w, "logprob", None),
+            "chunk": chunk_index,
+        })
+    return out
+
+
 def transcribe_video(video: Path, *, model, language, tag_events: bool, diarize: bool,
-                     max_chunk_minutes: float, keep_audio: bool, quiet: bool) -> str:
+                     max_chunk_minutes: float, keep_audio: bool, quiet: bool) -> tuple[str, dict]:
     api_key = os.getenv("ELEVENLABS_API_KEY")
     if not api_key:
         sys.exit("Set your API key first:  export ELEVENLABS_API_KEY=sk_...")
@@ -224,11 +254,15 @@ def transcribe_video(video: Path, *, model, language, tag_events: bool, diarize:
             mids = detect_silence_midpoints(audio)
             cuts = choose_cut_points(duration, mids, max_chunk)
             chunks = split_audio(audio, cuts, tmpdir, quiet)
+            offsets = [0.0, *cuts]
         else:
             chunks = [audio]
+            offsets = [0.0]
 
         texts: list[str] = []
-        for idx, chunk in enumerate(chunks, 1):
+        words: list[dict] = []
+        chunk_meta: list[dict] = []
+        for idx, (chunk, offset) in enumerate(zip(chunks, offsets), 1):
             log(f"Transcribing chunk {idx}/{len(chunks)} ...", quiet)
             try:
                 result = transcribe_file(
@@ -239,9 +273,28 @@ def transcribe_video(video: Path, *, model, language, tag_events: bool, diarize:
                 sys.exit(f"ElevenLabs transcription failed on chunk {idx}: {e}")
             piece = format_diarized(result) if diarize else (getattr(result, "text", "") or "")
             texts.append(piece.strip())
+            words.extend(extract_words(result, offset, idx))
+            chunk_meta.append({
+                "index": idx,
+                "offset": offset,
+                "language_code": getattr(result, "language_code", None),
+                "language_probability": getattr(result, "language_probability", None),
+                "text": (getattr(result, "text", "") or "").strip(),
+            })
 
         joiner = "\n\n" if diarize else " "
-        return joiner.join(t for t in texts if t).strip()
+        transcript = joiner.join(t for t in texts if t).strip()
+        data = {
+            "source": video.name,
+            "model_id": model,
+            "requested_language": language,
+            "diarize": diarize,
+            "duration_seconds": round(duration, 3),
+            "text": transcript,
+            "chunks": chunk_meta,
+            "words": words,
+        }
+        return transcript, data
     finally:
         if keep_audio:
             log(f"Extracted audio kept in: {tmpdir}", quiet)
@@ -256,6 +309,9 @@ def main() -> None:
     )
     p.add_argument("video", type=Path, help="Path to the input video file")
     p.add_argument("-o", "--output", type=Path, help="Write transcript to this file (default: stdout)")
+    p.add_argument("-j", "--json", type=Path, metavar="PATH",
+                   help="Also write a JSON sidecar with word-level logprobs, timings, "
+                        "speaker ids and language-detection probabilities")
     p.add_argument("-l", "--language", default=None,
                    help="ISO-639-3 language code, e.g. eng, hye, rus. Omit for auto-detect.")
     p.add_argument("-m", "--model", default=DEFAULT_MODEL, help=f"Scribe model id (default: {DEFAULT_MODEL})")
@@ -273,7 +329,7 @@ def main() -> None:
 
     require_ffmpeg()
 
-    transcript = transcribe_video(
+    transcript, data = transcribe_video(
         args.video,
         model=args.model,
         language=args.language,
@@ -283,6 +339,12 @@ def main() -> None:
         keep_audio=args.keep_audio,
         quiet=args.quiet,
     )
+
+    if args.json:
+        args.json.write_text(
+            json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
+        log(f"Word-level data written to {args.json}", args.quiet)
 
     if args.output:
         args.output.write_text(transcript + "\n", encoding="utf-8")
