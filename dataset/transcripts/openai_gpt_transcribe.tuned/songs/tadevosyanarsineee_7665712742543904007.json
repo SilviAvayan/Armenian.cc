@@ -5,21 +5,20 @@
   "endpoint": "openrouter /v1/audio/transcriptions",
   "method": "temperature-0 + format ladder + retry-on-empty + quality gates (loop/rate/script) + chunked rescue",
   "duration_seconds": 13.047982,
-  "ok": false,
-  "text": "",
-  "variant": "exhausted",
+  "ok": true,
+  "text": "Հոգես ինձ պես ասել, որ քեզ հիշում եմ դեռ, ինչպես չասել, որ դու դեռ թանկ ես ինձ համար։",
+  "variant": "m4a:t0",
   "chunks": [
     {
       "index": 1,
       "offset": 0.0,
-      "text": "",
+      "text": "Հոգես ինձ պես ասել, որ քեզ հիշում եմ դեռ, ինչպես չասել, որ դու դեռ թանկ ես ինձ համար։",
       "usage": {
-        "audio_seconds": null,
-        "cost": null
+        "audio_seconds": 14,
+        "cost": 0.00105
       },
-      "latency_seconds": null,
+      "latency_seconds": 2.1166948990000094,
       "provider_model": "openai/gpt-transcribe"
     }
-  ],
-  "note": "empty/degenerate on every rung incl. chunked rescue"
+  ]
 }
