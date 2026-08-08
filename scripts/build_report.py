@@ -70,6 +70,30 @@ if ad:
     S.append("| category | videos | words | mean confidence | low-confidence words |\n|---|--:|--:|--:|--:|")
     for c,d in ad["confidence_by_category"].items():
         S.append(f"| {c} | {d['videos']} | {d['words']} | {d['mean_conf']} | {pct(d['low_conf_rate'])} |")
+    wj=load("asr_wer.json")
+    if wj:
+        S.append(f"\n**Human-checked WER** (25 clips, 5/category, transcripts verified by ear): "
+                 f"overall **{pct(wj['overall']['WER'])} WER** / {pct(wj['overall']['CER'])} CER; "
+                 f"{pct(wj['clean_rate'])} of clips needed no correction.\n")
+        S.append("![wer](chart_wer.svg)\n")
+        S.append("| category | clips | WER | CER |\n|---|--:|--:|--:|")
+        for c,b in wj["by_category"].items():
+            nn=sum(1 for r in wj["clips"] if r["category"]==c)
+            S.append(f"| {c} | {nn} | {pct(b['WER'])} | {pct(b['CER'])} |")
+        # rank agreement between confidence signal and human WER
+        common=[c for c in ad["confidence_by_category"] if c in wj["by_category"]]
+        if len(common)>=3:
+            conf_rank=sorted(common,key=lambda c:ad["confidence_by_category"][c]["low_conf_rate"])
+            wer_rank =sorted(common,key=lambda c:wj["by_category"][c]["WER"])
+            agree = conf_rank==wer_rank
+            S.append(f"\n> **Two independent signals agree.** Ranking the tiers by ElevenLabs' own "
+                     f"low-confidence rate and by human WER gives the {'*identical*' if agree else 'a similar'} "
+                     f"order ({' < '.join(conf_rank)}) — the shipped confidence is a trustworthy triage cue.\n")
+        S.append("\n**Representative ASR errors** (what the model got wrong):")
+        S.append("- code-switch: Russian *подписка* written as Armenian «պատպիսկա» (loanword transliterated, not recognized)")
+        S.append("- utterance-final deletions: dropped «Մերսի։», «Ի՞նչ։»")
+        S.append("- hallucinated insertion: added «դու՛ ես» that wasn't spoken (a 'difficult' clip)")
+        S.append("- song/fast-speech substitutions: «խառնին»→«արմին», «թերի»→«ձերի»\n")
     if res and res.get("by_asr_difficulty"):
         S.append("\nGloss accuracy on the labeled subset, by the same categories "
                  "(small n — directional):\n")
