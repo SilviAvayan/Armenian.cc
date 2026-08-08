@@ -1,0 +1,19 @@
+{
+  "source": "tadevosyanarsineee_7665712742543904007.mp4",
+  "model_id": "scribe_v2_realtime",
+  "text": "Je speelt Chasselburg.",
+  "events": [
+    {
+      "message_type": "committed_transcript",
+      "text": ""
+    },
+    {
+      "message_type": "committed_transcript",
+      "text": "Je speelt Chasselburg."
+    },
+    {
+      "message_type": "committed_transcript",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "source": "nikol.pashinyan_pm_7562576540278508820.mp4",
+  "model_id": "scribe_v2_realtime",
+  "text": "Вон та беретка, тестарий.",
+  "events": [
+    {
+      "message_type": "committed_transcript",
+      "text": "Вон та беретка, тестарий."
+    },
+    {
+      "message_type": "committed_transcript",
+      "text": ""
+    },
+    {
+      "error": "sent 1000 (OK) User ended conversation; no close frame received"
+    }
+  ]
+}

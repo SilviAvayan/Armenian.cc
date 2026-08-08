@@ -1,0 +1,31 @@
+{
+  "source": "www.ishkhanutyun.am_7637965868802051346.mp4",
+  "model_id": "scribe_v2_realtime",
+  "text": "Բայց կանում եմ մի մարդու, ընդհամենը մ եկ մարդ է, դու ե ս մեկ մարդ է, դու ես մեկ մարդ է, դու ես մեկ մարդ ես մեկ մարդ ես ես մեկ մարդ ես ե",
+  "events": [
+    {
+      "message_type": "committed_transcript",
+      "text": "Բայց կանում եմ մի մարդու, ընդհամենը մ"
+    },
+    {
+      "message_type": "committed_transcript",
+      "text": "եկ մարդ է, դու ե"
+    },
+    {
+      "message_type": "committed_transcript",
+      "text": "ս մեկ մարդ է, դու ես մեկ"
+    },
+    {
+      "message_type": "committed_transcript",
+      "text": "մարդ է, դու ես մեկ մարդ"
+    },
+    {
+      "message_type": "committed_transcript",
+      "text": "ես մեկ մարդ ես"
+    },
+    {
+      "message_type": "committed_transcript",
+      "text": "ես մեկ մարդ ես ե"
+    }
+  ]
+}
