@@ -1,0 +1,3954 @@
+{
+  "benchmark_clips": 19,
+  "anchor": "elevenlabs_scribe_v2.basic",
+  "models": {
+    "deepgram_nova_3.basic": {
+      "clips_present": 19,
+      "coverage": 0.947,
+      "empty_rate": 0.053,
+      "loop_rate": 0.0,
+      "armenian_pct": 99.7,
+      "vs_scribe_median": 0.644,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 741,
+          "armenian_pct": 99.7,
+          "scribe_dist": 0.759
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 90,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.839
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 118,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.919
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1239,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.269
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1576,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.28
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 509,
+          "armenian_pct": 98.8,
+          "scribe_dist": 0.416
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2321,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.587
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 864,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.624
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 149,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.902
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 467,
+          "armenian_pct": 99.7,
+          "scribe_dist": 0.649
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 1189,
+          "armenian_pct": 99.3,
+          "scribe_dist": 0.815
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1342,
+          "armenian_pct": 98.8,
+          "scribe_dist": 0.412
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 369,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.644
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 458,
+          "armenian_pct": 98.4,
+          "scribe_dist": 0.506
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 330,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.327
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 159,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.776
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 87,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.808
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 60,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.5
+        }
+      ]
+    },
+    "elevenlabs_scribe_v2.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.053,
+      "armenian_pct": 99.3,
+      "vs_scribe_median": null,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1227,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 160,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 883,
+          "loop": true,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1535,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1958,
+          "armenian_pct": 99.5
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 662,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2524,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1038,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 348,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 562,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 2084,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1473,
+          "armenian_pct": 92.9
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 621,
+          "armenian_pct": 95.2
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 489,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 350,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 304,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 315,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 157,
+          "armenian_pct": 100.0
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 85,
+          "armenian_pct": 100.0
+        }
+      ]
+    },
+    "fish_audio_transcribe_1.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.211,
+      "armenian_pct": 0.0,
+      "vs_scribe_median": 1.036,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1032,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 136,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 1505,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.789
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1369,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.239
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1748,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.311
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 532,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.011
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2278,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.036
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 882,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.076
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 3162,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 7.431
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 2554,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 5.298
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 5422,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 2.266
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1157,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 575,
+          "armenian_pct": 0.0,
+          "scribe_dist": 0.99
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 436,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.057
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 300,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 3172,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 10.368
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 308,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 125,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 69,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        }
+      ]
+    },
+    "gemini_2.5_flash.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.053,
+      "armenian_pct": 99.5,
+      "vs_scribe_median": 0.173,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1226,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.294
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 174,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.258
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 131074,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 155.852
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1522,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.03
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1960,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.04
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 650,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.056
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2775,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.197
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1027,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.271
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 330,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.294
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 554,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.277
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 2178,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.443
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1448,
+          "armenian_pct": 94.1,
+          "scribe_dist": 0.118
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 628,
+          "armenian_pct": 98.6,
+          "scribe_dist": 0.05
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 485,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.172
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 344,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.038
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 310,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.092
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 321,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.173
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 160,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.323
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 85,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.111
+        }
+      ]
+    },
+    "gemini_2.5_flash_lite.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.105,
+      "armenian_pct": 99.6,
+      "vs_scribe_median": 0.243,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1242,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.417
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 176,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.613
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 131074,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 155.852
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1535,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.035
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1950,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.049
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 653,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.112
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2797,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.243
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1025,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.206
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 322,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.451
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 535,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.287
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 66192,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 45.685
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1451,
+          "armenian_pct": 95.1,
+          "scribe_dist": 0.145
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 619,
+          "armenian_pct": 98.6,
+          "scribe_dist": 0.198
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 481,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.356
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 351,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.038
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 270,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.592
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 294,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.288
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 159,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.194
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 86,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.111
+        }
+      ]
+    },
+    "gemini_2.5_pro.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.053,
+      "armenian_pct": 99.7,
+      "vs_scribe_median": 0.186,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1244,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.311
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 177,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.29
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 1421,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.66
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1516,
+          "armenian_pct": 99.7,
+          "scribe_dist": 0.02
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1946,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.04
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 650,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.079
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2791,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.186
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1048,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.194
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 337,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.373
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 546,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.191
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 2347,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.537
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1454,
+          "armenian_pct": 97.8,
+          "scribe_dist": 0.165
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 624,
+          "armenian_pct": 98.6,
+          "scribe_dist": 0.059
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 490,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.161
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 347,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.058
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 310,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.329
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 323,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.173
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 166,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.29
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 88,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.167
+        }
+      ]
+    },
+    "gemini_3.1_flash_lite.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.105,
+      "armenian_pct": 99.4,
+      "vs_scribe_median": 0.236,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1209,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.36
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 180,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.419
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 131068,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 155.847
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1504,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.05
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1947,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.022
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 647,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.067
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2791,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.236
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1039,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.2
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 386,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.627
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 531,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.255
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 65624,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 40.315
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1469,
+          "armenian_pct": 92.6,
+          "scribe_dist": 0.125
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 623,
+          "armenian_pct": 98.4,
+          "scribe_dist": 0.059
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 486,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.287
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 343,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.038
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 292,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.553
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 313,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.269
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 159,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.226
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 88,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.167
+        }
+      ]
+    },
+    "gemini_3.1_pro_preview.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.053,
+      "armenian_pct": 99.7,
+      "vs_scribe_median": 0.227,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1215,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.232
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 182,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.355
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 5246,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 5.34
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1512,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.035
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1969,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.027
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 648,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.056
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2774,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.227
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1027,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.265
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 400,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.392
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 570,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.191
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 2380,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.515
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1450,
+          "armenian_pct": 97.8,
+          "scribe_dist": 0.125
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 622,
+          "armenian_pct": 98.6,
+          "scribe_dist": 0.03
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 497,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.276
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 354,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.038
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 306,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.592
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 316,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.115
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 163,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.387
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 85,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.056
+        }
+      ]
+    },
+    "gemini_3.5_flash.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.053,
+      "armenian_pct": 99.8,
+      "vs_scribe_median": 0.231,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1210,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.241
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 183,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.323
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 5238,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 5.335
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1505,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.05
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1953,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.031
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 650,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.056
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2785,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.231
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1037,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.276
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 311,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.353
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 565,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.223
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 2361,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.52
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1443,
+          "armenian_pct": 97.7,
+          "scribe_dist": 0.137
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 621,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.109
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 494,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.276
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 344,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.038
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 306,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.566
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 315,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.192
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 159,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.29
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 85,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.111
+        }
+      ]
+    },
+    "gemini_3.5_flash_lite.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.053,
+      "armenian_pct": 98.7,
+      "vs_scribe_median": 0.323,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1217,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.43
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 182,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.355
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 1141,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.368
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1511,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.04
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1952,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.031
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 649,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.101
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2766,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.333
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1021,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.224
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 316,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.451
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 560,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.351
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 2099,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.522
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1435,
+          "armenian_pct": 98.3,
+          "scribe_dist": 0.18
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 628,
+          "armenian_pct": 98.5,
+          "scribe_dist": 0.158
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 475,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.264
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 34,
+          "armenian_pct": 80.8,
+          "scribe_dist": 0.923
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 282,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.579
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 322,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.173
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 158,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.323
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 87,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.111
+        }
+      ]
+    },
+    "gemini_3.6_flash.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.053,
+      "armenian_pct": 99.6,
+      "vs_scribe_median": 0.238,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1223,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.289
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 178,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.29
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 1211,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.397
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1507,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.05
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1940,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.053
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 652,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.045
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2801,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.238
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1015,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.294
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 318,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.529
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 564,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.234
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 2330,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.52
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1446,
+          "armenian_pct": 97.0,
+          "scribe_dist": 0.169
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 623,
+          "armenian_pct": 97.4,
+          "scribe_dist": 0.059
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 485,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.414
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 345,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.077
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 296,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.579
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 320,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.212
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 162,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.548
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 86,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.056
+        }
+      ]
+    },
+    "gemini_3_flash_preview.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.053,
+      "armenian_pct": 99.4,
+      "vs_scribe_median": 0.234,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1220,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.25
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 174,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.258
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 131069,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 155.847
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1505,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.05
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1951,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.031
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 647,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.067
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2772,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.234
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1023,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.276
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 357,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.373
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 552,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.191
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 2181,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.49
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1439,
+          "armenian_pct": 92.6,
+          "scribe_dist": 0.086
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 624,
+          "armenian_pct": 98.6,
+          "scribe_dist": 0.069
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 480,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.299
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 342,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.038
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 297,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.566
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 313,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.212
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 161,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.355
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 86,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.056
+        }
+      ]
+    },
+    "google_chirp_3.basic": {
+      "clips_present": 19,
+      "coverage": 0.211,
+      "empty_rate": 0.789,
+      "loop_rate": 0.0,
+      "armenian_pct": 74.7,
+      "vs_scribe_median": 0.647,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 649,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.079
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 145,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.647
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 630,
+          "armenian_pct": 98.7,
+          "scribe_dist": 0.089
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 287,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.865
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 0,
+          "empty": true
+        }
+      ]
+    },
+    "google_chirp_3.chunked": {
+      "clips_present": 19,
+      "coverage": 0.632,
+      "empty_rate": 0.368,
+      "loop_rate": 0.0,
+      "armenian_pct": 99.2,
+      "vs_scribe_median": 0.472,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 808,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.575
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1511,
+          "armenian_pct": 99.3,
+          "scribe_dist": 0.07
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1889,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.08
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 596,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.472
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2850,
+          "armenian_pct": 99.1,
+          "scribe_dist": 0.313
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 812,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.382
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 288,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.392
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 381,
+          "armenian_pct": 96.5,
+          "scribe_dist": 0.426
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 1250,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.586
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 739,
+          "armenian_pct": 96.4,
+          "scribe_dist": 0.514
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 286,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.579
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 283,
+          "scribe_dist": 1.846
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 0,
+          "empty": true
+        }
+      ]
+    },
+    "gpt_audio.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.053,
+      "armenian_pct": 99.7,
+      "vs_scribe_median": 0.412,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1147,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.469
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 177,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.774
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 35507,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 32.349
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1507,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.075
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1945,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.089
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 649,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.067
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2736,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.308
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1036,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.412
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 342,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.471
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 537,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.447
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 16768,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.906
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 17198,
+          "armenian_pct": 99.9,
+          "scribe_dist": 0.333
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 631,
+          "armenian_pct": 98.6,
+          "scribe_dist": 0.238
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 489,
+          "armenian_pct": 97.7,
+          "scribe_dist": 0.437
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 343,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.115
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 281,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.592
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 317,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.212
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 149,
+          "armenian_pct": 99.1,
+          "scribe_dist": 0.806
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 85,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.111
+        }
+      ]
+    },
+    "gpt_audio_mini.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.105,
+      "armenian_pct": 99.5,
+      "vs_scribe_median": 0.42,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1131,
+          "armenian_pct": 99.7,
+          "scribe_dist": 0.509
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 156,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 49151,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 57.909
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1500,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.085
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1967,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.08
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 650,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.191
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2695,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.42
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 988,
+          "armenian_pct": 99.6,
+          "scribe_dist": 0.418
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 303,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.627
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 547,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.479
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 32740,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 20.057
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1403,
+          "armenian_pct": 94.5,
+          "scribe_dist": 0.227
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 607,
+          "armenian_pct": 98.4,
+          "scribe_dist": 0.366
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 482,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.506
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 331,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.212
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 277,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.632
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 316,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.25
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 156,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.903
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 82,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.167
+        }
+      ]
+    },
+    "inkling.basic": {
+      "clips_present": 19,
+      "coverage": 0.947,
+      "empty_rate": 0.053,
+      "loop_rate": 0.158,
+      "armenian_pct": 99.9,
+      "vs_scribe_median": 0.8,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1056,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.803
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 84073,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 67.038
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1517,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.124
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1879,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.276
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 640,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.382
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2443,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.821
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 898,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.8
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 240,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.804
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 525,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.851
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 55910,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 23.712
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1344,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.58
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 571,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.634
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 457,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.724
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 351,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.25
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 54613,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 143.592
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 318,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.923
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 138,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.71
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 91,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.5
+        }
+      ]
+    },
+    "inkling_small.basic": {
+      "clips_present": 18,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.278,
+      "armenian_pct": 99.9,
+      "vs_scribe_median": 0.903,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 180083,
+          "loop": true,
+          "scribe_dist": 143.592
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 66,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.935
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 131040,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 120.258
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1502,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.363
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 213692,
+          "armenian_pct": 100.0,
+          "scribe_dist": 117.804
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 596,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.753
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 80963,
+          "loop": true,
+          "scribe_dist": 59.565
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 195,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.863
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 196471,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 348.33
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 147368,
+          "loop": true,
+          "scribe_dist": 80.599
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1382,
+          "armenian_pct": 99.2,
+          "scribe_dist": 0.745
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 617,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.782
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 449,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.839
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 334,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.712
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 267,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.882
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 330,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 153,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.903
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 76,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.722
+        }
+      ]
+    },
+    "microsoft_mai_transcribe_1.5.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.053,
+      "armenian_pct": 0.0,
+      "vs_scribe_median": 1.0,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1306,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 127,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 1212,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.148
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1571,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.01
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 2149,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.316
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 660,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 1662,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1041,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.059
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 303,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.137
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 393,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 2217,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.015
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1441,
+          "armenian_pct": 0.0,
+          "scribe_dist": 0.953
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 595,
+          "armenian_pct": 0.0,
+          "scribe_dist": 0.99
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 523,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.126
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 369,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.135
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 307,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 358,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 178,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.065
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 98,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        }
+      ]
+    },
+    "mimo_v2.5.basic": {
+      "clips_present": 19,
+      "coverage": 0.842,
+      "empty_rate": 0.158,
+      "loop_rate": 0.158,
+      "armenian_pct": 76.9,
+      "vs_scribe_median": 1.327,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1335,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.101
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 267,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.677
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 49924,
+          "armenian_pct": 100.0,
+          "scribe_dist": 50.67
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 2156,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.107
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 136,
+          "armenian_pct": 31.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2577,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.327
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 65340,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 127.776
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 65305,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 134.383
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 65260,
+          "armenian_pct": 100.0,
+          "scribe_dist": 57.831
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 141,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 49,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.954
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 456936,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1255.192
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 291,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.961
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 306,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.115
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 154,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.935
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 165,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.889
+        }
+      ]
+    },
+    "mistralai_voxtral_mini_transcribe.basic": {
+      "clips_present": 19,
+      "coverage": 0.895,
+      "empty_rate": 0.105,
+      "loop_rate": 0.105,
+      "armenian_pct": 0.0,
+      "vs_scribe_median": 1.0,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1190,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 9,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 8,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1360,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1748,
+          "armenian_pct": 0.0,
+          "scribe_dist": 0.996
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 612,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2316,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 44235,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 62.806
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 86,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 432,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 29477,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 11.342
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1397,
+          "armenian_pct": 0.0,
+          "scribe_dist": 0.925
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 593,
+          "armenian_pct": 0.0,
+          "scribe_dist": 0.99
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 435,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 312,
+          "armenian_pct": 0.0,
+          "scribe_dist": 0.981
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 291,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 314,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 0,
+          "empty": true
+        }
+      ]
+    },
+    "nemotron_3_nano_omni_free.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.0,
+      "armenian_pct": 0.0,
+      "vs_scribe_median": 1.0,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 11,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        }
+      ]
+    },
+    "nvidia_parakeet_tdt_0.6b_v3.basic": {
+      "clips_present": 19,
+      "coverage": 0.895,
+      "empty_rate": 0.105,
+      "loop_rate": 0.0,
+      "armenian_pct": 0.0,
+      "vs_scribe_median": 1.0,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 126,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 729,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1415,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 791,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 437,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 1396,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 201,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 85,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 127,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 315,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 614,
+          "armenian_pct": 0.0,
+          "scribe_dist": 0.949
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 67,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 186,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 255,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 257,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 151,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 87,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        }
+      ]
+    },
+    "openai_gpt_4o_mini_transcribe.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.053,
+      "armenian_pct": 89.1,
+      "vs_scribe_median": 0.425,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1069,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.588
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 50,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.871
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 1197,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.507
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1521,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.04
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1959,
+          "armenian_pct": 99.8,
+          "scribe_dist": 0.133
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 639,
+          "armenian_pct": 99.3,
+          "scribe_dist": 0.213
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2662,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.451
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 959,
+          "armenian_pct": 99.6,
+          "scribe_dist": 0.382
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 254,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.627
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 523,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.426
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 1607,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.719
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1403,
+          "armenian_pct": 98.9,
+          "scribe_dist": 0.322
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 602,
+          "armenian_pct": 98.6,
+          "scribe_dist": 0.356
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 474,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.425
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 354,
+          "armenian_pct": 97.0,
+          "scribe_dist": 0.231
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 231,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 305,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.423
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 93,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 85,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.056
+        }
+      ]
+    },
+    "openai_gpt_4o_transcribe.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.105,
+      "armenian_pct": 94.0,
+      "vs_scribe_median": 0.624,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1077,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.68
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 17,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.903
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 1304,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.799
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1518,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.289
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1948,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.28
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 644,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.225
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2675,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.612
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 997,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.624
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 60,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.941
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 512,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.702
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 1792,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.791
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1403,
+          "armenian_pct": 97.6,
+          "scribe_dist": 0.424
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 621,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.624
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 469,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.471
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 342,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.173
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 4104,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 13.263
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 186,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.673
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 35,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 42,
+          "armenian_pct": 87.5,
+          "scribe_dist": 0.556
+        }
+      ]
+    },
+    "openai_gpt_transcribe.basic": {
+      "clips_present": 19,
+      "coverage": 0.947,
+      "empty_rate": 0.053,
+      "loop_rate": 0.0,
+      "armenian_pct": 99.4,
+      "vs_scribe_median": 0.33,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1117,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.43
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 118,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.613
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1490,
+          "armenian_pct": 99.4,
+          "scribe_dist": 0.06
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1945,
+          "armenian_pct": 99.5,
+          "scribe_dist": 0.049
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 649,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.056
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2716,
+          "armenian_pct": 99.7,
+          "scribe_dist": 0.311
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 977,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.341
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 217,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.588
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 536,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.33
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 1775,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.618
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1415,
+          "armenian_pct": 92.3,
+          "scribe_dist": 0.118
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 623,
+          "armenian_pct": 98.6,
+          "scribe_dist": 0.149
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 474,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.379
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 351,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.135
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 279,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.566
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 317,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.269
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 149,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.452
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 85,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.167
+        }
+      ]
+    },
+    "openai_whisper_1.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.0,
+      "armenian_pct": 99.8,
+      "vs_scribe_median": 0.75,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 550,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.833
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 160,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.774
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 324,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.789
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1217,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.428
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1765,
+          "armenian_pct": 99.2,
+          "scribe_dist": 0.436
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 333,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.719
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 1121,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.841
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 955,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.635
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 206,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.902
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 518,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.819
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 1010,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.919
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 625,
+          "armenian_pct": 96.4,
+          "scribe_dist": 0.8
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 619,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.644
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 490,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.724
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 350,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.538
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 199,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.75
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 225,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.75
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 165,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.677
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 84,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.222
+        }
+      ]
+    },
+    "openai_whisper_large_v3.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.0,
+      "armenian_pct": 99.8,
+      "vs_scribe_median": 0.871,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 449,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.908
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 154,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.871
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 260,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.847
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 432,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.796
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 676,
+          "armenian_pct": 98.0,
+          "scribe_dist": 0.778
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 291,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.685
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 1320,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.816
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 282,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.935
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 80,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.98
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 496,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.851
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 820,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.889
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 474,
+          "armenian_pct": 97.9,
+          "scribe_dist": 0.792
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 273,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.871
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 165,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.862
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 40,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.962
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 81,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.934
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 5,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 41,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.935
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 81,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.444
+        }
+      ]
+    },
+    "openai_whisper_large_v3_turbo.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.0,
+      "armenian_pct": 92.3,
+      "vs_scribe_median": 0.805,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1049,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.825
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 166,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.065
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 91,
+          "armenian_pct": 39.1,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1207,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.463
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1310,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.573
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 653,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.438
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 1154,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.859
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 948,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.788
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 16,
+          "armenian_pct": 76.9,
+          "scribe_dist": 0.98
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 559,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.883
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 994,
+          "armenian_pct": 77.7,
+          "scribe_dist": 0.936
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 767,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.773
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 522,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.634
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 343,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.805
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 347,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.481
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 283,
+          "armenian_pct": 60.6,
+          "scribe_dist": 0.789
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 379,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 191,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.968
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 85,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.333
+        }
+      ]
+    },
+    "qwen_qwen3_asr_flash_2026_02_10.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.158,
+      "armenian_pct": 47.4,
+      "vs_scribe_median": 1.0,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 580,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 317,
+          "armenian_pct": 0.0,
+          "scribe_dist": 2.516
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 546,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1584,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.965
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1960,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.618
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 619,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.82
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 2879,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.859
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 957,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 241,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 2933,
+          "armenian_pct": 0.0,
+          "scribe_dist": 7.426
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 635,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1383,
+          "armenian_pct": 0.0,
+          "scribe_dist": 0.941
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 600,
+          "armenian_pct": 99.8,
+          "scribe_dist": 0.871
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 389,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 381,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.385
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 272,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.855
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 324,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.962
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 161,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.129
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 95,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.222
+        }
+      ]
+    },
+    "voxtral_small_24b.basic": {
+      "clips_present": 19,
+      "coverage": 1.0,
+      "empty_rate": 0.0,
+      "loop_rate": 0.211,
+      "armenian_pct": 99.5,
+      "vs_scribe_median": 0.644,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 1108,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.772
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 148,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.774
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 41231,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 46.818
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 1483,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.174
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1959,
+          "armenian_pct": 99.3,
+          "scribe_dist": 0.2
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 614,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.36
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 854,
+          "armenian_pct": 99.1,
+          "scribe_dist": 0.959
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 1023,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.588
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 52753,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 166.824
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 507,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.638
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 44665,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 15.66
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 1422,
+          "armenian_pct": 92.5,
+          "scribe_dist": 0.345
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 593,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.584
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 451,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.644
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 336,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.385
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 459,
+          "loop": true,
+          "armenian_pct": 100.0,
+          "scribe_dist": 1.184
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 313,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.404
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 160,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.71
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 62,
+          "armenian_pct": 100.0,
+          "scribe_dist": 0.722
+        }
+      ]
+    },
+    "x_ai_grok_stt_1.0.basic": {
+      "clips_present": 19,
+      "coverage": 0.842,
+      "empty_rate": 0.158,
+      "loop_rate": 0.053,
+      "armenian_pct": 0.0,
+      "vs_scribe_median": 1.0,
+      "clips": [
+        {
+          "clip": "difficult/karenmirzoian_7667995553770327317",
+          "chars": 441,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/nor.ej__7651201577209957653",
+          "chars": 9,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "difficult/www.ishkhanutyun.am_7637965868802051346",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "formal/abcmedia.am_7657222046253911316",
+          "chars": 840,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/armenia_24_7657454144982174994",
+          "chars": 1286,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "formal/blognewsarm_7662354589777235220",
+          "chars": 303,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7637943792519302420",
+          "chars": 1497,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/haykmarutyanofficial_7647205361145089300",
+          "chars": 494,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/nikol.pashinyan_pm_7562576540278508820",
+          "chars": 12,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/simpo.....samo_7629307328130501904",
+          "chars": 375,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "multi_speakers/zhanna_jaan_7668233361306995988",
+          "chars": 221,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/evelinakhanoyan_7670229790628072724",
+          "chars": 622,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/fasdusha_7668221284311977224",
+          "chars": 391,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/harutyunyans_blog_7666758253413469460",
+          "chars": 232,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "single_speaker/jakasan91_7653412079835073810",
+          "chars": 491,
+          "loop": true,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.769
+        },
+        {
+          "clip": "songs/aimusicx_01_7651850146090634503",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "songs/aimusicx_01_7657848404281789704",
+          "chars": 31,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        },
+        {
+          "clip": "songs/nikol.pashinyan_pm_7650370921462500616",
+          "chars": 0,
+          "empty": true
+        },
+        {
+          "clip": "songs/tadevosyanarsineee_7665712742543904007",
+          "chars": 69,
+          "armenian_pct": 0.0,
+          "scribe_dist": 1.0
+        }
+      ]
+    }
+  }
+}
