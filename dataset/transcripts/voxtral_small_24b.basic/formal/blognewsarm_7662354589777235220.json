@@ -1,0 +1,40 @@
+{
+  "source": "blognewsarm_7662354589777235220.mp4",
+  "model": "mistralai/voxtral-small-24b-2507",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 45.375,
+  "text": "Հրապարակային տեղեկությունների համաձայն, 13-ամյա աղջիկը մահացել է չարաշահել է էներգետիկները։ Հրապարակային տեղեկությունների համաձայն, 3-ամյա աղջիկը վախճանվել է։ 13-ամյա աղջիկը ակտիվորեն զբաղվում էր ֆուտբոլով, մահացել է։ Գյուղում լուրեր են պտտվում, որ էներգետիկ օմպելիկները չարաշահել են անչափահասը, ինչի հետևանքով էլ մահ է գրանցվել։ Կախցրաշենի վարչական ղեկավար Աշոտ Խալաթյանը հաստատեց տեղեկությունը։ Ջերմել է, հիվանդանոց են տեղափոխել, կեղխի հետ կապված թարախային պրոցեսներ են եղել։ Այո, ասում են էներգետիկները օկտագորվել է։ Շատ ակտիվ երեխա էր, ֆուտբոլային ակումբների հետ են արդեն իրենք անչել, մեծ ցավ է համայնքի համար։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Հրապարակային տեղեկությունների համաձայն, 13-ամյա աղջիկը մահացել է չարաշահել է էներգետիկները։ Հրապարակային տեղեկությունների համաձայն, 3-ամյա աղջիկը վախճանվել է։ 13-ամյա աղջիկը ակտիվորեն զբաղվում էր ֆուտբոլով, մահացել է։ Գյուղում լուրեր են պտտվում, որ էներգետիկ օմպելիկները չարաշահել են անչափահասը, ինչի հետևանքով էլ մահ է գրանցվել։ Կախցրաշենի վարչական ղեկավար Աշոտ Խալաթյանը հաստատեց տեղեկությունը։ Ջերմել է, հիվանդանոց են տեղափոխել, կեղխի հետ կապված թարախային պրոցեսներ են եղել։ Այո, ասում են էներգետիկները օկտագորվել է։ Շատ ակտիվ երեխա էր, ֆուտբոլային ակումբների հետ են արդեն իրենք անչել, մեծ ցավ է համայնքի համար։",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 108,
+        "completion_tokens": 253,
+        "total_tokens": 361,
+        "cost": 0.0045822,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 45,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0045822,
+          "upstream_inference_prompt_cost": 0.0045063,
+          "upstream_inference_completions_cost": 7.59e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "mistralai/voxtral-small-24b-2507"
+    }
+  ]
+}

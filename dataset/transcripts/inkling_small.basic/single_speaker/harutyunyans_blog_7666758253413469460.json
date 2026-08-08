@@ -1,0 +1,40 @@
+{
+  "source": "harutyunyans_blog_7666758253413469460.mp4",
+  "model": "thinkingmachines/inkling-small",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 33.207,
+  "text": "Իշխանությունը ոբեստն է, քանի որ ոչ ոք չի ուզում լինել այնտեղ։ Մադամ, մենք ամբողջ օրը ճաշել ենք։ Նաև կայուն դրամա, լի, միակ տեսքով, որ դու կկարող ես... Սո՞ւնը, մի շոու ամեն ինչից ուշանում է, էլենը միշտ կայքի ճակին է ճաղգայում, գայանեից աննահաճ է, կարինե, ձրի հո՞գե բան, հասկի մշտական մայրաքաղաքը չի տաքանում, մի՞րենը, սա հիանալի պատմություն է։ Հարթլի, միշտ բասկի, բայց հայերենից հասկանում... Սյուզի, ամե՛ն ինչը մեզ համար նոր է, բայց մի՛ կարծեք, որ...",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Իշխանությունը ոբեստն է, քանի որ ոչ ոք չի ուզում լինել այնտեղ։ Մադամ, մենք ամբողջ օրը ճաշել ենք։ Նաև կայուն դրամա, լի, միակ տեսքով, որ դու կկարող ես... Սո՞ւնը, մի շոու ամեն ինչից ուշանում է, էլենը միշտ կայքի ճակին է ճաղգայում, գայանեից աննահաճ է, կարինե, ձրի հո՞գե բան, հասկի մշտական մայրաքաղաքը չի տաքանում, մի՞րենը, սա հիանալի պատմություն է։ Հարթլի, միշտ բասկի, բայց հայերենից հասկանում... Սյուզի, ամե՛ն ինչը մեզ համար նոր է, բայց մի՛ կարծեք, որ...",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 742,
+        "completion_tokens": 200,
+        "total_tokens": 942,
+        "cost": 0.000611,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000611,
+          "upstream_inference_prompt_cost": 0.000371,
+          "upstream_inference_completions_cost": 0.00024
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 16,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "thinkingmachines/inkling-small"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "openai/gpt-audio",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 11.613,
+  "text": "Մի րոպե, մի րոպե, շո՛ւն, իմ հեռախոսը, իմ հեռախոսը հե՛տ տվեք։ Հեռախոսը տվեք, տղա ջան։ Հեռախոսը տվեք, հա՛լա։ Հեռախոսը տվեք։ Ինչ-որ կարողանանք զանգահարել, ես շտապ բան ունեմ, իսկ...",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Մի րոպե, մի րոպե, շո՛ւն, իմ հեռախոսը, իմ հեռախոսը հե՛տ տվեք։ Հեռախոսը տվեք, տղա ջան։ Հեռախոսը տվեք, հա՛լա։ Հեռախոսը տվեք։ Ինչ-որ կարողանանք զանգահարել, ես շտապ բան ունեմ, իսկ...",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 185,
+        "completion_tokens": 83,
+        "total_tokens": 268,
+        "cost": 0.0047145,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 116,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0047145,
+          "upstream_inference_prompt_cost": 0.0038845,
+          "upstream_inference_completions_cost": 0.00083
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "openai/gpt-audio"
+    }
+  ]
+}

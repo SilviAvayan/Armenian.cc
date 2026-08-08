@@ -1,0 +1,40 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "xiaomi/mimo-v2.5",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 11.613,
+  "text": "I'm sorry, but I'm unable to listen to or process audio files. I can only work with text. If you can provide the audio through a service that offers automatic transcription, or if you have access to a human transcriber, they may be able to help you with this request.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "I'm sorry, but I'm unable to listen to or process audio files. I can only work with text. If you can provide the audio through a service that offers automatic transcription, or if you have access to a human transcriber, they may be able to help you with this request.",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 380,
+        "completion_tokens": 101,
+        "total_tokens": 481,
+        "cost": 5.51376e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 192,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.51376e-05,
+          "upstream_inference_prompt_cost": 2.68576e-05,
+          "upstream_inference_completions_cost": 2.828e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 38,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "xiaomi/mimo-v2.5"
+    }
+  ]
+}

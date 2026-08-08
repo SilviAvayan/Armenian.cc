@@ -1,0 +1,40 @@
+{
+  "source": "tadevosyanarsineee_7665712742543904007.mp4",
+  "model": "xiaomi/mimo-v2.5",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 12.913,
+  "text": "Հար քես ինչ րես ասել, թող քես իշխումեն դել\nՔես իշխումեն դել, հար քես ինչ րես ասել\nՄի շվեշ ար քես ինչ, թող քես իշխումեն դել\nՀար քես ինչ րես ասել, թող քես իշխումեն դել",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Հար քես ինչ րես ասել, թող քես իշխումեն դել\nՔես իշխումեն դել, հար քես ինչ րես ասել\nՄի շվեշ ար քես ինչ, թող քես իշխումեն դել\nՀար քես ինչ րես ասել, թող քես իշխումեն դել",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 388,
+        "completion_tokens": 333,
+        "total_tokens": 721,
+        "cost": 0.0001212176,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 192,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001212176,
+          "upstream_inference_prompt_cost": 2.79776e-05,
+          "upstream_inference_completions_cost": 9.324e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 165,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "xiaomi/mimo-v2.5"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "source": "blognewsarm_7662354589777235220.mp4",
+  "model": "thinkingmachines/inkling",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 45.375,
+  "text": "Ովքերական դեպք արտաշատի խախտրաշենքում, ասները քամի-աղճիկը մահացրեց, ճարաշահել է էներգետիկները։ Հրապարակիտեղեկությունները երեք արտաշատի խախտրաշենքում զոհբերգական դեպք է տեղի ունեցել։ Տասներկուամյա աղջիկը, ով ակտիվորեն զբաղվում էր ֆուտբոլով, մահացել է։ Գյուղը լուրեր են պտտվում, որ էներգետիկ ընկերներն են ճարաշահել անչափահասին, ինչի հետևանքով էլ մահ է գրանցվել։ Խախտրաշենի վարչական ղեկավար Աշոտ Ղալաթյանը հաստատեց տեղեկությունը։ Ջերմելե, հիվանդանոց են տեղափոխել, գլխի հետ կապված տարախային գործընթացներ են եղել։ Այո, ասում են էներգետիկներն օգտագործել են։ Շատ ակտիվ երեխա էր, ֆուտբոլային ակումբների ցեյն արդեն կանչել, մեծ ցավ է սահմունքի համար։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ովքերական դեպք արտաշատի խախտրաշենքում, ասները քամի-աղճիկը մահացրեց, ճարաշահել է էներգետիկները։ Հրապարակիտեղեկությունները երեք արտաշատի խախտրաշենքում զոհբերգական դեպք է տեղի ունեցել։ Տասներկուամյա աղջիկը, ով ակտիվորեն զբաղվում էր ֆուտբոլով, մահացել է։ Գյուղը լուրեր են պտտվում, որ էներգետիկ ընկերներն են ճարաշահել անչափահասին, ինչի հետևանքով էլ մահ է գրանցվել։ Խախտրաշենի վարչական ղեկավար Աշոտ Ղալաթյանը հաստատեց տեղեկությունը։ Ջերմելե, հիվանդանոց են տեղափոխել, գլխի հետ կապված տարախային գործընթացներ են եղել։ Այո, ասում են էներգետիկներն օգտագործել են։ Շատ ակտիվ երեխա էր, ֆուտբոլային ակումբների ցեյն արդեն կանչել, մեծ ցավ է սահմունքի համար։",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 984,
+        "completion_tokens": 254,
+        "total_tokens": 1238,
+        "cost": 0.0020127,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 909,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0020127,
+          "upstream_inference_prompt_cost": 0.000984,
+          "upstream_inference_completions_cost": 0.0010287
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 23,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "thinkingmachines/inkling"
+    }
+  ]
+}
