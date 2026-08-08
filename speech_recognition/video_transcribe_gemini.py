@@ -55,10 +55,12 @@ except ImportError:
 # --- Audio extraction settings ------------------------------------------------
 # Mono 16 kHz is the standard input for speech recognition and keeps uploads
 # tiny compared to the source video. FLAC is lossless, so no accuracy is lost
-# to compression, and Gemini accepts it natively.
+# to compression, and Gemini accepts it natively. Some models only take WAV or
+# MP3 (e.g. OpenAI's gpt-audio family) — pick with --audio-format.
 SAMPLE_RATE = 16_000
-AUDIO_CODEC = "flac"
-AUDIO_EXT = "flac"
+AUDIO_FORMATS = {"flac": "flac", "wav": "pcm_s16le", "mp3": "libmp3lame"}
+AUDIO_EXT = "flac"                      # overridden by --audio-format
+AUDIO_CODEC = AUDIO_FORMATS[AUDIO_EXT]
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 DEFAULT_MODEL = "google/gemini-2.5-flash"
@@ -204,6 +206,7 @@ def transcribe_chunk(api_key: str, audio_path: Path, *, model: str, prompt: str,
     payload = {
         "model": model,
         "temperature": temperature,
+        "top_p": 1,
         "messages": [{
             "role": "user",
             "content": [
@@ -328,6 +331,9 @@ def main() -> None:
                    help=f"OpenRouter model id (default: {DEFAULT_MODEL})")
     p.add_argument("-t", "--temperature", type=float, default=0.0,
                    help="Sampling temperature; 0 is the most deterministic (default: 0)")
+    p.add_argument("-f", "--audio-format", choices=sorted(AUDIO_FORMATS), default="flac",
+                   help="Audio format sent to the model (default: flac; some models "
+                        "only accept wav or mp3)")
     p.add_argument("--max-chunk-minutes", type=float, default=DEFAULT_MAX_CHUNK_MINUTES,
                    help="Split long audio into <=N-minute chunks, cut at silence. "
                         f"0 = never split (default: {DEFAULT_MAX_CHUNK_MINUTES:g})")
@@ -339,6 +345,10 @@ def main() -> None:
         sys.exit(f"Input file not found: {args.video}")
 
     require_ffmpeg()
+
+    global AUDIO_EXT, AUDIO_CODEC
+    AUDIO_EXT = args.audio_format
+    AUDIO_CODEC = AUDIO_FORMATS[AUDIO_EXT]
 
     transcript, data = transcribe_video(
         args.video,
