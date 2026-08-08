@@ -1,0 +1,21 @@
+{
+  "source": "www.ishkhanutyun.am_7637965868802051346.mp4",
+  "model": "openai/gpt-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "duration_seconds": 76.3,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": 77.0,
+        "cost": 0.005775
+      },
+      "latency_seconds": 2.82,
+      "provider_model": "openai/gpt-transcribe"
+    }
+  ]
+}

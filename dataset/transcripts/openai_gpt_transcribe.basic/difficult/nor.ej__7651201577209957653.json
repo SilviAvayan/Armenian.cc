@@ -1,0 +1,21 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "openai/gpt-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "duration_seconds": 11.8,
+  "text": "Նիմիրոպեն, իմ հերթն ա, իմ հերթն ա, հեռու գնացեք։ Ես հերթերով հռում եմ ձեզ։ Էս որ կարողանանք զանգարել, ես շանտակ տունը…",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Նիմիրոպեն, իմ հերթն ա, իմ հերթն ա, հեռու գնացեք։ Ես հերթերով հռում եմ ձեզ։ Էս որ կարողանանք զանգարել, ես շանտակ տունը…",
+      "usage": {
+        "audio_seconds": 12.0,
+        "cost": 0.0009
+      },
+      "latency_seconds": 1.25,
+      "provider_model": "openai/gpt-transcribe"
+    }
+  ]
+}

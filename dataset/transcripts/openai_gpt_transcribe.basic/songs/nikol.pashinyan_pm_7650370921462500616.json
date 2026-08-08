@@ -1,0 +1,21 @@
+{
+  "source": "nikol.pashinyan_pm_7650370921462500616.mp4",
+  "model": "openai/gpt-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "duration_seconds": 16.1,
+  "text": "Ինչ ա տալու քեզ, օր օրերի մեջ, ժամանակին գերի ես, ընկե, որտե՞ղ թերի ես, գողում ես ամեն ինչը, ինչը հետքը բերի քեզ, ապե, դու է չգիտես, էդ դու է չգիտես։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ինչ ա տալու քեզ, օր օրերի մեջ, ժամանակին գերի ես, ընկե, որտե՞ղ թերի ես, գողում ես ամեն ինչը, ինչը հետքը բերի քեզ, ապե, դու է չգիտես, էդ դու է չգիտես։",
+      "usage": {
+        "audio_seconds": 17.0,
+        "cost": 0.001275
+      },
+      "latency_seconds": 2.53,
+      "provider_model": "openai/gpt-transcribe"
+    }
+  ]
+}
