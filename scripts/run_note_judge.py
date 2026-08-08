@@ -25,7 +25,8 @@ ap.add_argument("--workers",type=int,default=6)
 a=ap.parse_args()
 CACHE=O/"note_judge_cache.json"; cache=json.loads(CACHE.read_text()) if CACHE.exists() else {}
 lock=threading.Lock()
-def jkey(seg,word,note): return f"{a.model}::{hash((seg,word,note))}"
+import hashlib
+def jkey(seg,word,note): return f"{a.model}::"+hashlib.md5(f"{seg}|{word}|{note}".encode()).hexdigest()
 def judge(seg,word,gloss,note):
     k=jkey(seg,word,note)
     with lock:

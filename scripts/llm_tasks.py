@@ -96,7 +96,7 @@ TRANSLATE_TMPL = (
  '"glosses":["<{lang} for token 0>", ... exactly {n} items in order],'
  '"notes":[{{"word":"<armenian>","gloss":"<{lang}>","note":"<short: slang/contraction/grammar>"}}]}}')
 
-def translate_segment(model, sentence, tokens, target="Russian", max_tokens=900):
+def translate_segment(model, sentence, tokens, target="Russian", max_tokens=1500):
     n = len(tokens)
     if MOCK:
         return {"sentence": f"[{target}] {sentence}",
