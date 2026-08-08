@@ -1,0 +1,40 @@
+{
+  "source": "nikol.pashinyan_pm_7650370921462500616.mp4",
+  "model": "google/gemini-3.6-flash",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 15.932,
+  "text": "Ինչքան տալու քեզ ունեմ, որ կորես օրերիս մեջ, ժամանակին կեսն էիր, ընկեր, որ թևթև էիր, թողնում ես ամեն ինչը ինձ հետ հետ բերի քեզ, հապա էդ դու էլ չգիտես, էդ դու էլ չ",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ինչքան տալու քեզ ունեմ, որ կորես օրերիս մեջ, ժամանակին կեսն էիր, ընկեր, որ թևթև էիր, թողնում ես ամեն ինչը ինձ հետ հետ բերի քեզ, հապա էդ դու էլ չգիտես, էդ դու էլ չ",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 455,
+        "completion_tokens": 1148,
+        "total_tokens": 1603,
+        "cost": 0.0092925,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 399,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0092925,
+          "upstream_inference_prompt_cost": 0.0006825,
+          "upstream_inference_completions_cost": 0.00861
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1058,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "google/gemini-3.6-flash"
+    }
+  ]
+}

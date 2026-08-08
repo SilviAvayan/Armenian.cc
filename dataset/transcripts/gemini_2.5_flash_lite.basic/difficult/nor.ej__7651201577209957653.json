@@ -1,0 +1,40 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "google/gemini-2.5-flash-lite",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 11.613,
+  "text": "Մարոյիսս։ Միլոպայում եմ, եղբայր, իմ հերթն ա։ Իմ հերթն ա, հեռու գնացեք։ Երեխու հետ եմ, այ եղբայր։ Ես ձեռքերով հրում եմ ձեզ։ Ուրեմն կարողանաք զանգահարեք, ես շատ լավ խմում եմ, իսկ",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Մարոյիսս։ Միլոպայում եմ, եղբայր, իմ հերթն ա։ Իմ հերթն ա, հեռու գնացեք։ Երեխու հետ եմ, այ եղբայր։ Ես ձեռքերով հրում եմ ձեզ։ Ուրեմն կարողանաք զանգահարեք, ես շատ լավ խմում եմ, իսկ",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 356,
+        "completion_tokens": 112,
+        "total_tokens": 468,
+        "cost": 0.0001404,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 300,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001404,
+          "upstream_inference_prompt_cost": 9.56e-05,
+          "upstream_inference_completions_cost": 4.48e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "google/gemini-2.5-flash-lite"
+    }
+  ]
+}

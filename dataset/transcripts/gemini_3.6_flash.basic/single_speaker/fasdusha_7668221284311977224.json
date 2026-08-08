@@ -1,0 +1,40 @@
+{
+  "source": "fasdusha_7668221284311977224.mp4",
+  "model": "google/gemini-3.6-flash",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 38.362,
+  "text": "Դուք գիտե՞ք Samsung-ի էս ֆիշկեքի մասին։ Առաջինը՝ էկրանի վրայով ձեռքդ ձախից աջ ես տանում ու սքրինշոթ ա լինում։ Երկրորդը՝ բլոկի կնոպկեն երկու անգամ կտցնում ես ու կամերան ա միանում։ Երրորդը՝ զանգ ա գալիս, որ չես ուզում վերցնես, ուղղակի շրջում ես հեռախոսը էկրանով ներքև ու կորում ա և՛ զանգը, և՛ վիբրացիան։ Նույնն էլ բուդիլնիկի հետ․ թեքում ես ու լռություն ա։ Երկու անգամ էկրանին կտցնում ես, էկրանը միանում ա, երկու անգամ նորից կտցնում ես, անջատվում ա։ Հինգերորդը․ երկու մատով ներքևից վերև քաշում ես ու էկրանդ կիսվում ա երկու մասի, մեկով կարաս վիդեո նայես, մյուսով գրվես։ Էդքան բան, follow տուր, ուղարկիր ընկերներիդ, որ չկորցնես։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Դուք գիտե՞ք Samsung-ի էս ֆիշկեքի մասին։ Առաջինը՝ էկրանի վրայով ձեռքդ ձախից աջ ես տանում ու սքրինշոթ ա լինում։ Երկրորդը՝ բլոկի կնոպկեն երկու անգամ կտցնում ես ու կամերան ա միանում։ Երրորդը՝ զանգ ա գալիս, որ չես ուզում վերցնես, ուղղակի շրջում ես հեռախոսը էկրանով ներքև ու կորում ա և՛ զանգը, և՛ վիբրացիան։ Նույնն էլ բուդիլնիկի հետ․ թեքում ես ու լռություն ա։ Երկու անգամ էկրանին կտցնում ես, էկրանը միանում ա, երկու անգամ նորից կտցնում ես, անջատվում ա։ Հինգերորդը․ երկու մատով ներքևից վերև քաշում ես ու էկրանդ կիսվում ա երկու մասի, մեկով կարաս վիդեո նայես, մյուսով գրվես։ Էդքան բան, follow տուր, ուղարկիր ընկերներիդ, որ չկորցնես։",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1017,
+        "completion_tokens": 1144,
+        "total_tokens": 2161,
+        "cost": 0.0101055,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 960,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0101055,
+          "upstream_inference_prompt_cost": 0.0015255,
+          "upstream_inference_completions_cost": 0.00858
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 789,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "google/gemini-3.6-flash"
+    }
+  ]
+}

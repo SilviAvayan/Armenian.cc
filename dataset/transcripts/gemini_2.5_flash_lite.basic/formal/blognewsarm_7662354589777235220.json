@@ -1,0 +1,40 @@
+{
+  "source": "blognewsarm_7662354589777235220.mp4",
+  "model": "google/gemini-2.5-flash-lite",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 45.375,
+  "text": "Ողբերգական դեպք՝ Արտաշատի Քաղցրաշեն գյուղում։ 13-ամյա աղջիկը մահացել է, չարաշահել է էներգետիկները։ Հրապարակի տեղեկություններով՝ երեկ Արտաշատի Քաղցրաշեն գյուղում ողբերգական դեպք է տեղի ունեցել։ 13-ամյա աղջիկը, ով ակտիվորեն զբաղվում էր ֆուտբոլով, մահացել է։ Գյուղում լուրեր են պտտվում, որ էներգետիկ կպելիկներն են չարաշահել անչափահասը, ինչի հետևանքով էլ մահ է գրանցվել։ Քաղցրաշենի վարչական ղեկավար Աշոտ Խալաթյանը հաստատեց տեղեկությունը։ Ջերմացել է, հիվանդանոց են տեղափոխել, գլխի հետ կապված թարախային պրոցեսներ են եղել։ Այո, ասում են՝ էներգետիկներ է օգտագործել։ Շատ ակտիվ երեխա էր, ֆուտբոլային ակումբներից էին արդեն իրեն կանչել։ Մեծ ցավ է սա համայնքի համար։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Ողբերգական դեպք՝ Արտաշատի Քաղցրաշեն գյուղում։ 13-ամյա աղջիկը մահացել է, չարաշահել է էներգետիկները։ Հրապարակի տեղեկություններով՝ երեկ Արտաշատի Քաղցրաշեն գյուղում ողբերգական դեպք է տեղի ունեցել։ 13-ամյա աղջիկը, ով ակտիվորեն զբաղվում էր ֆուտբոլով, մահացել է։ Գյուղում լուրեր են պտտվում, որ էներգետիկ կպելիկներն են չարաշահել անչափահասը, ինչի հետևանքով էլ մահ է գրանցվել։ Քաղցրաշենի վարչական ղեկավար Աշոտ Խալաթյանը հաստատեց տեղեկությունը։ Ջերմացել է, հիվանդանոց են տեղափոխել, գլխի հետ կապված թարախային պրոցեսներ են եղել։ Այո, ասում են՝ էներգետիկներ է օգտագործել։ Շատ ակտիվ երեխա էր, ֆուտբոլային ակումբներից էին արդեն իրեն կանչել։ Մեծ ցավ է սա համայնքի համար։",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1206,
+        "completion_tokens": 364,
+        "total_tokens": 1570,
+        "cost": 0.0004962,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 1150,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004962,
+          "upstream_inference_prompt_cost": 0.0003506,
+          "upstream_inference_completions_cost": 0.0001456
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "google/gemini-2.5-flash-lite"
+    }
+  ]
+}

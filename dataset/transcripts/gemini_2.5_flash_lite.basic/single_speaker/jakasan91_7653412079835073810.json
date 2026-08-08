@@ -1,0 +1,40 @@
+{
+  "source": "jakasan91_7653412079835073810.mp4",
+  "model": "google/gemini-2.5-flash-lite",
+  "requested_language": "Armenian",
+  "prompt": "Transcribe the speech in this audio verbatim. Output only the transcript text, with punctuation, and nothing else - no introduction, no commentary, no markdown formatting. If there is no speech in the audio, output nothing. The audio is in Armenian; transcribe it in that language.",
+  "duration_seconds": 19.74,
+  "text": "Մի դեպքում, մի փակիր այս տեսանյութը։ 2026 թվականի ամենամեծ անակնկալը քեզ է սպասում։ Մնա յոթ վայրկյան, հետո գրիր ամեն։ Դու և քո ընտանիքը Աստծուց բարի լուր կստանաք։ Թող այսօրվանից անհանգստությունը, հոգնածությունը ու տխրությունը հեռանան քո կյանքից։ Եթե հնարավորություն ունես, այս հույսը փոխանցիր գոնե մեկ հարազատի, և թող տասներկու օրհնություն գա քո տուն։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "Մի դեպքում, մի փակիր այս տեսանյութը։ 2026 թվականի ամենամեծ անակնկալը քեզ է սպասում։ Մնա յոթ վայրկյան, հետո գրիր ամեն։ Դու և քո ընտանիքը Աստծուց բարի լուր կստանաք։ Թող այսօրվանից անհանգստությունը, հոգնածությունը ու տխրությունը հեռանան քո կյանքից։ Եթե հնարավորություն ունես, այս հույսը փոխանցիր գոնե մեկ հարազատի, և թող տասներկու օրհնություն գա քո տուն։",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 556,
+        "completion_tokens": 187,
+        "total_tokens": 743,
+        "cost": 0.0002304,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 500,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002304,
+          "upstream_inference_prompt_cost": 0.0001556,
+          "upstream_inference_completions_cost": 7.48e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "provider_model": "google/gemini-2.5-flash-lite"
+    }
+  ]
+}
