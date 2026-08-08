@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# generated analysis artifacts (regenerate via ./run_all.sh once real labels are in)
+out/*
+!out/.gitkeep
+
+# human labels (exported from the browser tool)
+gold_labels.json
+
+# python
+__pycache__/
+*.pyc
+.DS_Store
+
+# scraped corpus (re-fetch with scripts/fetch_corpus.py)
+data/
