@@ -47,7 +47,7 @@ def judge(r):
         if k in cache: return r["id"],cache[k]
     out=orclient.chat(a.judge_model,[{"role":"system","content":SYS},
         {"role":"user","content":TMPL.format(seg=r["seg"],word=r["word"],gloss=r["gloss"])}],
-        temperature=0.0,max_tokens=20,json_mode=True)
+        temperature=0.0,max_tokens=1200,json_mode=True,reasoning={"effort":"low"})
     try: v=json.loads(re.search(r"\{.*\}",out,re.S).group(0)).get("verdict")
     except Exception: v=None
     with lock: cache[k]=v; CACHE.write_text(json.dumps(cache,ensure_ascii=False))

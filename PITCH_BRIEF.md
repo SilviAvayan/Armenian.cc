@@ -93,11 +93,11 @@ baseline `production≈100%` column — it's circular (gold = the shipped gloss)
 
 Findings: a cheap **flash-lite** tier wins; **reasoning-heavy tiers (3.5/3.6-flash, 3.1-pro, DeepSeek-v4) break the JSON contract** (70–96% empty) and are slow (v4 ~16–24s/call). This is not a harness bug: after capping reasoning (`effort:low`) and raising the token budget, gemini-3.5-flash *still* failed **72%** of calls (reasoning crowds out the structured output). For a per-word glosser that runs on every video, **reliability + latency matter as much as raw quality** — flash-lite wins on all three.
 
-*(Task B — few-shot judge + fresh human-eval on the winner — is pending: OpenRouter credits were exhausted by the reasoning-model re-runs; resume once topped up.)*
+**Task B.1 — few-shot judge (the payoff):** seeding the gloss judge with 8 of your labeled examples lifts it from **κ=0.22 → 0.66** (substantial, clears the trust bar), **precision 1.0** on flagged errors. So the human labels *make the judge trustworthy* — closing the loop. Caveat: run on `deepseek-v4-flash`, which (reasoning model) left 45% of calls unparseable → only 58 scored; deploy with a reliable flash-tier judge for full coverage. *(Fresh human-eval of the winner's own glosses still pending.)*
 
 **Grammar/notes human→judge loop:** human says **89% of notes correct** (errors mostly ASR-driven); DeepSeek grammar judge **κ=0.00** (rubber-stamps, catches 0/5) → not scaled.
 
-**Meta-finding (the story):** two independent judge validations both fail — gloss judge **over-flags** (κ=0.22), grammar judge **rubber-stamps** (κ=0.00) → off-the-shelf LLM judges aren't reliable for fine-grained Armenian gloss/grammar, so **evaluation stays human-anchored.**
+**Meta-finding (the story):** *zero-shot* LLM judges fail in opposite ways — gloss judge **over-flags** (κ=0.22), grammar judge **rubber-stamps** (κ=0.00). But **few-shot with the human labels fixes it**: the gloss judge jumps to **κ=0.66** (trustworthy). So the arc is: human-anchored gold → zero-shot judges aren't good enough → *human examples make the judge trustworthy* → then it can scale. Honest, and it shows the human labels doing real work.
 
 ## What's ⏳ pending (engineering session is finishing)
 - `translate.py` reproduction run on the ElevenLabs transcripts → eval its output vs incumbent.
