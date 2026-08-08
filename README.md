@@ -8,6 +8,11 @@ The goal is not to assert "it works" but to **measure** it: where it's accurate,
 where it breaks, whether its shipped confidence signal predicts errors, and whether
 the LLM is doing work a dictionary couldn't.
 
+**Headline result — [ASR model comparison](ASR_EVALUATION.md):** 36 transcription runs
+across 33 models (ElevenLabs, Gemini, OpenAI, Whisper, Chirp, …) scored against
+human-corrected references. ElevenLabs Scribe v1 leads (WER 0.061); Gemini is the only
+competitive LLM family; commodity ASR fails on Armenian.
+
 ## Pipeline
 ```
 video → ASR (ElevenLabs Scribe)      speech_recognition/video_transcribe.py  [teammate]
