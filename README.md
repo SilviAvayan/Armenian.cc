@@ -8,6 +8,18 @@ The goal is not to assert "it works" but to **measure** it: where it's accurate,
 where it breaks, whether its shipped confidence signal predicts errors, and whether
 the LLM is doing work a dictionary couldn't.
 
+## Pipeline
+```
+video → ASR (ElevenLabs Scribe)      speech_recognition/video_transcribe.py  [teammate]
+      → words→segments bridge         scripts/asr_to_segments.py
+      → translate (sentence + gloss)  scripts/translate.py
+      → EVALUATION                    scripts/analyze.py … (this harness)
+```
+The ASR stage **must emit Scribe's per-word data** (`text,start,end,logprob`), not just
+plain text — the uncertainty analysis and word/gloss alignment depend on `logprob`.
+`asr_to_segments.py` groups those words into sentence segments; `translate.py` adds the
+full-sentence translation + per-word contextual gloss + notes (eval-ready, see SCHEMA.md).
+
 ## What it measures
 1. **Per-word gloss accuracy** on a *stratified* human-gold set (colloquial, polysemy,
    low-confidence, code-switch, and an easy control), with Wilson 95% CIs.

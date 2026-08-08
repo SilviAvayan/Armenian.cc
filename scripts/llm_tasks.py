@@ -62,3 +62,29 @@ def glosses_match(model, seg, word, gold, cand):
     return _parse_json(orclient.chat(model,
         [{"role":"user","content":MATCH_TMPL.format(seg=seg,word=word,gold=gold,cand=cand)}],
         temperature=0.0, max_tokens=20, json_mode=True))
+
+# ---------- 4. THE PRODUCTION COMPONENT: translate a segment ----------
+# Takes an ASR segment (sentence + ordered tokens) and returns the full-sentence
+# translation, a gloss per token IN ORDER, and notes for tricky/colloquial words.
+TRANSLATE_SYS = ("You translate spoken, often colloquial/dialectal Armenian for "
+ "{lang}-speaking learners. Glosses must fit the word's meaning IN THIS SENTENCE, "
+ "not its dictionary default. Output STRICT JSON only.")
+TRANSLATE_TMPL = (
+ "Armenian sentence (spoken): «{sent}»\n\n"
+ "Tokens (translate EACH in this context, keep exact order and count = {n}):\n{toklist}\n\n"
+ 'Return JSON: {{"sentence":"<full {lang} translation>",'
+ '"glosses":["<{lang} for token 0>", ... exactly {n} items in order],'
+ '"notes":[{{"word":"<armenian>","gloss":"<{lang}>","note":"<short: slang/contraction/grammar>"}}]}}')
+
+def translate_segment(model, sentence, tokens, target="Russian", max_tokens=900):
+    n = len(tokens)
+    if MOCK:
+        return {"sentence": f"[{target}] {sentence}",
+                "glosses": [f"g:{t}" for t in tokens],
+                "notes": [{"word": tokens[0], "gloss": "mock", "note": "mock"}] if tokens else []}
+    toklist = "\n".join(f"{i}: {t}" for i, t in enumerate(tokens))
+    out = orclient.chat(model,
+        [{"role":"system","content":TRANSLATE_SYS.format(lang=target)},
+         {"role":"user","content":TRANSLATE_TMPL.format(sent=sentence,n=n,toklist=toklist,lang=target)}],
+        temperature=0.0, max_tokens=max_tokens, json_mode=True)
+    return _parse_json(out)
