@@ -1,0 +1,25 @@
+{
+  "source": "karenmirzoian_7667995553770327317.mp4",
+  "model": "openai/gpt-transcribe",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "method": "temperature-0 + format ladder + retry-on-empty + quality gates (loop/rate/script) + chunked rescue",
+  "duration_seconds": 66.662993,
+  "ok": false,
+  "text": "",
+  "variant": "exhausted",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": null,
+        "cost": null
+      },
+      "latency_seconds": null,
+      "provider_model": "openai/gpt-transcribe"
+    }
+  ],
+  "note": "empty/degenerate on every rung incl. chunked rescue"
+}
