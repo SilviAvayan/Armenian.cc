@@ -10,7 +10,8 @@ rp=pathlib.Path(a.refs)
 if not rp.exists(): raise SystemExit(f"no refs at {rp} — check transcripts in eval/asr.html then Export")
 refs=json.loads(rp.read_text()).get("refs",{})
 
-def toks(t): return re.sub(r"[։՝՜՞,.\-—«»…]"," ",t or "").split()
+def norm(t): return re.sub(r"[։՝՜՞՛'’,.\-—«»…]"," ",(t or "").lower())
+def toks(t): return norm(t).split()
 def dist(a,b):  # Levenshtein
     n,m=len(a),len(b); d=list(range(m+1))
     for i in range(1,n+1):
@@ -27,7 +28,7 @@ for id_,it in items.items():
     done+=1
     hyp,ref=it["text"], r.get("reference",it["text"])
     ha,ra=toks(hyp),toks(ref); we=dist(ha,ra); wn=max(1,len(ra))
-    hc,rc=list(re.sub(r"\s","",hyp)),list(re.sub(r"\s","",ref)); ce=dist(hc,rc); cn=max(1,len(rc))
+    hc,rc=list(re.sub(r"\s","",norm(hyp))),list(re.sub(r"\s","",norm(ref))); ce=dist(hc,rc); cn=max(1,len(rc))
     c=it["category"]
     for key,val in ((0,we),(1,wn),(2,ce),(3,cn)):
         agg[c][key]+=val; agg["ALL"][key]+=val
