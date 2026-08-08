@@ -26,7 +26,7 @@ ap.add_argument("--from-corpus", action="store_true",
                 help="simulate ASR input by stripping translations off data/corpus.json")
 ap.add_argument("--limit", type=int, default=0)
 ap.add_argument("--out", default=str(HERE/"out"/"my_pipeline.json"))
-ap.add_argument("--model", default="deepseek/deepseek-chat-v3.1")
+ap.add_argument("--model", default="google/gemini-2.5-flash")  # matches team's ASR path; judge stays a different family
 ap.add_argument("--target", default="Russian")
 ap.add_argument("--workers", type=int, default=6)
 args = ap.parse_args()

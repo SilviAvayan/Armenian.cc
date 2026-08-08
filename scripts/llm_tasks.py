@@ -63,6 +63,26 @@ def glosses_match(model, seg, word, gold, cand):
         [{"role":"user","content":MATCH_TMPL.format(seg=seg,word=word,gold=gold,cand=cand)}],
         temperature=0.0, max_tokens=20, json_mode=True))
 
+# ---------- 5. grammar/note judge: is the model's linguistic claim true? ----------
+NOTE_SYS=("You are a strict bilingual Armenian–Russian linguist. You verify whether a "
+ "grammatical/etymological/register claim about an Armenian word is TRUE. Be terse.")
+NOTE_TMPL=(
+ "Armenian sentence: «{seg}»\n"
+ "Word: «{word}»   (Russian gloss: «{gloss}»)\n"
+ "Claim to verify: «{note}»\n\n"
+ "Is the claim linguistically correct for this word in this context?\n"
+ 'Reply ONLY JSON: {{"verdict":"correct|partial|wrong",'
+ '"reason":"<=15 words","fix":"<correct claim if not correct, else empty>"}}')
+
+def judge_note(model, seg, word, gloss, note):
+    if MOCK:
+        v="wrong" if len(note)%9==0 else ("partial" if len(note)%5==0 else "correct")
+        return {"verdict":v,"reason":"mock","fix":""}
+    return _parse_json(orclient.chat(model,
+        [{"role":"system","content":NOTE_SYS},
+         {"role":"user","content":NOTE_TMPL.format(seg=seg,word=word,gloss=gloss or "",note=note)}],
+        temperature=0.0, max_tokens=120, json_mode=True))
+
 # ---------- 4. THE PRODUCTION COMPONENT: translate a segment ----------
 # Takes an ASR segment (sentence + ordered tokens) and returns the full-sentence
 # translation, a gloss per token IN ORDER, and notes for tricky/colloquial words.
