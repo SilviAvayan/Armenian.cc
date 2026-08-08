@@ -10,7 +10,7 @@ rp=pathlib.Path(a.refs)
 if not rp.exists(): raise SystemExit(f"no refs at {rp} — check transcripts in eval/asr.html then Export")
 refs=json.loads(rp.read_text()).get("refs",{})
 
-def norm(t): return re.sub(r"[։՝՜՞՛'’,.\-—«»…]"," ",(t or "").lower())
+def norm(t): return re.sub(r"[։՝՜՞՛'’,.\-—«»…:;!?]"," ",(t or "").lower()).replace("եւ","և")
 def toks(t): return norm(t).split()
 def dist(a,b):  # Levenshtein
     n,m=len(a),len(b); d=list(range(m+1))
