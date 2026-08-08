@@ -26,9 +26,12 @@ def chat(model, messages, temperature=0.0, max_tokens=512, retries=4, json_mode=
     for a in range(retries):
         try:
             req = urllib.request.Request(URL, data=data, headers=hdr)
-            with urllib.request.urlopen(req, timeout=90) as r:
+            with urllib.request.urlopen(req, timeout=120) as r:
                 j = json.loads(r.read().decode())
-            return j["choices"][0]["message"]["content"]
+            ch = j.get("choices")
+            if not ch:                       # transient null-choices (retryable)
+                raise RuntimeError("null choices: " + json.dumps(j)[:160])
+            return ch[0]["message"]["content"]
         except Exception as e:
             last = e
             try:
