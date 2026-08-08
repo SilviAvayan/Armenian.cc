@@ -1,0 +1,25 @@
+{
+  "source": "nor.ej__7651201577209957653.mp4",
+  "model": "google/chirp-3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "method": "silence-aligned chunking <=51s + wav-first fallback ladder + quality gates (loop/rate/script)",
+  "duration_seconds": 11.8,
+  "ok": false,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": 12,
+        "cost": 0.0032
+      },
+      "latency_seconds": 3.013,
+      "variant": "wav:hy",
+      "provider_model": "google/chirp-3"
+    }
+  ],
+  "note": "empty/degenerate on every attempt (music-heavy or refused clip)"
+}

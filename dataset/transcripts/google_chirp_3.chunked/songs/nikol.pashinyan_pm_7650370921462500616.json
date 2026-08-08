@@ -1,0 +1,25 @@
+{
+  "source": "nikol.pashinyan_pm_7650370921462500616.mp4",
+  "model": "google/chirp-3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "method": "silence-aligned chunking <=51s + wav-first fallback ladder + quality gates (loop/rate/script)",
+  "duration_seconds": 16.1,
+  "ok": false,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": 17,
+        "cost": 0.004533333333333334
+      },
+      "latency_seconds": 4.09,
+      "variant": "exhausted",
+      "provider_model": "google/chirp-3"
+    }
+  ],
+  "note": "empty/degenerate on every attempt (music-heavy or refused clip)"
+}

@@ -1,0 +1,25 @@
+{
+  "source": "jakasan91_7653412079835073810.mp4",
+  "model": "google/chirp-3",
+  "requested_language": "hy",
+  "endpoint": "openrouter /v1/audio/transcriptions",
+  "method": "silence-aligned chunking <=51s + wav-first fallback ladder + quality gates (loop/rate/script)",
+  "duration_seconds": 20.0,
+  "ok": false,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "text": "",
+      "usage": {
+        "audio_seconds": 20,
+        "cost": 0.005333333333333333
+      },
+      "latency_seconds": 4.666,
+      "variant": "exhausted",
+      "provider_model": "google/chirp-3"
+    }
+  ],
+  "note": "empty/degenerate on every attempt (music-heavy or refused clip)"
+}
