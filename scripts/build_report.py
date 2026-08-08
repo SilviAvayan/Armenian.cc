@@ -34,7 +34,12 @@ if res:
     u=res["uncertainty"]
     S.append(f"- Shipped ASR confidence predicts errors: **AUC={u['auc_logprob_vs_glosserror']}** "
              f"(gloss error), **{u['auc_logprob_vs_mistranscription']}** (mis-transcription).")
-    S.append(f"- Phrase-translation faithful rate: **{pct(res['phrase_translation']['faithful_rate'])}**.\n")
+    _se=load("sentence_eval.json")
+    if _se:
+        S.append(f"- Sentence translation: **{pct(_se['faithful_rate'])} faithful**, "
+                 f"**chrF++ {_se['chrfpp_mean']}**/100 (n={_se['n']}).\n")
+    else:
+        S.append(f"- Sentence-level translation: _pending (rate in eval/sentences.html)._\n")
     S.append("![stratum](chart_stratum.svg)\n")
     S.append("## 1. Accuracy by difficulty stratum\n"
              "We did **not** sample randomly — we stratified to stress each rubric axis and kept an "
@@ -58,6 +63,24 @@ if bl:
     S.append("")
 else:
     S.append("_(run `compare_baseline.py` with a working key to fill this in)_\n")
+
+se=load("sentence_eval.json")
+if se:
+    degenerate = se["n_identical_to_ref"] >= se["n"]
+    S.append("### Sentence-level translation quality\n")
+    S.append(f"Whole-sentence translation on {se['n']} sentences, human direct assessment: "
+             f"**{pct(se['faithful_rate'])} faithful**, ratings {se['ratings']}. A fluent annotator "
+             f"accepted **{se['n_identical_to_ref']}/{se['n']}** model translations verbatim — the "
+             f"sentence stage is essentially solved; the headroom is in the per-word gloss (§1).\n")
+    if degenerate:
+        S.append("> **chrF++ not reported as a quality number here.** References were prefilled with "
+                 "the model output and left unchanged, so chrF++ is 100 by construction — a metric "
+                 "can't score a system against its own output. A meaningful chrF++ needs *blind* "
+                 "references (translate from Armenian without seeing the model's version). "
+                 "(BLEU rejected regardless: poor for Armenian morphology + tiny n.)\n")
+    else:
+        S.append(f"- **chrF++ mean {se['chrfpp_mean']}**/100 vs blind human references "
+                 f"(char 1-6 + word 1-2; BLEU rejected for Armenian morphology).\n")
 
 ad=load("asr_difficulty.json")
 if ad:
@@ -129,6 +152,25 @@ else:
 # failure taxonomy
 fm=(OUT/"failures.md")
 if fm.exists(): S.append(fm.read_text())
+
+cp=load("copula_probe.json")
+if cp:
+    e=cp.get("է",{})
+    S.append("### Named failure: copula/auxiliary gloss contamination\n")
+    S.append("Armenian builds the present as *participle + auxiliary 'to be'* "
+             "(«սիրում եմ» = \"I love\": «սիրում» carries the meaning, «եմ» is just \"am\"). "
+             "The incumbent glosser routinely puts the lexical meaning on the **auxiliary** — "
+             "teaching a learner that a function word means something it doesn't.\n")
+    if e:
+        S.append(f"- **«է» (\"is\")**: only ~{100-round(e['non_copula_share']*100)}% of its "
+                 f"{e['n']} uses get a plain copula gloss (`есть/это`); the rest absorb a "
+                 f"neighbouring word — e.g. **«է → на улице»**, «է → идет», «է → говорит».")
+    S.append("- **«...um եմ» → «люблю/хочу»**: the auxiliary «եմ» glossed with the main verb's meaning.")
+    S.append("- Verified example: **«շրջում → Так»** (should be *переворачиваю*) while the model's "
+             "own *note* correctly said *переворачивать* — gloss and note disagree.\n")
+    S.append("> Reported as an *upper bound* (some forms are homographs, e.g. «ես» = 'I'/'you-are'), "
+             "but the direction is unambiguous and this is a concrete flaw the reproduction can fix "
+             "(gloss participle+auxiliary as a unit, or force «է→is»).\n")
 
 S.append("""## 6. Failure modes & safety — where it breaks and who it could harm
 
