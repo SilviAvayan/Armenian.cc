@@ -6,7 +6,6 @@ out/*
 !out/.gitkeep
 
 # human labels (exported from the browser tool)
-gold_labels.json
 
 # python
 __pycache__/
@@ -15,3 +14,4 @@ __pycache__/
 
 # scraped corpus (re-fetch with scripts/fetch_corpus.py)
 data/
+!gold/

@@ -1,0 +1,414 @@
+{
+  "labeled_at": "2026-08-08T11:26:39.338Z",
+  "labels": {
+    "w000": {
+      "verdict": "correct"
+    },
+    "w001": {
+      "mistranscribed": false,
+      "correction": "переворачиваю"
+    },
+    "w002": {
+      "verdict": "correct"
+    },
+    "w003": {
+      "verdict": "correct"
+    },
+    "w004": {
+      "verdict": "unsure"
+    },
+    "w005": {
+      "verdict": "correct"
+    },
+    "w006": {
+      "verdict": "unsure"
+    },
+    "w007": {
+      "verdict": "correct"
+    },
+    "w008": {
+      "verdict": "correct"
+    },
+    "w009": {
+      "verdict": "wrong"
+    },
+    "w010": {
+      "verdict": "unsure"
+    },
+    "w011": {
+      "verdict": "correct"
+    },
+    "w012": {
+      "verdict": "correct"
+    },
+    "w013": {
+      "verdict": "correct"
+    },
+    "w014": {
+      "verdict": "unsure"
+    },
+    "w016": {
+      "verdict": "correct"
+    },
+    "w017": {
+      "verdict": "correct"
+    },
+    "w018": {
+      "verdict": "correct"
+    },
+    "w019": {
+      "verdict": "correct"
+    },
+    "w020": {
+      "verdict": "wrong"
+    },
+    "w021": {
+      "verdict": "correct"
+    },
+    "w022": {
+      "verdict": "correct"
+    },
+    "w023": {
+      "verdict": "correct"
+    },
+    "w024": {
+      "correction": "нету"
+    },
+    "w025": {
+      "verdict": "correct"
+    },
+    "w026": {
+      "verdict": "correct"
+    },
+    "w027": {
+      "verdict": "correct"
+    },
+    "w028": {
+      "verdict": "correct"
+    },
+    "w029": {
+      "verdict": "correct"
+    },
+    "w030": {
+      "verdict": "correct"
+    },
+    "w031": {
+      "verdict": "correct"
+    },
+    "w032": {
+      "verdict": "correct"
+    },
+    "w033": {
+      "verdict": "correct"
+    },
+    "w034": {
+      "verdict": "correct"
+    },
+    "w035": {
+      "verdict": "correct"
+    },
+    "w036": {
+      "verdict": "correct"
+    },
+    "w037": {
+      "verdict": "correct"
+    },
+    "w038": {
+      "verdict": "unsure"
+    },
+    "w039": {
+      "verdict": "unsure"
+    },
+    "w040": {
+      "verdict": "correct"
+    },
+    "w041": {
+      "verdict": "unsure"
+    },
+    "w042": {
+      "verdict": "correct"
+    },
+    "w043": {
+      "verdict": "wrong"
+    },
+    "w044": {
+      "verdict": "correct"
+    },
+    "w045": {
+      "verdict": "correct"
+    },
+    "w046": {
+      "verdict": "correct"
+    },
+    "w047": {
+      "verdict": "correct"
+    },
+    "w048": {
+      "verdict": "correct"
+    },
+    "w049": {
+      "verdict": "correct"
+    },
+    "w050": {
+      "verdict": "correct"
+    },
+    "w051": {
+      "verdict": "correct"
+    },
+    "w052": {
+      "verdict": "unsure"
+    },
+    "w053": {
+      "verdict": "correct"
+    },
+    "w054": {
+      "verdict": "correct"
+    },
+    "w055": {
+      "verdict": "correct"
+    },
+    "w056": {
+      "verdict": "unsure"
+    },
+    "w057": {
+      "verdict": "correct"
+    },
+    "w058": {
+      "verdict": "correct"
+    },
+    "w059": {
+      "verdict": "correct"
+    },
+    "w060": {
+      "verdict": "wrong"
+    },
+    "w061": {
+      "verdict": "correct"
+    },
+    "w062": {
+      "verdict": "unsure"
+    },
+    "w063": {
+      "verdict": "correct"
+    },
+    "w064": {
+      "verdict": "wrong"
+    },
+    "w065": {
+      "verdict": "correct"
+    },
+    "w066": {
+      "verdict": "correct"
+    },
+    "w067": {
+      "verdict": "correct"
+    },
+    "w068": {
+      "verdict": "correct"
+    },
+    "w069": {
+      "verdict": "unsure"
+    },
+    "w070": {
+      "verdict": "unsure"
+    },
+    "w071": {
+      "verdict": "correct"
+    },
+    "w072": {
+      "verdict": "correct"
+    },
+    "w073": {
+      "verdict": "unsure"
+    },
+    "w074": {
+      "verdict": "correct"
+    },
+    "w075": {
+      "verdict": "correct"
+    },
+    "w076": {
+      "verdict": "correct",
+      "correction": "",
+      "mistranscribed": true
+    },
+    "w077": {
+      "mistranscribed": true,
+      "verdict": "acceptable",
+      "correction": "дядя"
+    },
+    "w078": {
+      "verdict": "correct"
+    },
+    "w079": {
+      "mistranscribed": true,
+      "verdict": "unsure"
+    },
+    "w080": {
+      "verdict": "unsure"
+    },
+    "w081": {
+      "verdict": "correct"
+    },
+    "w082": {
+      "verdict": "correct"
+    },
+    "w083": {
+      "verdict": "unsure"
+    },
+    "w084": {
+      "verdict": "correct"
+    },
+    "w085": {
+      "verdict": "acceptable",
+      "mistranscribed": true
+    },
+    "w086": {
+      "verdict": "correct"
+    },
+    "w087": {
+      "verdict": "correct"
+    },
+    "w088": {
+      "verdict": "correct"
+    },
+    "w089": {
+      "verdict": "correct"
+    },
+    "w090": {
+      "verdict": "correct"
+    },
+    "w091": {
+      "verdict": "wrong",
+      "mistranscribed": true
+    },
+    "w092": {
+      "verdict": "correct"
+    },
+    "w093": {
+      "verdict": "correct"
+    },
+    "w094": {
+      "verdict": "wrong",
+      "mistranscribed": true
+    },
+    "w095": {
+      "verdict": "correct"
+    },
+    "w096": {
+      "verdict": "correct"
+    },
+    "w097": {
+      "verdict": "correct"
+    },
+    "w098": {
+      "verdict": "correct"
+    },
+    "w099": {
+      "verdict": "correct"
+    },
+    "w100": {
+      "verdict": "correct"
+    },
+    "w101": {
+      "verdict": "acceptable"
+    },
+    "w102": {
+      "verdict": "correct"
+    },
+    "w103": {
+      "verdict": "correct"
+    },
+    "w104": {
+      "verdict": "correct"
+    },
+    "w105": {
+      "verdict": "correct"
+    },
+    "w106": {
+      "verdict": "correct"
+    },
+    "w107": {
+      "verdict": "correct"
+    },
+    "w108": {
+      "verdict": "acceptable"
+    },
+    "w109": {
+      "verdict": "correct"
+    },
+    "w110": {
+      "verdict": "correct"
+    },
+    "w111": {
+      "verdict": "correct"
+    },
+    "w112": {
+      "verdict": "acceptable",
+      "correction": "красные"
+    },
+    "w113": {
+      "verdict": "correct"
+    },
+    "w114": {
+      "verdict": "correct"
+    },
+    "w115": {
+      "verdict": "correct"
+    },
+    "w116": {
+      "verdict": "correct"
+    },
+    "w117": {
+      "verdict": "acceptable",
+      "correction": "отвечает"
+    },
+    "w118": {
+      "verdict": "correct"
+    },
+    "w119": {
+      "verdict": "correct"
+    },
+    "w120": {
+      "verdict": "unsure"
+    },
+    "w121": {
+      "verdict": "correct"
+    },
+    "w122": {
+      "verdict": "correct"
+    },
+    "w123": {
+      "verdict": "correct"
+    },
+    "w124": {
+      "verdict": "correct"
+    },
+    "w125": {
+      "verdict": "correct"
+    },
+    "w126": {
+      "verdict": "correct"
+    },
+    "w127": {
+      "verdict": "correct",
+      "correction": "тем"
+    },
+    "w128": {
+      "verdict": "correct"
+    },
+    "w129": {
+      "verdict": "correct"
+    },
+    "w130": {
+      "verdict": "correct"
+    },
+    "w131": {
+      "verdict": "correct"
+    },
+    "w132": {
+      "mistranscribed": false,
+      "verdict": "correct"
+    }
+  }
+}
