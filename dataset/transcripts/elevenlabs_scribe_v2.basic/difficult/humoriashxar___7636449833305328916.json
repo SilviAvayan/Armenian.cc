@@ -1,0 +1,136 @@
+{
+  "source": "humoriashxar___7636449833305328916.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 4.925,
+  "text": "Զենք, զինամթերք, թմրանյութ։ Չլավ ապը մերձ ծավալ",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "hye",
+      "language_probability": 0.9999693632125854,
+      "text": "Զենք, զինամթերք, թմրանյութ։ Չլավ ապը մերձ ծավալ"
+    }
+  ],
+  "words": [
+    {
+      "text": "Զենք,",
+      "type": "word",
+      "start": 0.5,
+      "end": 0.759,
+      "speaker_id": null,
+      "logprob": -0.004571552024572156,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.759,
+      "end": 0.839,
+      "speaker_id": null,
+      "logprob": -7.354942499659956e-05,
+      "chunk": 1
+    },
+    {
+      "text": "զինամթերք,",
+      "type": "word",
+      "start": 0.839,
+      "end": 1.519,
+      "speaker_id": null,
+      "logprob": -0.000761225559108425,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.519,
+      "end": 1.599,
+      "speaker_id": null,
+      "logprob": -0.31618836522102356,
+      "chunk": 1
+    },
+    {
+      "text": "թմրանյութ։",
+      "type": "word",
+      "start": 1.599,
+      "end": 2.399,
+      "speaker_id": null,
+      "logprob": -0.07222163407714106,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.399,
+      "end": 2.439,
+      "speaker_id": null,
+      "logprob": -0.005904138553887606,
+      "chunk": 1
+    },
+    {
+      "text": "Չլավ",
+      "type": "word",
+      "start": 2.44,
+      "end": 3.139,
+      "speaker_id": null,
+      "logprob": -0.010993448420776986,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.139,
+      "end": 3.199,
+      "speaker_id": null,
+      "logprob": -0.33758842945098877,
+      "chunk": 1
+    },
+    {
+      "text": "ապը",
+      "type": "word",
+      "start": 3.199,
+      "end": 3.699,
+      "speaker_id": null,
+      "logprob": -0.3130756616592407,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.699,
+      "end": 3.779,
+      "speaker_id": null,
+      "logprob": -0.6414958834648132,
+      "chunk": 1
+    },
+    {
+      "text": "մերձ",
+      "type": "word",
+      "start": 3.779,
+      "end": 4.199,
+      "speaker_id": null,
+      "logprob": -0.3477957369759679,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.199,
+      "end": 4.439,
+      "speaker_id": null,
+      "logprob": -0.7837706804275513,
+      "chunk": 1
+    },
+    {
+      "text": "ծավալ",
+      "type": "word",
+      "start": 4.44,
+      "end": 4.879,
+      "speaker_id": null,
+      "logprob": -0.2895588845014572,
+      "chunk": 1
+    }
+  ]
+}

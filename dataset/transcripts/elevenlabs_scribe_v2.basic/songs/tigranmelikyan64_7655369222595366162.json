@@ -1,0 +1,280 @@
+{
+  "source": "tigranmelikyan64_7655369222595366162.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 25.498,
+  "text": "Ձեռքս բռնիր մամ, որ չմոլորվեմ, որ չմոլորվեմ ճամփեքին այս չար, որ հոգուս խորքում ինձ չմեղադրեմ",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "hye",
+      "language_probability": 0.9996037483215332,
+      "text": "Ձեռքս բռնիր մամ, որ չմոլորվեմ, որ չմոլորվեմ ճամփեքին այս չար, որ հոգուս խորքում ինձ չմեղադրեմ"
+    }
+  ],
+  "words": [
+    {
+      "text": "Ձեռքս",
+      "type": "word",
+      "start": 6.859,
+      "end": 7.319,
+      "speaker_id": null,
+      "logprob": -0.47134700380265715,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.319,
+      "end": 7.359,
+      "speaker_id": null,
+      "logprob": -0.00015352977789007127,
+      "chunk": 1
+    },
+    {
+      "text": "բռնիր",
+      "type": "word",
+      "start": 7.359,
+      "end": 7.799,
+      "speaker_id": null,
+      "logprob": -0.0015979580290149896,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.799,
+      "end": 7.859,
+      "speaker_id": null,
+      "logprob": -0.257032573223114,
+      "chunk": 1
+    },
+    {
+      "text": "մամ,",
+      "type": "word",
+      "start": 7.859,
+      "end": 8.22,
+      "speaker_id": null,
+      "logprob": -0.20129845943301916,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.22,
+      "end": 8.22,
+      "speaker_id": null,
+      "logprob": -0.00020180096908006817,
+      "chunk": 1
+    },
+    {
+      "text": "որ",
+      "type": "word",
+      "start": 10.3,
+      "end": 10.46,
+      "speaker_id": null,
+      "logprob": -0.00020180096908006817,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.46,
+      "end": 10.519,
+      "speaker_id": null,
+      "logprob": -2.9682672902708873e-05,
+      "chunk": 1
+    },
+    {
+      "text": "չմոլորվեմ,",
+      "type": "word",
+      "start": 10.519,
+      "end": 11.599,
+      "speaker_id": null,
+      "logprob": -0.0008539960039342986,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.599,
+      "end": 11.599,
+      "speaker_id": null,
+      "logprob": -0.005124885123223066,
+      "chunk": 1
+    },
+    {
+      "text": "որ",
+      "type": "word",
+      "start": 13.679,
+      "end": 13.859,
+      "speaker_id": null,
+      "logprob": -0.005124885123223066,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.859,
+      "end": 13.92,
+      "speaker_id": null,
+      "logprob": -9.190614218823612e-05,
+      "chunk": 1
+    },
+    {
+      "text": "չմոլորվեմ",
+      "type": "word",
+      "start": 13.92,
+      "end": 15.139,
+      "speaker_id": null,
+      "logprob": -5.4648672630719375e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 15.139,
+      "end": 15.799,
+      "speaker_id": null,
+      "logprob": -0.022233741357922554,
+      "chunk": 1
+    },
+    {
+      "text": "ճամփեքին",
+      "type": "word",
+      "start": 15.799,
+      "end": 17.319,
+      "speaker_id": null,
+      "logprob": -0.043371124691475416,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 17.319,
+      "end": 17.399,
+      "speaker_id": null,
+      "logprob": -0.0009263038518838584,
+      "chunk": 1
+    },
+    {
+      "text": "այս",
+      "type": "word",
+      "start": 17.399,
+      "end": 17.799,
+      "speaker_id": null,
+      "logprob": -0.0006694276380585507,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 17.799,
+      "end": 17.859,
+      "speaker_id": null,
+      "logprob": -0.0016794399125501513,
+      "chunk": 1
+    },
+    {
+      "text": "չար,",
+      "type": "word",
+      "start": 17.859,
+      "end": 18.5,
+      "speaker_id": null,
+      "logprob": -0.013186051248339936,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 18.5,
+      "end": 18.5,
+      "speaker_id": null,
+      "logprob": -0.00024685196694917977,
+      "chunk": 1
+    },
+    {
+      "text": "որ",
+      "type": "word",
+      "start": 20.479,
+      "end": 20.639,
+      "speaker_id": null,
+      "logprob": -0.00024685196694917977,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 20.639,
+      "end": 20.719,
+      "speaker_id": null,
+      "logprob": -0.0001392267586197704,
+      "chunk": 1
+    },
+    {
+      "text": "հոգուս",
+      "type": "word",
+      "start": 20.719,
+      "end": 21.139,
+      "speaker_id": null,
+      "logprob": -0.04241268282445768,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 21.139,
+      "end": 21.219,
+      "speaker_id": null,
+      "logprob": -4.541770613286644e-05,
+      "chunk": 1
+    },
+    {
+      "text": "խորքում",
+      "type": "word",
+      "start": 21.219,
+      "end": 22.079,
+      "speaker_id": null,
+      "logprob": -0.00012221534104485597,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 22.079,
+      "end": 22.079,
+      "speaker_id": null,
+      "logprob": -4.887569048150908e-06,
+      "chunk": 1
+    },
+    {
+      "text": "ինձ",
+      "type": "word",
+      "start": 23.559,
+      "end": 23.779,
+      "speaker_id": null,
+      "logprob": -0.00019723127479664981,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 23.779,
+      "end": 23.839,
+      "speaker_id": null,
+      "logprob": -3.313963316031732e-05,
+      "chunk": 1
+    },
+    {
+      "text": "չմեղադրեմ",
+      "type": "word",
+      "start": 23.84,
+      "end": 25.099,
+      "speaker_id": null,
+      "logprob": -0.007266770165895448,
+      "chunk": 1
+    }
+  ]
+}

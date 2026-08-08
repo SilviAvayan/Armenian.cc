@@ -1,0 +1,208 @@
+{
+  "source": "nikol.pashinyan_pm_7640078414723960071.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 17.975,
+  "text": "Անարխիա։ Շատ տակը։ Ծունդ ածած որտեղի ելակն էր Արարատաշենի Արարատաշենի ելակը։",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "hye",
+      "language_probability": 0.9997095465660095,
+      "text": "Անարխիա։ Շատ տակը։ Ծունդ ածած որտեղի ելակն էր Արարատաշենի Արարատաշենի ելակը։"
+    }
+  ],
+  "words": [
+    {
+      "text": "Անարխիա։",
+      "type": "word",
+      "start": 1.039,
+      "end": 2.139,
+      "speaker_id": null,
+      "logprob": -0.7300355290062726,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.139,
+      "end": 2.219,
+      "speaker_id": null,
+      "logprob": -0.0018950614612549543,
+      "chunk": 1
+    },
+    {
+      "text": "Շատ",
+      "type": "word",
+      "start": 2.22,
+      "end": 9.519,
+      "speaker_id": null,
+      "logprob": -0.24454528925707564,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.519,
+      "end": 9.539,
+      "speaker_id": null,
+      "logprob": -1.0776913166046143,
+      "chunk": 1
+    },
+    {
+      "text": "տակը։",
+      "type": "word",
+      "start": 9.539,
+      "end": 10.039,
+      "speaker_id": null,
+      "logprob": -0.669389633461833,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.039,
+      "end": 10.039,
+      "speaker_id": null,
+      "logprob": -0.5815381407737732,
+      "chunk": 1
+    },
+    {
+      "text": "Ծունդ",
+      "type": "word",
+      "start": 12.359,
+      "end": 13.479,
+      "speaker_id": null,
+      "logprob": -1.1181129902601241,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.479,
+      "end": 13.579,
+      "speaker_id": null,
+      "logprob": -0.2607932984828949,
+      "chunk": 1
+    },
+    {
+      "text": "ածած",
+      "type": "word",
+      "start": 13.579,
+      "end": 13.739,
+      "speaker_id": null,
+      "logprob": -0.7700286358594894,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.739,
+      "end": 13.939,
+      "speaker_id": null,
+      "logprob": -0.3533836007118225,
+      "chunk": 1
+    },
+    {
+      "text": "որտեղի",
+      "type": "word",
+      "start": 13.939,
+      "end": 14.34,
+      "speaker_id": null,
+      "logprob": -0.12224495135160396,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.34,
+      "end": 14.439,
+      "speaker_id": null,
+      "logprob": -0.0038093398325145245,
+      "chunk": 1
+    },
+    {
+      "text": "ելակն",
+      "type": "word",
+      "start": 14.439,
+      "end": 14.819,
+      "speaker_id": null,
+      "logprob": -0.007019779644906521,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.819,
+      "end": 14.859,
+      "speaker_id": null,
+      "logprob": -0.011274555698037148,
+      "chunk": 1
+    },
+    {
+      "text": "էր",
+      "type": "word",
+      "start": 14.859,
+      "end": 15.039,
+      "speaker_id": null,
+      "logprob": -0.011274555698037148,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 15.039,
+      "end": 15.319,
+      "speaker_id": null,
+      "logprob": -0.8684431910514832,
+      "chunk": 1
+    },
+    {
+      "text": "Արարատաշենի",
+      "type": "word",
+      "start": 15.319,
+      "end": 16.079,
+      "speaker_id": null,
+      "logprob": -0.37143858839805366,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 16.079,
+      "end": 16.42,
+      "speaker_id": null,
+      "logprob": -0.02916901186108589,
+      "chunk": 1
+    },
+    {
+      "text": "Արարատաշենի",
+      "type": "word",
+      "start": 16.42,
+      "end": 17.239,
+      "speaker_id": null,
+      "logprob": -0.00597262461616827,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 17.239,
+      "end": 17.359,
+      "speaker_id": null,
+      "logprob": -0.012992254458367825,
+      "chunk": 1
+    },
+    {
+      "text": "ելակը։",
+      "type": "word",
+      "start": 17.359,
+      "end": 17.939,
+      "speaker_id": null,
+      "logprob": -0.09746566402221409,
+      "chunk": 1
+    }
+  ]
+}

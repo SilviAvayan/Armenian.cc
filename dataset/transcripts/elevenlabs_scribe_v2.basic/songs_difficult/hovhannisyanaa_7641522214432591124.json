@@ -1,0 +1,550 @@
+{
+  "source": "hovhannisyanaa_7641522214432591124.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 17.371,
+  "text": "Ora more pas ven pas gjet atë nuk më moresa ma. Tiki tiki dhomë me sy na dhomë me kërcu me jehën me poli ne. Tiki tiki dhomë me sy",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "sqi",
+      "language_probability": 0.7757529616355896,
+      "text": "Ora more pas ven pas gjet atë nuk më moresa ma. Tiki tiki dhomë me sy na dhomë me kërcu me jehën me poli ne. Tiki tiki dhomë me sy"
+    }
+  ],
+  "words": [
+    {
+      "text": "Ora",
+      "type": "word",
+      "start": 0.14,
+      "end": 1.319,
+      "speaker_id": null,
+      "logprob": -0.5311392545700073,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.319,
+      "end": 1.799,
+      "speaker_id": null,
+      "logprob": -0.34153786301612854,
+      "chunk": 1
+    },
+    {
+      "text": "more",
+      "type": "word",
+      "start": 1.799,
+      "end": 2.279,
+      "speaker_id": null,
+      "logprob": -0.34153786301612854,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.279,
+      "end": 2.379,
+      "speaker_id": null,
+      "logprob": -0.25622013211250305,
+      "chunk": 1
+    },
+    {
+      "text": "pas",
+      "type": "word",
+      "start": 2.379,
+      "end": 2.74,
+      "speaker_id": null,
+      "logprob": -0.25622013211250305,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.74,
+      "end": 2.799,
+      "speaker_id": null,
+      "logprob": -0.3006958067417145,
+      "chunk": 1
+    },
+    {
+      "text": "ven",
+      "type": "word",
+      "start": 2.799,
+      "end": 3.24,
+      "speaker_id": null,
+      "logprob": -0.3006958067417145,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.24,
+      "end": 3.299,
+      "speaker_id": null,
+      "logprob": -0.07358109205961227,
+      "chunk": 1
+    },
+    {
+      "text": "pas",
+      "type": "word",
+      "start": 3.299,
+      "end": 3.72,
+      "speaker_id": null,
+      "logprob": -0.07358109205961227,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.72,
+      "end": 3.779,
+      "speaker_id": null,
+      "logprob": -0.988663375377655,
+      "chunk": 1
+    },
+    {
+      "text": "gjet",
+      "type": "word",
+      "start": 3.779,
+      "end": 4.039,
+      "speaker_id": null,
+      "logprob": -0.7252453714609146,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.039,
+      "end": 4.079,
+      "speaker_id": null,
+      "logprob": -1.5527070760726929,
+      "chunk": 1
+    },
+    {
+      "text": "atë",
+      "type": "word",
+      "start": 4.079,
+      "end": 4.299,
+      "speaker_id": null,
+      "logprob": -1.0944518546263378,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.299,
+      "end": 4.479,
+      "speaker_id": null,
+      "logprob": -0.32992616295814514,
+      "chunk": 1
+    },
+    {
+      "text": "nuk",
+      "type": "word",
+      "start": 4.48,
+      "end": 4.739,
+      "speaker_id": null,
+      "logprob": -0.32992616295814514,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.739,
+      "end": 4.92,
+      "speaker_id": null,
+      "logprob": -0.7113984227180481,
+      "chunk": 1
+    },
+    {
+      "text": "më",
+      "type": "word",
+      "start": 4.92,
+      "end": 4.94,
+      "speaker_id": null,
+      "logprob": -0.7113984227180481,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.94,
+      "end": 4.94,
+      "speaker_id": null,
+      "logprob": -1.2822399139404297,
+      "chunk": 1
+    },
+    {
+      "text": "moresa",
+      "type": "word",
+      "start": 4.94,
+      "end": 5.5,
+      "speaker_id": null,
+      "logprob": -1.167591134707133,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.5,
+      "end": 5.599,
+      "speaker_id": null,
+      "logprob": -0.18795384466648102,
+      "chunk": 1
+    },
+    {
+      "text": "ma.",
+      "type": "word",
+      "start": 5.599,
+      "end": 7.079,
+      "speaker_id": null,
+      "logprob": -0.2124940554300944,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.079,
+      "end": 7.559,
+      "speaker_id": null,
+      "logprob": -0.05943990498781204,
+      "chunk": 1
+    },
+    {
+      "text": "Tiki",
+      "type": "word",
+      "start": 7.559,
+      "end": 7.94,
+      "speaker_id": null,
+      "logprob": -0.05943990498781204,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.94,
+      "end": 8.099,
+      "speaker_id": null,
+      "logprob": -0.32921916246414185,
+      "chunk": 1
+    },
+    {
+      "text": "tiki",
+      "type": "word",
+      "start": 8.099,
+      "end": 8.399,
+      "speaker_id": null,
+      "logprob": -0.32921916246414185,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.399,
+      "end": 8.539,
+      "speaker_id": null,
+      "logprob": -0.5124638080596924,
+      "chunk": 1
+    },
+    {
+      "text": "dhomë",
+      "type": "word",
+      "start": 8.539,
+      "end": 9.199,
+      "speaker_id": null,
+      "logprob": -0.5258206725120544,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.199,
+      "end": 9.359,
+      "speaker_id": null,
+      "logprob": -1.2940000295639038,
+      "chunk": 1
+    },
+    {
+      "text": "me",
+      "type": "word",
+      "start": 9.359,
+      "end": 9.38,
+      "speaker_id": null,
+      "logprob": -1.2940000295639038,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.38,
+      "end": 9.479,
+      "speaker_id": null,
+      "logprob": -0.0014256800059229136,
+      "chunk": 1
+    },
+    {
+      "text": "sy",
+      "type": "word",
+      "start": 9.479,
+      "end": 9.699,
+      "speaker_id": null,
+      "logprob": -0.0014256800059229136,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.699,
+      "end": 9.84,
+      "speaker_id": null,
+      "logprob": -0.434266597032547,
+      "chunk": 1
+    },
+    {
+      "text": "na",
+      "type": "word",
+      "start": 9.84,
+      "end": 10.179,
+      "speaker_id": null,
+      "logprob": -0.434266597032547,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.179,
+      "end": 10.419,
+      "speaker_id": null,
+      "logprob": -1.7817069292068481,
+      "chunk": 1
+    },
+    {
+      "text": "dhomë",
+      "type": "word",
+      "start": 10.42,
+      "end": 11.099,
+      "speaker_id": null,
+      "logprob": -0.6297575537115335,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.099,
+      "end": 11.34,
+      "speaker_id": null,
+      "logprob": -0.005119547713547945,
+      "chunk": 1
+    },
+    {
+      "text": "me",
+      "type": "word",
+      "start": 11.34,
+      "end": 11.36,
+      "speaker_id": null,
+      "logprob": -0.005119547713547945,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.36,
+      "end": 11.38,
+      "speaker_id": null,
+      "logprob": -1.6927575416048057e-05,
+      "chunk": 1
+    },
+    {
+      "text": "kërcu",
+      "type": "word",
+      "start": 11.38,
+      "end": 11.739,
+      "speaker_id": null,
+      "logprob": -0.27305281752560406,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.739,
+      "end": 11.92,
+      "speaker_id": null,
+      "logprob": -0.2976818084716797,
+      "chunk": 1
+    },
+    {
+      "text": "me",
+      "type": "word",
+      "start": 11.92,
+      "end": 12.099,
+      "speaker_id": null,
+      "logprob": -0.2976818084716797,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 12.099,
+      "end": 12.319,
+      "speaker_id": null,
+      "logprob": -1.2355949878692627,
+      "chunk": 1
+    },
+    {
+      "text": "jehën",
+      "type": "word",
+      "start": 12.319,
+      "end": 13.159,
+      "speaker_id": null,
+      "logprob": -0.9237109839916229,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.159,
+      "end": 13.219,
+      "speaker_id": null,
+      "logprob": -0.14320538938045502,
+      "chunk": 1
+    },
+    {
+      "text": "me",
+      "type": "word",
+      "start": 13.219,
+      "end": 13.239,
+      "speaker_id": null,
+      "logprob": -0.14320538938045502,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.239,
+      "end": 13.339,
+      "speaker_id": null,
+      "logprob": -0.8056590557098389,
+      "chunk": 1
+    },
+    {
+      "text": "poli",
+      "type": "word",
+      "start": 13.34,
+      "end": 14.219,
+      "speaker_id": null,
+      "logprob": -0.8056590557098389,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.219,
+      "end": 14.259,
+      "speaker_id": null,
+      "logprob": -0.20984522998332977,
+      "chunk": 1
+    },
+    {
+      "text": "ne.",
+      "type": "word",
+      "start": 14.259,
+      "end": 14.799,
+      "speaker_id": null,
+      "logprob": -0.8250929812590281,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.799,
+      "end": 15.199,
+      "speaker_id": null,
+      "logprob": -0.16078588366508484,
+      "chunk": 1
+    },
+    {
+      "text": "Tiki",
+      "type": "word",
+      "start": 15.199,
+      "end": 15.599,
+      "speaker_id": null,
+      "logprob": -0.16078588366508484,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 15.599,
+      "end": 15.659,
+      "speaker_id": null,
+      "logprob": -0.0310280192643404,
+      "chunk": 1
+    },
+    {
+      "text": "tiki",
+      "type": "word",
+      "start": 15.659,
+      "end": 16.079,
+      "speaker_id": null,
+      "logprob": -0.0310280192643404,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 16.079,
+      "end": 16.139,
+      "speaker_id": null,
+      "logprob": -0.10151881724596024,
+      "chunk": 1
+    },
+    {
+      "text": "dhomë",
+      "type": "word",
+      "start": 16.139,
+      "end": 16.579,
+      "speaker_id": null,
+      "logprob": -0.027226933860220015,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 16.579,
+      "end": 16.68,
+      "speaker_id": null,
+      "logprob": -0.011671590618789196,
+      "chunk": 1
+    },
+    {
+      "text": "me",
+      "type": "word",
+      "start": 16.68,
+      "end": 16.819,
+      "speaker_id": null,
+      "logprob": -0.011671590618789196,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 16.819,
+      "end": 17.139,
+      "speaker_id": null,
+      "logprob": -0.00014482879487331957,
+      "chunk": 1
+    },
+    {
+      "text": "sy",
+      "type": "word",
+      "start": 17.139,
+      "end": 17.319,
+      "speaker_id": null,
+      "logprob": -0.00014482879487331957,
+      "chunk": 1
+    }
+  ]
+}

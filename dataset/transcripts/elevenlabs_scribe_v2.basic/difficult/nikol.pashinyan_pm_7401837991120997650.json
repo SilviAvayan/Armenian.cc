@@ -1,0 +1,145 @@
+{
+  "source": "nikol.pashinyan_pm_7401837991120997650.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 8.176,
+  "text": "Aj lubi makro, ale nie lubi makro.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "pol",
+      "language_probability": 0.9824872612953186,
+      "text": "Aj lubi makro, ale nie lubi makro."
+    }
+  ],
+  "words": [
+    {
+      "text": "Aj",
+      "type": "word",
+      "start": 3.879,
+      "end": 4.039,
+      "speaker_id": null,
+      "logprob": -1.5159037113189697,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.039,
+      "end": 4.079,
+      "speaker_id": null,
+      "logprob": -0.09316549450159073,
+      "chunk": 1
+    },
+    {
+      "text": "lubi",
+      "type": "word",
+      "start": 4.079,
+      "end": 4.339,
+      "speaker_id": null,
+      "logprob": -0.06988407465360069,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.339,
+      "end": 4.44,
+      "speaker_id": null,
+      "logprob": -0.5367947220802307,
+      "chunk": 1
+    },
+    {
+      "text": "makro,",
+      "type": "word",
+      "start": 4.44,
+      "end": 4.819,
+      "speaker_id": null,
+      "logprob": -0.33366136252880096,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.819,
+      "end": 4.859,
+      "speaker_id": null,
+      "logprob": -1.2143383026123047,
+      "chunk": 1
+    },
+    {
+      "text": "ale",
+      "type": "word",
+      "start": 4.859,
+      "end": 5.059,
+      "speaker_id": null,
+      "logprob": -1.2143383026123047,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.059,
+      "end": 5.139,
+      "speaker_id": null,
+      "logprob": -0.2522169053554535,
+      "chunk": 1
+    },
+    {
+      "text": "nie",
+      "type": "word",
+      "start": 5.139,
+      "end": 5.159,
+      "speaker_id": null,
+      "logprob": -0.2522169053554535,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.159,
+      "end": 5.179,
+      "speaker_id": null,
+      "logprob": -3.3854863431770355e-05,
+      "chunk": 1
+    },
+    {
+      "text": "lubi",
+      "type": "word",
+      "start": 5.179,
+      "end": 5.44,
+      "speaker_id": null,
+      "logprob": -0.02980148562892282,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.44,
+      "end": 5.719,
+      "speaker_id": null,
+      "logprob": -1.0643715858459473,
+      "chunk": 1
+    },
+    {
+      "text": "makro.",
+      "type": "word",
+      "start": 5.719,
+      "end": 6.079,
+      "speaker_id": null,
+      "logprob": -0.5341798294102773,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.079,
+      "end": 6.719,
+      "speaker_id": null,
+      "logprob": -0.5950846672058105,
+      "chunk": 1
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "source": "nikol.pashinyan_pm_7613607564609064200.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 13.238,
+  "text": "Էսօր յոթին կամ ձեր տուն վարդերով, վարդերով, վարդերով։ Տանեմ յալիս զարդարեմ զարդերով, զարդերով, զարդերով",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "hye",
+      "language_probability": 1.0,
+      "text": "Էսօր յոթին կամ ձեր տուն վարդերով, վարդերով, վարդերով։ Տանեմ յալիս զարդարեմ զարդերով, զարդերով, զարդերով"
+    }
+  ],
+  "words": [
+    {
+      "text": "Էսօր",
+      "type": "word",
+      "start": 0.419,
+      "end": 0.879,
+      "speaker_id": null,
+      "logprob": -0.03892038059325387,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.879,
+      "end": 0.919,
+      "speaker_id": null,
+      "logprob": -0.009928721934556961,
+      "chunk": 1
+    },
+    {
+      "text": "յոթին",
+      "type": "word",
+      "start": 0.919,
+      "end": 1.559,
+      "speaker_id": null,
+      "logprob": -0.0458285789063666,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.559,
+      "end": 1.579,
+      "speaker_id": null,
+      "logprob": -0.10601555556058884,
+      "chunk": 1
+    },
+    {
+      "text": "կամ",
+      "type": "word",
+      "start": 1.579,
+      "end": 1.899,
+      "speaker_id": null,
+      "logprob": -0.03967117704451084,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.899,
+      "end": 1.959,
+      "speaker_id": null,
+      "logprob": -0.10241782665252686,
+      "chunk": 1
+    },
+    {
+      "text": "ձեր",
+      "type": "word",
+      "start": 1.959,
+      "end": 2.24,
+      "speaker_id": null,
+      "logprob": -0.03421000264643226,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.24,
+      "end": 2.279,
+      "speaker_id": null,
+      "logprob": -0.0009865660686045885,
+      "chunk": 1
+    },
+    {
+      "text": "տուն",
+      "type": "word",
+      "start": 2.279,
+      "end": 2.599,
+      "speaker_id": null,
+      "logprob": -0.0003696554194903001,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.599,
+      "end": 2.679,
+      "speaker_id": null,
+      "logprob": -0.01390108186751604,
+      "chunk": 1
+    },
+    {
+      "text": "վարդերով,",
+      "type": "word",
+      "start": 2.679,
+      "end": 3.779,
+      "speaker_id": null,
+      "logprob": -0.13256604262278415,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.779,
+      "end": 3.939,
+      "speaker_id": null,
+      "logprob": -0.0013068715343251824,
+      "chunk": 1
+    },
+    {
+      "text": "վարդերով,",
+      "type": "word",
+      "start": 3.939,
+      "end": 5.079,
+      "speaker_id": null,
+      "logprob": -0.0009350782141458088,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.079,
+      "end": 5.259,
+      "speaker_id": null,
+      "logprob": -0.0003589939442463219,
+      "chunk": 1
+    },
+    {
+      "text": "վարդերով։",
+      "type": "word",
+      "start": 5.259,
+      "end": 6.879,
+      "speaker_id": null,
+      "logprob": -0.08941603057731602,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.879,
+      "end": 6.919,
+      "speaker_id": null,
+      "logprob": -0.00013422065239865333,
+      "chunk": 1
+    },
+    {
+      "text": "Տանեմ",
+      "type": "word",
+      "start": 6.92,
+      "end": 7.359,
+      "speaker_id": null,
+      "logprob": -0.2005139082437381,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.359,
+      "end": 7.379,
+      "speaker_id": null,
+      "logprob": -0.009783296845853329,
+      "chunk": 1
+    },
+    {
+      "text": "յալիս",
+      "type": "word",
+      "start": 7.379,
+      "end": 8.099,
+      "speaker_id": null,
+      "logprob": -0.5224046163260937,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.099,
+      "end": 8.119,
+      "speaker_id": null,
+      "logprob": -0.7280685901641846,
+      "chunk": 1
+    },
+    {
+      "text": "զարդարեմ",
+      "type": "word",
+      "start": 8.119,
+      "end": 8.92,
+      "speaker_id": null,
+      "logprob": -0.09771553200334893,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.92,
+      "end": 9.059,
+      "speaker_id": null,
+      "logprob": -0.018071642145514488,
+      "chunk": 1
+    },
+    {
+      "text": "զարդերով,",
+      "type": "word",
+      "start": 9.059,
+      "end": 10.159,
+      "speaker_id": null,
+      "logprob": -0.0032836683058121707,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.159,
+      "end": 10.42,
+      "speaker_id": null,
+      "logprob": -0.00026842328952625394,
+      "chunk": 1
+    },
+    {
+      "text": "զարդերով,",
+      "type": "word",
+      "start": 10.42,
+      "end": 11.479,
+      "speaker_id": null,
+      "logprob": -0.00016490634667813234,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.479,
+      "end": 11.699,
+      "speaker_id": null,
+      "logprob": -4.434487345861271e-05,
+      "chunk": 1
+    },
+    {
+      "text": "զարդերով",
+      "type": "word",
+      "start": 11.699,
+      "end": 12.88,
+      "speaker_id": null,
+      "logprob": -3.136616874144238e-05,
+      "chunk": 1
+    }
+  ]
+}

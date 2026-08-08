@@ -1,0 +1,118 @@
+{
+  "source": "turn.up.themusic_7650768027788610837.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 12.913,
+  "text": "Anton Khan dem nivoz mata hayaqning.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "spa",
+      "language_probability": 0.19219860434532166,
+      "text": "Anton Khan dem nivoz mata hayaqning."
+    }
+  ],
+  "words": [
+    {
+      "text": "Anton",
+      "type": "word",
+      "start": 2.119,
+      "end": 2.44,
+      "speaker_id": null,
+      "logprob": -0.19546930491924286,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.44,
+      "end": 2.5,
+      "speaker_id": null,
+      "logprob": -0.31083762645721436,
+      "chunk": 1
+    },
+    {
+      "text": "Khan",
+      "type": "word",
+      "start": 2.5,
+      "end": 2.659,
+      "speaker_id": null,
+      "logprob": -0.31083762645721436,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.659,
+      "end": 2.7,
+      "speaker_id": null,
+      "logprob": -0.28470101952552795,
+      "chunk": 1
+    },
+    {
+      "text": "dem",
+      "type": "word",
+      "start": 2.7,
+      "end": 2.839,
+      "speaker_id": null,
+      "logprob": -0.28470101952552795,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.839,
+      "end": 2.899,
+      "speaker_id": null,
+      "logprob": -1.5794785022735596,
+      "chunk": 1
+    },
+    {
+      "text": "nivoz",
+      "type": "word",
+      "start": 2.899,
+      "end": 3.199,
+      "speaker_id": null,
+      "logprob": -0.619614964723587,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.199,
+      "end": 3.219,
+      "speaker_id": null,
+      "logprob": -0.24218405783176422,
+      "chunk": 1
+    },
+    {
+      "text": "mata",
+      "type": "word",
+      "start": 3.22,
+      "end": 3.46,
+      "speaker_id": null,
+      "logprob": -0.24218405783176422,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.46,
+      "end": 3.5,
+      "speaker_id": null,
+      "logprob": -0.37193480134010315,
+      "chunk": 1
+    },
+    {
+      "text": "hayaqning.",
+      "type": "word",
+      "start": 3.5,
+      "end": 4.239,
+      "speaker_id": null,
+      "logprob": -0.5541344195604324,
+      "chunk": 1
+    }
+  ]
+}

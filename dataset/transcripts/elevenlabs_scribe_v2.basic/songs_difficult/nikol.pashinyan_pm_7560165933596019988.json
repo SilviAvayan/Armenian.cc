@@ -1,0 +1,316 @@
+{
+  "source": "nikol.pashinyan_pm_7560165933596019988.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 12.216,
+  "text": "Jebe pan tu šéfke, jebe nás aj ten. Jebe pán ten siedla, že nená to len ten",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "slk",
+      "language_probability": 0.44893425703048706,
+      "text": "Jebe pan tu šéfke, jebe nás aj ten. Jebe pán ten siedla, že nená to len ten"
+    }
+  ],
+  "words": [
+    {
+      "text": "Jebe",
+      "type": "word",
+      "start": 0.259,
+      "end": 0.919,
+      "speaker_id": null,
+      "logprob": -1.7115449905395508,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.919,
+      "end": 1.059,
+      "speaker_id": null,
+      "logprob": -1.801448941230774,
+      "chunk": 1
+    },
+    {
+      "text": "pan",
+      "type": "word",
+      "start": 1.059,
+      "end": 1.459,
+      "speaker_id": null,
+      "logprob": -1.801448941230774,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.459,
+      "end": 1.459,
+      "speaker_id": null,
+      "logprob": -0.9675261974334717,
+      "chunk": 1
+    },
+    {
+      "text": "tu",
+      "type": "word",
+      "start": 2.539,
+      "end": 2.779,
+      "speaker_id": null,
+      "logprob": -0.9675261974334717,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.779,
+      "end": 3.039,
+      "speaker_id": null,
+      "logprob": -0.08389352262020111,
+      "chunk": 1
+    },
+    {
+      "text": "šéfke,",
+      "type": "word",
+      "start": 3.039,
+      "end": 3.759,
+      "speaker_id": null,
+      "logprob": -0.3302731824417909,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.759,
+      "end": 4.379,
+      "speaker_id": null,
+      "logprob": -0.10813643783330917,
+      "chunk": 1
+    },
+    {
+      "text": "jebe",
+      "type": "word",
+      "start": 4.38,
+      "end": 4.94,
+      "speaker_id": null,
+      "logprob": -0.05596368515398353,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.94,
+      "end": 5.059,
+      "speaker_id": null,
+      "logprob": -1.6230576038360596,
+      "chunk": 1
+    },
+    {
+      "text": "nás",
+      "type": "word",
+      "start": 5.059,
+      "end": 5.299,
+      "speaker_id": null,
+      "logprob": -1.6230576038360596,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.299,
+      "end": 5.319,
+      "speaker_id": null,
+      "logprob": -0.7369304895401001,
+      "chunk": 1
+    },
+    {
+      "text": "aj",
+      "type": "word",
+      "start": 5.319,
+      "end": 5.319,
+      "speaker_id": null,
+      "logprob": -0.7369304895401001,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.319,
+      "end": 5.379,
+      "speaker_id": null,
+      "logprob": -0.7813946008682251,
+      "chunk": 1
+    },
+    {
+      "text": "ten.",
+      "type": "word",
+      "start": 5.38,
+      "end": 6.199,
+      "speaker_id": null,
+      "logprob": -0.6107402741909027,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.199,
+      "end": 6.619,
+      "speaker_id": null,
+      "logprob": -0.0004798214649781585,
+      "chunk": 1
+    },
+    {
+      "text": "Jebe",
+      "type": "word",
+      "start": 6.619,
+      "end": 6.939,
+      "speaker_id": null,
+      "logprob": -0.0003203109372407198,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.939,
+      "end": 7.039,
+      "speaker_id": null,
+      "logprob": -0.4514304995536804,
+      "chunk": 1
+    },
+    {
+      "text": "pán",
+      "type": "word",
+      "start": 7.039,
+      "end": 7.799,
+      "speaker_id": null,
+      "logprob": -0.4514304995536804,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.799,
+      "end": 8.479,
+      "speaker_id": null,
+      "logprob": -0.6101716756820679,
+      "chunk": 1
+    },
+    {
+      "text": "ten",
+      "type": "word",
+      "start": 8.479,
+      "end": 8.76,
+      "speaker_id": null,
+      "logprob": -0.6101716756820679,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.76,
+      "end": 8.92,
+      "speaker_id": null,
+      "logprob": -2.0969390869140625,
+      "chunk": 1
+    },
+    {
+      "text": "siedla,",
+      "type": "word",
+      "start": 8.92,
+      "end": 9.659,
+      "speaker_id": null,
+      "logprob": -1.4184009092194694,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.659,
+      "end": 10.34,
+      "speaker_id": null,
+      "logprob": -0.01479052472859621,
+      "chunk": 1
+    },
+    {
+      "text": "že",
+      "type": "word",
+      "start": 10.34,
+      "end": 10.579,
+      "speaker_id": null,
+      "logprob": -0.01479052472859621,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.579,
+      "end": 10.619,
+      "speaker_id": null,
+      "logprob": -0.09095903486013412,
+      "chunk": 1
+    },
+    {
+      "text": "nená",
+      "type": "word",
+      "start": 10.619,
+      "end": 11.079,
+      "speaker_id": null,
+      "logprob": -0.5716359335929155,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.079,
+      "end": 11.099,
+      "speaker_id": null,
+      "logprob": -0.18340204656124115,
+      "chunk": 1
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 11.099,
+      "end": 11.319,
+      "speaker_id": null,
+      "logprob": -0.18340204656124115,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.319,
+      "end": 11.399,
+      "speaker_id": null,
+      "logprob": -1.4691970348358154,
+      "chunk": 1
+    },
+    {
+      "text": "len",
+      "type": "word",
+      "start": 11.399,
+      "end": 11.619,
+      "speaker_id": null,
+      "logprob": -1.4691970348358154,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.619,
+      "end": 11.699,
+      "speaker_id": null,
+      "logprob": -0.3003428280353546,
+      "chunk": 1
+    },
+    {
+      "text": "ten",
+      "type": "word",
+      "start": 11.699,
+      "end": 12.179,
+      "speaker_id": null,
+      "logprob": -0.3003428280353546,
+      "chunk": 1
+    }
+  ]
+}

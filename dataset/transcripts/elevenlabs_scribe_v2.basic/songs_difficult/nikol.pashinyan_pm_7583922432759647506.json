@@ -1,0 +1,280 @@
+{
+  "source": "nikol.pashinyan_pm_7583922432759647506.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 17.511,
+  "text": "Τώρα θυμάμαι όσχο το. Τ' άρμε, δε πιάνε σε γερό το νου μου ν' αρμε.",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "ell",
+      "language_probability": 0.9979334473609924,
+      "text": "Τώρα θυμάμαι όσχο το. Τ' άρμε, δε πιάνε σε γερό το νου μου ν' αρμε."
+    }
+  ],
+  "words": [
+    {
+      "text": "Τώρα",
+      "type": "word",
+      "start": 0.979,
+      "end": 1.079,
+      "speaker_id": null,
+      "logprob": -0.2016315022483468,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.079,
+      "end": 1.5,
+      "speaker_id": null,
+      "logprob": -1.7018561363220215,
+      "chunk": 1
+    },
+    {
+      "text": "θυμάμαι",
+      "type": "word",
+      "start": 1.5,
+      "end": 2.159,
+      "speaker_id": null,
+      "logprob": -0.30735148612438934,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.159,
+      "end": 2.579,
+      "speaker_id": null,
+      "logprob": -1.495133638381958,
+      "chunk": 1
+    },
+    {
+      "text": "όσχο",
+      "type": "word",
+      "start": 2.579,
+      "end": 7.019,
+      "speaker_id": null,
+      "logprob": -0.8282374441623688,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.019,
+      "end": 7.039,
+      "speaker_id": null,
+      "logprob": -0.22079600393772125,
+      "chunk": 1
+    },
+    {
+      "text": "το.",
+      "type": "word",
+      "start": 7.039,
+      "end": 7.119,
+      "speaker_id": null,
+      "logprob": -0.15407838548223177,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.119,
+      "end": 7.199,
+      "speaker_id": null,
+      "logprob": -0.7303411960601807,
+      "chunk": 1
+    },
+    {
+      "text": "Τ'",
+      "type": "word",
+      "start": 7.199,
+      "end": 7.419,
+      "speaker_id": null,
+      "logprob": -0.6811334788799286,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.419,
+      "end": 7.579,
+      "speaker_id": null,
+      "logprob": -0.3903493583202362,
+      "chunk": 1
+    },
+    {
+      "text": "άρμε,",
+      "type": "word",
+      "start": 7.579,
+      "end": 9.399,
+      "speaker_id": null,
+      "logprob": -0.30019879788160325,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.399,
+      "end": 9.399,
+      "speaker_id": null,
+      "logprob": -0.9404233694076538,
+      "chunk": 1
+    },
+    {
+      "text": "δε",
+      "type": "word",
+      "start": 10.679,
+      "end": 10.979,
+      "speaker_id": null,
+      "logprob": -0.9404233694076538,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.979,
+      "end": 11.119,
+      "speaker_id": null,
+      "logprob": -0.517823338508606,
+      "chunk": 1
+    },
+    {
+      "text": "πιάνε",
+      "type": "word",
+      "start": 11.119,
+      "end": 11.46,
+      "speaker_id": null,
+      "logprob": -0.7010141611099243,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.46,
+      "end": 11.46,
+      "speaker_id": null,
+      "logprob": -0.19466952979564667,
+      "chunk": 1
+    },
+    {
+      "text": "σε",
+      "type": "word",
+      "start": 11.46,
+      "end": 12.0,
+      "speaker_id": null,
+      "logprob": -0.19466952979564667,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 12.0,
+      "end": 12.519,
+      "speaker_id": null,
+      "logprob": -0.505471408367157,
+      "chunk": 1
+    },
+    {
+      "text": "γερό",
+      "type": "word",
+      "start": 12.519,
+      "end": 12.819,
+      "speaker_id": null,
+      "logprob": -0.3223707750439644,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 12.819,
+      "end": 12.939,
+      "speaker_id": null,
+      "logprob": -1.4513970613479614,
+      "chunk": 1
+    },
+    {
+      "text": "το",
+      "type": "word",
+      "start": 12.939,
+      "end": 13.159,
+      "speaker_id": null,
+      "logprob": -1.4513970613479614,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.159,
+      "end": 13.159,
+      "speaker_id": null,
+      "logprob": -0.5106263756752014,
+      "chunk": 1
+    },
+    {
+      "text": "νου",
+      "type": "word",
+      "start": 14.819,
+      "end": 15.739,
+      "speaker_id": null,
+      "logprob": -0.7701947490374247,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 15.739,
+      "end": 15.799,
+      "speaker_id": null,
+      "logprob": -0.8681071996688843,
+      "chunk": 1
+    },
+    {
+      "text": "μου",
+      "type": "word",
+      "start": 15.799,
+      "end": 16.799,
+      "speaker_id": null,
+      "logprob": -0.8681071996688843,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 16.799,
+      "end": 16.799,
+      "speaker_id": null,
+      "logprob": -0.0842634066939354,
+      "chunk": 1
+    },
+    {
+      "text": "ν'",
+      "type": "word",
+      "start": 16.799,
+      "end": 16.799,
+      "speaker_id": null,
+      "logprob": -0.04433602374047041,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 16.799,
+      "end": 16.799,
+      "speaker_id": null,
+      "logprob": -1.1209886074066162,
+      "chunk": 1
+    },
+    {
+      "text": "αρμε.",
+      "type": "word",
+      "start": 16.799,
+      "end": 16.899,
+      "speaker_id": null,
+      "logprob": -0.5203341349959374,
+      "chunk": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "source": "nikol.pashinyan_pm_7589862495213325576.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 17.279,
+  "text": "",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "eng",
+      "language_probability": 0.12450417876243591,
+      "text": ""
+    }
+  ],
+  "words": []
+}

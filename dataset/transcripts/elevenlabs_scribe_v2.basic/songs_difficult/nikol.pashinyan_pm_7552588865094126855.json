@@ -1,0 +1,298 @@
+{
+  "source": "nikol.pashinyan_pm_7552588865094126855.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 18.393,
+  "text": "Σεράγερα σίχτη σ' εμείς. Μου αφέλει τον πατέρα μου. Σένα σεράγερα σίχτη σ' εμείς. Σίχτη μου",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "ell",
+      "language_probability": 0.9978017210960388,
+      "text": "Σεράγερα σίχτη σ' εμείς. Μου αφέλει τον πατέρα μου. Σένα σεράγερα σίχτη σ' εμείς. Σίχτη μου"
+    }
+  ],
+  "words": [
+    {
+      "text": "Σεράγερα",
+      "type": "word",
+      "start": 0.119,
+      "end": 1.379,
+      "speaker_id": null,
+      "logprob": -0.6035466697067022,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.379,
+      "end": 1.819,
+      "speaker_id": null,
+      "logprob": -0.9638239741325378,
+      "chunk": 1
+    },
+    {
+      "text": "σίχτη",
+      "type": "word",
+      "start": 1.819,
+      "end": 2.539,
+      "speaker_id": null,
+      "logprob": -0.5328294098377228,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.539,
+      "end": 2.599,
+      "speaker_id": null,
+      "logprob": -0.30645811557769775,
+      "chunk": 1
+    },
+    {
+      "text": "σ'",
+      "type": "word",
+      "start": 2.599,
+      "end": 2.7,
+      "speaker_id": null,
+      "logprob": -0.3047899901866913,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.7,
+      "end": 2.839,
+      "speaker_id": null,
+      "logprob": -1.725244402885437,
+      "chunk": 1
+    },
+    {
+      "text": "εμείς.",
+      "type": "word",
+      "start": 2.839,
+      "end": 3.879,
+      "speaker_id": null,
+      "logprob": -0.552149161308383,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.879,
+      "end": 4.779,
+      "speaker_id": null,
+      "logprob": -0.19817820191383362,
+      "chunk": 1
+    },
+    {
+      "text": "Μου",
+      "type": "word",
+      "start": 4.779,
+      "end": 5.299,
+      "speaker_id": null,
+      "logprob": -0.2383330762386322,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.299,
+      "end": 5.359,
+      "speaker_id": null,
+      "logprob": -0.7554181814193726,
+      "chunk": 1
+    },
+    {
+      "text": "αφέλει",
+      "type": "word",
+      "start": 5.359,
+      "end": 6.279,
+      "speaker_id": null,
+      "logprob": -0.5742285549640656,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.279,
+      "end": 6.339,
+      "speaker_id": null,
+      "logprob": -2.495166301727295,
+      "chunk": 1
+    },
+    {
+      "text": "τον",
+      "type": "word",
+      "start": 6.339,
+      "end": 6.559,
+      "speaker_id": null,
+      "logprob": -2.495166301727295,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.559,
+      "end": 6.719,
+      "speaker_id": null,
+      "logprob": -0.5987263917922974,
+      "chunk": 1
+    },
+    {
+      "text": "πατέρα",
+      "type": "word",
+      "start": 6.719,
+      "end": 6.759,
+      "speaker_id": null,
+      "logprob": -0.4593142867088318,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.759,
+      "end": 6.759,
+      "speaker_id": null,
+      "logprob": -0.6664665341377258,
+      "chunk": 1
+    },
+    {
+      "text": "μου.",
+      "type": "word",
+      "start": 6.759,
+      "end": 7.159,
+      "speaker_id": null,
+      "logprob": -0.5018154841382056,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.159,
+      "end": 7.939,
+      "speaker_id": null,
+      "logprob": -0.23164044320583344,
+      "chunk": 1
+    },
+    {
+      "text": "Σένα",
+      "type": "word",
+      "start": 7.94,
+      "end": 11.199,
+      "speaker_id": null,
+      "logprob": -0.24072845838963985,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.199,
+      "end": 11.34,
+      "speaker_id": null,
+      "logprob": -0.558745265007019,
+      "chunk": 1
+    },
+    {
+      "text": "σεράγερα",
+      "type": "word",
+      "start": 11.34,
+      "end": 12.799,
+      "speaker_id": null,
+      "logprob": -0.1491239740862511,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 12.799,
+      "end": 13.319,
+      "speaker_id": null,
+      "logprob": -0.2217084765434265,
+      "chunk": 1
+    },
+    {
+      "text": "σίχτη",
+      "type": "word",
+      "start": 13.319,
+      "end": 14.019,
+      "speaker_id": null,
+      "logprob": -0.05218872616023873,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.019,
+      "end": 14.159,
+      "speaker_id": null,
+      "logprob": -0.0016576610505580902,
+      "chunk": 1
+    },
+    {
+      "text": "σ'",
+      "type": "word",
+      "start": 14.159,
+      "end": 14.199,
+      "speaker_id": null,
+      "logprob": -0.0011071663466282189,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.199,
+      "end": 14.659,
+      "speaker_id": null,
+      "logprob": -0.03753496706485748,
+      "chunk": 1
+    },
+    {
+      "text": "εμείς.",
+      "type": "word",
+      "start": 14.659,
+      "end": 15.239,
+      "speaker_id": null,
+      "logprob": -0.007245069104101276,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 15.239,
+      "end": 16.199,
+      "speaker_id": null,
+      "logprob": -0.001750366878695786,
+      "chunk": 1
+    },
+    {
+      "text": "Σίχτη",
+      "type": "word",
+      "start": 16.199,
+      "end": 16.94,
+      "speaker_id": null,
+      "logprob": -0.18134761864785104,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 16.94,
+      "end": 17.459,
+      "speaker_id": null,
+      "logprob": -0.1508924663066864,
+      "chunk": 1
+    },
+    {
+      "text": "μου",
+      "type": "word",
+      "start": 17.459,
+      "end": 18.02,
+      "speaker_id": null,
+      "logprob": -0.1508924663066864,
+      "chunk": 1
+    }
+  ]
+}

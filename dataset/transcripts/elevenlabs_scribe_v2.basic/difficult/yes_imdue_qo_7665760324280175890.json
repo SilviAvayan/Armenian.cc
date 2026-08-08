@@ -1,0 +1,190 @@
+{
+  "source": "yes_imdue_qo_7665760324280175890.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 6.551,
+  "text": "Gel lan yak bir. Hop hop hop. Gel lan buraya",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "jav",
+      "language_probability": 0.9360277056694031,
+      "text": "Gel lan yak bir. Hop hop hop. Gel lan buraya"
+    }
+  ],
+  "words": [
+    {
+      "text": "Gel",
+      "type": "word",
+      "start": 0.019,
+      "end": 0.119,
+      "speaker_id": null,
+      "logprob": -0.45718467235565186,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.119,
+      "end": 0.199,
+      "speaker_id": null,
+      "logprob": -0.3697369694709778,
+      "chunk": 1
+    },
+    {
+      "text": "lan",
+      "type": "word",
+      "start": 0.199,
+      "end": 0.28,
+      "speaker_id": null,
+      "logprob": -0.3697369694709778,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.28,
+      "end": 0.399,
+      "speaker_id": null,
+      "logprob": -0.5847482681274414,
+      "chunk": 1
+    },
+    {
+      "text": "yak",
+      "type": "word",
+      "start": 0.399,
+      "end": 0.62,
+      "speaker_id": null,
+      "logprob": -0.5847482681274414,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.62,
+      "end": 0.699,
+      "speaker_id": null,
+      "logprob": -0.7208561301231384,
+      "chunk": 1
+    },
+    {
+      "text": "bir.",
+      "type": "word",
+      "start": 0.699,
+      "end": 1.019,
+      "speaker_id": null,
+      "logprob": -0.541141472873278,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.019,
+      "end": 1.019,
+      "speaker_id": null,
+      "logprob": -0.031073205173015594,
+      "chunk": 1
+    },
+    {
+      "text": "Hop",
+      "type": "word",
+      "start": 3.259,
+      "end": 3.539,
+      "speaker_id": null,
+      "logprob": -0.031073205173015594,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.539,
+      "end": 3.559,
+      "speaker_id": null,
+      "logprob": -0.054131392389535904,
+      "chunk": 1
+    },
+    {
+      "text": "hop",
+      "type": "word",
+      "start": 3.559,
+      "end": 3.579,
+      "speaker_id": null,
+      "logprob": -0.054131392389535904,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.579,
+      "end": 3.799,
+      "speaker_id": null,
+      "logprob": -0.0001280225842492655,
+      "chunk": 1
+    },
+    {
+      "text": "hop.",
+      "type": "word",
+      "start": 3.799,
+      "end": 4.299,
+      "speaker_id": null,
+      "logprob": -0.113557340020634,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.299,
+      "end": 5.159,
+      "speaker_id": null,
+      "logprob": -0.0010415849974378943,
+      "chunk": 1
+    },
+    {
+      "text": "Gel",
+      "type": "word",
+      "start": 5.159,
+      "end": 5.179,
+      "speaker_id": null,
+      "logprob": -0.0010415849974378943,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.179,
+      "end": 5.179,
+      "speaker_id": null,
+      "logprob": -0.14953067898750305,
+      "chunk": 1
+    },
+    {
+      "text": "lan",
+      "type": "word",
+      "start": 5.179,
+      "end": 5.4,
+      "speaker_id": null,
+      "logprob": -0.14953067898750305,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.4,
+      "end": 5.48,
+      "speaker_id": null,
+      "logprob": -0.06313859671354294,
+      "chunk": 1
+    },
+    {
+      "text": "buraya",
+      "type": "word",
+      "start": 5.48,
+      "end": 5.719,
+      "speaker_id": null,
+      "logprob": -0.03158038469791791,
+      "chunk": 1
+    }
+  ]
+}

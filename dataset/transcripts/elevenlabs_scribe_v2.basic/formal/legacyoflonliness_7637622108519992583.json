@@ -1,0 +1,208 @@
+{
+  "source": "legacyoflonliness_7637622108519992583.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 4.972,
+  "text": "Արմենակյան փողոցում Մերսեդեսը բախվել է աղբամաններին, որոնցից մեկում քաղաքացի է եղել",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "hye",
+      "language_probability": 0.9998758435249329,
+      "text": "Արմենակյան փողոցում Մերսեդեսը բախվել է աղբամաններին, որոնցից մեկում քաղաքացի է եղել"
+    }
+  ],
+  "words": [
+    {
+      "text": "Արմենակյան",
+      "type": "word",
+      "start": 0.019,
+      "end": 0.56,
+      "speaker_id": null,
+      "logprob": -0.0024439327589789173,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.56,
+      "end": 0.599,
+      "speaker_id": null,
+      "logprob": -3.957670196541585e-05,
+      "chunk": 1
+    },
+    {
+      "text": "փողոցում",
+      "type": "word",
+      "start": 0.599,
+      "end": 1.039,
+      "speaker_id": null,
+      "logprob": -0.00026552764288112485,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.039,
+      "end": 1.059,
+      "speaker_id": null,
+      "logprob": -0.5163785219192505,
+      "chunk": 1
+    },
+    {
+      "text": "Մերսեդեսը",
+      "type": "word",
+      "start": 1.059,
+      "end": 1.639,
+      "speaker_id": null,
+      "logprob": -0.05799231392706537,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.639,
+      "end": 1.679,
+      "speaker_id": null,
+      "logprob": -9.715084888739511e-05,
+      "chunk": 1
+    },
+    {
+      "text": "բախվել",
+      "type": "word",
+      "start": 1.679,
+      "end": 2.0,
+      "speaker_id": null,
+      "logprob": -0.00017601538396168812,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.0,
+      "end": 2.039,
+      "speaker_id": null,
+      "logprob": -5.960462772236497e-07,
+      "chunk": 1
+    },
+    {
+      "text": "է",
+      "type": "word",
+      "start": 2.039,
+      "end": 2.079,
+      "speaker_id": null,
+      "logprob": -5.960462772236497e-07,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.079,
+      "end": 2.119,
+      "speaker_id": null,
+      "logprob": -6.401333666872233e-05,
+      "chunk": 1
+    },
+    {
+      "text": "աղբամաններին,",
+      "type": "word",
+      "start": 2.119,
+      "end": 2.859,
+      "speaker_id": null,
+      "logprob": -0.0010210663622274296,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.859,
+      "end": 2.939,
+      "speaker_id": null,
+      "logprob": -3.4570634852570947e-06,
+      "chunk": 1
+    },
+    {
+      "text": "որոնցից",
+      "type": "word",
+      "start": 2.939,
+      "end": 3.379,
+      "speaker_id": null,
+      "logprob": -1.549697598030824e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.379,
+      "end": 3.419,
+      "speaker_id": null,
+      "logprob": -9.97731985989958e-05,
+      "chunk": 1
+    },
+    {
+      "text": "մեկում",
+      "type": "word",
+      "start": 3.419,
+      "end": 3.72,
+      "speaker_id": null,
+      "logprob": -3.212576128438135e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.72,
+      "end": 3.779,
+      "speaker_id": null,
+      "logprob": -8.165503095369786e-05,
+      "chunk": 1
+    },
+    {
+      "text": "քաղաքացի",
+      "type": "word",
+      "start": 3.779,
+      "end": 4.36,
+      "speaker_id": null,
+      "logprob": -0.00021639040733134607,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.36,
+      "end": 4.42,
+      "speaker_id": null,
+      "logprob": -3.3378546504536644e-06,
+      "chunk": 1
+    },
+    {
+      "text": "է",
+      "type": "word",
+      "start": 4.42,
+      "end": 4.5,
+      "speaker_id": null,
+      "logprob": -3.3378546504536644e-06,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.5,
+      "end": 4.599,
+      "speaker_id": null,
+      "logprob": -1.5139465176616795e-05,
+      "chunk": 1
+    },
+    {
+      "text": "եղել",
+      "type": "word",
+      "start": 4.599,
+      "end": 4.839,
+      "speaker_id": null,
+      "logprob": -6.735281189662601e-06,
+      "chunk": 1
+    }
+  ]
+}

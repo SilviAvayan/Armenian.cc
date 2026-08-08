@@ -1,0 +1,370 @@
+{
+  "source": "nikol.pashinyan_pm_7587856054029929748.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 18.997,
+  "text": "Դրա ստի արվանց արիքի թերի, արտ մահան եկած ունի շուրթերի։ Դրա ստի արվանց արիքի թերի, արտ մահան եկած ունի շուրթերի",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "hye",
+      "language_probability": 1.0,
+      "text": "Դրա ստի արվանց արիքի թերի, արտ մահան եկած ունի շուրթերի։ Դրա ստի արվանց արիքի թերի, արտ մահան եկած ունի շուրթերի"
+    }
+  ],
+  "words": [
+    {
+      "text": "Դրա",
+      "type": "word",
+      "start": 1.659,
+      "end": 1.959,
+      "speaker_id": null,
+      "logprob": -0.2167958344022433,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.959,
+      "end": 2.119,
+      "speaker_id": null,
+      "logprob": -0.9870705604553223,
+      "chunk": 1
+    },
+    {
+      "text": "ստի",
+      "type": "word",
+      "start": 2.119,
+      "end": 2.279,
+      "speaker_id": null,
+      "logprob": -0.40070744953118265,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.279,
+      "end": 2.399,
+      "speaker_id": null,
+      "logprob": -2.141970634460449,
+      "chunk": 1
+    },
+    {
+      "text": "արվանց",
+      "type": "word",
+      "start": 2.399,
+      "end": 2.939,
+      "speaker_id": null,
+      "logprob": -1.1570256265501182,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.939,
+      "end": 3.039,
+      "speaker_id": null,
+      "logprob": -1.193420171737671,
+      "chunk": 1
+    },
+    {
+      "text": "արիքի",
+      "type": "word",
+      "start": 3.039,
+      "end": 3.619,
+      "speaker_id": null,
+      "logprob": -0.6013383150100708,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.619,
+      "end": 4.119,
+      "speaker_id": null,
+      "logprob": -0.4009559154510498,
+      "chunk": 1
+    },
+    {
+      "text": "թերի,",
+      "type": "word",
+      "start": 4.119,
+      "end": 4.88,
+      "speaker_id": null,
+      "logprob": -0.25768839120864867,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.88,
+      "end": 5.659,
+      "speaker_id": null,
+      "logprob": -1.1627159118652344,
+      "chunk": 1
+    },
+    {
+      "text": "արտ",
+      "type": "word",
+      "start": 5.659,
+      "end": 5.92,
+      "speaker_id": null,
+      "logprob": -1.0169552365938823,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.92,
+      "end": 5.98,
+      "speaker_id": null,
+      "logprob": -0.42879951000213623,
+      "chunk": 1
+    },
+    {
+      "text": "մահան",
+      "type": "word",
+      "start": 5.98,
+      "end": 6.339,
+      "speaker_id": null,
+      "logprob": -0.14597437679767608,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.339,
+      "end": 6.719,
+      "speaker_id": null,
+      "logprob": -1.7593337297439575,
+      "chunk": 1
+    },
+    {
+      "text": "եկած",
+      "type": "word",
+      "start": 6.719,
+      "end": 7.219,
+      "speaker_id": null,
+      "logprob": -1.6234865635633469,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.219,
+      "end": 7.339,
+      "speaker_id": null,
+      "logprob": -0.0460832454264164,
+      "chunk": 1
+    },
+    {
+      "text": "ունի",
+      "type": "word",
+      "start": 7.339,
+      "end": 7.579,
+      "speaker_id": null,
+      "logprob": -0.10988291725516319,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.579,
+      "end": 7.639,
+      "speaker_id": null,
+      "logprob": -0.01982855424284935,
+      "chunk": 1
+    },
+    {
+      "text": "շուրթերի։",
+      "type": "word",
+      "start": 7.639,
+      "end": 9.36,
+      "speaker_id": null,
+      "logprob": -0.08077058503921661,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.36,
+      "end": 9.679,
+      "speaker_id": null,
+      "logprob": -0.0004929280839860439,
+      "chunk": 1
+    },
+    {
+      "text": "Դրա",
+      "type": "word",
+      "start": 9.679,
+      "end": 10.019,
+      "speaker_id": null,
+      "logprob": -0.005762953033505862,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.019,
+      "end": 10.139,
+      "speaker_id": null,
+      "logprob": -6.97350042173639e-05,
+      "chunk": 1
+    },
+    {
+      "text": "ստի",
+      "type": "word",
+      "start": 10.139,
+      "end": 10.359,
+      "speaker_id": null,
+      "logprob": -7.764052679704037e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.359,
+      "end": 10.439,
+      "speaker_id": null,
+      "logprob": -5.113947918289341e-05,
+      "chunk": 1
+    },
+    {
+      "text": "արվանց",
+      "type": "word",
+      "start": 10.439,
+      "end": 10.939,
+      "speaker_id": null,
+      "logprob": -5.8607854649987225e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.939,
+      "end": 11.019,
+      "speaker_id": null,
+      "logprob": -0.00013553177996072918,
+      "chunk": 1
+    },
+    {
+      "text": "արիքի",
+      "type": "word",
+      "start": 11.019,
+      "end": 11.84,
+      "speaker_id": null,
+      "logprob": -0.00014682322944281623,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.84,
+      "end": 11.96,
+      "speaker_id": null,
+      "logprob": -2.992108420585282e-05,
+      "chunk": 1
+    },
+    {
+      "text": "թերի,",
+      "type": "word",
+      "start": 11.96,
+      "end": 13.539,
+      "speaker_id": null,
+      "logprob": -0.00028604634644580074,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.539,
+      "end": 13.759,
+      "speaker_id": null,
+      "logprob": -0.0018390186596661806,
+      "chunk": 1
+    },
+    {
+      "text": "արտ",
+      "type": "word",
+      "start": 13.759,
+      "end": 14.0,
+      "speaker_id": null,
+      "logprob": -0.0013045223798447598,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.0,
+      "end": 14.059,
+      "speaker_id": null,
+      "logprob": -0.0008756855386309326,
+      "chunk": 1
+    },
+    {
+      "text": "մահան",
+      "type": "word",
+      "start": 14.059,
+      "end": 14.38,
+      "speaker_id": null,
+      "logprob": -0.0001813836490327958,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.38,
+      "end": 14.519,
+      "speaker_id": null,
+      "logprob": -1.4305104514278355e-06,
+      "chunk": 1
+    },
+    {
+      "text": "եկած",
+      "type": "word",
+      "start": 14.519,
+      "end": 15.239,
+      "speaker_id": null,
+      "logprob": -2.7626078662024156e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 15.239,
+      "end": 15.259,
+      "speaker_id": null,
+      "logprob": -1.5497195136049413e-06,
+      "chunk": 1
+    },
+    {
+      "text": "ունի",
+      "type": "word",
+      "start": 15.259,
+      "end": 15.579,
+      "speaker_id": null,
+      "logprob": -1.4274980912887258e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 15.579,
+      "end": 15.699,
+      "speaker_id": null,
+      "logprob": -5.8887653722194955e-05,
+      "chunk": 1
+    },
+    {
+      "text": "շուրթերի",
+      "type": "word",
+      "start": 15.699,
+      "end": 17.0,
+      "speaker_id": null,
+      "logprob": -7.897109253462986e-05,
+      "chunk": 1
+    }
+  ]
+}

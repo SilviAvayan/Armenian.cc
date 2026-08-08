@@ -1,0 +1,586 @@
+{
+  "source": "nikol.pashinyan_pm_7588939086736461063.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 29.631,
+  "text": "Muy buenas, gente pica. Eso cantes, vote pica. Vote pica, vote pica. Gente pica, gente pica. Muy buenas, gente pica. Eso cantes, vote pica. Vote pica, vote pica. Gente pica, gente pica",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "spa",
+      "language_probability": 0.41428694128990173,
+      "text": "Muy buenas, gente pica. Eso cantes, vote pica. Vote pica, vote pica. Gente pica, gente pica. Muy buenas, gente pica. Eso cantes, vote pica. Vote pica, vote pica. Gente pica, gente pica"
+    }
+  ],
+  "words": [
+    {
+      "text": "Muy",
+      "type": "word",
+      "start": 1.799,
+      "end": 1.919,
+      "speaker_id": null,
+      "logprob": -0.9189610481262207,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.919,
+      "end": 1.939,
+      "speaker_id": null,
+      "logprob": -0.6737000942230225,
+      "chunk": 1
+    },
+    {
+      "text": "buenas,",
+      "type": "word",
+      "start": 1.939,
+      "end": 2.119,
+      "speaker_id": null,
+      "logprob": -0.600606198821749,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.119,
+      "end": 2.2,
+      "speaker_id": null,
+      "logprob": -0.9068703651428223,
+      "chunk": 1
+    },
+    {
+      "text": "gente",
+      "type": "word",
+      "start": 2.2,
+      "end": 2.579,
+      "speaker_id": null,
+      "logprob": -0.9068703651428223,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.579,
+      "end": 2.7,
+      "speaker_id": null,
+      "logprob": -0.17293494939804077,
+      "chunk": 1
+    },
+    {
+      "text": "pica.",
+      "type": "word",
+      "start": 2.7,
+      "end": 3.779,
+      "speaker_id": null,
+      "logprob": -0.16589913300704212,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.779,
+      "end": 4.079,
+      "speaker_id": null,
+      "logprob": -0.16072070598602295,
+      "chunk": 1
+    },
+    {
+      "text": "Eso",
+      "type": "word",
+      "start": 4.079,
+      "end": 4.42,
+      "speaker_id": null,
+      "logprob": -0.16072070598602295,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.42,
+      "end": 4.519,
+      "speaker_id": null,
+      "logprob": -2.1544883251190186,
+      "chunk": 1
+    },
+    {
+      "text": "cantes,",
+      "type": "word",
+      "start": 4.519,
+      "end": 5.119,
+      "speaker_id": null,
+      "logprob": -0.7654898639032451,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.119,
+      "end": 5.42,
+      "speaker_id": null,
+      "logprob": -1.438947081565857,
+      "chunk": 1
+    },
+    {
+      "text": "vote",
+      "type": "word",
+      "start": 5.42,
+      "end": 5.819,
+      "speaker_id": null,
+      "logprob": -1.438947081565857,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.819,
+      "end": 6.159,
+      "speaker_id": null,
+      "logprob": -0.030059674754738808,
+      "chunk": 1
+    },
+    {
+      "text": "pica.",
+      "type": "word",
+      "start": 6.159,
+      "end": 7.159,
+      "speaker_id": null,
+      "logprob": -0.0060394716660084665,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.159,
+      "end": 7.679,
+      "speaker_id": null,
+      "logprob": -9.178694017464295e-05,
+      "chunk": 1
+    },
+    {
+      "text": "Vote",
+      "type": "word",
+      "start": 7.679,
+      "end": 8.019,
+      "speaker_id": null,
+      "logprob": -9.178694017464295e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.019,
+      "end": 8.139,
+      "speaker_id": null,
+      "logprob": -0.00039843725971877575,
+      "chunk": 1
+    },
+    {
+      "text": "pica,",
+      "type": "word",
+      "start": 8.139,
+      "end": 8.5,
+      "speaker_id": null,
+      "logprob": -0.0002779142960207537,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.5,
+      "end": 9.019,
+      "speaker_id": null,
+      "logprob": -0.0008238735608756542,
+      "chunk": 1
+    },
+    {
+      "text": "vote",
+      "type": "word",
+      "start": 9.019,
+      "end": 9.739,
+      "speaker_id": null,
+      "logprob": -0.0008238735608756542,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.739,
+      "end": 9.899,
+      "speaker_id": null,
+      "logprob": -0.00015221867943182588,
+      "chunk": 1
+    },
+    {
+      "text": "pica.",
+      "type": "word",
+      "start": 9.899,
+      "end": 10.779,
+      "speaker_id": null,
+      "logprob": -4.348512520664371e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.779,
+      "end": 11.279,
+      "speaker_id": null,
+      "logprob": -0.0008524598088115454,
+      "chunk": 1
+    },
+    {
+      "text": "Gente",
+      "type": "word",
+      "start": 11.279,
+      "end": 11.659,
+      "speaker_id": null,
+      "logprob": -0.0008524598088115454,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.659,
+      "end": 11.779,
+      "speaker_id": null,
+      "logprob": -6.472854875028133e-05,
+      "chunk": 1
+    },
+    {
+      "text": "pica,",
+      "type": "word",
+      "start": 11.779,
+      "end": 12.279,
+      "speaker_id": null,
+      "logprob": -1.8000165437115356e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 12.279,
+      "end": 12.699,
+      "speaker_id": null,
+      "logprob": -0.25214019417762756,
+      "chunk": 1
+    },
+    {
+      "text": "gente",
+      "type": "word",
+      "start": 12.699,
+      "end": 13.399,
+      "speaker_id": null,
+      "logprob": -0.25214019417762756,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.399,
+      "end": 13.599,
+      "speaker_id": null,
+      "logprob": -6.12716976320371e-05,
+      "chunk": 1
+    },
+    {
+      "text": "pica.",
+      "type": "word",
+      "start": 13.599,
+      "end": 14.359,
+      "speaker_id": null,
+      "logprob": -3.566668419807684e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.359,
+      "end": 14.579,
+      "speaker_id": null,
+      "logprob": -0.0024169061798602343,
+      "chunk": 1
+    },
+    {
+      "text": "Muy",
+      "type": "word",
+      "start": 14.579,
+      "end": 15.06,
+      "speaker_id": null,
+      "logprob": -0.0024169061798602343,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 15.06,
+      "end": 15.06,
+      "speaker_id": null,
+      "logprob": -7.784063927829266e-05,
+      "chunk": 1
+    },
+    {
+      "text": "buenas,",
+      "type": "word",
+      "start": 15.06,
+      "end": 16.079,
+      "speaker_id": null,
+      "logprob": -6.672054795282227e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 16.079,
+      "end": 16.639,
+      "speaker_id": null,
+      "logprob": -0.00019798702851403505,
+      "chunk": 1
+    },
+    {
+      "text": "gente",
+      "type": "word",
+      "start": 16.639,
+      "end": 17.02,
+      "speaker_id": null,
+      "logprob": -0.00019798702851403505,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 17.02,
+      "end": 17.159,
+      "speaker_id": null,
+      "logprob": -4.7801782784517854e-05,
+      "chunk": 1
+    },
+    {
+      "text": "pica.",
+      "type": "word",
+      "start": 17.159,
+      "end": 18.279,
+      "speaker_id": null,
+      "logprob": -1.4137979405859369e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 18.279,
+      "end": 18.539,
+      "speaker_id": null,
+      "logprob": -0.00014411364099942148,
+      "chunk": 1
+    },
+    {
+      "text": "Eso",
+      "type": "word",
+      "start": 18.539,
+      "end": 18.84,
+      "speaker_id": null,
+      "logprob": -0.00014411364099942148,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 18.84,
+      "end": 18.939,
+      "speaker_id": null,
+      "logprob": -5.328513361746445e-05,
+      "chunk": 1
+    },
+    {
+      "text": "cantes,",
+      "type": "word",
+      "start": 18.939,
+      "end": 19.6,
+      "speaker_id": null,
+      "logprob": -0.000606421943513981,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 19.6,
+      "end": 19.879,
+      "speaker_id": null,
+      "logprob": -0.00015686711412854493,
+      "chunk": 1
+    },
+    {
+      "text": "vote",
+      "type": "word",
+      "start": 19.879,
+      "end": 20.459,
+      "speaker_id": null,
+      "logprob": -0.00015686711412854493,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 20.459,
+      "end": 20.739,
+      "speaker_id": null,
+      "logprob": -1.6689160474925302e-05,
+      "chunk": 1
+    },
+    {
+      "text": "pica.",
+      "type": "word",
+      "start": 20.739,
+      "end": 21.76,
+      "speaker_id": null,
+      "logprob": -4.434556717569649e-06,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 21.76,
+      "end": 22.099,
+      "speaker_id": null,
+      "logprob": -4.1126360883936286e-05,
+      "chunk": 1
+    },
+    {
+      "text": "Vote",
+      "type": "word",
+      "start": 22.1,
+      "end": 22.44,
+      "speaker_id": null,
+      "logprob": -4.1126360883936286e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 22.44,
+      "end": 22.579,
+      "speaker_id": null,
+      "logprob": -2.2411095415009186e-05,
+      "chunk": 1
+    },
+    {
+      "text": "pica,",
+      "type": "word",
+      "start": 22.579,
+      "end": 23.0,
+      "speaker_id": null,
+      "logprob": -1.4901023587299277e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 23.0,
+      "end": 23.459,
+      "speaker_id": null,
+      "logprob": -4.1483970562694594e-05,
+      "chunk": 1
+    },
+    {
+      "text": "vote",
+      "type": "word",
+      "start": 23.459,
+      "end": 24.099,
+      "speaker_id": null,
+      "logprob": -4.1483970562694594e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 24.099,
+      "end": 24.34,
+      "speaker_id": null,
+      "logprob": -1.0609570381348021e-05,
+      "chunk": 1
+    },
+    {
+      "text": "pica.",
+      "type": "word",
+      "start": 24.34,
+      "end": 25.68,
+      "speaker_id": null,
+      "logprob": -4.219880420350819e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 25.68,
+      "end": 25.739,
+      "speaker_id": null,
+      "logprob": -0.00021336186910048127,
+      "chunk": 1
+    },
+    {
+      "text": "Gente",
+      "type": "word",
+      "start": 25.739,
+      "end": 26.039,
+      "speaker_id": null,
+      "logprob": -0.00021336186910048127,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 26.039,
+      "end": 26.199,
+      "speaker_id": null,
+      "logprob": -6.83045873302035e-05,
+      "chunk": 1
+    },
+    {
+      "text": "pica,",
+      "type": "word",
+      "start": 26.199,
+      "end": 26.599,
+      "speaker_id": null,
+      "logprob": -1.914452022333535e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 26.599,
+      "end": 27.119,
+      "speaker_id": null,
+      "logprob": -0.00044526674901135266,
+      "chunk": 1
+    },
+    {
+      "text": "gente",
+      "type": "word",
+      "start": 27.119,
+      "end": 28.84,
+      "speaker_id": null,
+      "logprob": -0.00044526674901135266,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 28.84,
+      "end": 28.859,
+      "speaker_id": null,
+      "logprob": -5.543078441405669e-05,
+      "chunk": 1
+    },
+    {
+      "text": "pica",
+      "type": "word",
+      "start": 28.859,
+      "end": 29.579,
+      "speaker_id": null,
+      "logprob": -4.774216995429015e-05,
+      "chunk": 1
+    }
+  ]
+}

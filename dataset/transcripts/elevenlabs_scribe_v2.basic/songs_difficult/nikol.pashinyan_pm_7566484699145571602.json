@@ -1,0 +1,226 @@
+{
+  "source": "nikol.pashinyan_pm_7566484699145571602.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 15.421,
+  "text": "Se, se, se. Se respuesta, se, se, se. Se el chico del",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "spa",
+      "language_probability": 0.6657195687294006,
+      "text": "Se, se, se. Se respuesta, se, se, se. Se el chico del"
+    }
+  ],
+  "words": [
+    {
+      "text": "Se,",
+      "type": "word",
+      "start": 0.419,
+      "end": 0.759,
+      "speaker_id": null,
+      "logprob": -0.2436680928998006,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.759,
+      "end": 1.599,
+      "speaker_id": null,
+      "logprob": -0.5618857145309448,
+      "chunk": 1
+    },
+    {
+      "text": "se,",
+      "type": "word",
+      "start": 1.599,
+      "end": 1.619,
+      "speaker_id": null,
+      "logprob": -0.46218109130859375,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.619,
+      "end": 1.659,
+      "speaker_id": null,
+      "logprob": -0.045292653143405914,
+      "chunk": 1
+    },
+    {
+      "text": "se.",
+      "type": "word",
+      "start": 1.659,
+      "end": 1.879,
+      "speaker_id": null,
+      "logprob": -0.0362945261100928,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.879,
+      "end": 1.879,
+      "speaker_id": null,
+      "logprob": -0.0048383064568042755,
+      "chunk": 1
+    },
+    {
+      "text": "Se",
+      "type": "word",
+      "start": 3.72,
+      "end": 4.0,
+      "speaker_id": null,
+      "logprob": -0.0048383064568042755,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.0,
+      "end": 4.239,
+      "speaker_id": null,
+      "logprob": -1.752913236618042,
+      "chunk": 1
+    },
+    {
+      "text": "respuesta,",
+      "type": "word",
+      "start": 4.239,
+      "end": 10.719,
+      "speaker_id": null,
+      "logprob": -1.6189285457134246,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.719,
+      "end": 11.239,
+      "speaker_id": null,
+      "logprob": -0.0008175606490112841,
+      "chunk": 1
+    },
+    {
+      "text": "se,",
+      "type": "word",
+      "start": 11.239,
+      "end": 11.279,
+      "speaker_id": null,
+      "logprob": -0.0027835294992352524,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.279,
+      "end": 11.279,
+      "speaker_id": null,
+      "logprob": -5.722029527532868e-06,
+      "chunk": 1
+    },
+    {
+      "text": "se,",
+      "type": "word",
+      "start": 11.279,
+      "end": 11.579,
+      "speaker_id": null,
+      "logprob": -9.576418960932642e-06,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.579,
+      "end": 11.579,
+      "speaker_id": null,
+      "logprob": -2.7418097943154862e-06,
+      "chunk": 1
+    },
+    {
+      "text": "se.",
+      "type": "word",
+      "start": 13.139,
+      "end": 13.159,
+      "speaker_id": null,
+      "logprob": -2.0662916995206615e-06,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.159,
+      "end": 14.079,
+      "speaker_id": null,
+      "logprob": -0.16822293400764465,
+      "chunk": 1
+    },
+    {
+      "text": "Se",
+      "type": "word",
+      "start": 14.079,
+      "end": 14.299,
+      "speaker_id": null,
+      "logprob": -0.16822293400764465,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.299,
+      "end": 14.319,
+      "speaker_id": null,
+      "logprob": -0.023544730618596077,
+      "chunk": 1
+    },
+    {
+      "text": "el",
+      "type": "word",
+      "start": 14.319,
+      "end": 14.46,
+      "speaker_id": null,
+      "logprob": -0.023544730618596077,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.46,
+      "end": 14.559,
+      "speaker_id": null,
+      "logprob": -0.006766619626432657,
+      "chunk": 1
+    },
+    {
+      "text": "chico",
+      "type": "word",
+      "start": 14.559,
+      "end": 14.939,
+      "speaker_id": null,
+      "logprob": -0.006766619626432657,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.939,
+      "end": 15.059,
+      "speaker_id": null,
+      "logprob": -0.1360253542661667,
+      "chunk": 1
+    },
+    {
+      "text": "del",
+      "type": "word",
+      "start": 15.059,
+      "end": 15.359,
+      "speaker_id": null,
+      "logprob": -0.1360253542661667,
+      "chunk": 1
+    }
+  ]
+}

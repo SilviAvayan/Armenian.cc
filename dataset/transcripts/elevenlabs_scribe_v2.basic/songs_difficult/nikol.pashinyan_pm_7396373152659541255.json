@@ -1,0 +1,316 @@
+{
+  "source": "nikol.pashinyan_pm_7396373152659541255.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 15.514,
+  "text": "Aç lanet olası kapıyı. Elimi öp lan bebekim. Sevdası benden, sen beni özle. Aç lanet olası kapıyı",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "tur",
+      "language_probability": 0.9857156872749329,
+      "text": "Aç lanet olası kapıyı. Elimi öp lan bebekim. Sevdası benden, sen beni özle. Aç lanet olası kapıyı"
+    }
+  ],
+  "words": [
+    {
+      "text": "Aç",
+      "type": "word",
+      "start": 3.539,
+      "end": 3.819,
+      "speaker_id": null,
+      "logprob": -1.521819829940796,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.819,
+      "end": 3.839,
+      "speaker_id": null,
+      "logprob": -0.8775162696838379,
+      "chunk": 1
+    },
+    {
+      "text": "lanet",
+      "type": "word",
+      "start": 3.839,
+      "end": 4.319,
+      "speaker_id": null,
+      "logprob": -0.5286426797509194,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.319,
+      "end": 4.319,
+      "speaker_id": null,
+      "logprob": -1.8016047477722168,
+      "chunk": 1
+    },
+    {
+      "text": "olası",
+      "type": "word",
+      "start": 4.319,
+      "end": 4.319,
+      "speaker_id": null,
+      "logprob": -1.2764898777008056,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.319,
+      "end": 4.36,
+      "speaker_id": null,
+      "logprob": -1.7561331987380981,
+      "chunk": 1
+    },
+    {
+      "text": "kapıyı.",
+      "type": "word",
+      "start": 4.36,
+      "end": 5.94,
+      "speaker_id": null,
+      "logprob": -0.8422740527561733,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.94,
+      "end": 6.059,
+      "speaker_id": null,
+      "logprob": -0.5540592074394226,
+      "chunk": 1
+    },
+    {
+      "text": "Elimi",
+      "type": "word",
+      "start": 6.059,
+      "end": 6.899,
+      "speaker_id": null,
+      "logprob": -0.3716815114021301,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.899,
+      "end": 6.919,
+      "speaker_id": null,
+      "logprob": -1.3195714950561523,
+      "chunk": 1
+    },
+    {
+      "text": "öp",
+      "type": "word",
+      "start": 6.919,
+      "end": 6.919,
+      "speaker_id": null,
+      "logprob": -0.6877530924975872,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.919,
+      "end": 6.919,
+      "speaker_id": null,
+      "logprob": -1.793511986732483,
+      "chunk": 1
+    },
+    {
+      "text": "lan",
+      "type": "word",
+      "start": 6.919,
+      "end": 6.919,
+      "speaker_id": null,
+      "logprob": -1.793511986732483,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.919,
+      "end": 7.259,
+      "speaker_id": null,
+      "logprob": -2.4449942111968994,
+      "chunk": 1
+    },
+    {
+      "text": "bebekim.",
+      "type": "word",
+      "start": 7.259,
+      "end": 8.039,
+      "speaker_id": null,
+      "logprob": -1.6407089183630887,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.039,
+      "end": 8.1,
+      "speaker_id": null,
+      "logprob": -0.2545740008354187,
+      "chunk": 1
+    },
+    {
+      "text": "Sevdası",
+      "type": "word",
+      "start": 8.1,
+      "end": 8.98,
+      "speaker_id": null,
+      "logprob": -0.7719379152570452,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.98,
+      "end": 8.98,
+      "speaker_id": null,
+      "logprob": -1.49917471408844,
+      "chunk": 1
+    },
+    {
+      "text": "benden,",
+      "type": "word",
+      "start": 8.98,
+      "end": 9.86,
+      "speaker_id": null,
+      "logprob": -0.6865457807268415,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.86,
+      "end": 9.979,
+      "speaker_id": null,
+      "logprob": -2.2589545249938965,
+      "chunk": 1
+    },
+    {
+      "text": "sen",
+      "type": "word",
+      "start": 9.979,
+      "end": 10.219,
+      "speaker_id": null,
+      "logprob": -2.2589545249938965,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.219,
+      "end": 10.3,
+      "speaker_id": null,
+      "logprob": -0.6459418535232544,
+      "chunk": 1
+    },
+    {
+      "text": "beni",
+      "type": "word",
+      "start": 10.3,
+      "end": 10.38,
+      "speaker_id": null,
+      "logprob": -0.6459418535232544,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.38,
+      "end": 10.579,
+      "speaker_id": null,
+      "logprob": -0.8431838750839233,
+      "chunk": 1
+    },
+    {
+      "text": "özle.",
+      "type": "word",
+      "start": 10.579,
+      "end": 11.779,
+      "speaker_id": null,
+      "logprob": -0.7954045629769098,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.779,
+      "end": 11.779,
+      "speaker_id": null,
+      "logprob": -0.0009887097403407097,
+      "chunk": 1
+    },
+    {
+      "text": "Aç",
+      "type": "word",
+      "start": 12.979,
+      "end": 13.819,
+      "speaker_id": null,
+      "logprob": -0.0009887097403407097,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.819,
+      "end": 13.84,
+      "speaker_id": null,
+      "logprob": -0.001311871805228293,
+      "chunk": 1
+    },
+    {
+      "text": "lanet",
+      "type": "word",
+      "start": 13.84,
+      "end": 13.84,
+      "speaker_id": null,
+      "logprob": -0.0008636004524305463,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.84,
+      "end": 13.84,
+      "speaker_id": null,
+      "logprob": -0.003153234953060746,
+      "chunk": 1
+    },
+    {
+      "text": "olası",
+      "type": "word",
+      "start": 13.84,
+      "end": 13.84,
+      "speaker_id": null,
+      "logprob": -0.0031229315791279078,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.84,
+      "end": 13.84,
+      "speaker_id": null,
+      "logprob": -0.07897060364484787,
+      "chunk": 1
+    },
+    {
+      "text": "kapıyı",
+      "type": "word",
+      "start": 13.84,
+      "end": 14.059,
+      "speaker_id": null,
+      "logprob": -0.03950509017340664,
+      "chunk": 1
+    }
+  ]
+}

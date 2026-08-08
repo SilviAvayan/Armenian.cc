@@ -1,0 +1,883 @@
+{
+  "source": "thewawzen.am_7649816408611687687.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 26.752,
+  "text": "Չկա զանգ, չկա խնդիր, չկա նամակ, չկա խնդիր, չկա պատասխան, էլի խնդիր չկա, որովհետև ես հետևից չեմ ընկնում, ես փոխարինում եմ: Եթե ներկայությունս քեզ համար մեկ է, ուրեմն բացակայությունս էլ նույնը կլինի: Ես էն տեսակը չեմ, որ ուշադրություն մուրամ, ես էներգիաս տալիս եմ էնտեղ, որտեղ այն գնահատվում է:",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "hye",
+      "language_probability": 0.999578595161438,
+      "text": "Չկա զանգ, չկա խնդիր, չկա նամակ, չկա խնդիր, չկա պատասխան, էլի խնդիր չկա, որովհետև ես հետևից չեմ ընկնում, ես փոխարինում եմ: Եթե ներկայությունս քեզ համար մեկ է, ուրեմն բացակայությունս էլ նույնը կլինի: Ես էն տեսակը չեմ, որ ուշադրություն մուրամ, ես էներգիաս տալիս եմ էնտեղ, որտեղ այն գնահատվում է:"
+    }
+  ],
+  "words": [
+    {
+      "text": "Չկա",
+      "type": "word",
+      "start": 0.0,
+      "end": 0.239,
+      "speaker_id": null,
+      "logprob": -0.01114262054519107,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.239,
+      "end": 0.34,
+      "speaker_id": null,
+      "logprob": -0.00028391621890477836,
+      "chunk": 1
+    },
+    {
+      "text": "զանգ,",
+      "type": "word",
+      "start": 0.34,
+      "end": 0.799,
+      "speaker_id": null,
+      "logprob": -0.02029420405597193,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.799,
+      "end": 1.48,
+      "speaker_id": null,
+      "logprob": -0.00010597144137136638,
+      "chunk": 1
+    },
+    {
+      "text": "չկա",
+      "type": "word",
+      "start": 1.48,
+      "end": 1.759,
+      "speaker_id": null,
+      "logprob": -0.0006764918119491389,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.759,
+      "end": 1.839,
+      "speaker_id": null,
+      "logprob": -5.4834770708112046e-05,
+      "chunk": 1
+    },
+    {
+      "text": "խնդիր,",
+      "type": "word",
+      "start": 1.839,
+      "end": 2.419,
+      "speaker_id": null,
+      "logprob": -0.0009114948031007467,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.419,
+      "end": 2.999,
+      "speaker_id": null,
+      "logprob": -0.0005067494930699468,
+      "chunk": 1
+    },
+    {
+      "text": "չկա",
+      "type": "word",
+      "start": 3.0,
+      "end": 3.279,
+      "speaker_id": null,
+      "logprob": -0.00017801607706739256,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.279,
+      "end": 3.399,
+      "speaker_id": null,
+      "logprob": -2.47952248173533e-05,
+      "chunk": 1
+    },
+    {
+      "text": "նամակ,",
+      "type": "word",
+      "start": 3.399,
+      "end": 3.939,
+      "speaker_id": null,
+      "logprob": -0.0001514746554676094,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.939,
+      "end": 4.219,
+      "speaker_id": null,
+      "logprob": -0.0002668739762157202,
+      "chunk": 1
+    },
+    {
+      "text": "չկա",
+      "type": "word",
+      "start": 4.219,
+      "end": 4.5,
+      "speaker_id": null,
+      "logprob": -0.00029644312113911536,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.5,
+      "end": 4.599,
+      "speaker_id": null,
+      "logprob": -9.179073458653875e-06,
+      "chunk": 1
+    },
+    {
+      "text": "խնդիր,",
+      "type": "word",
+      "start": 4.599,
+      "end": 5.139,
+      "speaker_id": null,
+      "logprob": -0.0002210314704598204,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.139,
+      "end": 5.48,
+      "speaker_id": null,
+      "logprob": -8.666139910928905e-05,
+      "chunk": 1
+    },
+    {
+      "text": "չկա",
+      "type": "word",
+      "start": 5.48,
+      "end": 5.759,
+      "speaker_id": null,
+      "logprob": -3.317864529132445e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.759,
+      "end": 5.859,
+      "speaker_id": null,
+      "logprob": -8.928377064876258e-05,
+      "chunk": 1
+    },
+    {
+      "text": "պատասխան,",
+      "type": "word",
+      "start": 5.859,
+      "end": 6.599,
+      "speaker_id": null,
+      "logprob": -0.05944610570683532,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.599,
+      "end": 7.459,
+      "speaker_id": null,
+      "logprob": -0.00038890427094884217,
+      "chunk": 1
+    },
+    {
+      "text": "էլի",
+      "type": "word",
+      "start": 7.46,
+      "end": 7.739,
+      "speaker_id": null,
+      "logprob": -0.0002144651152775623,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.739,
+      "end": 7.839,
+      "speaker_id": null,
+      "logprob": -7.855583680793643e-05,
+      "chunk": 1
+    },
+    {
+      "text": "խնդիր",
+      "type": "word",
+      "start": 7.839,
+      "end": 8.279,
+      "speaker_id": null,
+      "logprob": -1.9502010582073125e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.279,
+      "end": 8.38,
+      "speaker_id": null,
+      "logprob": -6.842378934379667e-05,
+      "chunk": 1
+    },
+    {
+      "text": "չկա,",
+      "type": "word",
+      "start": 8.38,
+      "end": 8.76,
+      "speaker_id": null,
+      "logprob": -0.0007394605097488238,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.76,
+      "end": 9.679,
+      "speaker_id": null,
+      "logprob": -0.0010801678290590644,
+      "chunk": 1
+    },
+    {
+      "text": "որովհետև",
+      "type": "word",
+      "start": 9.679,
+      "end": 10.139,
+      "speaker_id": null,
+      "logprob": -0.0003208195182651252,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.139,
+      "end": 10.219,
+      "speaker_id": null,
+      "logprob": -3.2186455882765586e-06,
+      "chunk": 1
+    },
+    {
+      "text": "ես",
+      "type": "word",
+      "start": 10.219,
+      "end": 10.3,
+      "speaker_id": null,
+      "logprob": -1.1920858014491387e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.3,
+      "end": 10.359,
+      "speaker_id": null,
+      "logprob": -0.00022349244682118297,
+      "chunk": 1
+    },
+    {
+      "text": "հետևից",
+      "type": "word",
+      "start": 10.359,
+      "end": 10.76,
+      "speaker_id": null,
+      "logprob": -0.00014172491910358076,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.76,
+      "end": 10.84,
+      "speaker_id": null,
+      "logprob": -7.593343616463244e-05,
+      "chunk": 1
+    },
+    {
+      "text": "չեմ",
+      "type": "word",
+      "start": 10.84,
+      "end": 11.0,
+      "speaker_id": null,
+      "logprob": -4.700688198984911e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.0,
+      "end": 11.039,
+      "speaker_id": null,
+      "logprob": -3.7788631743751466e-05,
+      "chunk": 1
+    },
+    {
+      "text": "ընկնում,",
+      "type": "word",
+      "start": 11.039,
+      "end": 11.42,
+      "speaker_id": null,
+      "logprob": -0.001972393518535398,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.42,
+      "end": 11.679,
+      "speaker_id": null,
+      "logprob": -2.455681169521995e-05,
+      "chunk": 1
+    },
+    {
+      "text": "ես",
+      "type": "word",
+      "start": 11.679,
+      "end": 11.859,
+      "speaker_id": null,
+      "logprob": -1.1801649634435307e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.859,
+      "end": 11.92,
+      "speaker_id": null,
+      "logprob": -3.421248038648628e-05,
+      "chunk": 1
+    },
+    {
+      "text": "փոխարինում",
+      "type": "word",
+      "start": 11.92,
+      "end": 12.5,
+      "speaker_id": null,
+      "logprob": -0.00023458882387785706,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 12.5,
+      "end": 12.579,
+      "speaker_id": null,
+      "logprob": -5.245071224635467e-05,
+      "chunk": 1
+    },
+    {
+      "text": "եմ:",
+      "type": "word",
+      "start": 12.579,
+      "end": 12.719,
+      "speaker_id": null,
+      "logprob": -0.016257594810743587,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 12.719,
+      "end": 13.379,
+      "speaker_id": null,
+      "logprob": -0.00016985881666187197,
+      "chunk": 1
+    },
+    {
+      "text": "Եթե",
+      "type": "word",
+      "start": 13.38,
+      "end": 13.519,
+      "speaker_id": null,
+      "logprob": -0.00012190272415561292,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 13.519,
+      "end": 13.599,
+      "speaker_id": null,
+      "logprob": -4.6491513785440475e-06,
+      "chunk": 1
+    },
+    {
+      "text": "ներկայությունս",
+      "type": "word",
+      "start": 13.599,
+      "end": 14.299,
+      "speaker_id": null,
+      "logprob": -0.0014118826306262885,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.299,
+      "end": 14.34,
+      "speaker_id": null,
+      "logprob": -7.629365427419543e-06,
+      "chunk": 1
+    },
+    {
+      "text": "քեզ",
+      "type": "word",
+      "start": 14.34,
+      "end": 14.519,
+      "speaker_id": null,
+      "logprob": -2.5589562786384096e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.519,
+      "end": 14.559,
+      "speaker_id": null,
+      "logprob": -2.264974000354414e-06,
+      "chunk": 1
+    },
+    {
+      "text": "համար",
+      "type": "word",
+      "start": 14.559,
+      "end": 14.839,
+      "speaker_id": null,
+      "logprob": -2.264974000354414e-06,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 14.839,
+      "end": 14.899,
+      "speaker_id": null,
+      "logprob": -0.00011860620725201443,
+      "chunk": 1
+    },
+    {
+      "text": "մեկ",
+      "type": "word",
+      "start": 14.899,
+      "end": 15.099,
+      "speaker_id": null,
+      "logprob": -6.67940354711997e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 15.099,
+      "end": 15.199,
+      "speaker_id": null,
+      "logprob": -5.495397272170521e-05,
+      "chunk": 1
+    },
+    {
+      "text": "է,",
+      "type": "word",
+      "start": 15.199,
+      "end": 15.259,
+      "speaker_id": null,
+      "logprob": -7.325125807255972e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 15.259,
+      "end": 15.679,
+      "speaker_id": null,
+      "logprob": -2.3841830625315197e-06,
+      "chunk": 1
+    },
+    {
+      "text": "ուրեմն",
+      "type": "word",
+      "start": 15.679,
+      "end": 15.939,
+      "speaker_id": null,
+      "logprob": -1.5079808160104827e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 15.939,
+      "end": 16.0,
+      "speaker_id": null,
+      "logprob": -4.3748852476710454e-05,
+      "chunk": 1
+    },
+    {
+      "text": "բացակայությունս",
+      "type": "word",
+      "start": 16.0,
+      "end": 16.84,
+      "speaker_id": null,
+      "logprob": -0.0007270530590176349,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 16.84,
+      "end": 16.899,
+      "speaker_id": null,
+      "logprob": -8.821448318485636e-06,
+      "chunk": 1
+    },
+    {
+      "text": "էլ",
+      "type": "word",
+      "start": 16.899,
+      "end": 16.979,
+      "speaker_id": null,
+      "logprob": -1.0847984412976075e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 16.979,
+      "end": 17.039,
+      "speaker_id": null,
+      "logprob": -3.814689989667386e-06,
+      "chunk": 1
+    },
+    {
+      "text": "նույնը",
+      "type": "word",
+      "start": 17.039,
+      "end": 17.279,
+      "speaker_id": null,
+      "logprob": -0.00012061255317045531,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 17.279,
+      "end": 17.319,
+      "speaker_id": null,
+      "logprob": -3.576272320060525e-06,
+      "chunk": 1
+    },
+    {
+      "text": "կլինի:",
+      "type": "word",
+      "start": 17.319,
+      "end": 17.799,
+      "speaker_id": null,
+      "logprob": -3.798669539870995e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 17.799,
+      "end": 17.899,
+      "speaker_id": null,
+      "logprob": -6.437280717364047e-06,
+      "chunk": 1
+    },
+    {
+      "text": "Ես",
+      "type": "word",
+      "start": 17.899,
+      "end": 17.979,
+      "speaker_id": null,
+      "logprob": -0.000180808933237131,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 17.979,
+      "end": 18.039,
+      "speaker_id": null,
+      "logprob": -0.18407243490219116,
+      "chunk": 1
+    },
+    {
+      "text": "էն",
+      "type": "word",
+      "start": 18.039,
+      "end": 18.139,
+      "speaker_id": null,
+      "logprob": -0.09210499648179393,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 18.139,
+      "end": 18.18,
+      "speaker_id": null,
+      "logprob": -7.390703103737906e-05,
+      "chunk": 1
+    },
+    {
+      "text": "տեսակը",
+      "type": "word",
+      "start": 18.18,
+      "end": 18.579,
+      "speaker_id": null,
+      "logprob": -0.00015096373203959956,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 18.579,
+      "end": 18.639,
+      "speaker_id": null,
+      "logprob": -2.682172998902388e-05,
+      "chunk": 1
+    },
+    {
+      "text": "չեմ,",
+      "type": "word",
+      "start": 18.639,
+      "end": 18.799,
+      "speaker_id": null,
+      "logprob": -0.00016544390109629603,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 18.799,
+      "end": 18.879,
+      "speaker_id": null,
+      "logprob": -2.7418097943154862e-06,
+      "chunk": 1
+    },
+    {
+      "text": "որ",
+      "type": "word",
+      "start": 18.879,
+      "end": 18.939,
+      "speaker_id": null,
+      "logprob": -2.7418097943154862e-06,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 18.939,
+      "end": 18.959,
+      "speaker_id": null,
+      "logprob": -6.890059739816934e-05,
+      "chunk": 1
+    },
+    {
+      "text": "ուշադրություն",
+      "type": "word",
+      "start": 18.959,
+      "end": 19.6,
+      "speaker_id": null,
+      "logprob": -0.0002269070982247985,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 19.6,
+      "end": 19.659,
+      "speaker_id": null,
+      "logprob": -0.001100054127164185,
+      "chunk": 1
+    },
+    {
+      "text": "մուրամ,",
+      "type": "word",
+      "start": 19.659,
+      "end": 20.039,
+      "speaker_id": null,
+      "logprob": -0.05369694013747254,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 20.039,
+      "end": 20.26,
+      "speaker_id": null,
+      "logprob": -3.6954195820726454e-05,
+      "chunk": 1
+    },
+    {
+      "text": "ես",
+      "type": "word",
+      "start": 20.26,
+      "end": 20.34,
+      "speaker_id": null,
+      "logprob": -4.660974445869215e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 20.34,
+      "end": 20.42,
+      "speaker_id": null,
+      "logprob": -0.0002760506176855415,
+      "chunk": 1
+    },
+    {
+      "text": "էներգիաս",
+      "type": "word",
+      "start": 20.42,
+      "end": 20.879,
+      "speaker_id": null,
+      "logprob": -0.0009013942726596724,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 20.879,
+      "end": 20.939,
+      "speaker_id": null,
+      "logprob": -2.145764938177308e-06,
+      "chunk": 1
+    },
+    {
+      "text": "տալիս",
+      "type": "word",
+      "start": 20.939,
+      "end": 21.18,
+      "speaker_id": null,
+      "logprob": -4.300845565694544e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 21.18,
+      "end": 21.219,
+      "speaker_id": null,
+      "logprob": -4.029192859889008e-05,
+      "chunk": 1
+    },
+    {
+      "text": "եմ",
+      "type": "word",
+      "start": 21.219,
+      "end": 21.299,
+      "speaker_id": null,
+      "logprob": -2.0980428644179483e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 21.299,
+      "end": 21.34,
+      "speaker_id": null,
+      "logprob": -0.00037531962152570486,
+      "chunk": 1
+    },
+    {
+      "text": "էնտեղ,",
+      "type": "word",
+      "start": 21.34,
+      "end": 21.62,
+      "speaker_id": null,
+      "logprob": -0.004921518960524433,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 21.62,
+      "end": 21.719,
+      "speaker_id": null,
+      "logprob": -4.6491513785440475e-06,
+      "chunk": 1
+    },
+    {
+      "text": "որտեղ",
+      "type": "word",
+      "start": 21.719,
+      "end": 21.979,
+      "speaker_id": null,
+      "logprob": -2.674997376743704e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 21.979,
+      "end": 22.02,
+      "speaker_id": null,
+      "logprob": -0.00013600854435935616,
+      "chunk": 1
+    },
+    {
+      "text": "այն",
+      "type": "word",
+      "start": 22.02,
+      "end": 22.139,
+      "speaker_id": null,
+      "logprob": -9.134788153157085e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 22.139,
+      "end": 22.18,
+      "speaker_id": null,
+      "logprob": -2.622600959512056e-06,
+      "chunk": 1
+    },
+    {
+      "text": "գնահատվում",
+      "type": "word",
+      "start": 22.18,
+      "end": 22.78,
+      "speaker_id": null,
+      "logprob": -2.9491570080608655e-05,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 22.78,
+      "end": 22.859,
+      "speaker_id": null,
+      "logprob": -0.00011050090688513592,
+      "chunk": 1
+    },
+    {
+      "text": "է:",
+      "type": "word",
+      "start": 22.859,
+      "end": 22.899,
+      "speaker_id": null,
+      "logprob": -0.0015091568675416056,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 22.899,
+      "end": 22.899,
+      "speaker_id": null,
+      "logprob": -0.006887386087328196,
+      "chunk": 1
+    }
+  ]
+}

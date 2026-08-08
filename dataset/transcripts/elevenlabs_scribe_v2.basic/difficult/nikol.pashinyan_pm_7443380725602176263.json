@@ -1,0 +1,280 @@
+{
+  "source": "nikol.pashinyan_pm_7443380725602176263.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 12.727,
+  "text": "Anna dueli dolma mən iki çay dolma Canım hankar çün də deəsən qoy insan də",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "aze",
+      "language_probability": 0.9983864426612854,
+      "text": "Anna dueli dolma mən iki çay dolma Canım hankar çün də deəsən qoy insan də"
+    }
+  ],
+  "words": [
+    {
+      "text": "Anna",
+      "type": "word",
+      "start": 2.859,
+      "end": 3.119,
+      "speaker_id": null,
+      "logprob": -0.8816750049591064,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.119,
+      "end": 3.179,
+      "speaker_id": null,
+      "logprob": -1.6843031644821167,
+      "chunk": 1
+    },
+    {
+      "text": "dueli",
+      "type": "word",
+      "start": 3.179,
+      "end": 3.46,
+      "speaker_id": null,
+      "logprob": -2.156298351287842,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.46,
+      "end": 3.5,
+      "speaker_id": null,
+      "logprob": -0.9127610921859741,
+      "chunk": 1
+    },
+    {
+      "text": "dolma",
+      "type": "word",
+      "start": 3.5,
+      "end": 3.859,
+      "speaker_id": null,
+      "logprob": -0.6370483696460724,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.859,
+      "end": 4.159,
+      "speaker_id": null,
+      "logprob": -1.003988265991211,
+      "chunk": 1
+    },
+    {
+      "text": "mən",
+      "type": "word",
+      "start": 7.859,
+      "end": 8.439,
+      "speaker_id": null,
+      "logprob": -0.3663525014417246,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.439,
+      "end": 8.479,
+      "speaker_id": null,
+      "logprob": -0.039841290563344955,
+      "chunk": 1
+    },
+    {
+      "text": "iki",
+      "type": "word",
+      "start": 8.479,
+      "end": 8.56,
+      "speaker_id": null,
+      "logprob": -0.039841290563344955,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.56,
+      "end": 8.639,
+      "speaker_id": null,
+      "logprob": -0.5395150184631348,
+      "chunk": 1
+    },
+    {
+      "text": "çay",
+      "type": "word",
+      "start": 8.639,
+      "end": 8.76,
+      "speaker_id": null,
+      "logprob": -1.0028433799743652,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.76,
+      "end": 8.84,
+      "speaker_id": null,
+      "logprob": -0.036059506237506866,
+      "chunk": 1
+    },
+    {
+      "text": "dolma",
+      "type": "word",
+      "start": 8.84,
+      "end": 9.219,
+      "speaker_id": null,
+      "logprob": -0.02186437714844942,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.219,
+      "end": 9.24,
+      "speaker_id": null,
+      "logprob": -1.6636509895324707,
+      "chunk": 1
+    },
+    {
+      "text": "Canım",
+      "type": "word",
+      "start": 9.38,
+      "end": 9.88,
+      "speaker_id": null,
+      "logprob": -0.6273305028676986,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.88,
+      "end": 9.939,
+      "speaker_id": null,
+      "logprob": -0.4691702425479889,
+      "chunk": 1
+    },
+    {
+      "text": "hankar",
+      "type": "word",
+      "start": 9.939,
+      "end": 10.3,
+      "speaker_id": null,
+      "logprob": -0.44782524804274243,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.3,
+      "end": 10.42,
+      "speaker_id": null,
+      "logprob": -0.02206677384674549,
+      "chunk": 1
+    },
+    {
+      "text": "çün",
+      "type": "word",
+      "start": 10.42,
+      "end": 10.519,
+      "speaker_id": null,
+      "logprob": -1.799333314721783,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.519,
+      "end": 10.599,
+      "speaker_id": null,
+      "logprob": -2.0376803874969482,
+      "chunk": 1
+    },
+    {
+      "text": "də",
+      "type": "word",
+      "start": 10.599,
+      "end": 10.819,
+      "speaker_id": null,
+      "logprob": -2.0376803874969482,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.819,
+      "end": 10.92,
+      "speaker_id": null,
+      "logprob": -2.4525434970855713,
+      "chunk": 1
+    },
+    {
+      "text": "deəsən",
+      "type": "word",
+      "start": 10.92,
+      "end": 11.1,
+      "speaker_id": null,
+      "logprob": -1.4369357971202892,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.1,
+      "end": 11.1,
+      "speaker_id": null,
+      "logprob": -1.0438306331634521,
+      "chunk": 1
+    },
+    {
+      "text": "qoy",
+      "type": "word",
+      "start": 11.1,
+      "end": 11.479,
+      "speaker_id": null,
+      "logprob": -0.3772386734684308,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 11.479,
+      "end": 11.859,
+      "speaker_id": null,
+      "logprob": -0.5106085538864136,
+      "chunk": 1
+    },
+    {
+      "text": "insan",
+      "type": "word",
+      "start": 11.859,
+      "end": 12.219,
+      "speaker_id": null,
+      "logprob": -0.5106085538864136,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 12.219,
+      "end": 12.579,
+      "speaker_id": null,
+      "logprob": -1.1849135160446167,
+      "chunk": 1
+    },
+    {
+      "text": "də",
+      "type": "word",
+      "start": 12.579,
+      "end": 12.68,
+      "speaker_id": null,
+      "logprob": -1.1849135160446167,
+      "chunk": 1
+    }
+  ]
+}

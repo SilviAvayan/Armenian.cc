@@ -1,0 +1,298 @@
+{
+  "source": "nikol.pashinyan_pm_7623998996230507783.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 10.591,
+  "text": "Es senç numê nîgeha min geha geha geha geha tim girtim mêna tim girtim mêna mêna",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "deu",
+      "language_probability": 0.129622682929039,
+      "text": "Es senç numê nîgeha min geha geha geha geha tim girtim mêna tim girtim mêna mêna"
+    }
+  ],
+  "words": [
+    {
+      "text": "Es",
+      "type": "word",
+      "start": 0.119,
+      "end": 0.359,
+      "speaker_id": null,
+      "logprob": -3.245837688446045,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.359,
+      "end": 0.399,
+      "speaker_id": null,
+      "logprob": -1.9333196878433228,
+      "chunk": 1
+    },
+    {
+      "text": "senç",
+      "type": "word",
+      "start": 0.399,
+      "end": 0.74,
+      "speaker_id": null,
+      "logprob": -1.8089762330055237,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.74,
+      "end": 0.799,
+      "speaker_id": null,
+      "logprob": -1.7808749675750732,
+      "chunk": 1
+    },
+    {
+      "text": "numê",
+      "type": "word",
+      "start": 0.799,
+      "end": 1.24,
+      "speaker_id": null,
+      "logprob": -1.5626919865608215,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.24,
+      "end": 1.319,
+      "speaker_id": null,
+      "logprob": -0.2718070149421692,
+      "chunk": 1
+    },
+    {
+      "text": "nîgeha",
+      "type": "word",
+      "start": 1.319,
+      "end": 2.299,
+      "speaker_id": null,
+      "logprob": -0.5540464824686447,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.299,
+      "end": 2.679,
+      "speaker_id": null,
+      "logprob": -0.0211188867688179,
+      "chunk": 1
+    },
+    {
+      "text": "min",
+      "type": "word",
+      "start": 2.679,
+      "end": 2.959,
+      "speaker_id": null,
+      "logprob": -0.0211188867688179,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.959,
+      "end": 3.019,
+      "speaker_id": null,
+      "logprob": -1.5476593971252441,
+      "chunk": 1
+    },
+    {
+      "text": "geha",
+      "type": "word",
+      "start": 3.019,
+      "end": 3.559,
+      "speaker_id": null,
+      "logprob": -0.934457927942276,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.559,
+      "end": 3.659,
+      "speaker_id": null,
+      "logprob": -1.183699131011963,
+      "chunk": 1
+    },
+    {
+      "text": "geha",
+      "type": "word",
+      "start": 3.659,
+      "end": 4.219,
+      "speaker_id": null,
+      "logprob": -0.595956755336374,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.219,
+      "end": 4.339,
+      "speaker_id": null,
+      "logprob": -0.0004412154376041144,
+      "chunk": 1
+    },
+    {
+      "text": "geha",
+      "type": "word",
+      "start": 4.339,
+      "end": 4.44,
+      "speaker_id": null,
+      "logprob": -0.00022507804715132806,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.44,
+      "end": 4.44,
+      "speaker_id": null,
+      "logprob": -0.2784197926521301,
+      "chunk": 1
+    },
+    {
+      "text": "geha",
+      "type": "word",
+      "start": 4.44,
+      "end": 4.88,
+      "speaker_id": null,
+      "logprob": -0.1394822749425657,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.88,
+      "end": 5.299,
+      "speaker_id": null,
+      "logprob": -0.36276617646217346,
+      "chunk": 1
+    },
+    {
+      "text": "tim",
+      "type": "word",
+      "start": 5.299,
+      "end": 6.159,
+      "speaker_id": null,
+      "logprob": -0.36276617646217346,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.159,
+      "end": 6.299,
+      "speaker_id": null,
+      "logprob": -1.3718889951705933,
+      "chunk": 1
+    },
+    {
+      "text": "girtim",
+      "type": "word",
+      "start": 6.299,
+      "end": 6.799,
+      "speaker_id": null,
+      "logprob": -0.41672055050730705,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.799,
+      "end": 6.96,
+      "speaker_id": null,
+      "logprob": -0.4309636056423187,
+      "chunk": 1
+    },
+    {
+      "text": "mêna",
+      "type": "word",
+      "start": 6.96,
+      "end": 7.639,
+      "speaker_id": null,
+      "logprob": -0.964227482676506,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.639,
+      "end": 7.919,
+      "speaker_id": null,
+      "logprob": -0.07582110166549683,
+      "chunk": 1
+    },
+    {
+      "text": "tim",
+      "type": "word",
+      "start": 7.919,
+      "end": 8.139,
+      "speaker_id": null,
+      "logprob": -0.07582110166549683,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.139,
+      "end": 8.239,
+      "speaker_id": null,
+      "logprob": -9.691245941212401e-05,
+      "chunk": 1
+    },
+    {
+      "text": "girtim",
+      "type": "word",
+      "start": 8.239,
+      "end": 8.76,
+      "speaker_id": null,
+      "logprob": -0.001088526617725923,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.76,
+      "end": 8.84,
+      "speaker_id": null,
+      "logprob": -0.004506076220422983,
+      "chunk": 1
+    },
+    {
+      "text": "mêna",
+      "type": "word",
+      "start": 8.84,
+      "end": 9.859,
+      "speaker_id": null,
+      "logprob": -0.022239259677007794,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.859,
+      "end": 9.88,
+      "speaker_id": null,
+      "logprob": -0.0026991860941052437,
+      "chunk": 1
+    },
+    {
+      "text": "mêna",
+      "type": "word",
+      "start": 9.88,
+      "end": 10.18,
+      "speaker_id": null,
+      "logprob": -0.0013704542379855411,
+      "chunk": 1
+    }
+  ]
+}

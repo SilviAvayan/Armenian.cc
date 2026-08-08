@@ -1,0 +1,298 @@
+{
+  "source": "v_repostax0_7657675077168729351.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 11.241,
+  "text": "Ordevim kokkinem, yhtym superherostatim. Jest problem, čuni mim kokkinen tatin. Oboren din tarsaše, tatin cepe gyplatin",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "slv",
+      "language_probability": 0.28340667486190796,
+      "text": "Ordevim kokkinem, yhtym superherostatim. Jest problem, čuni mim kokkinen tatin. Oboren din tarsaše, tatin cepe gyplatin"
+    }
+  ],
+  "words": [
+    {
+      "text": "Ordevim",
+      "type": "word",
+      "start": 0.019,
+      "end": 0.5,
+      "speaker_id": null,
+      "logprob": -0.7450478672981262,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 0.5,
+      "end": 0.599,
+      "speaker_id": null,
+      "logprob": -0.36948397755622864,
+      "chunk": 1
+    },
+    {
+      "text": "kokkinem,",
+      "type": "word",
+      "start": 0.599,
+      "end": 1.36,
+      "speaker_id": null,
+      "logprob": -0.6332487894429101,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.36,
+      "end": 1.379,
+      "speaker_id": null,
+      "logprob": -1.340956687927246,
+      "chunk": 1
+    },
+    {
+      "text": "yhtym",
+      "type": "word",
+      "start": 1.379,
+      "end": 1.719,
+      "speaker_id": null,
+      "logprob": -0.8221078723669052,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.719,
+      "end": 1.819,
+      "speaker_id": null,
+      "logprob": -0.052483320236206055,
+      "chunk": 1
+    },
+    {
+      "text": "superherostatim.",
+      "type": "word",
+      "start": 1.819,
+      "end": 3.579,
+      "speaker_id": null,
+      "logprob": -0.44512488521286286,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.579,
+      "end": 3.779,
+      "speaker_id": null,
+      "logprob": -0.037658847868442535,
+      "chunk": 1
+    },
+    {
+      "text": "Jest",
+      "type": "word",
+      "start": 3.779,
+      "end": 4.0,
+      "speaker_id": null,
+      "logprob": -0.037658847868442535,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.0,
+      "end": 4.019,
+      "speaker_id": null,
+      "logprob": -0.18296830356121063,
+      "chunk": 1
+    },
+    {
+      "text": "problem,",
+      "type": "word",
+      "start": 4.019,
+      "end": 4.48,
+      "speaker_id": null,
+      "logprob": -0.22784377075731754,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.48,
+      "end": 4.879,
+      "speaker_id": null,
+      "logprob": -1.5391899347305298,
+      "chunk": 1
+    },
+    {
+      "text": "čuni",
+      "type": "word",
+      "start": 4.88,
+      "end": 5.399,
+      "speaker_id": null,
+      "logprob": -1.0355975925922394,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.399,
+      "end": 5.639,
+      "speaker_id": null,
+      "logprob": -0.04675263166427612,
+      "chunk": 1
+    },
+    {
+      "text": "mim",
+      "type": "word",
+      "start": 5.639,
+      "end": 5.799,
+      "speaker_id": null,
+      "logprob": -0.04675263166427612,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.799,
+      "end": 5.859,
+      "speaker_id": null,
+      "logprob": -0.001500672078691423,
+      "chunk": 1
+    },
+    {
+      "text": "kokkinen",
+      "type": "word",
+      "start": 5.859,
+      "end": 6.719,
+      "speaker_id": null,
+      "logprob": -0.021099632504046895,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.719,
+      "end": 6.839,
+      "speaker_id": null,
+      "logprob": -0.5826376080513,
+      "chunk": 1
+    },
+    {
+      "text": "tatin.",
+      "type": "word",
+      "start": 6.839,
+      "end": 7.479,
+      "speaker_id": null,
+      "logprob": -0.1491487498084704,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.479,
+      "end": 7.659,
+      "speaker_id": null,
+      "logprob": -0.03821904584765434,
+      "chunk": 1
+    },
+    {
+      "text": "Oboren",
+      "type": "word",
+      "start": 7.659,
+      "end": 8.22,
+      "speaker_id": null,
+      "logprob": -0.14323736603061357,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.22,
+      "end": 8.26,
+      "speaker_id": null,
+      "logprob": -0.6258919835090637,
+      "chunk": 1
+    },
+    {
+      "text": "din",
+      "type": "word",
+      "start": 8.26,
+      "end": 8.479,
+      "speaker_id": null,
+      "logprob": -0.6258919835090637,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.479,
+      "end": 8.519,
+      "speaker_id": null,
+      "logprob": -0.9412055015563965,
+      "chunk": 1
+    },
+    {
+      "text": "tarsaše,",
+      "type": "word",
+      "start": 8.519,
+      "end": 9.219,
+      "speaker_id": null,
+      "logprob": -0.6771639194339514,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.219,
+      "end": 9.5,
+      "speaker_id": null,
+      "logprob": -0.5237404108047485,
+      "chunk": 1
+    },
+    {
+      "text": "tatin",
+      "type": "word",
+      "start": 9.5,
+      "end": 9.88,
+      "speaker_id": null,
+      "logprob": -0.1050251719309017,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.88,
+      "end": 9.939,
+      "speaker_id": null,
+      "logprob": -0.0005989664932712913,
+      "chunk": 1
+    },
+    {
+      "text": "cepe",
+      "type": "word",
+      "start": 9.939,
+      "end": 10.38,
+      "speaker_id": null,
+      "logprob": -0.1091453951667063,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.38,
+      "end": 10.399,
+      "speaker_id": null,
+      "logprob": -0.5665128827095032,
+      "chunk": 1
+    },
+    {
+      "text": "gyplatin",
+      "type": "word",
+      "start": 10.399,
+      "end": 11.14,
+      "speaker_id": null,
+      "logprob": -0.4015401303768158,
+      "chunk": 1
+    }
+  ]
+}

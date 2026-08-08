@@ -1,0 +1,388 @@
+{
+  "source": "nikol.pashinyan_pm_7590320703174380808.mp4",
+  "model_id": "scribe_v2",
+  "requested_language": null,
+  "diarize": false,
+  "duration_seconds": 11.984,
+  "text": "Նոր տարի էր նոր տարի դուրա լույսի կին բարի, ես քիշերս բունարի, դոնա ծանոթ զանգերի, ես քիշերս բունարի, դոնա ծանոթ զանգերի",
+  "chunks": [
+    {
+      "index": 1,
+      "offset": 0.0,
+      "language_code": "hye",
+      "language_probability": 1.0,
+      "text": "Նոր տարի էր նոր տարի դուրա լույսի կին բարի, ես քիշերս բունարի, դոնա ծանոթ զանգերի, ես քիշերս բունարի, դոնա ծանոթ զանգերի"
+    }
+  ],
+  "words": [
+    {
+      "text": "Նոր",
+      "type": "word",
+      "start": 1.24,
+      "end": 1.5,
+      "speaker_id": null,
+      "logprob": -0.006508782341067369,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.5,
+      "end": 1.519,
+      "speaker_id": null,
+      "logprob": -0.011223751120269299,
+      "chunk": 1
+    },
+    {
+      "text": "տարի",
+      "type": "word",
+      "start": 1.519,
+      "end": 1.839,
+      "speaker_id": null,
+      "logprob": -0.0260213075671345,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 1.839,
+      "end": 1.919,
+      "speaker_id": null,
+      "logprob": -0.9166623950004578,
+      "chunk": 1
+    },
+    {
+      "text": "էր",
+      "type": "word",
+      "start": 1.919,
+      "end": 2.019,
+      "speaker_id": null,
+      "logprob": -0.9166623950004578,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.019,
+      "end": 2.159,
+      "speaker_id": null,
+      "logprob": -1.0201588869094849,
+      "chunk": 1
+    },
+    {
+      "text": "նոր",
+      "type": "word",
+      "start": 2.159,
+      "end": 2.399,
+      "speaker_id": null,
+      "logprob": -0.34005590279260406,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.399,
+      "end": 2.419,
+      "speaker_id": null,
+      "logprob": -0.0009658439084887505,
+      "chunk": 1
+    },
+    {
+      "text": "տարի",
+      "type": "word",
+      "start": 2.419,
+      "end": 2.839,
+      "speaker_id": null,
+      "logprob": -0.0014311285340227187,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 2.839,
+      "end": 3.019,
+      "speaker_id": null,
+      "logprob": -0.30734848976135254,
+      "chunk": 1
+    },
+    {
+      "text": "դուրա",
+      "type": "word",
+      "start": 3.019,
+      "end": 3.399,
+      "speaker_id": null,
+      "logprob": -0.6280582308769226,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.399,
+      "end": 3.48,
+      "speaker_id": null,
+      "logprob": -0.05036607012152672,
+      "chunk": 1
+    },
+    {
+      "text": "լույսի",
+      "type": "word",
+      "start": 3.48,
+      "end": 3.819,
+      "speaker_id": null,
+      "logprob": -0.2747943461872637,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 3.819,
+      "end": 3.939,
+      "speaker_id": null,
+      "logprob": -0.021629048511385918,
+      "chunk": 1
+    },
+    {
+      "text": "կին",
+      "type": "word",
+      "start": 3.939,
+      "end": 4.079,
+      "speaker_id": null,
+      "logprob": -0.2766478502502044,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.079,
+      "end": 4.179,
+      "speaker_id": null,
+      "logprob": -0.4926314353942871,
+      "chunk": 1
+    },
+    {
+      "text": "բարի,",
+      "type": "word",
+      "start": 4.179,
+      "end": 4.579,
+      "speaker_id": null,
+      "logprob": -0.34128509373404087,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 4.579,
+      "end": 4.859,
+      "speaker_id": null,
+      "logprob": -0.9799807071685791,
+      "chunk": 1
+    },
+    {
+      "text": "ես",
+      "type": "word",
+      "start": 4.859,
+      "end": 5.019,
+      "speaker_id": null,
+      "logprob": -0.014053667895495892,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.019,
+      "end": 5.079,
+      "speaker_id": null,
+      "logprob": -0.16362233459949493,
+      "chunk": 1
+    },
+    {
+      "text": "քիշերս",
+      "type": "word",
+      "start": 5.079,
+      "end": 5.46,
+      "speaker_id": null,
+      "logprob": -0.3610664342219631,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 5.46,
+      "end": 5.679,
+      "speaker_id": null,
+      "logprob": -0.4784916639328003,
+      "chunk": 1
+    },
+    {
+      "text": "բունարի,",
+      "type": "word",
+      "start": 5.679,
+      "end": 6.319,
+      "speaker_id": null,
+      "logprob": -0.41034140065312386,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.319,
+      "end": 6.599,
+      "speaker_id": null,
+      "logprob": -0.5460934638977051,
+      "chunk": 1
+    },
+    {
+      "text": "դոնա",
+      "type": "word",
+      "start": 6.599,
+      "end": 6.92,
+      "speaker_id": null,
+      "logprob": -0.22622092999517918,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 6.92,
+      "end": 7.039,
+      "speaker_id": null,
+      "logprob": -0.041646622121334076,
+      "chunk": 1
+    },
+    {
+      "text": "ծանոթ",
+      "type": "word",
+      "start": 7.039,
+      "end": 7.439,
+      "speaker_id": null,
+      "logprob": -0.19635447561740876,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 7.439,
+      "end": 7.459,
+      "speaker_id": null,
+      "logprob": -0.04837620630860329,
+      "chunk": 1
+    },
+    {
+      "text": "զանգերի,",
+      "type": "word",
+      "start": 7.46,
+      "end": 8.359,
+      "speaker_id": null,
+      "logprob": -0.3027166210231371,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.359,
+      "end": 8.42,
+      "speaker_id": null,
+      "logprob": -0.0003091811086051166,
+      "chunk": 1
+    },
+    {
+      "text": "ես",
+      "type": "word",
+      "start": 8.42,
+      "end": 8.619,
+      "speaker_id": null,
+      "logprob": -0.00019488819816615433,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 8.619,
+      "end": 8.659,
+      "speaker_id": null,
+      "logprob": -0.00018594920402392745,
+      "chunk": 1
+    },
+    {
+      "text": "քիշերս",
+      "type": "word",
+      "start": 8.659,
+      "end": 9.059,
+      "speaker_id": null,
+      "logprob": -0.0005112009724446883,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.059,
+      "end": 9.079,
+      "speaker_id": null,
+      "logprob": -0.009214494377374649,
+      "chunk": 1
+    },
+    {
+      "text": "բունարի,",
+      "type": "word",
+      "start": 9.079,
+      "end": 9.96,
+      "speaker_id": null,
+      "logprob": -0.04569775378331542,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 9.96,
+      "end": 10.179,
+      "speaker_id": null,
+      "logprob": -0.002315223217010498,
+      "chunk": 1
+    },
+    {
+      "text": "դոնա",
+      "type": "word",
+      "start": 10.179,
+      "end": 10.579,
+      "speaker_id": null,
+      "logprob": -0.0012903627939522266,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.579,
+      "end": 10.639,
+      "speaker_id": null,
+      "logprob": -8.093983342405409e-05,
+      "chunk": 1
+    },
+    {
+      "text": "ծանոթ",
+      "type": "word",
+      "start": 10.639,
+      "end": 10.979,
+      "speaker_id": null,
+      "logprob": -0.0032625027146423236,
+      "chunk": 1
+    },
+    {
+      "text": " ",
+      "type": "spacing",
+      "start": 10.979,
+      "end": 11.039,
+      "speaker_id": null,
+      "logprob": -2.47952248173533e-05,
+      "chunk": 1
+    },
+    {
+      "text": "զանգերի",
+      "type": "word",
+      "start": 11.039,
+      "end": 11.879,
+      "speaker_id": null,
+      "logprob": -0.00010649416825409779,
+      "chunk": 1
+    }
+  ]
+}
