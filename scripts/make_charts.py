@@ -79,4 +79,16 @@ if ad.exists():
          cats4,vals4,None,cols4,ymax=max(0.12,max(vals4)*1.25),
          note="higher = ASR less sure · confidence degrades monotonically with rated difficulty")
 
+# 5. WER by difficulty (human ground truth)
+wj=OUT/"asr_wer.json"
+if wj.exists():
+    w=json.loads(wj.read_text())["by_category"]
+    order=[k for k in ["formal","single_speaker","multi_speakers","songs","difficult","songs_difficult"] if k in w]
+    cats5=[k.replace("_","\n") for k in order]
+    vals5=[w[k]["WER"] for k in order]
+    cols5=["#3fb950","#3fb950","#d29922","#d29922","#f85149","#f85149"][:len(order)]
+    bars("chart_wer.svg","ElevenLabs word error rate by difficulty (human-checked, n=5/cat)",
+         cats5,vals5,None,cols5,ymax=max(0.25,max(vals5)*1.2),
+         note="WER vs human-corrected transcript · same ranking as the confidence signal")
+
 print("charts done")
