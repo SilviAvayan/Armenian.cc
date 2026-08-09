@@ -1,0 +1,17 @@
+{
+  "judge_model": "deepseek/deepseek-chat-v3.1",
+  "n_pairs": 113,
+  "agreement_3way": 0.611,
+  "kappa_3way": 0.214,
+  "agreement_binary_err": 0.752,
+  "kappa_binary_err": 0.22,
+  "error_detection": {
+    "tp": 6,
+    "fp": 27,
+    "fn": 1,
+    "tn": 79,
+    "precision": 0.182,
+    "recall": 0.857
+  },
+  "verdict_trustworthy": false
+}
