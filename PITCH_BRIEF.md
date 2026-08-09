@@ -81,17 +81,22 @@ baseline `production≈100%` column — it's circular (gold = the shipped gloss)
 
 **ASR model bake-off** (teammates, 18 models on the 19-clip set): **ElevenLabs Scribe wins, 7.6% WER**; best Gemini ~10–14%; GPT/open models worse.
 
-**Translation model bake-off** (our stage; chrF++ vs gold + robustness/latency):
-| model | gloss chrF++ | sent chrF++ | empty | lat |
+**Translation model bake-off** (our stage; chrF++ vs gold + valid-output rate + latency; 11 models, fair 8k-token budget):
+| model | gloss chrF++ | sent chrF++ | valid | latency |
 |---|--:|--:|--:|--:|
-| gemini-3.1-flash-lite 🏆 | 71.7 | 74.1 | 0% | 1.5s |
-| gemini-3-flash-preview | 69.0 | 73.0 | 1% | 2.9s |
-| gemini-2.5-flash | 63.2 | 65.2 | 0% | 1.4s |
-| gpt-4.1-mini | 58.7 | 55.4 | 0% | 3.4s |
-| deepseek-v3.1 | 55.8 | 57.6 | 0% | 10.6s |
-| gemini-3.5/3.6-flash, 3.1-pro | ~0 | — | 70–96% | slow |
+| gemini-3.1-flash-lite 🏆 | 71.7 | 74.1 | 100% | 1.5s |
+| gemini-3-flash-preview | 69.0 | 73.0 | 99% | 2.9s |
+| gemini-3.5-flash | 66.8 | 71.0 | 100% | 8.2s |
+| gemini-3.1-pro | 63.4 | 67.2 | 98% | 14.6s |
+| gemini-2.5-flash | 63.2 | 65.2 | 100% | 1.4s |
+| gemini-3.6-flash | 61.0 | 66.1 | 99% | 6.3s |
+| gpt-4.1-mini | 58.7 | 55.4 | 100% | 3.4s |
+| deepseek-v3.1 | 55.8 | 57.6 | 100% | 10.6s |
+| gemini-2.5-flash-lite | 49.5 | 52.7 | 93% | 1.2s |
+| gpt-4o-mini | 44.8 | 55.8 | 99% | 3.6s |
+| deepseek-v4-flash | 40.0 | 48.7 | 77% | 43.5s |
 
-Findings: a cheap **flash-lite** tier wins; **reasoning-heavy tiers (3.5/3.6-flash, 3.1-pro, DeepSeek-v4) break the JSON contract** (70–96% empty) and are slow (v4 ~16–24s/call). This is not a harness bug: after capping reasoning (`effort:low`) and raising the token budget, gemini-3.5-flash *still* failed **72%** of calls (reasoning crowds out the structured output). For a per-word glosser that runs on every video, **reliability + latency matter as much as raw quality** — flash-lite wins on all three.
+Findings (corrected after a fair re-run): the earlier "reasoning tiers break 70–96%" was **our token budget, not the models** — at 8k tokens the Gemini reasoning tiers return ~100% valid JSON. The real story is **latency, not breakage**: `gemini-3.1-flash-lite` wins on quality **and** speed (1.5s), while the bigger reasoning/pro tiers match quality but cost 4–10× the latency. The genuine outlier is **DeepSeek v4-flash — worst quality (40.0), still 23% fragile, and ~30× slower (43.5s)**; not competitive here. (v4-pro excluded — never fairly re-run.) For a per-word glosser that runs on every video, reliability + latency matter as much as raw quality → flash-lite.
 
 **Task B.1 — few-shot judge (the payoff):** seeding the gloss judge with 8 of your labeled examples lifts it from **κ=0.22 → 0.66** (substantial, clears the trust bar), **precision 1.0** on flagged errors. So the human labels *make the judge trustworthy* — closing the loop. Caveat: run on `deepseek-v4-flash`, which (reasoning model) left 45% of calls unparseable → only 58 scored; deploy with a reliable flash-tier judge for full coverage. *(Fresh human-eval of the winner's own glosses still pending.)*
 
