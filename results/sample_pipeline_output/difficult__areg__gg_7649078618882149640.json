@@ -1,0 +1,308 @@
+[
+  {
+    "start": 0.34,
+    "end": 1.199,
+    "text": "Ակր ինչու՞,",
+    "words": [
+      {
+        "text": "Ակր",
+        "start": 0.34,
+        "end": 0.639,
+        "logprob": -0.2316100986984869,
+        "translation": "Акр"
+      },
+      {
+        "text": "ինչու՞,",
+        "start": 0.699,
+        "end": 1.199,
+        "logprob": -0.09513532574835283,
+        "translation": "почему?"
+      }
+    ],
+    "explanation": "Акр, почему?",
+    "notes": [
+      {
+        "word": "Ակր",
+        "gloss": "Акр",
+        "note": "Имя собственное"
+      }
+    ]
+  },
+  {
+    "start": 2.539,
+    "end": 9.239,
+    "text": "ինչու՞ համար իմ էդ կվարվիս էդպես Տեր իմ Աստված, որ մեղքիր զմար։",
+    "words": [
+      {
+        "text": "ինչու՞",
+        "start": 2.539,
+        "end": 2.919,
+        "logprob": -0.007454120912977184,
+        "translation": "почему"
+      },
+      {
+        "text": "համար",
+        "start": 3.0,
+        "end": 3.579,
+        "logprob": -0.018253207206726074,
+        "translation": "же"
+      },
+      {
+        "text": "իմ",
+        "start": 3.599,
+        "end": 3.74,
+        "logprob": -0.00035589560866355896,
+        "translation": "мой"
+      },
+      {
+        "text": "էդ",
+        "start": 3.799,
+        "end": 4.019,
+        "logprob": -0.7213329672813416,
+        "translation": "так"
+      },
+      {
+        "text": "կվարվիս",
+        "start": 4.059,
+        "end": 4.739,
+        "logprob": -0.09526975812124354,
+        "translation": "поступаешь"
+      },
+      {
+        "text": "էդպես",
+        "start": 4.779,
+        "end": 5.259,
+        "logprob": -0.01796742472797632,
+        "translation": "так"
+      },
+      {
+        "text": "Տեր",
+        "start": 5.299,
+        "end": 5.519,
+        "logprob": -0.08415474842089073,
+        "translation": "Господь"
+      },
+      {
+        "text": "իմ",
+        "start": 5.559,
+        "end": 5.719,
+        "logprob": -0.004993942100554705,
+        "translation": "мой"
+      },
+      {
+        "text": "Աստված,",
+        "start": 5.759,
+        "end": 6.799,
+        "logprob": -0.005676608680265157,
+        "translation": "Бог"
+      },
+      {
+        "text": "որ",
+        "start": 7.159,
+        "end": 7.679,
+        "logprob": -0.09100540727376938,
+        "translation": "за"
+      },
+      {
+        "text": "մեղքիր",
+        "start": 7.739,
+        "end": 8.199,
+        "logprob": -0.005492716193354378,
+        "translation": "грехи"
+      },
+      {
+        "text": "զմար։",
+        "start": 8.279,
+        "end": 9.239,
+        "logprob": -0.26133296824991703,
+        "translation": "какие"
+      }
+    ],
+    "explanation": "Почему же ты так поступаешь, Господи Боже мой, за какие грехи?",
+    "notes": [
+      {
+        "word": "ինչու՞ համար",
+        "gloss": "почему же",
+        "note": "Colloquial for 'why'"
+      },
+      {
+        "word": "էդ",
+        "gloss": "так",
+        "note": "Colloquial contraction of 'այդպես' (aydpes) meaning 'that way' or 'so'"
+      },
+      {
+        "word": "կվարվիս",
+        "gloss": "поступаешь",
+        "note": "Western Armenian, future tense used for present continuous/habitual action, 'վարվել' (varvel) - to behave/act"
+      },
+      {
+        "word": "էդպես",
+        "gloss": "так",
+        "note": "Colloquial for 'այդպես' (aydpes) meaning 'that way' or 'so'"
+      },
+      {
+        "word": "զմար",
+        "gloss": "какие",
+        "note": "Colloquial/dialectal for 'ինչի համար' (inchi hamar) or 'որի համար' (vori hamar) meaning 'for what' or 'for which'"
+      }
+    ]
+  },
+  {
+    "start": 9.559,
+    "end": 17.359,
+    "text": "Էն օրը սաղ ու էս խոտի տեզը քիչերով պաժար տվի թե որ էն դարակ չեղավ ու ոչխարներին կոմբայնով աղցա։",
+    "words": [
+      {
+        "text": "Էն",
+        "start": 9.559,
+        "end": 9.719,
+        "logprob": -0.0011966335150646046,
+        "translation": "Тот"
+      },
+      {
+        "text": "օրը",
+        "start": 9.739,
+        "end": 10.019,
+        "logprob": -0.11127181487972848,
+        "translation": "день"
+      },
+      {
+        "text": "սաղ",
+        "start": 10.059,
+        "end": 10.399,
+        "logprob": -0.876003029756248,
+        "translation": "весь"
+      },
+      {
+        "text": "ու",
+        "start": 10.42,
+        "end": 10.46,
+        "logprob": -0.07719406485557556,
+        "translation": "и"
+      },
+      {
+        "text": "էս",
+        "start": 10.5,
+        "end": 10.699,
+        "logprob": -0.01116773800822557,
+        "translation": "этот"
+      },
+      {
+        "text": "խոտի",
+        "start": 10.779,
+        "end": 11.099,
+        "logprob": -0.00632340571610257,
+        "translation": "сена"
+      },
+      {
+        "text": "տեզը",
+        "start": 11.159,
+        "end": 11.5,
+        "logprob": -0.2797981488984078,
+        "translation": "стог"
+      },
+      {
+        "text": "քիչերով",
+        "start": 11.579,
+        "end": 12.099,
+        "logprob": -0.23685529469262942,
+        "translation": "понемногу"
+      },
+      {
+        "text": "պաժար",
+        "start": 12.179,
+        "end": 12.579,
+        "logprob": -0.3471469283103943,
+        "translation": "пожар"
+      },
+      {
+        "text": "տվի",
+        "start": 12.659,
+        "end": 12.92,
+        "logprob": -0.2334920996800065,
+        "translation": "дал(а)"
+      },
+      {
+        "text": "թե",
+        "start": 12.979,
+        "end": 13.119,
+        "logprob": -0.3824274521321058,
+        "translation": "чтобы"
+      },
+      {
+        "text": "որ",
+        "start": 13.179,
+        "end": 13.5,
+        "logprob": -0.7655620574951172,
+        "translation": "что"
+      },
+      {
+        "text": "էն",
+        "start": 13.899,
+        "end": 14.019,
+        "logprob": -0.176945511251688,
+        "translation": "тот"
+      },
+      {
+        "text": "դարակ",
+        "start": 14.039,
+        "end": 14.399,
+        "logprob": -0.3733185052871704,
+        "translation": "стог"
+      },
+      {
+        "text": "չեղավ",
+        "start": 14.439,
+        "end": 14.819,
+        "logprob": -0.1522025665268302,
+        "translation": "не_был"
+      },
+      {
+        "text": "ու",
+        "start": 14.859,
+        "end": 14.979,
+        "logprob": -0.30864518880844116,
+        "translation": "и"
+      },
+      {
+        "text": "ոչխարներին",
+        "start": 15.079,
+        "end": 15.819,
+        "logprob": -0.023562562436563895,
+        "translation": "овец"
+      },
+      {
+        "text": "կոմբայնով",
+        "start": 15.899,
+        "end": 16.52,
+        "logprob": -0.015098954613980217,
+        "translation": "комбайном"
+      },
+      {
+        "text": "աղցա։",
+        "start": 16.539,
+        "end": 17.359,
+        "logprob": -0.14008640497922897,
+        "translation": "скосил(а)."
+      }
+    ],
+    "explanation": "В тот день я сжёг весь этот стог сена понемногу, чтобы не было того стога, и скосил овец комбайном.",
+    "notes": [
+      {
+        "word": "պաժար տվի",
+        "gloss": "сжёг(ла)",
+        "note": "Colloquial for 'сжёг(ла)'"
+      },
+      {
+        "word": "դարակ",
+        "gloss": "стог",
+        "note": "Dialectal for 'стог'"
+      },
+      {
+        "word": "աղցա",
+        "gloss": "скосил(а)",
+        "note": "Dialectal for 'скосил(а)'"
+      }
+    ]
+  }
+]

@@ -16,3 +16,7 @@ __pycache__/
 data/
 !gold/
 !results/
+
+# local pitch-deck exports (kept in Google Slides)
+armenian_cc_deck.pptx
+deck.html
