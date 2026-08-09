@@ -1,0 +1,9 @@
+{
+  "n_pairs": 47,
+  "agreement_binary": 0.894,
+  "kappa_binary": 0.0,
+  "agreement_3way": 0.894,
+  "kappa_3way": 0.0,
+  "trustworthy": false,
+  "judge_model": "deepseek/deepseek-chat-v3.1"
+}

@@ -1,0 +1,153 @@
+{
+  "labeled_at": "2026-08-08T16:50:25.950Z",
+  "labels": {
+    "n000": {
+      "verdict": "correct"
+    },
+    "n001": {
+      "verdict": "correct"
+    },
+    "n002": {
+      "verdict": "correct"
+    },
+    "n003": {
+      "verdict": "correct"
+    },
+    "n004": {
+      "verdict": "correct"
+    },
+    "n005": {
+      "verdict": "correct"
+    },
+    "n006": {
+      "verdict": "correct"
+    },
+    "n007": {
+      "verdict": "correct"
+    },
+    "n008": {
+      "verdict": "correct"
+    },
+    "n009": {
+      "verdict": "correct"
+    },
+    "n010": {
+      "verdict": "correct"
+    },
+    "n011": {
+      "verdict": "correct"
+    },
+    "n012": {
+      "verdict": "correct",
+      "correction": "должен добавить"
+    },
+    "n013": {
+      "verdict": "correct"
+    },
+    "n014": {
+      "verdict": "correct"
+    },
+    "n015": {
+      "verdict": "correct"
+    },
+    "n016": {
+      "verdict": "correct"
+    },
+    "n017": {
+      "verdict": "correct"
+    },
+    "n018": {
+      "verdict": "correct"
+    },
+    "n019": {
+      "verdict": "correct"
+    },
+    "n020": {
+      "verdict": "correct"
+    },
+    "n021": {
+      "verdict": "correct"
+    },
+    "n022": {
+      "verdict": "correct"
+    },
+    "n023": {
+      "verdict": "correct"
+    },
+    "n024": {
+      "verdict": "wrong",
+      "correction": "the text is incorrectly trascribed\n"
+    },
+    "n025": {
+      "verdict": "correct"
+    },
+    "n026": {
+      "verdict": "correct"
+    },
+    "n027": {
+      "verdict": "correct"
+    },
+    "n028": {
+      "verdict": "correct"
+    },
+    "n029": {
+      "verdict": "correct"
+    },
+    "n030": {
+      "verdict": "correct"
+    },
+    "n031": {
+      "verdict": "correct"
+    },
+    "n032": {
+      "verdict": "correct"
+    },
+    "n033": {
+      "verdict": "correct"
+    },
+    "n034": {
+      "verdict": "correct"
+    },
+    "n035": {
+      "verdict": "correct"
+    },
+    "n036": {
+      "verdict": "correct",
+      "correction": "incorrectly transcribed text"
+    },
+    "n037": {
+      "verdict": "correct"
+    },
+    "n038": {
+      "verdict": "correct"
+    },
+    "n039": {
+      "verdict": "correct"
+    },
+    "n040": {
+      "verdict": "correct"
+    },
+    "n041": {
+      "verdict": "correct",
+      "correction": "the Armenian correct word is պիջակ and correct Russian version is пиджак "
+    },
+    "n043": {
+      "correction": "incorrectly transcribed text"
+    },
+    "n044": {
+      "verdict": "unsure"
+    },
+    "n046": {
+      "verdict": "correct"
+    },
+    "n047": {
+      "verdict": "correct"
+    },
+    "n048": {
+      "verdict": "correct"
+    },
+    "n049": {
+      "verdict": "correct"
+    }
+  }
+}

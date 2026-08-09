@@ -1,0 +1,11 @@
+{
+  "judge_model": "deepseek/deepseek-v4-flash",
+  "shots": 8,
+  "n_eval": 58,
+  "agreement_binary": 0.983,
+  "kappa_binary": 0.659,
+  "error_precision": 1.0,
+  "error_recall": 0.5,
+  "vs_zeroshot_kappa": 0.22,
+  "trustworthy": true
+}

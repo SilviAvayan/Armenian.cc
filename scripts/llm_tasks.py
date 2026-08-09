@@ -96,7 +96,7 @@ TRANSLATE_TMPL = (
  '"glosses":["<{lang} for token 0>", ... exactly {n} items in order],'
  '"notes":[{{"word":"<armenian>","gloss":"<{lang}>","note":"<short: slang/contraction/grammar>"}}]}}')
 
-def translate_segment(model, sentence, tokens, target="Russian", max_tokens=1500):
+def translate_segment(model, sentence, tokens, target="Russian", max_tokens=3000, reasoning=None):
     n = len(tokens)
     if MOCK:
         return {"sentence": f"[{target}] {sentence}",
@@ -106,5 +106,5 @@ def translate_segment(model, sentence, tokens, target="Russian", max_tokens=1500
     out = orclient.chat(model,
         [{"role":"system","content":TRANSLATE_SYS.format(lang=target)},
          {"role":"user","content":TRANSLATE_TMPL.format(sent=sentence,n=n,toklist=toklist,lang=target)}],
-        temperature=0.0, max_tokens=max_tokens, json_mode=True)
+        temperature=0.0, max_tokens=max_tokens, json_mode=True, reasoning=reasoning)
     return _parse_json(out)

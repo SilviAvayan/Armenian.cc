@@ -1,0 +1,3096 @@
+{
+  "meta": {
+    "built": "2026-08-08",
+    "words_total": 140,
+    "words_gloss_labeled": 130,
+    "words_grammar_labeled": 0,
+    "sentences_rated": 20,
+    "asr_clips_checked": 25
+  },
+  "words": [
+    {
+      "id": "w000",
+      "video_id": "ani_zaqaryan__7377021572281830672",
+      "handle": "ani_zaqaryan_",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Ընկերներ, ուրեմն անդրադառնանք երեկվա հարցին։",
+      "seg_translation": "Друзья, давайте вернемся к вчерашнему вопросу.",
+      "word": "անդրադառնանք",
+      "model_gloss": "обратимся",
+      "logprob": -0.013928013390009633,
+      "model_note": "от անդրադառնալ (возвращаться к теме) [сослагательное накл., 1 л. мн. ч.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w001",
+      "video_id": "lily_bagratuni_7646105736002522389",
+      "handle": "lily_bagratuni",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Խմորը բացում եմ, ինչպես ձեզ ցույց տվեցի, հետո այսպես կլորավուն գնդում եմ և կարը դեպի ներքև շրջում։",
+      "seg_translation": "Тесто я раскатываю, как вам показал, потом так округло скатываю и шов переворачиваю вниз.",
+      "word": "շրջում։",
+      "model_gloss": "Так",
+      "logprob": -0.0013853124629739405,
+      "model_note": "от շրջել (переворачивать): причастие շրջում + вспом. եմ [наст. вр.]",
+      "human": {
+        "verdict": null,
+        "correction": "переворачиваю",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w002",
+      "video_id": "19aistudio_7650534482725948705",
+      "handle": "19aistudio",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Ես քեզ չեմ մոռացել:",
+      "seg_translation": "Я тебя не забыл.",
+      "word": "քեզ",
+      "model_gloss": "тебя",
+      "logprob": -9.576418960932642e-06,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w003",
+      "video_id": "_dianavoskanyan_7652653653781826824",
+      "handle": "_dianavoskanyan",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Գորիսում մենք չենք ասում. «Էս ի՞նչ ա հագածդ, քեզ վաբշե չի սազում»:",
+      "seg_translation": "В Горисе мы не говорим: «Что это на тебе надето, тебе вообще не идет».",
+      "word": "քեզ",
+      "model_gloss": "тебе",
+      "logprob": -3.5205375600829335e-05,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w004",
+      "video_id": "karcomedy_7649676656868625685",
+      "handle": "karcomedy",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Կպչուն հյութը ամբողջովին դեմքիդ է կսվում:",
+      "seg_translation": "Липкий сок полностью размазывается по твоему лицу.",
+      "word": "է",
+      "model_gloss": "размазывается по твоему лицу",
+      "logprob": -2.264974000354414e-06,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w005",
+      "video_id": "ai__genius_7654117719167585569",
+      "handle": "ai__genius",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Մոսո, ինձ գոնե մի հատ ռոմանտիկ բան ասա։",
+      "seg_translation": "Мосо, скажи мне хотя бы что-нибудь романтичное.",
+      "word": "ինձ",
+      "model_gloss": "мне",
+      "logprob": -0.0034019360318779945,
+      "model_note": "от ես (я) [дат. п.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w006",
+      "video_id": "zhanna_jaan_7668233361306995988",
+      "handle": "zhanna_jaan",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Բա հիմա ես իմեր հայ շոր ժամը մեկն է, Դուք հեչ ասել են Նարեի մերը դուրսն է, ինչ ամոթ է, ինչ կարծիք է հանել խայտառակություն։",
+      "seg_translation": "И вот сейчас час ночи, вы хоть сказали, что мама Наре на улице, какой стыд, какой позор.",
+      "word": "է,",
+      "model_gloss": "на улице",
+      "logprob": -0.005563129094298347,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w007",
+      "video_id": "nayeqaxchiknerjan_7665802440767294728",
+      "handle": "nayeqaxchiknerjan",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Էս ավարտին արևը և պիասի շողերը, թե չէ կասկած, չի երևի քեզ մեջն ի անձրևում կամ լի։",
+      "seg_translation": "В этом финале солнце и лучи песни, если нет сомнений, не видны в тебе ни в дожде, ни в чем-либо еще.",
+      "word": "քեզ",
+      "model_gloss": "тебе",
+      "logprob": -0.3020158648578217,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w008",
+      "video_id": "delavdegij_7665453647853079829",
+      "handle": "delavdegij",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "songs",
+      "seg_text": "Գուցե իմ սրտում, երգերում իմ մուն, խոսքերում ասված իմ հոգու մասին, հեռավոր մեկի անհնչարկն եմ սյուն, նետված աշխարհի անսուրբ երազին:",
+      "seg_translation": "Может быть, в моем сердце, в моих песнях, в словах, сказанных о моей душе, я — беззвучный столп кого-то далекого, брошенный в нечистый сон мира.",
+      "word": "Գուցե",
+      "model_gloss": "может быть",
+      "logprob": -0.0013002151536056772,
+      "model_note": "частица, выражающая сомнение [вводное слово]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w009",
+      "video_id": "scorpion_1lovee_7657507766118010120",
+      "handle": "scorpion_1lovee",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Հանգստացիր, Ռուզանի տատն ա։",
+      "seg_translation": "Успокойся, это бабушка Рузан.",
+      "word": "ա։",
+      "model_gloss": "бабушка",
+      "logprob": -0.00012724172302114312,
+      "model_note": null,
+      "human": {
+        "verdict": "wrong",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w010",
+      "video_id": "__hellsaa_7670213101031083284",
+      "handle": "__hellsaa",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Ուրիշների հետ է նա անցնում, ուրիշների սեր է նա խնդրում:",
+      "seg_translation": "С другими он проходит, у других он любви просит.",
+      "word": "է",
+      "model_gloss": "просит",
+      "logprob": -0.21789796650409698,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w011",
+      "video_id": "aimusicx_01_7651850146090634503",
+      "handle": "aimusicx_01",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "songs",
+      "seg_text": "Չէ, սա ոնց պիտի գրենք, չգիտի ոչ մեկ։",
+      "seg_translation": "Нет, как нам это писать, никто не знает.",
+      "word": "չգիտի",
+      "model_gloss": "не знает",
+      "logprob": -0.0004262277647285373,
+      "model_note": "от չ + գիտել (знать) [наст. вр., 3 л. ед. ч.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w012",
+      "video_id": "nikol.pashinyan_pm_7449053720966466823",
+      "handle": "nikol.pashinyan_pm",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Դե չգիտեմ, քանի որ էդ իմ գրառման ներքո հարց էր ծագել, էսքանը ասենք, եզրակացությունները թողնենք հանրությանը, հա՞։",
+      "seg_translation": "Ну не знаю, раз уж под моим постом возник вопрос, давайте скажем это, а выводы оставим общественности, да?",
+      "word": "հա՞։",
+      "model_gloss": "да",
+      "logprob": -0.00046663108241773443,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w013",
+      "video_id": "blognewsarm_7662354589777235220",
+      "handle": "blognewsarm",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "formal",
+      "seg_text": "Տասներեքամյա աղջիկը, ով ակտիվորեն զբաղվում էր ֆուտբոլով, մահացել է։",
+      "seg_translation": "Тринадцатилетняя девочка, которая активно занималась футболом, скончалась.",
+      "word": "ֆուտբոլով,",
+      "model_gloss": "футболом",
+      "logprob": -0.0006152632828161586,
+      "model_note": "от ֆուտբոլ [твор. п.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w014",
+      "video_id": "nikol.pashinyan_pm_7449053720966466823",
+      "handle": "nikol.pashinyan_pm",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Եթե էդ հայտարարագիրը հանենք, ուրիշ տենց պաշտոնական թուղթ չկա, և սրա մասին մեր կյանքի երևի վերջին քսան տարում անընդհատ մամուլում գրվել ա, հրապարակվել ա, հարցազրույցներում ասվել ա, ըըը և էդքանը։",
+      "seg_translation": "Если убрать эту декларацию, другого такого официального документа нет, и об этом последние двадцать лет нашей жизни постоянно писали в прессе, публиковали, говорили в интервью, и всё на этом.",
+      "word": "ա,",
+      "model_gloss": "писалось",
+      "logprob": -3.159039238198602e-06,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w015",
+      "video_id": "haykmarutyanofficial_7629414537296579860",
+      "handle": "haykmarutyanofficial",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Հուստա էս էլ փոխի, էսի չես լսում։",
+      "seg_translation": "Мастер, поменяй и это, ты же это не слушаешь.",
+      "word": "փոխի,",
+      "model_gloss": "поменяй",
+      "logprob": -0.014871057230629958,
+      "model_note": "от փոխել (менять) [пов. накл., 2 л. ед. ч.]",
+      "human": {
+        "verdict": null,
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w016",
+      "video_id": "nikol.pashinyan_pm_7624895708490992903",
+      "handle": "nikol.pashinyan_pm",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Սիրելի ժողովուրդ, մեր Տեր և Փրկիչ Հիսուս Քրիստոսի հրաշափառ հարության սուրբ զատկի ջրագալույց է, և ես ցանկանում եմ բոլորիդ Սուրբ Զատիկը շնորհավորել Հիսուս Քրիստոսի երանիներով՝ Մատթեոսի Ավետարանից:",
+      "seg_translation": "Возлюбленный народ, сегодня канун Святой Пасхи, преславного Воскресения Господа и Спасителя нашего Иисуса Христа, и я хочу поздравить всех вас с Пасхой словами блаженств Иисуса Христа из Евангелия от Матфея.",
+      "word": "բոլորիդ",
+      "model_gloss": "всех вас",
+      "logprob": -5.100273925303814e-05,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w017",
+      "video_id": "sssarrgalls_7651238432441699602",
+      "handle": "sssarrgalls",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "difficult",
+      "seg_text": "Էդքան էլ մտածելիս որովհետև արա Բայց ասեցիր չենք խմում Ես էլ ասեցի չենք խմում Ու վիտոգի ի՞նչ եղավ որ Վիտոգի էն եղավ որ հիմա հելել իմ վրա ես մունաթար Իմ վրա մունաթար Արդեն իմ վրա ուզում ես մունաթար է Ու՞ր ես էթում Ուր ուզում եմ էն էլ էթում եմ Դե գնա ապեր գնա ես էլ էի անեմ էթում Ուր ուզում ես գնա Դե դու էլ հելի գնա։",
+      "seg_translation": "Ну и о чем тут так много думать? Ты же сам сказал, что мы не пьем. И я сказал, что мы не пьем. И в итоге что произошло? В итоге получилось так, что теперь ты на меня наезжаешь. На меня наезжаешь? Ты уже хочешь на меня наехать? Куда ты идешь? Куда хочу, туда и иду. Ну и иди, брат, иди, я тоже собирался идти. Куда хочешь, туда и иди. Ну и ты вставай и иди.",
+      "word": "անեմ",
+      "model_gloss": "сделаю",
+      "logprob": -0.17000736389309168,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w018",
+      "video_id": "qristin77_7666840740512763154",
+      "handle": "qristin77",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Բա էս ինչ անասուն ծնունդ է էս աղջի, տենց բան են անում աղջի։",
+      "seg_translation": "Что это за ненормальное рождение, девушка, так ведь не делают, девушка.",
+      "word": "էս",
+      "model_gloss": "эта",
+      "logprob": -0.23492970247752964,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w019",
+      "video_id": "hovhannisyanaa_7646148058505399572",
+      "handle": "hovhannisyanaa",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Մեկը հունիսի մեկը հունիսի։",
+      "seg_translation": "Первое июня, первое июня.",
+      "word": "մեկը",
+      "model_gloss": "первое",
+      "logprob": -0.0007141140504245413,
+      "model_note": "от մեկ (один) [им. п., опред. арт.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w020",
+      "video_id": "nushohanian_7644323178126380321",
+      "handle": "nushohanian",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Ուշ է, ուշ է, գալու են քեզ սրսկեն, հա։",
+      "seg_translation": "Уже поздно, поздно, придут делать тебе укол, да.",
+      "word": "է,",
+      "model_gloss": "есть",
+      "logprob": -0.302021361887455,
+      "model_note": null,
+      "human": {
+        "verdict": "wrong",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w021",
+      "video_id": "nikol.pashinyan_pm_7669641722917293330",
+      "handle": "nikol.pashinyan_pm",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Սիրտը սիրուն դաշտ ում է, սիրո էхиդ մաշտ ում է, ինչո՞ւ, ինչո՞ւ ես իմ յարի սիրենցի",
+      "seg_translation": "Сердце — красивое поле, любовь — его путь, почему же, почему ты, моя возлюбленная, полюбила?",
+      "word": "յարի",
+      "model_gloss": "возлюбленной",
+      "logprob": -0.21761178097222,
+      "model_note": "от յար (возлюбленный/ая) [род. п., ед. ч.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w022",
+      "video_id": "gevgrig1_7650890993901817109",
+      "handle": "gevgrig1",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "difficult",
+      "seg_text": "Ժողովուրդ, սով արյուն ա ղրկում, իրան մի հատ մեծ առյուծ եմ տատու անում, զամ եմ որպեսզի։",
+      "seg_translation": "Народ, этот кровь пускает, я делаю ему тату большого льва, чтобы (все) было круто.",
+      "word": "իրան",
+      "model_gloss": "ему",
+      "logprob": -0.00039577879215357825,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w023",
+      "video_id": "hoquqaravan_7647211997389491476",
+      "handle": "hoquqaravan",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "songs",
+      "seg_text": "Աչքերս վերցրու քեզ, զգան ինչ զգում եմ ես, տես իմ կյանքը, տես բոլորին ու տես քեզ:",
+      "seg_translation": "Возьми мои глаза себе, пусть они почувствуют то, что чувствую я, посмотри на мою жизнь, посмотри на всех и посмотри на себя.",
+      "word": "զգան",
+      "model_gloss": "пусть почувствуют",
+      "logprob": -0.026353732400821173,
+      "model_note": "от զգալ (чувствовать) [сослаг. накл., 3 л. мн. ч.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w024",
+      "video_id": "narek.7071_7646446372966845714",
+      "handle": "narek.7071",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Ինձ ասում են դու ես էս մաֆիայի դոնը, մութ ու ցուրտ ես ու համարյա լույս չկաս։",
+      "seg_translation": "Мне говорят, что ты дон этой мафии, ты тьма и холод, и света почти нет.",
+      "word": "չկաս։",
+      "model_gloss": "нет",
+      "logprob": -0.12280101472570096,
+      "model_note": "от չլինել (не быть/не существовать): отрицательная форма 2-го л. ед. ч.",
+      "human": {
+        "verdict": null,
+        "correction": "нету",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w025",
+      "video_id": "vaag_mk_7626369781670710536",
+      "handle": "vaag_mk",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Էս Հարվերդս դպրոցի մոտ եմ:",
+      "seg_translation": "Я здесь, возле школы Гарвардс.",
+      "word": "Էս",
+      "model_gloss": "Этот",
+      "logprob": -0.2781300019705668,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w026",
+      "video_id": "delavdegij_7665453647853079829",
+      "handle": "delavdegij",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "songs",
+      "seg_text": "Գուցե իմ սրտում, երգերում իմ մուն, խոսքերում ասված իմ հոգու մասին, հեռավոր մեկի անհնչարկն եմ սյուն, նետված աշխարհի անսուրբ երազին:",
+      "seg_translation": "Может быть, в моем сердце, в моих песнях, в словах, сказанных о моей душе, я — беззвучный столп кого-то далекого, брошенный в нечистый сон мира.",
+      "word": "նետված",
+      "model_gloss": "брошенная",
+      "logprob": -0.01874500001576962,
+      "model_note": "от նետել (бросать) [причастие прош. вр., страдательный залог]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w027",
+      "video_id": "ashot_hvns_7652741026481704213",
+      "handle": "ashot_hvns",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Ապրես իր ջան, ապրես, ցավդ տանեմ:",
+      "seg_translation": "Спасибо, дорогой, спасибо, не болей.",
+      "word": "ջան,",
+      "model_gloss": "дорогой",
+      "logprob": -9.851940558291972e-05,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w028",
+      "video_id": "vahanlorecyan_7627411232991005973",
+      "handle": "vahanlorecyan",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Գիտեմ, որ դրանցից ոչ մեկը զուր չէ։",
+      "seg_translation": "Знаю, что ничто из этого не напрасно.",
+      "word": "չէ։",
+      "model_gloss": "не",
+      "logprob": -0.033632508308528486,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w029",
+      "video_id": "vdrum__7652016503071591698",
+      "handle": "vdrum_",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Եթե ճիշտ արեցիր, էս իմն ա։",
+      "seg_translation": "Если сделал правильно, это моё.",
+      "word": "էս",
+      "model_gloss": "это",
+      "logprob": -0.0011036665237043053,
+      "model_note": "сокращение от այս [разг.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w030",
+      "video_id": "qristin77_7664194762899033352",
+      "handle": "qristin77",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Ասեցի ջուր կուզե՞ս, ասեց, ասեց նո թենք յու, ասեցի եկե՛ք էլի, ասեցի մեր տունը բարեկամ։",
+      "seg_translation": "Я сказала: «Хочешь воды?», он сказал «no thank you», я сказала «приходите же», сказала, что он наш родственник.",
+      "word": "ասեցի",
+      "model_gloss": "сказала",
+      "logprob": -0.0003066598992518266,
+      "model_note": "разг. форма от ասացի [прош. вр., 1 л. ед. ч.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w031",
+      "video_id": "uxi.am_7668004175040711957",
+      "handle": "uxi.am",
+      "stratum": "A_colloquial",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Լոկացիան իմանալու համար մեկնաբանությունների բաժնում գրիր «Սևան» բառը:",
+      "seg_translation": "Чтобы узнать локацию, напишите слово «Севан» в комментариях.",
+      "word": "իմանալու",
+      "model_gloss": "узнать",
+      "logprob": -0.00010629185527477603,
+      "model_note": "от իմանալ (знать/узнавать) [отглагольное сущ., род. п.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w032",
+      "video_id": "qristin77_7636115137736527111",
+      "handle": "qristin77",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Վա՜յ, չիմանաս կյանքը ի՞նչ ա։",
+      "seg_translation": "Боже, неужели не знаешь, что такое жизнь?",
+      "word": "չիմանաս",
+      "model_gloss": "не знаешь",
+      "logprob": -0.06426458846544847,
+      "model_note": "сослаг. накл. для риторического вопроса [разг.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w033",
+      "video_id": "dr..aghasi.sharba_7655390302001171732",
+      "handle": "dr..aghasi.sharba",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Ալենջերկար պորտալ արա։",
+      "seg_translation": "Ален, сделай длинную пуповину.",
+      "word": "արա։",
+      "model_gloss": "сделай",
+      "logprob": -0.06003838873584755,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w034",
+      "video_id": "lil_lil_99_7654070930196450593",
+      "handle": "lil_lil_99",
+      "stratum": "A_colloquial",
+      "asr_difficulty": null,
+      "seg_text": "Ըըը, Դանիս քնել է ժամը չորս անց կես ու ութին արթնացել, տորթ էր ուզում մամայից:",
+      "seg_translation": "М-м, моя Дани уснула в четыре тридцать и в восемь проснулась, хотела торт от мамы.",
+      "word": "արթնացել,",
+      "model_gloss": "проснулся",
+      "logprob": -0.022856522978650498,
+      "model_note": "от արթնանալ (просыпаться) [причастие прош. вр.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w035",
+      "video_id": "bazhukovfamily_7650382140953152788",
+      "handle": "bazhukovfamily",
+      "stratum": "B_polysemy",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Մեզ մոտ ամեն ինչ լավ է։",
+      "seg_translation": "У нас всё хорошо.",
+      "word": "լավ",
+      "model_gloss": "хорошо",
+      "logprob": -3.321889107610332e-05,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w036",
+      "video_id": "avetyanskitchen_7655008179679431957",
+      "handle": "avetyanskitchen",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Ավելացնում ենք մեկուկես թեյի գդալ աղ և հունցում ենք ձեռքերին չքպչող փափուկ խմոր, թողնում ենք քառասուն րոպե հանգստանա։",
+      "seg_translation": "Добавляем полторы чайные ложки соли и замешиваем мягкое тесто, не прилипающее к рукам, оставляем на сорок минут отдохнуть.",
+      "word": "րոպե",
+      "model_gloss": "минут",
+      "logprob": -0.00035747521178564057,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w037",
+      "video_id": "asatryangurgen__7656537705399979272",
+      "handle": "asatryangurgen_",
+      "stratum": "B_polysemy",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Երեխուն սիրտը գնա շահի։",
+      "seg_translation": "Иди расположи к себе сердце ребенка.",
+      "word": "գնա",
+      "model_gloss": "иди",
+      "logprob": -6.508555088657886e-05,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w038",
+      "video_id": "chef_maykl_7662789132317445389",
+      "handle": "chef_maykl",
+      "stratum": "B_polysemy",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Արդեն աղջիկները գալիս են ամառին, թող սարքում եմ իրանց համար։",
+      "seg_translation": "Девчонки уже приходят летом, пусть я приготовлю для них.",
+      "word": "եմ",
+      "model_gloss": "делаю",
+      "logprob": -0.008053810330466149,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w039",
+      "video_id": "kamillayic_7669718750467214600",
+      "handle": "kamillayic",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Լավ քաղաքացի, բան է գրում, որ մանի գոլֆ է գնում խաղալու, որ սենց գնա ավտոյից կհանես։",
+      "seg_translation": "Хороший гражданин, пишет что-то, что идет играть в мини-гольф, если так пойдет, выкинешь из машины.",
+      "word": "է",
+      "model_gloss": "пишет",
+      "logprob": -0.018117884173989296,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w040",
+      "video_id": "lily_bagratuni_7631265282048281876",
+      "handle": "lily_bagratuni",
+      "stratum": "B_polysemy",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Խմորը թողնում ենք մի կողմ հանգստանա, այդ ընթացքում պատրաստում ենք միջուկը։",
+      "seg_translation": "Оставляем тесто в стороне отдохнуть, а в это время готовим начинку.",
+      "word": "մի",
+      "model_gloss": "один",
+      "logprob": -4.0531076592742465e-06,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w041",
+      "video_id": "zhanna_jaan_7668233361306995988",
+      "handle": "zhanna_jaan",
+      "stratum": "B_polysemy",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Նարա՛, հիմա ամենավատը այն է, որ գիշերվա մեկին եք եկել, թե կարճ են հագել, թե կարմիրը։",
+      "seg_translation": "Нара, сейчас самое плохое то, что вы пришли в час ночи, и что короткое надели, и что красное.",
+      "word": "եք",
+      "model_gloss": "пришли",
+      "logprob": -0.0003315225912956521,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w042",
+      "video_id": "aimusicx_01_7651850146090634503",
+      "handle": "aimusicx_01",
+      "stratum": "B_polysemy",
+      "asr_difficulty": "songs",
+      "seg_text": "Արա, վա՜յ, վա՜յ, վա՜յ, վա՜յ, վա՜յ, վա՜յ։",
+      "seg_translation": "Слушай, ой-ой-ой-ой-ой-ой.",
+      "word": "վա՜յ։",
+      "model_gloss": "ой",
+      "logprob": -0.0013334739589481615,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w043",
+      "video_id": "lily_bagratuni_7646105736002522389",
+      "handle": "lily_bagratuni",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Պատրաստի պոնչիկները տեղավորում ենք անձեռոցիկի վրա, որպեսզի ազատվենք ավելորդ բուսայողից, թեպետ խմորը այնքան իդեալական է ստացվել, որ շատ յուղ չի ներծծում։",
+      "seg_translation": "Готовые пончики выкладываем на салфетку, чтобы избавиться от лишнего растительного масла, хотя тесто получилось настолько идеальным, что не впитывает много масла.",
+      "word": "չի",
+      "model_gloss": "С",
+      "logprob": -5.000596206627961e-05,
+      "model_note": null,
+      "human": {
+        "verdict": "wrong",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w044",
+      "video_id": "arm_mation_7628982596424322336",
+      "handle": "arm_mation",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Ճիշտ ես, պետք է նրան գտնենք:",
+      "seg_translation": "Ты прав, надо её найти.",
+      "word": "նրան",
+      "model_gloss": "его",
+      "logprob": -8.38293632341447e-05,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w045",
+      "video_id": "haykmarutyanofficial_7637943792519302420",
+      "handle": "haykmarutyanofficial",
+      "stratum": "B_polysemy",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Էդ գիտե՞ք ոնց որ ինչ լինի, ոնց որ մի զույգ փոքրիկ երեխա ունենա, դե դժվար ա երեխա պահելը, լացում ա, գիշերները չքնել, գումար ծախսել, ոչ կարողանում ես հյուր գնալ, ոչ կարողանում ես ինչ-որ քո հաճույքներով զբաղվել, աշխատանքի տեղը պրոբլեմներ, մի խոսքով՝ բարդ ա։",
+      "seg_translation": "Знаете, на что это похоже? Как если бы пара имела маленького ребенка, ведь трудно растить ребенка: он плачет, ночи не спишь, тратишь деньги, не можешь ни в гости пойти, ни своими удовольствиями заниматься, на работе проблемы, в общем — сложно.",
+      "word": "ինչ",
+      "model_gloss": "что",
+      "logprob": -4.637133679352701e-05,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w046",
+      "video_id": "arman.sddd_7636601759598644487",
+      "handle": "arman.sddd",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Եթե քեզ Հիսուսը պետք չէ, կարող ես անցնել այս խոսքերի կողքով, բայց եթե քեզ Հիսուսը պետք է, ասա ամեն։",
+      "seg_translation": "Если тебе не нужен Иисус, можешь пройти мимо этих слов, но если тебе нужен Иисус, скажи аминь.",
+      "word": "քեզ",
+      "model_gloss": "тебе",
+      "logprob": -9.695625218834417e-06,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w047",
+      "video_id": "haykmarutyanofficial_7637943792519302420",
+      "handle": "haykmarutyanofficial",
+      "stratum": "B_polysemy",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Էդ հողը ինչո՞վ ա մերը եղել, ինչո՞վ։",
+      "seg_translation": "А чем эта земля была нашей, чем?",
+      "word": "Էդ",
+      "model_gloss": "эта",
+      "logprob": -0.0028662974655162543,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w048",
+      "video_id": "vdrum__7652016503071591698",
+      "handle": "vdrum_",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "A few moments later. Բա հիմա ու՞ր ենք գնում, չեմ հասկանում։",
+      "seg_translation": "А теперь куда мы идем, не понимаю.",
+      "word": "ու՞ր",
+      "model_gloss": "куда",
+      "logprob": -0.23766507219943378,
+      "model_note": "",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w049",
+      "video_id": "tnakan_baxadratomser_7652308309948550408",
+      "handle": "tnakan_baxadratomser",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Ես արդեն երկու տարի է՝ ինչ օգտագործում եմ ու շատ գոհ եմ։",
+      "seg_translation": "Я уже два года как использую и очень довольна.",
+      "word": "ինչ",
+      "model_gloss": "как",
+      "logprob": -0.10839147120714188,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w050",
+      "video_id": "harutyunyans_blog_7657893609701641492",
+      "handle": "harutyunyans_blog",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Այդպիսի, որ ասեմ՝ արտառոց համ չունի, բայց ես ինչ կտուր գրողին լեզուս էփավ, լեզուս էփավ, ճանկի ձագ, ճանկի ձագ, ապուշ միրգ է, հանկարծ շուտ եք։",
+      "seg_translation": "Такой, что не скажу, что вкус необычный, но у меня... (несвязный поток речи), глупый плод, вы поторопились.",
+      "word": "շուտ",
+      "model_gloss": "быстро",
+      "logprob": -0.2369376939968788,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w051",
+      "video_id": "vaag_mk_7626369781670710536",
+      "handle": "vaag_mk",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Արա, էդ ես ասում եմ՝ հնդիկ եմ, դուք էլի հնդկերեն բոցեր եք անում վրես, հեսա կզանգեմ եղբորս, կտեսնեք՝ ինչ կանի ձեզ:",
+      "seg_translation": "Слушайте, я же говорю, что я индуска, вы опять начинаете свои индийские приколы надо мной. Сейчас позвоню брату, увидите, что он с вами сделает.",
+      "word": "ես",
+      "model_gloss": "я говорю",
+      "logprob": -0.23492000997066498,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w052",
+      "video_id": "qristin77_7664194762899033352",
+      "handle": "qristin77",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Շոր եմ վերցրել արտաքի:",
+      "seg_translation": "Я взяла одежду для выхода.",
+      "word": "եմ",
+      "model_gloss": "взяла",
+      "logprob": -0.0017236076359949948,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w053",
+      "video_id": "ashot_hvns_7664614302359325973",
+      "handle": "ashot_hvns",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Եկեք համեցեք, եկեք ինձ մի հատ կասեք ձեր սեփական տուննե՞ր են:",
+      "seg_translation": "Проходите, пожалуйста, скажите мне, это ваши собственные дома?",
+      "word": "մի",
+      "model_gloss": "одну",
+      "logprob": -8.106198947643861e-06,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w054",
+      "video_id": "zhanna_jaan_7623822237002403093",
+      "handle": "zhanna_jaan",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Պահպանիչ և հույս հավատացելով Քրիստոս Աստված մեր, պահի՛ր, պահպանի՛ր Հայաստան աշխարհս, քեզ հավատացող և քեզ հուսացող հայ ժողովուրդս։",
+      "seg_translation": "Хранитель и надежда, веруя в Христа Бога нашего, сохрани, обереги Армянскую землю и армянский народ, верящий в Тебя и уповающий на Тебя.",
+      "word": "մեր,",
+      "model_gloss": "наш",
+      "logprob": -0.09236100665293634,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w055",
+      "video_id": "abcmedia.am_7657222046253911316",
+      "handle": "abcmedia.am",
+      "stratum": "B_polysemy",
+      "asr_difficulty": "formal",
+      "seg_text": "Ռուսաստանի իշխանության գնահատմամբ այս փոփոխության նպատակն է թվայնացնել միգրացիոն վերահսկողությունը։",
+      "seg_translation": "По оценке властей России, целью этого изменения является цифровизация миграционного контроля.",
+      "word": "այս",
+      "model_gloss": "этого",
+      "logprob": -0.019988021421037654,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w056",
+      "video_id": "nikol.pashinyan_pm_7648692597363330311",
+      "handle": "nikol.pashinyan_pm",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Լավ երեկո եմ մաղթում և սիրում եմ բոլորիդ։",
+      "seg_translation": "Желаю доброго вечера и люблю всех вас.",
+      "word": "եմ",
+      "model_gloss": "желаю",
+      "logprob": -0.0011435789051006395,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w057",
+      "video_id": "lily_bagratuni_7631265282048281876",
+      "handle": "lily_bagratuni",
+      "stratum": "B_polysemy",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Առատ պանիր ենք քերում, ես այստեղ ավելացնում եմ նաև կաթնաշոր, մեկ ձու, խառնում եմ տեղը տեղին, որպեսզի բոլոր բաղադրիչները միանան իրար։",
+      "seg_translation": "Трем много сыра, я здесь добавляю еще творог, одно яйцо, все тщательно перемешиваю, чтобы компоненты соединились.",
+      "word": "իրար։",
+      "model_gloss": "друг с другом",
+      "logprob": -0.012594437580560225,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w058",
+      "video_id": "haykmarutyanofficial_7637943792519302420",
+      "handle": "haykmarutyanofficial",
+      "stratum": "B_polysemy",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Հա, բայց հինգ տարի առաջ ես այ ինչ որ մի քիչ առաջ Փաշինյանն ասեց, ես ասեի, մեկդ կհավատայի՞ք, քարերով կլարեիք իրեն, չէ՞, ո-ո՞վ էլ ասեր, բայց հիմա արդեն նորմալ ա ընդունվում։",
+      "seg_translation": "Да, но пять лет назад, если бы я сказал то, что только что сказал Пашинян, вы бы поверили? Вы бы забросали его камнями, не так ли? Кто бы ни сказал, но сейчас это уже нормально воспринимается.",
+      "word": "այ",
+      "model_gloss": "ай",
+      "logprob": -0.002466614358127117,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w059",
+      "video_id": "lil_lil_99_7654070930196450593",
+      "handle": "lil_lil_99",
+      "stratum": "B_polysemy",
+      "asr_difficulty": null,
+      "seg_text": "Ջա՛ն, դե արի գրկեմ:",
+      "seg_translation": "Родная, ну иди обниму.",
+      "word": "դե",
+      "model_gloss": "ну",
+      "logprob": -0.0002921213999798056,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w060",
+      "video_id": "haykmarutyanofficial_7629414537296579860",
+      "handle": "haykmarutyanofficial",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Զարդերով զարդերով կրկնեմ ու գնամ քեր ու։",
+      "seg_translation": "С украшениями, с украшениями повторю и пойду...",
+      "word": "քեր",
+      "model_gloss": "тер",
+      "logprob": -0.6441645075877508,
+      "model_note": null,
+      "human": {
+        "verdict": "wrong",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w061",
+      "video_id": "harutyunyans_blog_7666758253413469460",
+      "handle": "harutyunyans_blog",
+      "stratum": "C_lowconf",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Հա, ու մեկ էլ չես մեռնի, պատպիսկա տու։",
+      "seg_translation": "Да, и ещё, ты не умрешь, подпишись.",
+      "word": "տու։",
+      "model_gloss": "дай",
+      "logprob": -0.4504018658772111,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w062",
+      "video_id": "nayeqaxchiknerjan_7665802440767294728",
+      "handle": "nayeqaxchiknerjan",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Էս ավարտին արևը և պիասի շողերը, թե չէ կասկած, չի երևի քեզ մեջն ի անձրևում կամ լի։",
+      "seg_translation": "В этом финале солнце и лучи песни, если нет сомнений, не видны в тебе ни в дожде, ни в чем-либо еще.",
+      "word": "պիասի",
+      "model_gloss": "маленький",
+      "logprob": -0.5281903777271509,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w063",
+      "video_id": "nayeqaxchiknerjan_7665802440767294728",
+      "handle": "nayeqaxchiknerjan",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Սեր, սեր, սեր անչե՛ր, գիշերվա նոր սեր։",
+      "seg_translation": "Любовь, любовь, любовь без конца, новая ночная любовь.",
+      "word": "նոր",
+      "model_gloss": "новый",
+      "logprob": -0.43448032935460407,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w064",
+      "video_id": "www.ishkhanutyun.am_7637965868802051346",
+      "handle": "www.ishkhanutyun.am",
+      "stratum": "C_lowconf",
+      "asr_difficulty": "difficult",
+      "seg_text": "Եվ այդ բոլոր մարդիկ համախումբն են, որ պիտի հասան իրա պատշգամբը՝ Ապագայուս և սանիտառապետության համար կացի։",
+      "seg_translation": "И все эти люди — группа, которая должна была достичь его балкона, ради Будущего и санитарной безопасности.",
+      "word": "են,",
+      "model_gloss": "являются собранием",
+      "logprob": -1.4356439635157585,
+      "model_note": null,
+      "human": {
+        "verdict": "wrong",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w065",
+      "video_id": "nushohanian_7644323178126380321",
+      "handle": "nushohanian",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Կնամ սատկնեմ, կնամ բռնցքներս բռնեմ, եթե իրան թակեմ։",
+      "seg_translation": "Лучше умру, лучше буду сжимать кулаки, если его ударю.",
+      "word": "բռնցքներս",
+      "model_gloss": "кулаки",
+      "logprob": -0.9386641609663557,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w066",
+      "video_id": "foreverrr___3_7666927979880025364",
+      "handle": "foreverrr___3",
+      "stratum": "C_lowconf",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Դու իրան չէիր ասել, որ ես քեզ հավատի օգնում էի դասերի հարցում:",
+      "seg_translation": "Ты не сказал(а) ему/ей, что я помогал(а) тебе с уроками.",
+      "word": "օգնում",
+      "model_gloss": "помогал",
+      "logprob": -0.5072557926954081,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w067",
+      "video_id": "zhanna_jaan_7647020929880460564",
+      "handle": "zhanna_jaan",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Չպպզի թռնենք բռովս։",
+      "seg_translation": "Давай сбежим, чтобы не прилипло.",
+      "word": "թռնենք",
+      "model_gloss": "полетим",
+      "logprob": -0.44762902257813647,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w068",
+      "video_id": "oravarc.am_7659812444029635848",
+      "handle": "oravarc.am",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Այս հանգստի գոտին ստեղծված է, որ դուք պարզապես վայելեք օրը, իսկ գեղեցիկ հիշողությունները հետը տանեք ձեր տանը:",
+      "seg_translation": "Эта зона отдыха создана для того, чтобы вы просто насладились днем, а прекрасные воспоминания унесли с собой домой.",
+      "word": "հետը",
+      "model_gloss": "с собой",
+      "logprob": -1.003575250506401,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w069",
+      "video_id": "nushohanian_7644323178126380321",
+      "handle": "nushohanian",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Կամաց են սրսկելու, կամաց են, ես մեկ է չեմ վախենալու։",
+      "seg_translation": "Будут колоть нежно, нежно, я все равно не буду бояться.",
+      "word": "են",
+      "model_gloss": "тихо",
+      "logprob": -0.6590126156806946,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w070",
+      "video_id": "haykmarutyanofficial_7629414537296579860",
+      "handle": "haykmarutyanofficial",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Կապույտ կապույտ էր քո աչքերը։",
+      "seg_translation": "Твои глаза были синими-синими.",
+      "word": "էր",
+      "model_gloss": "были",
+      "logprob": -0.6497796773910522,
+      "model_note": "вспом. гл. в 3 л. ед. ч. (здесь грамматически не согласуется с мн. ч. աչքերը, что часто встречается в разговорной речи) [прош. вр.]",
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w071",
+      "video_id": "zhanna_jaan_7655423811830992149",
+      "handle": "zhanna_jaan",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Հեյ նորմալ մերը նորմալ քուրը հիսուն հիսուն ո՞ւմ է քաշել։",
+      "seg_translation": "Эй, нормальная мать, нормальная сестра, кого они по пятьдесят-пятьдесят обманули?",
+      "word": "քուրը",
+      "model_gloss": "сестра",
+      "logprob": -0.884210797585547,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w072",
+      "video_id": "bazhukovfamily_7589507531844717844",
+      "handle": "bazhukovfamily",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Եվ սոցիալական ցանցերում մեզ շարժվիր ընդունես։",
+      "seg_translation": "И в социальных сетях, пожалуйста, примите нас.",
+      "word": "շարժվիր",
+      "model_gloss": "двигайся",
+      "logprob": -0.6067203964505877,
+      "model_note": "вероятно, ошибка автора, скорее всего имелось в виду խնդրում եմ (пожалуйста)",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w073",
+      "video_id": "ashot_hvns_7631958585274158356",
+      "handle": "ashot_hvns",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Էս ինչ առաջին անգամ եմ տեսնում խաղալիք է երեխու համար։",
+      "seg_translation": "Что это за игрушка, которую я впервые вижу, для ребенка?",
+      "word": "է",
+      "model_gloss": "это",
+      "logprob": -0.5640678405761719,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w074",
+      "video_id": "edo.beglaryan41_7654665318870060305",
+      "handle": "edo.beglaryan41",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Մայրական ածունքները հոգուս մի մեծ վերք են ամեն, հայրիքի զանից էլ ու կյանքս տալու մաս չէ գեղեն:",
+      "seg_translation": "Материнские наставления — это глубокая рана в моей душе, из-за зова родины и части того, чтобы отдать свою жизнь, нет покоя.",
+      "word": "էլ",
+      "model_gloss": "также",
+      "logprob": -0.5541682671755552,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w075",
+      "video_id": "nikol.pashinyan_pm_7623998996230507783",
+      "handle": "nikol.pashinyan_pm",
+      "stratum": "C_lowconf",
+      "asr_difficulty": "songs",
+      "seg_text": "Էս սենց նում էլ մի գեղա, մի գեղա, գեղա, գեղա, գեղա, իմ գրկում մնա, իմ գրկում մնա, մնա",
+      "seg_translation": "Эта вот такая... оставайся, оставайся, оставайся, оставайся, оставайся, оставайся в моих объятиях, оставайся в моих объятиях, оставайся.",
+      "word": "մի",
+      "model_gloss": "один",
+      "logprob": -0.8021036982536316,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w076",
+      "video_id": "novax3160_7666173171308989728",
+      "handle": "novax3160",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Չենք ուզում մատ լու լսենք, թե Սարգիս տղաս վիրավորվել է կամ ձեռքը ջախկել ա։",
+      "seg_translation": "Не хотим слышать (слухи), что мой сын Саркис ранен или у него рука сломана.",
+      "word": "ջախկել",
+      "model_gloss": "сломал.",
+      "logprob": -0.4346999078989029,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": true
+      },
+      "grammar": null
+    },
+    {
+      "id": "w077",
+      "video_id": "ashot_hvns_7618604024119577877",
+      "handle": "ashot_hvns",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Լսի՛ այն բանը էլի պատմի այն ձյայցը, որ եկել էր Լիլիթին չէր տեսել, պառկած նստել էր բերնի։",
+      "seg_translation": "Послушай, расскажи ту историю про того мужика, который пришел, Лилит не увидел и остался сидеть с открытым ртом (на пороге).",
+      "word": "ձյայցը,",
+      "model_gloss": "парня",
+      "logprob": -0.47744685556634586,
+      "model_note": null,
+      "human": {
+        "verdict": "acceptable",
+        "correction": "дядя",
+        "mistranscribed": true
+      },
+      "grammar": null
+    },
+    {
+      "id": "w078",
+      "video_id": "qristin77_7636115137736527111",
+      "handle": "qristin77",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Ինչի՞ ես չասում, բա խի՞ չես բերես ստեղ։",
+      "seg_translation": "Почему не говоришь, а почему не принесешь сюда?",
+      "word": "բա",
+      "model_gloss": "ну",
+      "logprob": -0.6254627108573914,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w079",
+      "video_id": "qristin77_7664194762899033352",
+      "handle": "qristin77",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Մամ, դե ման ցիգը մամոտ ա:",
+      "seg_translation": "Мам, ну [это] близко.",
+      "word": "ցիգը",
+      "model_gloss": "цыгане",
+      "logprob": -0.921232208609581,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": true
+      },
+      "grammar": null
+    },
+    {
+      "id": "w080",
+      "video_id": "sayatharutyunyan_7656467840593186069",
+      "handle": "sayatharutyunyan",
+      "stratum": "C_lowconf",
+      "asr_difficulty": "songs",
+      "seg_text": "Մեր տան սուպերհերոսը էտի տատիկն է, էն խարչոր չեմ կրնամ լուծեմ, լուծենքը ինքը, տատիկի ձեմը խախչ կա մեր տան մեջ սին է, իմ սաղ խարչերի բալնիկ է, իրա ձեռին է, կախմեքեմ քո ձի, ու իմ խաթրիս կբնիմ եր հայաթի, չալոյի ու ջեքոյի օրինքն է, դաժե պապան ու մաման հեռու կմնան ընկիս, երբ որ իմ կողքին իմ սուպերհերոս տատին, ես պրոբլեմ չունիմ իմ կողքինեմ տատին, նոր որ ընդ գիտար սաժե տատին ծեփե գըթ պատին, ես պրոբլեմ չունիմ իմ կողքինեմ տատին, նոր որ ընդ գիտար սաժե տատին ծեփե գըթ պատին",
+      "seg_translation": "Супергерой нашего дома — это бабушка. Те задачи, которые я не могу решить, решает она. Бабушка — единственная, кого боятся в нашем доме. Она отвечает за все мои дела. Даже папа и мама держатся от меня подальше, когда рядом моя бабушка-супергерой. У меня нет проблем, когда рядом бабушка.",
+      "word": "գըթ",
+      "model_gloss": "прямо",
+      "logprob": -0.7624740203221639,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w081",
+      "video_id": "vdrum__7652016503071591698",
+      "handle": "vdrum_",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Ինչը, երբ կսկսեմ, որ հաստատ կգրեք։",
+      "seg_translation": "Что и когда я начну — точно запишете.",
+      "word": "Ինչը,",
+      "model_gloss": "что",
+      "logprob": -0.5061652466654778,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w082",
+      "video_id": "marik_gevorgian_7660927737812536584",
+      "handle": "marik_gevorgian",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Մեկն ասի. «ով ես դու, չտես ու անդուռ»։",
+      "seg_translation": "Пусть кто-то скажет: «Кто ты такая, выскочка и невоспитанная».",
+      "word": "«ով",
+      "model_gloss": "кто",
+      "logprob": -0.6190599600474039,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w083",
+      "video_id": "dr..aghasi.sharba_7655390302001171732",
+      "handle": "dr..aghasi.sharba",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Տասը ժամ է, շատ է։",
+      "seg_translation": "Десять часов, это много.",
+      "word": "է,",
+      "model_gloss": "это много",
+      "logprob": -1.5672761797904968,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w084",
+      "video_id": "zhanna_jaan_7655423811830992149",
+      "handle": "zhanna_jaan",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Հեյ նորմալ մերը նորմալ քուրը հիսուն հիսուն ո՞ւմ է քաշել։",
+      "seg_translation": "Эй, нормальная мать, нормальная сестра, кого они по пятьдесят-пятьдесят обманули?",
+      "word": "Հեյ",
+      "model_gloss": "эй",
+      "logprob": -0.6287921071052551,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w085",
+      "video_id": "vaag_mk_7626369781670710536",
+      "handle": "vaag_mk",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Էռնա՛, ես քեզ հետա կզանգեմ:",
+      "seg_translation": "Эрна, я тебе перезвоню.",
+      "word": "հետա",
+      "model_gloss": "позвоню позже",
+      "logprob": -0.5783489793539047,
+      "model_note": null,
+      "human": {
+        "verdict": "acceptable",
+        "correction": "",
+        "mistranscribed": true
+      },
+      "grammar": null
+    },
+    {
+      "id": "w086",
+      "video_id": "victorypark.yerevan_7666739123402591509",
+      "handle": "victorypark.yerevan",
+      "stratum": "C_lowconf",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Ամբողջ ծառ ատրակցիոնների օր հատուկ ձեզ համար։",
+      "seg_translation": "Целый день аттракционов специально для вас.",
+      "word": "ծառ",
+      "model_gloss": "дерево",
+      "logprob": -0.8363893032073975,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w087",
+      "video_id": "qristin77_7666840740512763154",
+      "handle": "qristin77",
+      "stratum": "C_lowconf",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Ջանդամ չեն ծեծում, ոտերս չի, չոքերս չի, ամբողջը վերևը չքսեցիր, բերի սրան կնեի",
+      "seg_translation": "К черту стучат, это не ноги мои, не колени мои, ты все сверху не намазала, принеси это сделаю",
+      "word": "Ջանդամ",
+      "model_gloss": "черт с ним",
+      "logprob": -0.6672376773009697,
+      "model_note": "заимствование [разг.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w088",
+      "video_id": "ashot_hvns_7664614302359325973",
+      "handle": "ashot_hvns",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Դե հա, կներեք, Տիգրան ջան, բայց դե հիմա ինչ, ինձ ձեռքերը, ապաշխարհ կտայի, ցավդ տանեմ, խնդրեմ:",
+      "seg_translation": "Ну да, извините, Тигран джан, но что теперь поделать, я бы руками и ногами помогла бы, возьму твою боль, пожалуйста.",
+      "word": "ձեռքերը,",
+      "model_gloss": "руки",
+      "logprob": -0.4610766514670104,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w089",
+      "video_id": "esinchakataka_7641626266600246536",
+      "handle": "esinchakataka",
+      "stratum": "C_lowconf",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Տամար, ու՞ր ես այ կեղտոտ։",
+      "seg_translation": "Тамар, где ты, грязнуля?",
+      "word": "այ",
+      "model_gloss": "эй",
+      "logprob": -0.579830527305603,
+      "model_note": "междометие, обращение для привлечения внимания [разг.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w090",
+      "video_id": "asatryangurgen__7643116752305507591",
+      "handle": "asatryangurgen_",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Չունի, է, ինչ անի։",
+      "seg_translation": "У него нет, ну что поделать.",
+      "word": "Չունի,",
+      "model_gloss": "нет у него",
+      "logprob": -0.6803435149292151,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w091",
+      "video_id": "bazhukovfamily_7540727140082273554",
+      "handle": "bazhukovfamily",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Ես Հայրիկ Հյուրան եմ, լուսանկարիչ, վիդեոգրաֆ, մարտական ցուլասեն կարչյուտունեմ սովորեցնում։",
+      "seg_translation": "Я Айрик Хюрян, фотограф, видеограф, обучаю боевым искусствам.",
+      "word": "կարչյուտունեմ",
+      "model_gloss": "обучаю",
+      "logprob": -0.7842927744182256,
+      "model_note": null,
+      "human": {
+        "verdict": "wrong",
+        "correction": "",
+        "mistranscribed": true
+      },
+      "grammar": null
+    },
+    {
+      "id": "w092",
+      "video_id": "ashot_hvns_7618604024119577877",
+      "handle": "ashot_hvns",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Գալիս փորով ձյածկեքը նստում են քամակները վրեն։",
+      "seg_translation": "Приходят, своими пузатыми задницами садятся на них.",
+      "word": "ձյածկեքը",
+      "model_gloss": "дядьки",
+      "logprob": -0.46695649950561346,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w093",
+      "video_id": "zhanna_jaan_7668233361306995988",
+      "handle": "zhanna_jaan",
+      "stratum": "C_lowconf",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Սամվելը դու երեսուն երեք տարեկան ամոթ է, ինչ ամոթ է։",
+      "seg_translation": "Самвел, тебе тридцать три года, стыдно, как стыдно.",
+      "word": "երեք",
+      "model_gloss": "три",
+      "logprob": -0.764328831108287,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w094",
+      "video_id": "edo.beglaryan41_7654665318870060305",
+      "handle": "edo.beglaryan41",
+      "stratum": "C_lowconf",
+      "asr_difficulty": null,
+      "seg_text": "Աչքս չափի թերավոր մումեն եմ վանել ամեն օր, մի նացիր անուշ մայրիկ, ախ Հայաստուն կգա մի օր:",
+      "seg_translation": "Каждый день я прогонял свои глаза, полные меры недостатка, не плачь, милая мама, ах, Армения придет однажды.",
+      "word": "մումեն",
+      "model_gloss": "свечой",
+      "logprob": -0.577424963315328,
+      "model_note": null,
+      "human": {
+        "verdict": "wrong",
+        "correction": "",
+        "mistranscribed": true
+      },
+      "grammar": null
+    },
+    {
+      "id": "w095",
+      "video_id": "fasdusha_7649710075057098002",
+      "handle": "fasdusha",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": null,
+      "seg_text": "Մտնում ես Samsung-ի զավադսկոյ բրաուզերի մեջ, սեղմում ես ներքևի աջ անկյունում երեք հատ կետիկը, սեղմում ես բլակիրովշիկ էկրանը և քաշում ես AdBlock ծրագիրը։",
+      "seg_translation": "Заходишь в заводской браузер Samsung, нажимаешь на три точки в нижнем правом углу, нажимаешь «блокировщик содержимого» и скачиваешь программу AdBlock.",
+      "word": "AdBlock",
+      "model_gloss": "AdBlock",
+      "logprob": -0.26915656455925535,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w096",
+      "video_id": "aibyed_7646884351459872020",
+      "handle": "aibyed",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "/sources:",
+      "seg_translation": "/sources:",
+      "word": "/sources:",
+      "model_gloss": "/sources:",
+      "logprob": -0.049224171373579234,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w097",
+      "video_id": "bazhukovfamily_7650382140953152788",
+      "handle": "bazhukovfamily",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Стол՝ սեղան, стул՝ աթոռ, окно՝ պատուհան, компьютер՝ համակարգիչ, телевизор՝ հեռուստացույց, диван, я не знаю что բազմոց, кровать, кроват, кроватЪ, մահճակալ, пол՝ հատակ, стена՝ պատ, потолок՝ առաստաղ, булка!",
+      "seg_translation": "Стол — սեղան, стул — աթոռ, окно — պատուհան, компьютер — համակարգիչ, телевизор — հեռուստացույց, диван… я не знаю что… — բազմոց, кровать — кроват, кроватЪ, մահճակալ, пол — հատակ, стена — պատ, потолок — առաստաղ, булка!",
+      "word": "знаю",
+      "model_gloss": "знаю",
+      "logprob": -0.000688077649101615,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w098",
+      "video_id": "chef_maykl_7662789132317445389",
+      "handle": "chef_maykl",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Ասում է գռֆլ դիտ ունես վաղը, բոմբ, քնեցի, երկու օր nothing bro it was just like Ու պիսը մա աֆիելա բիկու, մինա ա զնայու ցը վիսը բադա։",
+      "seg_translation": "Говорит, [графл] есть завтра, бомба, уснула, два дня ничего, бро, это было просто как... [неразборчиво].",
+      "word": "it",
+      "model_gloss": "это",
+      "logprob": -0.06773534417152405,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w099",
+      "video_id": "bazhukovfamily_7650382140953152788",
+      "handle": "bazhukovfamily",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Стол՝ սեղան, стул՝ աթոռ, окно՝ պատուհան, компьютер՝ համակարգիչ, телевизор՝ հեռուստացույց, диван, я не знаю что բազմոց, кровать, кроват, кроватЪ, մահճակալ, пол՝ հատակ, стена՝ պատ, потолок՝ առաստաղ, булка!",
+      "seg_translation": "Стол — սեղան, стул — աթոռ, окно — պատուհան, компьютер — համակարգիչ, телевизор — հեռուստացույց, диван… я не знаю что… — բազմոց, кровать — кроват, кроватЪ, մահճակալ, пол — հատակ, стена — պատ, потолок — առաստաղ, булка!",
+      "word": "что",
+      "model_gloss": "что",
+      "logprob": -0.00015567521040793508,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w100",
+      "video_id": "bazhukovfamily_7650382140953152788",
+      "handle": "bazhukovfamily",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Стол՝ սեղան, стул՝ աթոռ, окно՝ պատուհան, компьютер՝ համակարգիչ, телевизор՝ հեռուստացույց, диван, я не знаю что բազմոց, кровать, кроват, кроватЪ, մահճակալ, пол՝ հատակ, стена՝ պատ, потолок՝ առաստաղ, булка!",
+      "seg_translation": "Стол — սեղան, стул — աթոռ, окно — պատուհան, компьютер — համակարգիչ, телевизор — հեռուստացույց, диван… я не знаю что… — բազմոց, кровать — кроват, кроватЪ, մահճակալ, пол — հատակ, стена — պատ, потолок — առաստաղ, булка!",
+      "word": "не",
+      "model_gloss": "не",
+      "logprob": -0.04999510943889618,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w101",
+      "video_id": "bazhukovfamily_7650382140953152788",
+      "handle": "bazhukovfamily",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Стол՝ սեղան, стул՝ աթոռ, окно՝ պատուհան, компьютер՝ համակարգիչ, телевизор՝ հեռուստացույց, диван, я не знаю что բազմոց, кровать, кроват, кроватЪ, մահճակալ, пол՝ հատակ, стена՝ պատ, потолок՝ առաստաղ, булка!",
+      "seg_translation": "Стол — սեղան, стул — աթոռ, окно — պատուհան, компьютер — համակարգիչ, телевизор — հեռուստացույց, диван… я не знаю что… — բազմոց, кровать — кроват, кроватЪ, մահճակալ, пол — հատակ, стена — պատ, потолок — առաստաղ, булка!",
+      "word": "кроват,",
+      "model_gloss": "кроват",
+      "logprob": -0.1902325152602446,
+      "model_note": null,
+      "human": {
+        "verdict": "acceptable",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w102",
+      "video_id": "bazhukovfamily_7650382140953152788",
+      "handle": "bazhukovfamily",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Стол՝ սեղան, стул՝ աթոռ, окно՝ պատուհան, компьютер՝ համակարգիչ, телевизор՝ հեռուստացույց, диван, я не знаю что բազմոց, кровать, кроват, кроватЪ, մահճակալ, пол՝ հատակ, стена՝ պատ, потолок՝ առաստաղ, булка!",
+      "seg_translation": "Стол — սեղան, стул — աթոռ, окно — պատուհան, компьютер — համակարգիչ, телевизор — հեռուստացույց, диван… я не знаю что… — բազմոց, кровать — кроват, кроватЪ, մահճակալ, пол — հատակ, стена — պատ, потолок — առաստաղ, булка!",
+      "word": "пол՝",
+      "model_gloss": "пол",
+      "logprob": -0.00019185380344310943,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w103",
+      "video_id": "chef_maykl_7662789132317445389",
+      "handle": "chef_maykl",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Բա աֆրո գացը պուտեր լիմոնոտ, bro, bro շոդամ, bro:",
+      "seg_translation": "А вот афро... лимон, бро, бро, сделаю, бро.",
+      "word": "bro:",
+      "model_gloss": "бро",
+      "logprob": -0.1421435209340416,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w104",
+      "video_id": "narek.7071_7646446372966845714",
+      "handle": "narek.7071",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": null,
+      "seg_text": "Թեկնածուն եմ number one from Իջևան։",
+      "seg_translation": "Я кандидат номер один из Иджевана.",
+      "word": "one",
+      "model_gloss": "один",
+      "logprob": -0.000406301929615438,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w105",
+      "video_id": "evelinakhanoyan_7670229790628072724",
+      "handle": "evelinakhanoyan",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Don't touch me!",
+      "seg_translation": "Не трогай меня!",
+      "word": "me!",
+      "model_gloss": "меня",
+      "logprob": -0.0019622523953633695,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w106",
+      "video_id": "antheryyyyyy_7662107041934183700",
+      "handle": "antheryyyyyy",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": null,
+      "seg_text": "Դեղինը, ըըը, знаете, я считаю, это такой лучезарный, солнечный цвет, который определяет жизнерадостность, общительность",
+      "seg_translation": "Желтый, э-э-э, знаете, я считаю, это такой лучезарный, солнечный цвет, который определяет жизнерадостность, общительность.",
+      "word": "я",
+      "model_gloss": "я",
+      "logprob": -0.00016699827392585576,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w107",
+      "video_id": "arg_104_7660985936175435016",
+      "handle": "arg_104",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": null,
+      "seg_text": "С одной головы вся седина, весь пух и прах, всё с одного ребра и одна сатана, а в глаза бела пелена, да со рта пена бела брызжет, кипит буйна голова да моя, я могу черта два на три. I know that you love me. You don't need to remind me. Put it all behind me. But baby, I see her in the back of my mind all the time. Feels like a fever. Like I'm burning alive like a sign",
+      "seg_translation": "Данный текст не содержит армянских предложений для анализа.",
+      "word": "голова",
+      "model_gloss": "голова",
+      "logprob": -0.0009894242975860834,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w108",
+      "video_id": "ovs3_7640474938171755797",
+      "handle": "ovs3",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": null,
+      "seg_text": "Նվիրում եմ երեք Beauty Box-ի աղջկական ամենահավես նվերներով և զարթ պրեկո մեշից:",
+      "seg_translation": "Разыгрываю три Beauty Box с самыми крутыми девчачьими подарками и украшениями из «Прейко Меш».",
+      "word": "Box-ի",
+      "model_gloss": "коробки",
+      "logprob": -0.06329136494896374,
+      "model_note": null,
+      "human": {
+        "verdict": "acceptable",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w109",
+      "video_id": "narek.7071_7646446372966845714",
+      "handle": "narek.7071",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": null,
+      "seg_text": "Я в России для них как братан։",
+      "seg_translation": "Я в России для них как братан.",
+      "word": "них",
+      "model_gloss": "них",
+      "logprob": -0.008948697708547115,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w110",
+      "video_id": "armenia_24_7657454144982174994",
+      "handle": "armenia_24",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "formal",
+      "seg_text": "2026 թվականի հուլիսի 1-ից ուժի մեջ են մտնում մի շարք կարևոր ծրագրեր և օրենսդրական փոփոխություններ, որոնք ազդեցություն կունենան ինչպես քաղաքացիների, այնպես էլ բիզնեսի գործունեության վրա:",
+      "seg_translation": "С 1 июля 2026 года вступают в силу ряд важных программ и законодательных изменений, которые окажутся значимыми как для граждан, так и для деятельности бизнеса.",
+      "word": "2026",
+      "model_gloss": "2026",
+      "logprob": -0.10029327651227504,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w111",
+      "video_id": "evelinakhanoyan_7670229790628072724",
+      "handle": "evelinakhanoyan",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Այսինքն, օրինակ, որ իրանց ասես․ «Վայ, կյանքս, կարա՞ս մի քիչ հեռու նստես, նեղվում եմ, որ շատ մոտիկ ես նստած», իրանք կարող ա քեզնից նեղանան, հետո տասը տարի չխոսան, ոչ մի feedback իրանց չես կարողանում տաս։",
+      "seg_translation": "То есть, например, если ты им скажешь: «Ой, дорогая(ой), можешь сесть немного подальше, мне неловко, что ты сидишь слишком близко», они могут на тебя обидеться, потом десять лет не разговаривать, никакой feedback им не можешь дать.",
+      "word": "feedback",
+      "model_gloss": "обратную связь",
+      "logprob": -0.0007089247228577733,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w112",
+      "video_id": "evelinakhanoyan_7670229790628072724",
+      "handle": "evelinakhanoyan",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Red flag-եր մարդկանց մեջ, որոնց առկայությունը ինձ կխանգարի ձեր հետ շատ մոտիկ լինելը։",
+      "seg_translation": "Тревожные звоночки в людях, присутствие которых помешает мне быть с вами в очень близких отношениях.",
+      "word": "Red",
+      "model_gloss": "красные флаги",
+      "logprob": -0.024212263524532318,
+      "model_note": null,
+      "human": {
+        "verdict": "acceptable",
+        "correction": "красные",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w113",
+      "video_id": "shadowride3_7662663697118039317",
+      "handle": "shadowride3",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Լավ ա, լավ ա, ախպերս, հանց էլ ա, մեջից քո կարևոր վեշերը վեր կառու, ավտոյից բանալիները տուր, անունը փոխության համար էլ կզանգեմ, ինձ Instagram-ով կգրես։",
+      "seg_translation": "Ладно, ладно, брат мой, раз так, забери свои важные вещи, отдай ключи от машины, по поводу переоформления я позвоню, напишешь мне в Instagram.",
+      "word": "Instagram-ով",
+      "model_gloss": "через Instagram",
+      "logprob": -0.0004307300890407835,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w114",
+      "video_id": "bazhukovfamily_7650382140953152788",
+      "handle": "bazhukovfamily",
+      "stratum": "D_codeswitch",
+      "asr_difficulty": "single_speaker",
+      "seg_text": "Сегодня будем учить слова на армянском языке, армянский с Алиной урок четырнадцать, Հայոց լեզու Ալինայի հետ դաս տասնչորս։",
+      "seg_translation": "Сегодня будем учить слова на армянском языке, армянский с Алиной урок четырнадцать, армянский язык с Алиной, урок четырнадцать.",
+      "word": "урок",
+      "model_gloss": "урок",
+      "logprob": -0.43438920378685,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w115",
+      "video_id": "plotmood6677_7658920455968918805",
+      "handle": "plotmood6677",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Շուրջը բոլորը սուտ, բայց մերը իրական ա։",
+      "seg_translation": "Вокруг всё ложь, но наше — настоящее.",
+      "word": "սուտ,",
+      "model_gloss": "ложь",
+      "logprob": -0.0005844055638590361,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w116",
+      "video_id": "tnakan_baxadratomser_7652308309948550408",
+      "handle": "tnakan_baxadratomser",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Խառնում ենք, ստացված զանգվածը լցնում ալյուրի մեջ ու հունցում խմոր։",
+      "seg_translation": "Перемешиваем, полученную массу выливаем в муку и замешиваем тесто.",
+      "word": "ալյուրի",
+      "model_gloss": "в муку",
+      "logprob": -0.003368836527832692,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w117",
+      "video_id": "divergent_7_7635640908070866183",
+      "handle": "divergent_7",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Երբ որ Աստված չի պատասխանում, դու մի մտածիր, որ Աստված քեզ չի տեսնում, որ Աստված չի ուզում, որ դու շարժվես, որ քո համար հրաշք Աստված չի պատրաստել:",
+      "seg_translation": "Когда Бог не отвечает, не думай, что Бог тебя не видит, что Бог не хочет, чтобы ты двигался, что Бог не приготовил для тебя чудо.",
+      "word": "պատասխանում,",
+      "model_gloss": "не отвечает",
+      "logprob": -0.000876843509710549,
+      "model_note": null,
+      "human": {
+        "verdict": "acceptable",
+        "correction": "отвечает",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w118",
+      "video_id": "gorrkarapetyan_7665759107466464532",
+      "handle": "gorrkarapetyan",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Ուտենք, խմենք, լավ քեֆ անենք էս գիշեր, որ այսօրից մեզ մնա միշտ լավ հուշեր։",
+      "seg_translation": "Давайте поедим, выпьем, хорошо повеселимся этой ночью, чтобы от сегодняшнего дня у нас всегда оставались хорошие воспоминания.",
+      "word": "խմենք,",
+      "model_gloss": "попьем",
+      "logprob": -0.0021972168530434524,
+      "model_note": "от խմել (пить) [повел. накл., 1 л. мн. ч.]",
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w119",
+      "video_id": "bazhukovfamily_7664467996794014996",
+      "handle": "bazhukovfamily",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Տեղեկությունը կգտնեք պրոֆիլի խղումով նոր հեռախոս բաժնում:",
+      "seg_translation": "Информацию вы найдете по ссылке в профиле в разделе «новый телефон».",
+      "word": "բաժնում:",
+      "model_gloss": "в разделе",
+      "logprob": -0.00034866343401063205,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w120",
+      "video_id": "simpo.....samo_7629307328130501904",
+      "handle": "simpo.....samo",
+      "stratum": "E_control",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Տարանջանջանված ենք, պատվերները շատ-շատ է, դրա համար ուշացում եղավ։",
+      "seg_translation": "Мы перегружены, заказов очень много, поэтому произошла задержка.",
+      "word": "է,",
+      "model_gloss": "есть",
+      "logprob": -0.013501445760539355,
+      "model_note": null,
+      "human": {
+        "verdict": "unsure",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w121",
+      "video_id": "padilayca.areq_7657560740953509127",
+      "handle": "padilayca.areq",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Քույր իմ անգին ու թանկագին, դու ես իմ վստահելին, քեզ համար կյանքս էլ կտամ, քույր իմ, քեզ համար սիրտս չի վախենա ոչ մի ցավից:",
+      "seg_translation": "Сестра моя бесценная и дорогая, ты — та, кому я доверяю, ради тебя я и жизнь отдам, сестра моя, ради тебя моё сердце не испугается никакой боли.",
+      "word": "թանկագին,",
+      "model_gloss": "дорогая",
+      "logprob": -0.0042914965451927856,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w122",
+      "video_id": "ashot_hvns_7668323436938349844",
+      "handle": "ashot_hvns",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Դուք որ սրտից եք բողոքում, բա մենք ինչ ասենք, այ ցավը տանեմ։",
+      "seg_translation": "Вы еще на сердце жалуетесь, а что нам сказать, о горе мое.",
+      "word": "մենք",
+      "model_gloss": "мы",
+      "logprob": -0.0016396309729316272,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w123",
+      "video_id": "karine.armen4_7669785315049000199",
+      "handle": "karine.armen4",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Մեկ էլ, ցավդ տանեմ, ըըը շուտ ասա, որ քարտս ուղարկեմ, տեղ եմ էթում էլի, կարա չհասցնեմ ուղարկեմ։",
+      "seg_translation": "И еще, возьму твою боль, э-э-э, быстро скажи, чтобы я отправил карту, я кое-куда иду, может не успею отправить.",
+      "word": "ցավդ",
+      "model_gloss": "возьму твою боль",
+      "logprob": -5.6860163567762356e-05,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w124",
+      "video_id": "zhanna_jaan_7655423811830992149",
+      "handle": "zhanna_jaan",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Հեյ նորմալ մերը նորմալ քուրը հիսուն հիսուն ո՞ւմ է քաշել։",
+      "seg_translation": "Эй, нормальная мать, нормальная сестра, кого они по пятьдесят-пятьдесят обманули?",
+      "word": "հիսուն",
+      "model_gloss": "пятьдесят",
+      "logprob": -0.0005416339032914644,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w125",
+      "video_id": "karine.armen4_7669785315049000199",
+      "handle": "karine.armen4",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Դու գրել ես պատասխանի՛, պատասխանի՛, ես էլ պատասխանել եմ, դու չես պատասխանում, խի՞ չես գրում։",
+      "seg_translation": "Ты написал «ответь», «ответь», я ответил, ты не отвечаешь, почему не пишешь?",
+      "word": "Դու",
+      "model_gloss": "ты",
+      "logprob": -7.947246861779908e-06,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w126",
+      "video_id": "araratnews.am_7670171443564465429",
+      "handle": "araratnews.am",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Ես, ես ուզում եմ դուք մի հատ, ես ուզում եմ մի հատ դուք պատկերացնեք էլի այդ աուրան՝ եկեղեցին, Հովիկ Աբովյանը, Սուրբ Հովհաննես եկեղեցին, Սերժ Սարգսյանը, կոնդակը, Գրիգոր Լուսավորիչը, խորհրդավոր ընթրիքը պատի վրա դա Վինչիին:",
+      "seg_translation": "Я, я хочу, чтобы вы, я хочу, чтобы вы представили эту ауру: церковь, Овик Абовян, церковь Святого Ованнеса, Серж Саргсян, указ, Григорий Просветитель, Тайная вечеря на стене у да Винчи.",
+      "word": "վրա",
+      "model_gloss": "на",
+      "logprob": -7.891290564051208e-05,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w127",
+      "video_id": "nikol.pashinyan_pm_7624895708490992903",
+      "handle": "nikol.pashinyan_pm",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Երանի նրանց, որ սրտով մաքուր են, որովհետև նրանք Աստծուն պիտի տեսնեն:",
+      "seg_translation": "Блаженны чистые сердцем, ибо они Бога узрят.",
+      "word": "նրանց,",
+      "model_gloss": "те",
+      "logprob": -7.847907604959422e-06,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "тем",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w128",
+      "video_id": "ashot_hvns_7648622753205177620",
+      "handle": "ashot_hvns",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Տղա՛ ջան, էսի տալիս ես ես ի՞նչ անեմ, վեր կալ քցի կարոգի մեջ, վա՜հ։",
+      "seg_translation": "Сынок, ты даешь мне это, что мне делать? Возьми и брось в [урну] комиссии, уф.",
+      "word": "տալիս",
+      "model_gloss": "даешь",
+      "logprob": -4.815889988094568e-05,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w129",
+      "video_id": "qristin77_7664194762899033352",
+      "handle": "qristin77",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Տապշկեքն ա հագնում:",
+      "seg_translation": "Он надевает тапки.",
+      "word": "հագնում:",
+      "model_gloss": "тапочки надевает",
+      "logprob": -0.0004502177727658818,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w130",
+      "video_id": "foreverrr___3_7666927979880025364",
+      "handle": "foreverrr___3",
+      "stratum": "E_control",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Բա ինչի՞ ա մտածում, որ ես քեզ եմ սիրահարված:",
+      "seg_translation": "А почему он(а) думает, что я в тебя влюблен(а)?",
+      "word": "որ",
+      "model_gloss": "что",
+      "logprob": -1.311301275563892e-06,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w131",
+      "video_id": "ritamamikonyan_7647510961544252680",
+      "handle": "ritamamikonyan",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Էդքան լավ տղա ես, Կարապետյան Սամվել, էդքան կաշառքով, որ մարդ ես բերում Ռուսաստանից Հայաստան, որ քեզ ընտրեն, փողով, իհարկե:",
+      "seg_translation": "Раз ты такой «хороший парень», Самвел Карапетян, раз привозишь людей из России в Армению за такие взятки, чтобы за тебя проголосовали, конечно же, за деньги.",
+      "word": "կաշառքով,",
+      "model_gloss": "взятками",
+      "logprob": -0.0021285270294255395,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w132",
+      "video_id": "nikol.pashinyan_pm_7624895708490992903",
+      "handle": "nikol.pashinyan_pm",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Երանի նրանց, որ սրտով մաքուր են, որովհետև նրանք Աստծուն պիտի տեսնեն:",
+      "seg_translation": "Блаженны чистые сердцем, ибо они Бога узрят.",
+      "word": "նրանք",
+      "model_gloss": "они",
+      "logprob": -8.034670554479816e-06,
+      "model_note": null,
+      "human": {
+        "verdict": "correct",
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w133",
+      "video_id": "haykmarutyanofficial_7637943792519302420",
+      "handle": "haykmarutyanofficial",
+      "stratum": "E_control",
+      "asr_difficulty": "multi_speakers",
+      "seg_text": "Ինչի՞ եք էդ երեխեքին ուղարկել պատերազմ, Դու՞ք եք է ուղարկել, դուք ձեր հրամանով են գնացել։",
+      "seg_translation": "Почему вы отправляли тех детей на войну? Вы сами их отправляли? Они по вашему приказу ушли?",
+      "word": "էդ",
+      "model_gloss": "тех",
+      "logprob": -0.00038018421037122607,
+      "model_note": null,
+      "human": {
+        "verdict": null,
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w134",
+      "video_id": "_dianavoskanyan_7652653653781826824",
+      "handle": "_dianavoskanyan",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Մենք ասում ենք. «Ղիա մա թայը, զեհեր ա փչում»:",
+      "seg_translation": "Мы говорим: «Мороз по коже, яд (холод) дует».",
+      "word": "ա",
+      "model_gloss": "очень холодно дует яд",
+      "logprob": -0.0006288696313276887,
+      "model_note": null,
+      "human": {
+        "verdict": null,
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w135",
+      "video_id": "ani_zaqaryan__7376652481406733584",
+      "handle": "ani_zaqaryan_",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Լուսացույցը սվետաֆորն է, այսինքն սվետաֆորի հայերեն համարժեքը լուսացույցն է։",
+      "seg_translation": "Светофор — это «светофор», то есть армянский эквивалент слова «светофор» — «лусацуйц».",
+      "word": "հայերեն",
+      "model_gloss": "армянский",
+      "logprob": -6.384094090857875e-05,
+      "model_note": null,
+      "human": {
+        "verdict": null,
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w136",
+      "video_id": "asatryangurgen__7643116752305507591",
+      "handle": "asatryangurgen_",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Մի հատ անցար ստեղից, անցար, անցար, անցար։",
+      "seg_translation": "Ты прошел разок отсюда, прошел, прошел, прошел.",
+      "word": "հատ",
+      "model_gloss": "штука",
+      "logprob": -0.0001311216183239594,
+      "model_note": null,
+      "human": {
+        "verdict": null,
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w137",
+      "video_id": "nushohanian_7618280251872840982",
+      "handle": "nushohanian",
+      "stratum": "E_control",
+      "asr_difficulty": "songs",
+      "seg_text": "Այ՜, այ՜, այ՜:",
+      "seg_translation": "Ой, ой, ой!",
+      "word": "այ՜,",
+      "model_gloss": "ай",
+      "logprob": -0.0030298430849597935,
+      "model_note": null,
+      "human": {
+        "verdict": null,
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w138",
+      "video_id": "abcmedia.am_7657222046253911316",
+      "handle": "abcmedia.am",
+      "stratum": "E_control",
+      "asr_difficulty": "formal",
+      "seg_text": "Ru ID հավելվածի միջոցով յուրաքանչյուր օտարերկրացու համար ձևավորվում է թվային պրոֆիլ, որը հետագայում կարող է գործածվել պետական ծառայությունից օգտվելիս և միգրացիոն տարբեր գործընթացներում։",
+      "seg_translation": "С помощью приложения Ru ID для каждого иностранца формируется цифровой профиль, который в дальнейшем может быть использован при получении государственных услуг и в различных миграционных процессах.",
+      "word": "պրոֆիլ,",
+      "model_gloss": "профиль",
+      "logprob": -0.003396374526857926,
+      "model_note": null,
+      "human": {
+        "verdict": null,
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    },
+    {
+      "id": "w139",
+      "video_id": "772abc_7669701066363047201",
+      "handle": "772abc",
+      "stratum": "E_control",
+      "asr_difficulty": null,
+      "seg_text": "Ասում ա պանիխիդային այնքան շատ մարդ ա լինում, մեռելին երկու տեղով են դնում։",
+      "seg_translation": "Говорят, на панихиде так много народу, что покойника кладут в двух местах.",
+      "word": "տեղով",
+      "model_gloss": "местах",
+      "logprob": -4.160077328378975e-05,
+      "model_note": null,
+      "human": {
+        "verdict": null,
+        "correction": "",
+        "mistranscribed": false
+      },
+      "grammar": null
+    }
+  ],
+  "sentences": [
+    {
+      "id": "p000",
+      "video_id": "nikol.pashinyan_pm_7562576540278508820",
+      "handle": "nikol.pashinyan_pm",
+      "seg_text": "Մի հեկտար հազար մետրից երեսունհինգ ստանալու ես նորմալ ա։",
+      "model_translation": "Получить тридцать пять с тысячи квадратных метров — это нормально.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Получить тридцать пять с тысячи квадратных метров — это нормально."
+      }
+    },
+    {
+      "id": "p001",
+      "video_id": "bazhukovfamily_7661153418660138261",
+      "handle": "bazhukovfamily",
+      "seg_text": "Ես Արինեն եմ, ինձ վեց տարեկան է, լավ հայերեն եմ խոսում։",
+      "model_translation": "Я Арине, мне шесть лет, я хорошо говорю по-армянски.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Я Арине, мне шесть лет, я хорошо говорю по-армянски."
+      }
+    },
+    {
+      "id": "p002",
+      "video_id": "shadowride3_7662663697118039317",
+      "handle": "shadowride3",
+      "seg_text": "Հա՜, լսե՛ք, նայի՛ հասել ես, վրատ, ես քեզ չէի ճանաչում, բայց տղու բենից հելածը տղու բենից ա, չէ՞։",
+      "model_translation": "Да, слушайте, смотри, ты доехал, брат, я тебя не знал, но слова мужчины остаются словами мужчины, да?",
+      "human": {
+        "rating": "faithful",
+        "reference": "Да, слушайте, смотри, ты доехал, брат, я тебя не знал, но слова мужчины остаются словами мужчины, да?"
+      }
+    },
+    {
+      "id": "p003",
+      "video_id": "novax3160_7666173171308989728",
+      "handle": "novax3160",
+      "seg_text": "Հայրիկ, մայրիկ, Ես որոշեցի ընկերներիս հետ գնամ պատերազմ։",
+      "model_translation": "Папа, мама, я решил пойти на войну со своими друзьями.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Папа, мама, я решил пойти на войну со своими друзьями."
+      }
+    },
+    {
+      "id": "p004",
+      "video_id": "nareh.hovsepian_7669823719195282708",
+      "handle": "nareh.hovsepian",
+      "seg_text": "Համարյա հասնում էի իրան, պայուսակս բացեց, դրամապանակս մեջից հանեց, մակբուքս շպրտեց պոլերին ու փախավ։",
+      "model_translation": "Я почти догнал его, он открыл мою сумку, вытащил кошелек, бросил макбук на пол и убежал.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Я почти догнал его, он открыл мою сумку, вытащил кошелек, бросил макбук на пол и убежал."
+      }
+    },
+    {
+      "id": "p005",
+      "video_id": "nikol.pashinyan_pm_7562576540278508820",
+      "handle": "nikol.pashinyan_pm",
+      "seg_text": "Շնորհակալություն վարչապետ ջան, լավ։",
+      "model_translation": "Спасибо, господин премьер-министр, хорошо.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Спасибо, господин премьер-министр, хорошо."
+      }
+    },
+    {
+      "id": "p006",
+      "video_id": "qristin77_7636115137736527111",
+      "handle": "qristin77",
+      "seg_text": "Չի կարելի տենց գոռալ, աղջիկ ջան։",
+      "model_translation": "Нельзя так кричать, девочка.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Нельзя так кричать, девочка."
+      }
+    },
+    {
+      "id": "p007",
+      "video_id": "aimusicx_01_7657848404281789704",
+      "handle": "aimusicx_01",
+      "seg_text": "Վեց վարկ ունեմ, յոթը պարի, ութն էլ սգում եմ, մեկը բանկից, մեկը օնլայն, ես էլ փող չունեմ:",
+      "model_translation": "У меня шесть кредитов, семь на танцы (в долг), восьмой же — плачу (оплачиваю), один из банка, один онлайн, а у меня денег нет.",
+      "human": {
+        "rating": "faithful",
+        "reference": "У меня шесть кредитов, семь на танцы (в долг), восьмой же — плачу (оплачиваю), один из банка, один онлайн, а у меня денег нет."
+      }
+    },
+    {
+      "id": "p008",
+      "video_id": "harutyunyans_blog_7670100789636893972",
+      "handle": "harutyunyans_blog",
+      "seg_text": "Ռուզաննա սաղի հետ առավոտյան կոֆե է խմում։",
+      "model_translation": "Рузанна по утрам пьет кофе со всеми.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Рузанна по утрам пьет кофе со всеми."
+      }
+    },
+    {
+      "id": "p009",
+      "video_id": "qristin77_7664194762899033352",
+      "handle": "qristin77",
+      "seg_text": "Մամ, դե ման ցիգը մամոտ ա:",
+      "model_translation": "Мам, ну [это] близко.",
+      "human": {
+        "rating": "minor",
+        "reference": "Мам, ну [это] близко."
+      }
+    },
+    {
+      "id": "p010",
+      "video_id": "vaag_mk_7626369781670710536",
+      "handle": "vaag_mk",
+      "seg_text": "Էռնա՛, ես քեզ հետա կզանգեմ:",
+      "model_translation": "Эрна, я тебе перезвоню.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Эрна, я тебе перезвоню."
+      }
+    },
+    {
+      "id": "p011",
+      "video_id": "nikol.pashinyan_pm_7456684966747835655",
+      "handle": "nikol.pashinyan_pm",
+      "seg_text": "Որ բան, որ կարծեմ հա բոլ-բոլ։",
+      "model_translation": "Ну, то, что, кажется, да, предостаточно.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Ну, то, что, кажется, да, предостаточно."
+      }
+    },
+    {
+      "id": "p012",
+      "video_id": "abcmedia.am_7657222046253911316",
+      "handle": "abcmedia.am",
+      "seg_text": "Մուտքի հայտը պետք է ներկայացնել ոչ շուտ, քան իննսուն օր և ոչ ուշ, քան յոթանասուներկու ժամ մինչև սահմանը հատելը։",
+      "model_translation": "Заявку на въезд необходимо подать не ранее чем за девяносто дней и не позднее чем за семьдесят два часа до пересечения границы.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Заявку на въезд необходимо подать не ранее чем за девяносто дней и не позднее чем за семьдесят два часа до пересечения границы."
+      }
+    },
+    {
+      "id": "p013",
+      "video_id": "haykmarutyanofficial_7637943792519302420",
+      "handle": "haykmarutyanofficial",
+      "seg_text": "Մերը չի եղել։",
+      "model_translation": "Она не была нашей.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Она не была нашей."
+      }
+    },
+    {
+      "id": "p014",
+      "video_id": "ashot_hvns_7617127410168810773",
+      "handle": "ashot_hvns",
+      "seg_text": "Ես քաղցր, ես կնիկ չունեմ:",
+      "model_translation": "Мне сладкий, у меня нет жены.",
+      "human": {
+        "rating": "minor",
+        "reference": "Мне сладкий, у меня нет жены."
+      }
+    },
+    {
+      "id": "p015",
+      "video_id": "kamillayic_7666101852534082824",
+      "handle": "kamillayic",
+      "seg_text": "Բարի մարդիկ, սիրուն դիկ նայեք։",
+      "model_translation": "Добрые люди, посмотрите на красоту.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Добрые люди, посмотрите на красоту."
+      }
+    },
+    {
+      "id": "p016",
+      "video_id": "lily_bagratuni_7646105736002522389",
+      "handle": "lily_bagratuni",
+      "seg_text": "Երկու կողմից կարմրեցնում ենք մինչև այսպես անուշ ոսկեգունելը, նույնպես տեղավորում ենք անձեռոցիկի վրա։",
+      "model_translation": "С двух сторон подрумяниваем до такого приятного золотистого цвета, также выкладываем на салфетку.",
+      "human": {
+        "rating": "faithful",
+        "reference": "С двух сторон подрумяниваем до такого приятного золотистого цвета, также выкладываем на салфетку."
+      }
+    },
+    {
+      "id": "p017",
+      "video_id": "haykmarutyanofficial_7644609969010248981",
+      "handle": "haykmarutyanofficial",
+      "seg_text": "Խաշլաման թող ձեր անունից։",
+      "model_translation": "Пусть хашлама будет от вашего имени.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Пусть хашлама будет от вашего имени."
+      }
+    },
+    {
+      "id": "p018",
+      "video_id": "uxi.am_7668004175040711957",
+      "handle": "uxi.am",
+      "seg_text": "Վոլեյբոլ և բասկետբոլ խաղալու հնարավորություն:",
+      "model_translation": "Возможность поиграть в волейбол и баскетбол.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Возможность поиграть в волейбол и баскетбол."
+      }
+    },
+    {
+      "id": "p019",
+      "video_id": "arm_mation_7628982596424322336",
+      "handle": "arm_mation",
+      "seg_text": "Ես գնում եմ:",
+      "model_translation": "Я ухожу.",
+      "human": {
+        "rating": "faithful",
+        "reference": "Я ухожу."
+      }
+    }
+  ],
+  "asr_clips": [
+    {
+      "id": "a000",
+      "category": "formal",
+      "video_id": "abcmedia.am_7657222046253911316",
+      "asr_text": "Այժմ նրանք նախքան մեկնելը պետք է նախապես գրանցվեն Ru ID բջջային հավելվածի միջոցով։",
+      "human_reference": "Այժմ նրանք նախքան մեկնելը պետք է նախապես գրանցվեն Ru ID բջջային հավելվածի միջոցով։",
+      "unchanged": true
+    },
+    {
+      "id": "a001",
+      "category": "formal",
+      "video_id": "blognewsarm_7662354589777235220",
+      "asr_text": "Մեծ ցավ է սա համայնքի համար»։",
+      "human_reference": "Մեծ ցավ է սա համայնքի համար»։",
+      "unchanged": true
+    },
+    {
+      "id": "a002",
+      "category": "formal",
+      "video_id": "armenia_24_7657454144982174994",
+      "asr_text": "Երկրորդ՝ ֆինանսական և բանկային համակարգում կգործարկվի նոր ստոպ գործիքը, որը կիրառելի է լինելու դրամական փոխանցումների, քարտային ու վարկային գործառնությունների և ավանդների նկատմամբ՝ նպատակ ունենալով բարձրացնել գործարքների անվտանգությունն ու վերահսկողությունը:",
+      "human_reference": "Երկրորդ՝ ֆինանսական և բանկային համակարգում կգործարկվի նոր ստոպ գործիքը, որը կիրառելի է լինելու դրամական փոխանցումների, քարտային ու վարկային գործառնությունների և ավանդների նկատմամբ՝ նպատակ ունենալով բարձրացնել գործարքների անվտանգությունն ու վերահսկողությունը:",
+      "unchanged": true
+    },
+    {
+      "id": "a003",
+      "category": "formal",
+      "video_id": "abcmedia.am_7657222046253911316",
+      "asr_text": "Նոր կարգը չի տարածվում Բելառուսի քաղաքացիների, մինչև վեց տարեկան երեխաների, Ռուսաստան վիզայով մուտք գործող անձանց, ինչպես նաև դիվանագիտական և որոշ պաշտոնական կարգավիճակ ունեցող անձանց վրա։",
+      "human_reference": "Նոր կարգը չի տարածվում Բելառուսի քաղաքացիների, մինչև վեց տարեկան երեխաների, Ռուսաստան վիզայով մուտք գործող անձանց, ինչպես նաև դիվանագիտական և որոշ պաշտոնական կարգավիճակ ունեցող անձանց վրա։",
+      "unchanged": true
+    },
+    {
+      "id": "a004",
+      "category": "formal",
+      "video_id": "armenia_24_7657454144982174994",
+      "asr_text": "Երրորդ՝ եկամուտների համալիր գնահատման հիման վրա կներդրվի ընտանիքների անապահովության գնահատման նոր համակարգ, որը կապահովի նպաստների արդար թիրախավորում և կվերացնի բյուրոկրատական քաշքշուկը:",
+      "human_reference": "Երրորդ՝ եկամուտների համալիր գնահատման հիման վրա կներդրվի ընտանիքների անապահովության գնահատման նոր համակարգ, որը կապահովի նպաստների արդար թիրախավորում և կվերացնի բյուրոկրատական քաշքշուկը:",
+      "unchanged": true
+    },
+    {
+      "id": "a005",
+      "category": "single_speaker",
+      "video_id": "harutyunyans_blog_7666758253413469460",
+      "asr_text": "Հա, ու մեկ էլ չես մեռնի, պատպիսկա տու։",
+      "human_reference": "Հա, ու մեկ էլ չես մեռնի, подписка տու։",
+      "unchanged": false
+    },
+    {
+      "id": "a006",
+      "category": "single_speaker",
+      "video_id": "evelinakhanoyan_7670229790628072724",
+      "asr_text": "Ես red flag եմ համարում այն մարդկանց, ովքեր feedback չեն կարողանում լսել։",
+      "human_reference": "Ես red flag եմ համարում այն մարդկանց, ովքեր feedback չեն կարողանում լսել։",
+      "unchanged": true
+    },
+    {
+      "id": "a007",
+      "category": "single_speaker",
+      "video_id": "fasdusha_7668221284311977224",
+      "asr_text": "Երկու անգամ էկրանին կտցնում ես, էկրանը միանում ա, երկու անգամ նորից կտցնում ես, անջատվում ա:",
+      "human_reference": "Երկու անգամ էկրանին կտցնում ես, էկրանը միանում ա, երկու անգամ նորից կտցնում ես, անջատվում ա:",
+      "unchanged": true
+    },
+    {
+      "id": "a008",
+      "category": "single_speaker",
+      "video_id": "evelinakhanoyan_7670229790628072724",
+      "asr_text": "Իմ համար հաջորդ red flag-ը դա միշտ զոհի դերում մարդիկ են։",
+      "human_reference": "Իմ համար հաջորդ red flag-ը դա միշտ զոհի դերում մարդիկ են։",
+      "unchanged": true
+    },
+    {
+      "id": "a009",
+      "category": "single_speaker",
+      "video_id": "jakasan91_7653412079835073810",
+      "asr_text": "Մնա յոթ վայրկյան, հետո գրիր ամեն:",
+      "human_reference": "Մնա յոթ վայրկյան, հետո գրիր ամեն:",
+      "unchanged": true
+    },
+    {
+      "id": "a010",
+      "category": "multi_speakers",
+      "video_id": "haykmarutyanofficial_7637943792519302420",
+      "asr_text": "Էս վերջերս Ձեր գործընկերը քանդեց։",
+      "human_reference": "Էս վերջերս Ձեր գործընկերը քանդեց։",
+      "unchanged": true
+    },
+    {
+      "id": "a011",
+      "category": "multi_speakers",
+      "video_id": "nikol.pashinyan_pm_7562576540278508820",
+      "asr_text": "Դե լավ եղեք, շնորհակալություն։",
+      "human_reference": "Դե լավ եղեք, շնորհակալություն։",
+      "unchanged": true
+    },
+    {
+      "id": "a012",
+      "category": "multi_speakers",
+      "video_id": "simpo.....samo_7629307328130501904",
+      "asr_text": "Եղավ, պուճո՛ ջան, հիմա արագ կմոտեցնենք։",
+      "human_reference": "Եղավ, պուճո՛ւր ջան, հիմա արագ կմոտեցնենք։ Մերսի։",
+      "unchanged": false
+    },
+    {
+      "id": "a013",
+      "category": "multi_speakers",
+      "video_id": "zhanna_jaan_7668233361306995988",
+      "asr_text": "Ես եթե Վարդի տատին չեմ լսել։",
+      "human_reference": "Ես եթե Վարդի տատին չեմ լսել։",
+      "unchanged": true
+    },
+    {
+      "id": "a014",
+      "category": "multi_speakers",
+      "video_id": "haykmarutyanofficial_7647205361145089300",
+      "asr_text": "Չէ՛, չբռնեց, բայց երեկ մի հատ ուժեղ նախընտրական միտինգ արեց, ասեց՝ էս անգամ հաստատ բռնելու եմ։",
+      "human_reference": "Չէ՛, չբռնեց, բայց երեկ մի հատ ուժեղ նախընտրական միտինգ արեց, ասեց՝ էս անգամ հաստատ բռնելու եմ։",
+      "unchanged": true
+    },
+    {
+      "id": "a015",
+      "category": "songs",
+      "video_id": "aimusicx_01_7651850146090634503",
+      "asr_text": "Թումանյան ու Չարենցն էլ չգիտեն ինչ է սա։",
+      "human_reference": "Թումանյան ու Չարենցն էլ չգիտեն ինչ է սա։",
+      "unchanged": true
+    },
+    {
+      "id": "a016",
+      "category": "songs",
+      "video_id": "aimusicx_01_7651850146090634503",
+      "asr_text": "Հենց հասավ մեր հերթը, արդեն սաղ արմին իրար։",
+      "human_reference": "Հենց հասավ մեր հերթը, արդեն սաղ խառնին իրար։",
+      "unchanged": false
+    },
+    {
+      "id": "a017",
+      "category": "songs",
+      "video_id": "nikol.pashinyan_pm_7650370921462500616",
+      "asr_text": "Ինչ է տալու քեզ իրենց, որ կորես օրերի մեջ ժամանակին գերի ես ընկեր, որովհետև ձերի ես թողնում ես ամեն ինչը, ինչը հետ կբերի քեզ։",
+      "human_reference": "Ինչ է տալու քեզ էս, որ կորես օրերի մեջ, ժամանակին գերի ես, ընկեր, որովհետև թերի ես թողնում ես ամեն ինչը, ինչը հետ կբերի քեզ։",
+      "unchanged": false
+    },
+    {
+      "id": "a018",
+      "category": "songs",
+      "video_id": "aimusicx_01_7657848404281789704",
+      "asr_text": "Վերջին անգամ Զանգինյանին չլսեցի, չպատասխանեցի՝ տունս վերցրին:",
+      "human_reference": "Վերջին անգամ Զանգինյանին չլսեցի, չպատասխանեցի՝ տունս վերցրին:",
+      "unchanged": true
+    },
+    {
+      "id": "a019",
+      "category": "songs",
+      "video_id": "tadevosyanarsineee_7665712742543904007",
+      "asr_text": "Ինչպես չասել, որ դու դեռ թանկ ես ինձ համար:",
+      "human_reference": "Ինչպես չասել, որ դու դեռ թանկ ես ինձ համար:",
+      "unchanged": true
+    },
+    {
+      "id": "a020",
+      "category": "difficult",
+      "video_id": "www.ishkhanutyun.am_7637965868802051346",
+      "asr_text": "Եվ այդ մեկ մարդը դու՛ ես:",
+      "human_reference": "Եվ այդ մեկ մարդը դու՛ ես:",
+      "unchanged": true
+    },
+    {
+      "id": "a021",
+      "category": "difficult",
+      "video_id": "karenmirzoian_7667995553770327317",
+      "asr_text": "Ճիշտ ա, որովհետև ոտիդ մեջ ա։",
+      "human_reference": "Ճիշտ ա, որովհետև ոտիդ մեջ ա։",
+      "unchanged": true
+    },
+    {
+      "id": "a022",
+      "category": "difficult",
+      "video_id": "www.ishkhanutyun.am_7637965868802051346",
+      "asr_text": "Եվ այդ մեկ մարմինը դու՛ ես:",
+      "human_reference": "Եվ այդ մեկ մարմինը:",
+      "unchanged": false
+    },
+    {
+      "id": "a023",
+      "category": "difficult",
+      "video_id": "nor.ej__7651201577209957653",
+      "asr_text": "Էն որ կարողանանք զանգալ, ես շատ արդյունավոր կլինեմ, իսկ ըըը",
+      "human_reference": "Էն որ կարողանանք զանգահարել, ես շատ շնորհակալ եմ, իսկ ըըը",
+      "unchanged": false
+    },
+    {
+      "id": "a024",
+      "category": "difficult",
+      "video_id": "karenmirzoian_7667995553770327317",
+      "asr_text": "Ես ու քո կնիկը իրար հետ քնել ենք։",
+      "human_reference": "Ես ու քո կնիկը իրար հետ քնել ենք։ Ի՞նչ։",
+      "unchanged": false
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "n_errors": 14,
+  "by_category": {
+    "ASR-propagated": 5,
+    "translation/other": 3,
+    "code-switch/NER": 3,
+    "colloquial/slang": 2,
+    "wrong-sense (polysemy)": 1
+  },
+  "examples": {
+    "colloquial/slang": [
+      {
+        "word": "ա։",
+        "gloss": "бабушка",
+        "correction": "",
+        "verdict": "wrong",
+        "seg": "Հանգստացիր, Ռուզանի տատն ա։",
+        "handle": "scorpion_1lovee"
+      },
+      {
+        "word": "է,",
+        "gloss": "есть",
+        "correction": "",
+        "verdict": "wrong",
+        "seg": "Ուշ է, ուշ է, գալու են քեզ սրսկեն, հա։",
+        "handle": "nushohanian"
+      }
+    ],
+    "wrong-sense (polysemy)": [
+      {
+        "word": "չի",
+        "gloss": "С",
+        "correction": "",
+        "verdict": "wrong",
+        "seg": "Պատրաստի պոնչիկները տեղավորում ենք անձեռոցիկի վրա, որպեսզի ազատվենք ավելորդ բուս",
+        "handle": "lily_bagratuni"
+      }
+    ],
+    "translation/other": [
+      {
+        "word": "քեր",
+        "gloss": "тер",
+        "correction": "",
+        "verdict": "wrong",
+        "seg": "Զարդերով զարդերով կրկնեմ ու գնամ քեր ու։",
+        "handle": "haykmarutyanofficial"
+      },
+      {
+        "word": "են,",
+        "gloss": "являются собранием",
+        "correction": "",
+        "verdict": "wrong",
+        "seg": "Եվ այդ բոլոր մարդիկ համախումբն են, որ պիտի հասան իրա պատշգամբը՝ Ապագայուս և սանի",
+        "handle": "www.ishkhanutyun.am"
+      },
+      {
+        "word": "պատասխանում,",
+        "gloss": "не отвечает",
+        "correction": "отвечает",
+        "verdict": "acceptable",
+        "seg": "Երբ որ Աստված չի պատասխանում, դու մի մտածիր, որ Աստված քեզ չի տեսնում, որ Աստված",
+        "handle": "divergent_7"
+      }
+    ],
+    "ASR-propagated": [
+      {
+        "word": "ջախկել",
+        "gloss": "сломал.",
+        "correction": "",
+        "verdict": "correct",
+        "seg": "Չենք ուզում մատ լու լսենք, թե Սարգիս տղաս վիրավորվել է կամ ձեռքը ջախկել ա։",
+        "handle": "novax3160"
+      },
+      {
+        "word": "ձյայցը,",
+        "gloss": "парня",
+        "correction": "дядя",
+        "verdict": "acceptable",
+        "seg": "Լսի՛ այն բանը էլի պատմի այն ձյայցը, որ եկել էր Լիլիթին չէր տեսել, պառկած նստել է",
+        "handle": "ashot_hvns"
+      },
+      {
+        "word": "հետա",
+        "gloss": "позвоню позже",
+        "correction": "",
+        "verdict": "acceptable",
+        "seg": "Էռնա՛, ես քեզ հետա կզանգեմ:",
+        "handle": "vaag_mk"
+      },
+      {
+        "word": "կարչյուտունեմ",
+        "gloss": "обучаю",
+        "correction": "",
+        "verdict": "wrong",
+        "seg": "Ես Հայրիկ Հյուրան եմ, լուսանկարիչ, վիդեոգրաֆ, մարտական ցուլասեն կարչյուտունեմ սո",
+        "handle": "bazhukovfamily"
+      }
+    ],
+    "code-switch/NER": [
+      {
+        "word": "кроват,",
+        "gloss": "кроват",
+        "correction": "",
+        "verdict": "acceptable",
+        "seg": "Стол՝ սեղան, стул՝ աթոռ, окно՝ պատուհան, компьютер՝ համակարգիչ, телевизор՝ հեռու",
+        "handle": "bazhukovfamily"
+      },
+      {
+        "word": "Box-ի",
+        "gloss": "коробки",
+        "correction": "",
+        "verdict": "acceptable",
+        "seg": "Նվիրում եմ երեք Beauty Box-ի աղջկական ամենահավես նվերներով և զարթ պրեկո մեշից:",
+        "handle": "ovs3"
+      },
+      {
+        "word": "Red",
+        "gloss": "красные флаги",
+        "correction": "красные",
+        "verdict": "acceptable",
+        "seg": "Red flag-եր մարդկանց մեջ, որոնց առկայությունը ինձ կխանգարի ձեր հետ շատ մոտիկ լին",
+        "handle": "evelinakhanoyan"
+      }
+    ]
+  }
+}
